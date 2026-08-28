@@ -1,0 +1,2412 @@
+{
+  "arm_index": 0,
+  "case_id": "case_07_station_siting",
+  "member_key": "case_07_station_siting/rung-4/world-0/arm-0",
+  "payload": {
+    "cost_budget": 675,
+    "cost_vector": {
+      "evaluate_layout": 5,
+      "read_demand": 3,
+      "read_zone": 2,
+      "read_zone_window": 7
+    },
+    "objective_baseline_raw_value": -56547,
+    "public": {
+      "cost_budget": 675,
+      "demand_count": 207,
+      "demand_handles": [
+        "DEM-25A14C7FA3D91A",
+        "DEM-E922DA799C265D",
+        "DEM-FCEE9232D74872",
+        "DEM-AE2B2528549C6D",
+        "DEM-7AF5D26A3EC2F1",
+        "DEM-E624E856277797",
+        "DEM-7625E6F76A0DCA",
+        "DEM-4E68B1C34FED89",
+        "DEM-2EF4B1F17F4ACE",
+        "DEM-9FC6BDEA9A6B10",
+        "DEM-0084BAF68AB96E",
+        "DEM-D125D2C2244621",
+        "DEM-30AD49B47FB972",
+        "DEM-FB1ED7C38A1CCD",
+        "DEM-C2DBF726D362A1",
+        "DEM-3E6E785AC5EE09",
+        "DEM-C6A3F26F800CC0",
+        "DEM-48A60EAFC8E350",
+        "DEM-0718D43918B002",
+        "DEM-B53691D9515843",
+        "DEM-E0F15561181550",
+        "DEM-DBD48215A83FFE",
+        "DEM-A5AB2C23FF246A",
+        "DEM-A92657A63E622E",
+        "DEM-C058B3F399A1D8",
+        "DEM-992D2FFEDA4764",
+        "DEM-1050005C555E47",
+        "DEM-992519F0401458",
+        "DEM-328C08054E2787",
+        "DEM-4C610D1171BA45",
+        "DEM-B3FFB9B302EF26",
+        "DEM-F33AC16F2C9ECD",
+        "DEM-3D1D670B52EEE8",
+        "DEM-2A2B789173C4F9",
+        "DEM-F7564AC7462DB7",
+        "DEM-093C254F3B874F",
+        "DEM-97F6BC82C0CF2D",
+        "DEM-BE786E657FC7B9",
+        "DEM-34BDF061E4B224",
+        "DEM-B5A4B775318C7C",
+        "DEM-A2B0E3A8F095B5",
+        "DEM-AC057BA3B314BE",
+        "DEM-010BC6665CEFEC",
+        "DEM-F2C4D7C4F90BFD",
+        "DEM-5BE61B10A23EE3",
+        "DEM-CAEAFB2F1332ED",
+        "DEM-7A470A42998F94",
+        "DEM-3F20054D34E9E4",
+        "DEM-4505E189864505",
+        "DEM-C1CAD831BF2347",
+        "DEM-BCDD9A78A972ED",
+        "DEM-46FEDD9B91B175",
+        "DEM-F6C87B522CA4C5",
+        "DEM-D18B1CDB9AE164",
+        "DEM-704EF75E04B5EB",
+        "DEM-56997AAD35E583",
+        "DEM-A0CFE99DE5877D",
+        "DEM-193FD18BD4A533",
+        "DEM-CE63B6337CA6B6",
+        "DEM-3332540676368F",
+        "DEM-5F562407AAEA66",
+        "DEM-370D0831B0AD44",
+        "DEM-08D2B0F4B963DE",
+        "DEM-8FB6B3FC117FEC",
+        "DEM-062DDC0C58A7A9",
+        "DEM-A55D75389272A6",
+        "DEM-85FD359E665F5A",
+        "DEM-0AAE356B9355F9",
+        "DEM-D0FD3839B9A5AF",
+        "DEM-84AC96BB51A512",
+        "DEM-51142845198A62",
+        "DEM-8C7A42A7515EF9",
+        "DEM-39A038B7BC269B",
+        "DEM-B8213E477EDE6B",
+        "DEM-838775BFD3A085",
+        "DEM-4A1FA2FF0F98A6",
+        "DEM-D545138A225994",
+        "DEM-B14272119F70A5",
+        "DEM-3D09C775F36249",
+        "DEM-0BFC85325B79B2",
+        "DEM-E62ECE628AB9A2",
+        "DEM-18E25353F4AC6C",
+        "DEM-A3C1C0718361A3",
+        "DEM-66F71691104724",
+        "DEM-4FE419CC7676B3",
+        "DEM-F13949E0C59FBD",
+        "DEM-58D54F8F8F8F64",
+        "DEM-E60DCC727F7E36",
+        "DEM-4564122F8F2EE5",
+        "DEM-A459D32B7976FE",
+        "DEM-A828330C22DC82",
+        "DEM-CF333DAD1C119A",
+        "DEM-5AA6D50219662D",
+        "DEM-446286DC7A0D1D",
+        "DEM-39904D42F2395C",
+        "DEM-84076DE8B750A6",
+        "DEM-BA900A81FE63AE",
+        "DEM-8F6CF160BECA31",
+        "DEM-5BF4899BA434E1",
+        "DEM-942103D78CBF91",
+        "DEM-44A285D7CA4F47",
+        "DEM-FCD00A4BA35D7E",
+        "DEM-9559378AD316F1",
+        "DEM-9ADA27568F8CAD",
+        "DEM-5E2B654C266FD3",
+        "DEM-A2E37E84F243AF",
+        "DEM-6A29ADCB772C5A",
+        "DEM-76805C2AC5855A",
+        "DEM-8C0AF8D450BAB3",
+        "DEM-2ECA4256C2642E",
+        "DEM-9459D2414BC9A8",
+        "DEM-EBEFDC19A6A867",
+        "DEM-90B01411C5736C",
+        "DEM-AC25A32855B4C0",
+        "DEM-F4B1B80270D8CB",
+        "DEM-B272C741E432A4",
+        "DEM-E602E678C91D10",
+        "DEM-E9003CCC7047DC",
+        "DEM-5BE1485DADAC5A",
+        "DEM-AE6D4165821988",
+        "DEM-B6BE6F8DF9258E",
+        "DEM-62E81CA8888CEA",
+        "DEM-354D2A7019BFC3",
+        "DEM-EC964496292A0E",
+        "DEM-1906BEEB14EB0F",
+        "DEM-0378BE4D9C3F44",
+        "DEM-EBA37602D6F522",
+        "DEM-AEA461E9836C48",
+        "DEM-74F6126E80DDED",
+        "DEM-CF6F643962C783",
+        "DEM-0E14AEA0608CDA",
+        "DEM-0300D501F0B96A",
+        "DEM-75F1C292137451",
+        "DEM-11DF2493EDA012",
+        "DEM-59855272F8885E",
+        "DEM-9B5480BD74EF52",
+        "DEM-2ED2194A6B38EB",
+        "DEM-9B0AEAF9E03373",
+        "DEM-FDA8E637EB5808",
+        "DEM-18E965728E7173",
+        "DEM-5BEA85ED30CF7F",
+        "DEM-7137F5024AAC21",
+        "DEM-DACF166CA48E97",
+        "DEM-18E521DD742363",
+        "DEM-E8D00A2C597ED6",
+        "DEM-00AEBC6603CDF6",
+        "DEM-9472BD993A2791",
+        "DEM-C6D56DE56C70A6",
+        "DEM-2A69DAC56DC414",
+        "DEM-8AE278016D992F",
+        "DEM-ECC14791C7634A",
+        "DEM-52D6FEA915EAB9",
+        "DEM-28D7FAE445F263",
+        "DEM-3075F2D6DA695F",
+        "DEM-D0C7BD1E4D64D1",
+        "DEM-7BB027CF561F43",
+        "DEM-01F7331A56BEFB",
+        "DEM-A8EFE419571D43",
+        "DEM-F5834A497C6E8E",
+        "DEM-2A21BAF9E30D52",
+        "DEM-C96C2A0B8F92F6",
+        "DEM-40C3E9C78FE057",
+        "DEM-F4C087BCEA80CE",
+        "DEM-02D22CFE4BD967",
+        "DEM-E57429406098B1",
+        "DEM-43883CC27E0A2A",
+        "DEM-5B498D522C48DF",
+        "DEM-BB1D240D66D353",
+        "DEM-E977B91E77BB3C",
+        "DEM-CA974A6569661C",
+        "DEM-17A8898342BC7D",
+        "DEM-9E89D2A24F9129",
+        "DEM-4C6B9769AE9CF9",
+        "DEM-108C57D8ADD426",
+        "DEM-FF4739AC335712",
+        "DEM-BB34DE7B696064",
+        "DEM-916198600273B2",
+        "DEM-F40EFE2D88EF47",
+        "DEM-AEF9C0C75F603F",
+        "DEM-12F0A527ABDFB0",
+        "DEM-5BA3BCDF015001",
+        "DEM-7675426C69DBBF",
+        "DEM-714E4BED89B2D1",
+        "DEM-5BCB9D9ACA604B",
+        "DEM-AF1951D87BF66A",
+        "DEM-AEA2A6FBB75474",
+        "DEM-5E21705C4472FB",
+        "DEM-C9A23EE804A4E7",
+        "DEM-08E363D6E2A06D",
+        "DEM-B0ABE08074B41D",
+        "DEM-5A092CF4503793",
+        "DEM-856863C8F244B6",
+        "DEM-EFDD20D897493E",
+        "DEM-492DC24C238CDC",
+        "DEM-BBBAAF554824AF",
+        "DEM-BA2F3DF0AE7242",
+        "DEM-B4A00E957C0CFD",
+        "DEM-87C97B2AE1D4DF",
+        "DEM-058179050DC74A",
+        "DEM-C67C9B13DEFCA2",
+        "DEM-3BCF7977BC58C8",
+        "DEM-59C991CC56F8D2",
+        "DEM-ED38B897BF69C1",
+        "DEM-D4F5C7BA62F5B8",
+        "DEM-00890762925402",
+        "DEM-5F2E8BB46B7106",
+        "DEM-DEC50BBA288199"
+      ],
+      "facility_limit": 21,
+      "interaction_bandwidth": 18,
+      "max_extended_sites": 13,
+      "tool_costs": {
+        "evaluate_layout": 5,
+        "read_demand": 3,
+        "read_zone": 2,
+        "read_zone_window": 7
+      },
+      "zone_handles": [
+        "ZON-81EBF7743380A1",
+        "ZON-B13C15AEF344A7",
+        "ZON-9777A16ABBF896",
+        "ZON-CC94086C52E1DE",
+        "ZON-E73B71BA440DCB",
+        "ZON-74440E99A47F3D",
+        "ZON-8CB3F2468B08DB",
+        "ZON-817C817696C098",
+        "ZON-7D27C2B5C31524",
+        "ZON-7E12F493C12420",
+        "ZON-B03F18FE74BEF8",
+        "ZON-B3C36D2D679177",
+        "ZON-2C9F8D0BCFC384",
+        "ZON-95BC880A74F367",
+        "ZON-9122FB3C7C11F5",
+        "ZON-C2047D356586CF",
+        "ZON-C0E33F825EEE26",
+        "ZON-0B6F81B654C57E",
+        "ZON-7895D5FF4D4719",
+        "ZON-809182B67FD94B",
+        "ZON-9D2536D38EE11C"
+      ]
+    },
+    "source_documents": {
+      "coverage_catalog": {
+        "demands": [
+          {
+            "demand_id": "DEM-0718D43918B002",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-CE63B6337CA6B6",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-FDA8E637EB5808",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-5226EE69F2F8D3"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-BBBAAF554824AF",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 128
+          },
+          {
+            "demand_id": "DEM-C2DBF726D362A1",
+            "required_sites": [
+              "STE-9D46C9B0BF7A62",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 135
+          },
+          {
+            "demand_id": "DEM-5BEA85ED30CF7F",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 124
+          },
+          {
+            "demand_id": "DEM-0BFC85325B79B2",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 140
+          },
+          {
+            "demand_id": "DEM-B6BE6F8DF9258E",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-58CCD7842B149F"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-D125D2C2244621",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 116
+          },
+          {
+            "demand_id": "DEM-193FD18BD4A533",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 107
+          },
+          {
+            "demand_id": "DEM-EC964496292A0E",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 101
+          },
+          {
+            "demand_id": "DEM-838775BFD3A085",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 116
+          },
+          {
+            "demand_id": "DEM-F5834A497C6E8E",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 139
+          },
+          {
+            "demand_id": "DEM-DEC50BBA288199",
+            "required_sites": [
+              "STE-E6FC3AD3823A7C",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 149
+          },
+          {
+            "demand_id": "DEM-D4F5C7BA62F5B8",
+            "required_sites": [
+              "STE-B4CBB8090F03E9",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 116
+          },
+          {
+            "demand_id": "DEM-A0CFE99DE5877D",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-992D2FFEDA4764",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-30D6956AF97DB1"
+            ],
+            "reward": 131
+          },
+          {
+            "demand_id": "DEM-C6D56DE56C70A6",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-97D07120766E42"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-BE786E657FC7B9",
+            "required_sites": [
+              "STE-B2805844F20AA7",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 107
+          },
+          {
+            "demand_id": "DEM-59855272F8885E",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-5226EE69F2F8D3"
+            ],
+            "reward": 117
+          },
+          {
+            "demand_id": "DEM-51142845198A62",
+            "required_sites": [
+              "STE-E6FC3AD3823A7C",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 106
+          },
+          {
+            "demand_id": "DEM-4FE419CC7676B3",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-E60DCC727F7E36",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 128
+          },
+          {
+            "demand_id": "DEM-D0C7BD1E4D64D1",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-9B5480BD74EF52",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 132
+          },
+          {
+            "demand_id": "DEM-5BCB9D9ACA604B",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 122
+          },
+          {
+            "demand_id": "DEM-0084BAF68AB96E",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 106
+          },
+          {
+            "demand_id": "DEM-4C610D1171BA45",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 147
+          },
+          {
+            "demand_id": "DEM-C67C9B13DEFCA2",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-C9A23EE804A4E7",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-97D07120766E42"
+            ],
+            "reward": 146
+          },
+          {
+            "demand_id": "DEM-3332540676368F",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 145
+          },
+          {
+            "demand_id": "DEM-D545138A225994",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 149
+          },
+          {
+            "demand_id": "DEM-AC057BA3B314BE",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 139
+          },
+          {
+            "demand_id": "DEM-B14272119F70A5",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-9B0AEAF9E03373",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 132
+          },
+          {
+            "demand_id": "DEM-87C97B2AE1D4DF",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-5A092CF4503793",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 122
+          },
+          {
+            "demand_id": "DEM-9559378AD316F1",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 115
+          },
+          {
+            "demand_id": "DEM-AE2B2528549C6D",
+            "required_sites": [
+              "STE-9D46C9B0BF7A62",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-328C08054E2787",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-323093717108B7"
+            ],
+            "reward": 105
+          },
+          {
+            "demand_id": "DEM-7BB027CF561F43",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 103
+          },
+          {
+            "demand_id": "DEM-FCD00A4BA35D7E",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 147
+          },
+          {
+            "demand_id": "DEM-F40EFE2D88EF47",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 136
+          },
+          {
+            "demand_id": "DEM-44A285D7CA4F47",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 120
+          },
+          {
+            "demand_id": "DEM-A828330C22DC82",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 141
+          },
+          {
+            "demand_id": "DEM-1906BEEB14EB0F",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-97D07120766E42"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-2A69DAC56DC414",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 114
+          },
+          {
+            "demand_id": "DEM-C96C2A0B8F92F6",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-B3FFB9B302EF26",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-3F4427886531C9"
+            ],
+            "reward": 102
+          },
+          {
+            "demand_id": "DEM-5E2B654C266FD3",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 100
+          },
+          {
+            "demand_id": "DEM-E922DA799C265D",
+            "required_sites": [
+              "STE-9D46C9B0BF7A62",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 134
+          },
+          {
+            "demand_id": "DEM-A459D32B7976FE",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 127
+          },
+          {
+            "demand_id": "DEM-9FC6BDEA9A6B10",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 140
+          },
+          {
+            "demand_id": "DEM-A92657A63E622E",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-58CCD7842B149F"
+            ],
+            "reward": 104
+          },
+          {
+            "demand_id": "DEM-AEF9C0C75F603F",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 140
+          },
+          {
+            "demand_id": "DEM-AEA2A6FBB75474",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 111
+          },
+          {
+            "demand_id": "DEM-40C3E9C78FE057",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 145
+          },
+          {
+            "demand_id": "DEM-5F2E8BB46B7106",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-1050005C555E47",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-9459D2414BC9A8",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 122
+          },
+          {
+            "demand_id": "DEM-3E6E785AC5EE09",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 125
+          },
+          {
+            "demand_id": "DEM-EFDD20D897493E",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-916198600273B2",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-43B0432DE26845"
+            ],
+            "reward": 141
+          },
+          {
+            "demand_id": "DEM-A2E37E84F243AF",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-F33AC16F2C9ECD",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 145
+          },
+          {
+            "demand_id": "DEM-5F562407AAEA66",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 138
+          },
+          {
+            "demand_id": "DEM-59C991CC56F8D2",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-5BE1485DADAC5A",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 101
+          },
+          {
+            "demand_id": "DEM-8F6CF160BECA31",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-97D07120766E42"
+            ],
+            "reward": 139
+          },
+          {
+            "demand_id": "DEM-CF333DAD1C119A",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 136
+          },
+          {
+            "demand_id": "DEM-F4C087BCEA80CE",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 109
+          },
+          {
+            "demand_id": "DEM-7A470A42998F94",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-28D7FAE445F263",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 125
+          },
+          {
+            "demand_id": "DEM-84076DE8B750A6",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 122
+          },
+          {
+            "demand_id": "DEM-08D2B0F4B963DE",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 144
+          },
+          {
+            "demand_id": "DEM-2A21BAF9E30D52",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 109
+          },
+          {
+            "demand_id": "DEM-48A60EAFC8E350",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 124
+          },
+          {
+            "demand_id": "DEM-D18B1CDB9AE164",
+            "required_sites": [
+              "STE-D8F972592ECC4A",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 139
+          },
+          {
+            "demand_id": "DEM-BA2F3DF0AE7242",
+            "required_sites": [
+              "STE-E3980042E5500F",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 121
+          },
+          {
+            "demand_id": "DEM-12F0A527ABDFB0",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 105
+          },
+          {
+            "demand_id": "DEM-F2C4D7C4F90BFD",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 132
+          },
+          {
+            "demand_id": "DEM-08E363D6E2A06D",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-11DF2493EDA012",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-E9003CCC7047DC",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-58CCD7842B149F"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-BB1D240D66D353",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 100
+          },
+          {
+            "demand_id": "DEM-BB34DE7B696064",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 104
+          },
+          {
+            "demand_id": "DEM-E8D00A2C597ED6",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-FF4739AC335712",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-97D07120766E42"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-058179050DC74A",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-97D07120766E42"
+            ],
+            "reward": 105
+          },
+          {
+            "demand_id": "DEM-76805C2AC5855A",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 103
+          },
+          {
+            "demand_id": "DEM-5BE61B10A23EE3",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 145
+          },
+          {
+            "demand_id": "DEM-B0ABE08074B41D",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-43B0432DE26845"
+            ],
+            "reward": 119
+          },
+          {
+            "demand_id": "DEM-3BCF7977BC58C8",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 107
+          },
+          {
+            "demand_id": "DEM-8C7A42A7515EF9",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-F13949E0C59FBD",
+            "required_sites": [
+              "STE-B2805844F20AA7",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-446286DC7A0D1D",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 119
+          },
+          {
+            "demand_id": "DEM-AE6D4165821988",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 119
+          },
+          {
+            "demand_id": "DEM-9ADA27568F8CAD",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-B53691D9515843",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 147
+          },
+          {
+            "demand_id": "DEM-85FD359E665F5A",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 110
+          },
+          {
+            "demand_id": "DEM-354D2A7019BFC3",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-58CCD7842B149F"
+            ],
+            "reward": 121
+          },
+          {
+            "demand_id": "DEM-D0FD3839B9A5AF",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 138
+          },
+          {
+            "demand_id": "DEM-F7564AC7462DB7",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-43B0432DE26845"
+            ],
+            "reward": 113
+          },
+          {
+            "demand_id": "DEM-CA974A6569661C",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 110
+          },
+          {
+            "demand_id": "DEM-ED38B897BF69C1",
+            "required_sites": [
+              "STE-B4CBB8090F03E9",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 145
+          },
+          {
+            "demand_id": "DEM-C058B3F399A1D8",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-5226EE69F2F8D3"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-9E89D2A24F9129",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 140
+          },
+          {
+            "demand_id": "DEM-5BF4899BA434E1",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 107
+          },
+          {
+            "demand_id": "DEM-062DDC0C58A7A9",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-AEA461E9836C48",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 125
+          },
+          {
+            "demand_id": "DEM-704EF75E04B5EB",
+            "required_sites": [
+              "STE-B2805844F20AA7",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 125
+          },
+          {
+            "demand_id": "DEM-02D22CFE4BD967",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 116
+          },
+          {
+            "demand_id": "DEM-2ED2194A6B38EB",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-97D07120766E42"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-9472BD993A2791",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 141
+          },
+          {
+            "demand_id": "DEM-EBEFDC19A6A867",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-97D07120766E42"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-A55D75389272A6",
+            "required_sites": [
+              "STE-E3980042E5500F",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 111
+          },
+          {
+            "demand_id": "DEM-8AE278016D992F",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-43B0432DE26845"
+            ],
+            "reward": 148
+          },
+          {
+            "demand_id": "DEM-E624E856277797",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-3D09C775F36249",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 101
+          },
+          {
+            "demand_id": "DEM-0E14AEA0608CDA",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 106
+          },
+          {
+            "demand_id": "DEM-BCDD9A78A972ED",
+            "required_sites": [
+              "STE-B4CBB8090F03E9",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 120
+          },
+          {
+            "demand_id": "DEM-18E521DD742363",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-323093717108B7"
+            ],
+            "reward": 125
+          },
+          {
+            "demand_id": "DEM-3F20054D34E9E4",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 139
+          },
+          {
+            "demand_id": "DEM-F4B1B80270D8CB",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 117
+          },
+          {
+            "demand_id": "DEM-093C254F3B874F",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-8C0AF8D450BAB3",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 138
+          },
+          {
+            "demand_id": "DEM-97F6BC82C0CF2D",
+            "required_sites": [
+              "STE-D8F972592ECC4A",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-C6A3F26F800CC0",
+            "required_sites": [
+              "STE-9D46C9B0BF7A62",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-7675426C69DBBF",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 131
+          },
+          {
+            "demand_id": "DEM-E0F15561181550",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 147
+          },
+          {
+            "demand_id": "DEM-F6C87B522CA4C5",
+            "required_sites": [
+              "STE-D8F972592ECC4A",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 131
+          },
+          {
+            "demand_id": "DEM-4C6B9769AE9CF9",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-3F4427886531C9"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-01F7331A56BEFB",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 105
+          },
+          {
+            "demand_id": "DEM-00AEBC6603CDF6",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-3F4427886531C9"
+            ],
+            "reward": 148
+          },
+          {
+            "demand_id": "DEM-62E81CA8888CEA",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 136
+          },
+          {
+            "demand_id": "DEM-DBD48215A83FFE",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 134
+          },
+          {
+            "demand_id": "DEM-E57429406098B1",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-58D54F8F8F8F64",
+            "required_sites": [
+              "STE-B2805844F20AA7",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 148
+          },
+          {
+            "demand_id": "DEM-90B01411C5736C",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 141
+          },
+          {
+            "demand_id": "DEM-942103D78CBF91",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 100
+          },
+          {
+            "demand_id": "DEM-30AD49B47FB972",
+            "required_sites": [
+              "STE-9D46C9B0BF7A62",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 110
+          },
+          {
+            "demand_id": "DEM-CF6F643962C783",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-5226EE69F2F8D3"
+            ],
+            "reward": 137
+          },
+          {
+            "demand_id": "DEM-17A8898342BC7D",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 123
+          },
+          {
+            "demand_id": "DEM-A2B0E3A8F095B5",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 113
+          },
+          {
+            "demand_id": "DEM-66F71691104724",
+            "required_sites": [
+              "STE-B2805844F20AA7",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 121
+          },
+          {
+            "demand_id": "DEM-C1CAD831BF2347",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 148
+          },
+          {
+            "demand_id": "DEM-B4A00E957C0CFD",
+            "required_sites": [
+              "STE-E3980042E5500F",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 102
+          },
+          {
+            "demand_id": "DEM-714E4BED89B2D1",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 140
+          },
+          {
+            "demand_id": "DEM-FB1ED7C38A1CCD",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 116
+          },
+          {
+            "demand_id": "DEM-00890762925402",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 120
+          },
+          {
+            "demand_id": "DEM-3075F2D6DA695F",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 117
+          },
+          {
+            "demand_id": "DEM-EBA37602D6F522",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-58CCD7842B149F"
+            ],
+            "reward": 131
+          },
+          {
+            "demand_id": "DEM-AC25A32855B4C0",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 117
+          },
+          {
+            "demand_id": "DEM-34BDF061E4B224",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-108C57D8ADD426",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 134
+          },
+          {
+            "demand_id": "DEM-5BA3BCDF015001",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 121
+          },
+          {
+            "demand_id": "DEM-2ECA4256C2642E",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-B272C741E432A4",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 141
+          },
+          {
+            "demand_id": "DEM-4564122F8F2EE5",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-6B113F41B445CD"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-6A29ADCB772C5A",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 119
+          },
+          {
+            "demand_id": "DEM-0378BE4D9C3F44",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 119
+          },
+          {
+            "demand_id": "DEM-B5A4B775318C7C",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-3D1D670B52EEE8",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-97D07120766E42"
+            ],
+            "reward": 109
+          },
+          {
+            "demand_id": "DEM-010BC6665CEFEC",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 141
+          },
+          {
+            "demand_id": "DEM-56997AAD35E583",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 128
+          },
+          {
+            "demand_id": "DEM-370D0831B0AD44",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 121
+          },
+          {
+            "demand_id": "DEM-492DC24C238CDC",
+            "required_sites": [
+              "STE-B4CBB8090F03E9",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 125
+          },
+          {
+            "demand_id": "DEM-2EF4B1F17F4ACE",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 132
+          },
+          {
+            "demand_id": "DEM-39904D42F2395C",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-B27859FC092A33"
+            ],
+            "reward": 130
+          },
+          {
+            "demand_id": "DEM-7AF5D26A3EC2F1",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 138
+          },
+          {
+            "demand_id": "DEM-DACF166CA48E97",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 128
+          },
+          {
+            "demand_id": "DEM-7137F5024AAC21",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-5F8B59C49B8405"
+            ],
+            "reward": 100
+          },
+          {
+            "demand_id": "DEM-AF1951D87BF66A",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 137
+          },
+          {
+            "demand_id": "DEM-CAEAFB2F1332ED",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 140
+          },
+          {
+            "demand_id": "DEM-A3C1C0718361A3",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 134
+          },
+          {
+            "demand_id": "DEM-75F1C292137451",
+            "required_sites": [
+              "STE-323093717108B7",
+              "STE-5226EE69F2F8D3"
+            ],
+            "reward": 144
+          },
+          {
+            "demand_id": "DEM-8FB6B3FC117FEC",
+            "required_sites": [
+              "STE-B27859FC092A33",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 135
+          },
+          {
+            "demand_id": "DEM-5E21705C4472FB",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 148
+          },
+          {
+            "demand_id": "DEM-4505E189864505",
+            "required_sites": [
+              "STE-D8F972592ECC4A",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 120
+          },
+          {
+            "demand_id": "DEM-7625E6F76A0DCA",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 104
+          },
+          {
+            "demand_id": "DEM-43883CC27E0A2A",
+            "required_sites": [
+              "STE-994EC2DA4D1973",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-84AC96BB51A512",
+            "required_sites": [
+              "STE-F1174291F3765E",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 114
+          },
+          {
+            "demand_id": "DEM-18E965728E7173",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 108
+          },
+          {
+            "demand_id": "DEM-4A1FA2FF0F98A6",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 111
+          },
+          {
+            "demand_id": "DEM-A8EFE419571D43",
+            "required_sites": [
+              "STE-5F8B59C49B8405",
+              "STE-97D07120766E42"
+            ],
+            "reward": 112
+          },
+          {
+            "demand_id": "DEM-E977B91E77BB3C",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 103
+          },
+          {
+            "demand_id": "DEM-FCEE9232D74872",
+            "required_sites": [
+              "STE-9D46C9B0BF7A62",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 118
+          },
+          {
+            "demand_id": "DEM-0300D501F0B96A",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-39A038B7BC269B",
+            "required_sites": [
+              "STE-5D765A83910A26",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 114
+          },
+          {
+            "demand_id": "DEM-74F6126E80DDED",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 115
+          },
+          {
+            "demand_id": "DEM-25A14C7FA3D91A",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 138
+          },
+          {
+            "demand_id": "DEM-992519F0401458",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 120
+          },
+          {
+            "demand_id": "DEM-E602E678C91D10",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-58CCD7842B149F"
+            ],
+            "reward": 108
+          },
+          {
+            "demand_id": "DEM-5AA6D50219662D",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 138
+          },
+          {
+            "demand_id": "DEM-ECC14791C7634A",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-F1174291F3765E"
+            ],
+            "reward": 113
+          },
+          {
+            "demand_id": "DEM-4E68B1C34FED89",
+            "required_sites": [
+              "STE-5226EE69F2F8D3",
+              "STE-9D46C9B0BF7A62"
+            ],
+            "reward": 114
+          },
+          {
+            "demand_id": "DEM-5B498D522C48DF",
+            "required_sites": [
+              "STE-97D07120766E42",
+              "STE-994EC2DA4D1973"
+            ],
+            "reward": 133
+          },
+          {
+            "demand_id": "DEM-0AAE356B9355F9",
+            "required_sites": [
+              "STE-B4CBB8090F03E9",
+              "STE-F54E134FCA2A74"
+            ],
+            "reward": 104
+          },
+          {
+            "demand_id": "DEM-2A2B789173C4F9",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-B4CBB8090F03E9"
+            ],
+            "reward": 120
+          },
+          {
+            "demand_id": "DEM-52D6FEA915EAB9",
+            "required_sites": [
+              "STE-14D0DC51D80DBD",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 146
+          },
+          {
+            "demand_id": "DEM-E62ECE628AB9A2",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 126
+          },
+          {
+            "demand_id": "DEM-BA900A81FE63AE",
+            "required_sites": [
+              "STE-6B113F41B445CD",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 129
+          },
+          {
+            "demand_id": "DEM-856863C8F244B6",
+            "required_sites": [
+              "STE-3F4427886531C9",
+              "STE-E6FC3AD3823A7C"
+            ],
+            "reward": 127
+          },
+          {
+            "demand_id": "DEM-46FEDD9B91B175",
+            "required_sites": [
+              "STE-43B0432DE26845",
+              "STE-D8F972592ECC4A"
+            ],
+            "reward": 142
+          },
+          {
+            "demand_id": "DEM-A5AB2C23FF246A",
+            "required_sites": [
+              "STE-30D6956AF97DB1",
+              "STE-5D765A83910A26"
+            ],
+            "reward": 110
+          },
+          {
+            "demand_id": "DEM-18E25353F4AC6C",
+            "required_sites": [
+              "STE-B2805844F20AA7",
+              "STE-E3980042E5500F"
+            ],
+            "reward": 105
+          },
+          {
+            "demand_id": "DEM-B8213E477EDE6B",
+            "required_sites": [
+              "STE-58CCD7842B149F",
+              "STE-B2805844F20AA7"
+            ],
+            "reward": 111
+          }
+        ],
+        "encoding": "direct"
+      },
+      "demand_order": [
+        "DEM-25A14C7FA3D91A",
+        "DEM-E922DA799C265D",
+        "DEM-FCEE9232D74872",
+        "DEM-AE2B2528549C6D",
+        "DEM-7AF5D26A3EC2F1",
+        "DEM-E624E856277797",
+        "DEM-7625E6F76A0DCA",
+        "DEM-4E68B1C34FED89",
+        "DEM-2EF4B1F17F4ACE",
+        "DEM-9FC6BDEA9A6B10",
+        "DEM-0084BAF68AB96E",
+        "DEM-D125D2C2244621",
+        "DEM-30AD49B47FB972",
+        "DEM-FB1ED7C38A1CCD",
+        "DEM-C2DBF726D362A1",
+        "DEM-3E6E785AC5EE09",
+        "DEM-C6A3F26F800CC0",
+        "DEM-48A60EAFC8E350",
+        "DEM-0718D43918B002",
+        "DEM-B53691D9515843",
+        "DEM-E0F15561181550",
+        "DEM-DBD48215A83FFE",
+        "DEM-A5AB2C23FF246A",
+        "DEM-A92657A63E622E",
+        "DEM-C058B3F399A1D8",
+        "DEM-992D2FFEDA4764",
+        "DEM-1050005C555E47",
+        "DEM-992519F0401458",
+        "DEM-328C08054E2787",
+        "DEM-4C610D1171BA45",
+        "DEM-B3FFB9B302EF26",
+        "DEM-F33AC16F2C9ECD",
+        "DEM-3D1D670B52EEE8",
+        "DEM-2A2B789173C4F9",
+        "DEM-F7564AC7462DB7",
+        "DEM-093C254F3B874F",
+        "DEM-97F6BC82C0CF2D",
+        "DEM-BE786E657FC7B9",
+        "DEM-34BDF061E4B224",
+        "DEM-B5A4B775318C7C",
+        "DEM-A2B0E3A8F095B5",
+        "DEM-AC057BA3B314BE",
+        "DEM-010BC6665CEFEC",
+        "DEM-F2C4D7C4F90BFD",
+        "DEM-5BE61B10A23EE3",
+        "DEM-CAEAFB2F1332ED",
+        "DEM-7A470A42998F94",
+        "DEM-3F20054D34E9E4",
+        "DEM-4505E189864505",
+        "DEM-C1CAD831BF2347",
+        "DEM-BCDD9A78A972ED",
+        "DEM-46FEDD9B91B175",
+        "DEM-F6C87B522CA4C5",
+        "DEM-D18B1CDB9AE164",
+        "DEM-704EF75E04B5EB",
+        "DEM-56997AAD35E583",
+        "DEM-A0CFE99DE5877D",
+        "DEM-193FD18BD4A533",
+        "DEM-CE63B6337CA6B6",
+        "DEM-3332540676368F",
+        "DEM-5F562407AAEA66",
+        "DEM-370D0831B0AD44",
+        "DEM-08D2B0F4B963DE",
+        "DEM-8FB6B3FC117FEC",
+        "DEM-062DDC0C58A7A9",
+        "DEM-A55D75389272A6",
+        "DEM-85FD359E665F5A",
+        "DEM-0AAE356B9355F9",
+        "DEM-D0FD3839B9A5AF",
+        "DEM-84AC96BB51A512",
+        "DEM-51142845198A62",
+        "DEM-8C7A42A7515EF9",
+        "DEM-39A038B7BC269B",
+        "DEM-B8213E477EDE6B",
+        "DEM-838775BFD3A085",
+        "DEM-4A1FA2FF0F98A6",
+        "DEM-D545138A225994",
+        "DEM-B14272119F70A5",
+        "DEM-3D09C775F36249",
+        "DEM-0BFC85325B79B2",
+        "DEM-E62ECE628AB9A2",
+        "DEM-18E25353F4AC6C",
+        "DEM-A3C1C0718361A3",
+        "DEM-66F71691104724",
+        "DEM-4FE419CC7676B3",
+        "DEM-F13949E0C59FBD",
+        "DEM-58D54F8F8F8F64",
+        "DEM-E60DCC727F7E36",
+        "DEM-4564122F8F2EE5",
+        "DEM-A459D32B7976FE",
+        "DEM-A828330C22DC82",
+        "DEM-CF333DAD1C119A",
+        "DEM-5AA6D50219662D",
+        "DEM-446286DC7A0D1D",
+        "DEM-39904D42F2395C",
+        "DEM-84076DE8B750A6",
+        "DEM-BA900A81FE63AE",
+        "DEM-8F6CF160BECA31",
+        "DEM-5BF4899BA434E1",
+        "DEM-942103D78CBF91",
+        "DEM-44A285D7CA4F47",
+        "DEM-FCD00A4BA35D7E",
+        "DEM-9559378AD316F1",
+        "DEM-9ADA27568F8CAD",
+        "DEM-5E2B654C266FD3",
+        "DEM-A2E37E84F243AF",
+        "DEM-6A29ADCB772C5A",
+        "DEM-76805C2AC5855A",
+        "DEM-8C0AF8D450BAB3",
+        "DEM-2ECA4256C2642E",
+        "DEM-9459D2414BC9A8",
+        "DEM-EBEFDC19A6A867",
+        "DEM-90B01411C5736C",
+        "DEM-AC25A32855B4C0",
+        "DEM-F4B1B80270D8CB",
+        "DEM-B272C741E432A4",
+        "DEM-E602E678C91D10",
+        "DEM-E9003CCC7047DC",
+        "DEM-5BE1485DADAC5A",
+        "DEM-AE6D4165821988",
+        "DEM-B6BE6F8DF9258E",
+        "DEM-62E81CA8888CEA",
+        "DEM-354D2A7019BFC3",
+        "DEM-EC964496292A0E",
+        "DEM-1906BEEB14EB0F",
+        "DEM-0378BE4D9C3F44",
+        "DEM-EBA37602D6F522",
+        "DEM-AEA461E9836C48",
+        "DEM-74F6126E80DDED",
+        "DEM-CF6F643962C783",
+        "DEM-0E14AEA0608CDA",
+        "DEM-0300D501F0B96A",
+        "DEM-75F1C292137451",
+        "DEM-11DF2493EDA012",
+        "DEM-59855272F8885E",
+        "DEM-9B5480BD74EF52",
+        "DEM-2ED2194A6B38EB",
+        "DEM-9B0AEAF9E03373",
+        "DEM-FDA8E637EB5808",
+        "DEM-18E965728E7173",
+        "DEM-5BEA85ED30CF7F",
+        "DEM-7137F5024AAC21",
+        "DEM-DACF166CA48E97",
+        "DEM-18E521DD742363",
+        "DEM-E8D00A2C597ED6",
+        "DEM-00AEBC6603CDF6",
+        "DEM-9472BD993A2791",
+        "DEM-C6D56DE56C70A6",
+        "DEM-2A69DAC56DC414",
+        "DEM-8AE278016D992F",
+        "DEM-ECC14791C7634A",
+        "DEM-52D6FEA915EAB9",
+        "DEM-28D7FAE445F263",
+        "DEM-3075F2D6DA695F",
+        "DEM-D0C7BD1E4D64D1",
+        "DEM-7BB027CF561F43",
+        "DEM-01F7331A56BEFB",
+        "DEM-A8EFE419571D43",
+        "DEM-F5834A497C6E8E",
+        "DEM-2A21BAF9E30D52",
+        "DEM-C96C2A0B8F92F6",
+        "DEM-40C3E9C78FE057",
+        "DEM-F4C087BCEA80CE",
+        "DEM-02D22CFE4BD967",
+        "DEM-E57429406098B1",
+        "DEM-43883CC27E0A2A",
+        "DEM-5B498D522C48DF",
+        "DEM-BB1D240D66D353",
+        "DEM-E977B91E77BB3C",
+        "DEM-CA974A6569661C",
+        "DEM-17A8898342BC7D",
+        "DEM-9E89D2A24F9129",
+        "DEM-4C6B9769AE9CF9",
+        "DEM-108C57D8ADD426",
+        "DEM-FF4739AC335712",
+        "DEM-BB34DE7B696064",
+        "DEM-916198600273B2",
+        "DEM-F40EFE2D88EF47",
+        "DEM-AEF9C0C75F603F",
+        "DEM-12F0A527ABDFB0",
+        "DEM-5BA3BCDF015001",
+        "DEM-7675426C69DBBF",
+        "DEM-714E4BED89B2D1",
+        "DEM-5BCB9D9ACA604B",
+        "DEM-AF1951D87BF66A",
+        "DEM-AEA2A6FBB75474",
+        "DEM-5E21705C4472FB",
+        "DEM-C9A23EE804A4E7",
+        "DEM-08E363D6E2A06D",
+        "DEM-B0ABE08074B41D",
+        "DEM-5A092CF4503793",
+        "DEM-856863C8F244B6",
+        "DEM-EFDD20D897493E",
+        "DEM-492DC24C238CDC",
+        "DEM-BBBAAF554824AF",
+        "DEM-BA2F3DF0AE7242",
+        "DEM-B4A00E957C0CFD",
+        "DEM-87C97B2AE1D4DF",
+        "DEM-058179050DC74A",
+        "DEM-C67C9B13DEFCA2",
+        "DEM-3BCF7977BC58C8",
+        "DEM-59C991CC56F8D2",
+        "DEM-ED38B897BF69C1",
+        "DEM-D4F5C7BA62F5B8",
+        "DEM-00890762925402",
+        "DEM-5F2E8BB46B7106",
+        "DEM-DEC50BBA288199"
+      ],
+      "site_rows": [
+        {
+          "operating_cost": 5,
+          "option": 1,
+          "site_id": "STE-37FD7D2A6259B3",
+          "zone_id": "ZON-E73B71BA440DCB"
+        },
+        {
+          "operating_cost": 8,
+          "option": 1,
+          "site_id": "STE-E6FC3AD3823A7C",
+          "zone_id": "ZON-9D2536D38EE11C"
+        },
+        {
+          "operating_cost": 20,
+          "option": 1,
+          "site_id": "STE-9D46C9B0BF7A62",
+          "zone_id": "ZON-81EBF7743380A1"
+        },
+        {
+          "operating_cost": 10366,
+          "option": 0,
+          "site_id": "STE-C2CD1B11B85FD7",
+          "zone_id": "ZON-B13C15AEF344A7"
+        },
+        {
+          "operating_cost": 17,
+          "option": 1,
+          "site_id": "STE-0EB48D2FBC739B",
+          "zone_id": "ZON-B3C36D2D679177"
+        },
+        {
+          "operating_cost": 7876,
+          "option": 0,
+          "site_id": "STE-14D0DC51D80DBD",
+          "zone_id": "ZON-7E12F493C12420"
+        },
+        {
+          "operating_cost": 13,
+          "option": 1,
+          "site_id": "STE-E3980042E5500F",
+          "zone_id": "ZON-C2047D356586CF"
+        },
+        {
+          "operating_cost": 11,
+          "option": 1,
+          "site_id": "STE-B27859FC092A33",
+          "zone_id": "ZON-95BC880A74F367"
+        },
+        {
+          "operating_cost": 10,
+          "option": 1,
+          "site_id": "STE-D9DE3DEE19A723",
+          "zone_id": "ZON-74440E99A47F3D"
+        },
+        {
+          "operating_cost": 15,
+          "option": 1,
+          "site_id": "STE-B4CBB8090F03E9",
+          "zone_id": "ZON-0B6F81B654C57E"
+        },
+        {
+          "operating_cost": 13686,
+          "option": 0,
+          "site_id": "STE-5D765A83910A26",
+          "zone_id": "ZON-8CB3F2468B08DB"
+        },
+        {
+          "operating_cost": 15,
+          "option": 1,
+          "site_id": "STE-3F4427886531C9",
+          "zone_id": "ZON-9122FB3C7C11F5"
+        },
+        {
+          "operating_cost": 4,
+          "option": 1,
+          "site_id": "STE-D8F972592ECC4A",
+          "zone_id": "ZON-9777A16ABBF896"
+        },
+        {
+          "operating_cost": 21156,
+          "option": 0,
+          "site_id": "STE-58CCD7842B149F",
+          "zone_id": "ZON-817C817696C098"
+        },
+        {
+          "operating_cost": 14,
+          "option": 1,
+          "site_id": "STE-43B0432DE26845",
+          "zone_id": "ZON-7895D5FF4D4719"
+        },
+        {
+          "operating_cost": 19,
+          "option": 1,
+          "site_id": "STE-F1174291F3765E",
+          "zone_id": "ZON-809182B67FD94B"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-F25EB7AA75E0F6",
+          "zone_id": "ZON-B03F18FE74BEF8"
+        },
+        {
+          "operating_cost": 5386,
+          "option": 0,
+          "site_id": "STE-994EC2DA4D1973",
+          "zone_id": "ZON-B3C36D2D679177"
+        },
+        {
+          "operating_cost": 4,
+          "option": 1,
+          "site_id": "STE-812B03465FFDFD",
+          "zone_id": "ZON-817C817696C098"
+        },
+        {
+          "operating_cost": 16,
+          "option": 1,
+          "site_id": "STE-EB58F2483A397C",
+          "zone_id": "ZON-8CB3F2468B08DB"
+        },
+        {
+          "operating_cost": 6216,
+          "option": 0,
+          "site_id": "STE-95CC7F824F1266",
+          "zone_id": "ZON-95BC880A74F367"
+        },
+        {
+          "operating_cost": 6,
+          "option": 1,
+          "site_id": "STE-30D6956AF97DB1",
+          "zone_id": "ZON-B13C15AEF344A7"
+        },
+        {
+          "operating_cost": 18666,
+          "option": 0,
+          "site_id": "STE-4CF6D22B45438A",
+          "zone_id": "ZON-9777A16ABBF896"
+        },
+        {
+          "operating_cost": 16176,
+          "option": 0,
+          "site_id": "STE-C013B86BD414C4",
+          "zone_id": "ZON-7895D5FF4D4719"
+        },
+        {
+          "operating_cost": 17006,
+          "option": 0,
+          "site_id": "STE-94C1DC4EF14B3A",
+          "zone_id": "ZON-CC94086C52E1DE"
+        },
+        {
+          "operating_cost": 12026,
+          "option": 0,
+          "site_id": "STE-B2805844F20AA7",
+          "zone_id": "ZON-E73B71BA440DCB"
+        },
+        {
+          "operating_cost": 14516,
+          "option": 0,
+          "site_id": "STE-A11491FC973885",
+          "zone_id": "ZON-809182B67FD94B"
+        },
+        {
+          "operating_cost": 8706,
+          "option": 0,
+          "site_id": "STE-6B113F41B445CD",
+          "zone_id": "ZON-74440E99A47F3D"
+        },
+        {
+          "operating_cost": 15346,
+          "option": 0,
+          "site_id": "STE-F1AE615BD986D1",
+          "zone_id": "ZON-0B6F81B654C57E"
+        },
+        {
+          "operating_cost": 21986,
+          "option": 0,
+          "site_id": "STE-A7FBE63E5A7627",
+          "zone_id": "ZON-9D2536D38EE11C"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-97D07120766E42",
+          "zone_id": "ZON-C0E33F825EEE26"
+        },
+        {
+          "operating_cost": 12856,
+          "option": 0,
+          "site_id": "STE-BF0ECD0A104EB3",
+          "zone_id": "ZON-C0E33F825EEE26"
+        },
+        {
+          "operating_cost": 3,
+          "option": 1,
+          "site_id": "STE-323093717108B7",
+          "zone_id": "ZON-2C9F8D0BCFC384"
+        },
+        {
+          "operating_cost": 19496,
+          "option": 0,
+          "site_id": "STE-D9EF99BBDDFB3F",
+          "zone_id": "ZON-C2047D356586CF"
+        },
+        {
+          "operating_cost": 9,
+          "option": 1,
+          "site_id": "STE-07F8D8A74932A1",
+          "zone_id": "ZON-7D27C2B5C31524"
+        },
+        {
+          "operating_cost": 17,
+          "option": 1,
+          "site_id": "STE-F54E134FCA2A74",
+          "zone_id": "ZON-CC94086C52E1DE"
+        },
+        {
+          "operating_cost": 17836,
+          "option": 0,
+          "site_id": "STE-5F8B59C49B8405",
+          "zone_id": "ZON-B03F18FE74BEF8"
+        },
+        {
+          "operating_cost": 7046,
+          "option": 0,
+          "site_id": "STE-E85B07708A0312",
+          "zone_id": "ZON-81EBF7743380A1"
+        },
+        {
+          "operating_cost": 20326,
+          "option": 0,
+          "site_id": "STE-A0E05EB0DF9A82",
+          "zone_id": "ZON-9122FB3C7C11F5"
+        },
+        {
+          "operating_cost": 11196,
+          "option": 0,
+          "site_id": "STE-5226EE69F2F8D3",
+          "zone_id": "ZON-7D27C2B5C31524"
+        },
+        {
+          "operating_cost": 9536,
+          "option": 0,
+          "site_id": "STE-EE78E44FC9B820",
+          "zone_id": "ZON-2C9F8D0BCFC384"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-9E52EFA9F66C5A",
+          "zone_id": "ZON-7E12F493C12420"
+        }
+      ],
+      "zone_order": [
+        "ZON-81EBF7743380A1",
+        "ZON-B13C15AEF344A7",
+        "ZON-9777A16ABBF896",
+        "ZON-CC94086C52E1DE",
+        "ZON-E73B71BA440DCB",
+        "ZON-74440E99A47F3D",
+        "ZON-8CB3F2468B08DB",
+        "ZON-817C817696C098",
+        "ZON-7D27C2B5C31524",
+        "ZON-7E12F493C12420",
+        "ZON-B03F18FE74BEF8",
+        "ZON-B3C36D2D679177",
+        "ZON-2C9F8D0BCFC384",
+        "ZON-95BC880A74F367",
+        "ZON-9122FB3C7C11F5",
+        "ZON-C2047D356586CF",
+        "ZON-C0E33F825EEE26",
+        "ZON-0B6F81B654C57E",
+        "ZON-7895D5FF4D4719",
+        "ZON-809182B67FD94B",
+        "ZON-9D2536D38EE11C"
+      ]
+    }
+  },
+  "rung_index": 4,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 0
+}

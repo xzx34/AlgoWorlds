@@ -1,0 +1,39 @@
+---
+import type { SiteCopy } from "../content/copy";
+import { siteConfig } from "../data/site";
+
+interface Props {
+  copy: SiteCopy["paperFigure"];
+}
+
+const { copy } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const source = `${base}${siteConfig.paperFigure.src}`;
+---
+
+<section class="paper-figure-section page-shell" aria-label={copy.caption} data-reveal>
+  <figure class="paper-figure">
+    <section class="paper-figure-viewport" tabindex="0" aria-label={copy.scrollHint}>
+      <a href={source} target="_blank" rel="noopener" aria-label={copy.fullSize}>
+        <img
+          src={source}
+          width={siteConfig.paperFigure.width}
+          height={siteConfig.paperFigure.height}
+          alt={copy.alt}
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </a>
+    </section>
+    <figcaption>
+      <span class="paper-figure-caption">
+        <span>{copy.caption}</span>
+        <a href={source} target="_blank" rel="noopener">{copy.fullSize}</a>
+      </span>
+      <span class="paper-figure-hint">{copy.scrollHint}</span>
+    </figcaption>
+  </figure>
+</section>

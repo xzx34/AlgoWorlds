@@ -1,0 +1,5559 @@
+{
+  "arm_index": 1,
+  "case_id": "case_21_fixed_charge_migration",
+  "member_key": "case_21_fixed_charge_migration/rung-2/world-0/arm-1",
+  "payload": {
+    "cost_budget": 437,
+    "cost_vector": {
+      "evaluate_portfolio": 5,
+      "read_catalog_group": 2,
+      "read_catalog_page": 25,
+      "read_catalog_window": 5,
+      "read_classification_group": 2,
+      "read_classification_page": 25,
+      "read_classification_window": 5,
+      "read_support_policy": 2
+    },
+    "group_count": 128,
+    "group_handles_text": "GRP-C724D0593442, GRP-D125457EE9D0, GRP-720648544988, GRP-4AB77C785D6A, GRP-49352CE12521, GRP-10498C20C207, GRP-2ACBD7B2D0CD, GRP-BAB24C5B11F9, GRP-0BC01FC2E0FC, GRP-8A71F9578E06, GRP-6BD78A56EA05, GRP-420BE2BF1E57, GRP-C7F9AE9B3711, GRP-3392E26A0BEB, GRP-86E72209A7C6, GRP-4366FCA00F4A, GRP-FF675824ADE4, GRP-EA1535DC7302, GRP-9C9CA02C6A71, GRP-4B2BEE781227, GRP-ECC7D50D547A, GRP-B377EB24FFA0, GRP-65C9ED05EACD, GRP-DC8D7F600665, GRP-BEFEECA1ADCA, GRP-91B5F01C73A7, GRP-58E56109ADB7, GRP-07F8B90D3DBA, GRP-ED5BA2B0DFB5, GRP-F0D4A7BBDE35, GRP-DCD971A19345, GRP-B0596D76CBFC, GRP-29042C9D8987, GRP-4972F43ECA6C, GRP-9818DE11B8BC, GRP-E3CA6789DB9C, GRP-589F06A02BC4, GRP-6B05384D1FFB, GRP-E24296027B4F, GRP-637BADF861FC, GRP-D802A7C4B25A, GRP-0A979481E8B7, GRP-BF38D43456A9, GRP-078D2FA8205E, GRP-86203F5894F8, GRP-1A8A41D9E97C, GRP-004BBFD62E0A, GRP-A4ABAA913469, GRP-4AAE7EFEB4BF, GRP-D2D968D85340, GRP-D4AD7594760D, GRP-329ECBCB2E5D, GRP-2A1B3442E937, GRP-F551DE6FE916, GRP-282D873C06D7, GRP-A239F4AFB5D5, GRP-21802A2056A9, GRP-38411A253E1D, GRP-A58AFBF578A5, GRP-316B09642463, GRP-6D732DF0E0EB, GRP-D04940084F21, GRP-D15B13838DA4, GRP-AC6F3B04C97C, GRP-64A5EF90177F, GRP-B3F4D8F5C4B3, GRP-942E1AE2DD97, GRP-2DC2A548DDA9, GRP-4E0465E1877E, GRP-456E9E66D663, GRP-B93A494CDA62, GRP-C0FBCBF9A766, GRP-1F5F202EAD59, GRP-2D3D3423DDF6, GRP-5F5F382ACE78, GRP-DA0883F6E360, GRP-0E0E81336928, GRP-E551BC72533F, GRP-08972BC8354E, GRP-A4C97AE7C57B, GRP-6EEA593B2AD6, GRP-7E3F38F455B2, GRP-912E10C61002, GRP-4EDEB8157174, GRP-8E0A2C20248A, GRP-803DCCDA812C, GRP-870987BCEDCA, GRP-70C87D7E10EC, GRP-4D382B99502B, GRP-6A7B3EDC74EF, GRP-EADF47FD3DC8, GRP-43A5E9963D6F, GRP-9BFB8BA12D3E, GRP-5B0592B4F6B3, GRP-5E228C5FC118, GRP-D836DFBFA7D6, GRP-7F76C5BA7261, GRP-93422AB6DE56, GRP-D18EDE3AF9FA, GRP-DFEFF15E2520, GRP-7FC8D27541B2, GRP-FE0E4E366DF4, GRP-FC8C6D1757D3, GRP-BA6A94607D9A, GRP-252305C1AA1E, GRP-49546B030886, GRP-6D752F06B2FE, GRP-A5FEEB59C2A4, GRP-5559C529EA73, GRP-52548955CD48, GRP-87B4ED150DD4, GRP-30260D433655, GRP-E5AE7BB141C7, GRP-54996D58942E, GRP-0596028F8A02, GRP-2C15B493DCDC, GRP-689000EE1D55, GRP-B7AC97181DAA, GRP-A45A06187926, GRP-4A5C3AAE2AD4, GRP-53E64BFE5809, GRP-E2FA91865D46, GRP-BC6A3855CA1F, GRP-DDC90265F54B, GRP-7F9A7F021522, GRP-FC3DD1ECA0D9, GRP-356D985B3D7F, GRP-09C683A77C61",
+    "package_count_range": [
+      2,
+      4
+    ],
+    "source_documents": {
+      "catalog": [
+        {
+          "base_cost": 4236374520,
+          "group_id": "GRP-10498C20C207",
+          "package_id": "PKG-847F8BB569EE"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-FE0E4E366DF4",
+          "package_id": "PKG-7F5615C94A91"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-589F06A02BC4",
+          "package_id": "PKG-6BDABB6DA3F2"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-30260D433655",
+          "package_id": "PKG-AA46A59EE5DC"
+        },
+        {
+          "base_cost": 21383604720,
+          "group_id": "GRP-D836DFBFA7D6",
+          "package_id": "PKG-44247B104FFB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4A5C3AAE2AD4",
+          "package_id": "PKG-E942DD00E170"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D802A7C4B25A",
+          "package_id": "PKG-B992A2825A0D"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4972F43ECA6C",
+          "package_id": "PKG-362380DD6B6B"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-30260D433655",
+          "package_id": "PKG-57FF45C65EE3"
+        },
+        {
+          "base_cost": 10607747310,
+          "group_id": "GRP-7E3F38F455B2",
+          "package_id": "PKG-3CB2CC03207D"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-D18EDE3AF9FA",
+          "package_id": "PKG-819BA73A1997"
+        },
+        {
+          "base_cost": 5530822290,
+          "group_id": "GRP-2DC2A548DDA9",
+          "package_id": "PKG-F4E0588CD9BB"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-E24296027B4F",
+          "package_id": "PKG-D827FA6F17B5"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-30260D433655",
+          "package_id": "PKG-907E6EC64E8D"
+        },
+        {
+          "base_cost": 11372648265,
+          "group_id": "GRP-49546B030886",
+          "package_id": "PKG-D5BCD4790255"
+        },
+        {
+          "base_cost": 529546815,
+          "group_id": "GRP-356D985B3D7F",
+          "package_id": "PKG-45D87C0FF1D8"
+        },
+        {
+          "base_cost": 6421805820,
+          "group_id": "GRP-0BC01FC2E0FC",
+          "package_id": "PKG-66F2871BE8BD"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-FC8C6D1757D3",
+          "package_id": "PKG-89EFC4D0B311"
+        },
+        {
+          "base_cost": 3832910280,
+          "group_id": "GRP-43A5E9963D6F",
+          "package_id": "PKG-00D3904A9F5F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-B0596D76CBFC",
+          "package_id": "PKG-014D5AA785B6"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-B93A494CDA62",
+          "package_id": "PKG-6878A031A53A"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-5F5F382ACE78",
+          "package_id": "PKG-EAC4CB7D5095"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-49546B030886",
+          "package_id": "PKG-E8223A9FAB2C"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-252305C1AA1E",
+          "package_id": "PKG-D52F24489D57"
+        },
+        {
+          "base_cost": 13230264870,
+          "group_id": "GRP-D2D968D85340",
+          "package_id": "PKG-94453EEB3907"
+        },
+        {
+          "base_cost": 1613856960,
+          "group_id": "GRP-E551BC72533F",
+          "package_id": "PKG-CCDEB74F6BB4"
+        },
+        {
+          "base_cost": 20425377150,
+          "group_id": "GRP-5559C529EA73",
+          "package_id": "PKG-2C90291BED17"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-58E56109ADB7",
+          "package_id": "PKG-6A637992A9F4"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-FC8C6D1757D3",
+          "package_id": "PKG-4980BB24CBE4"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-E5AE7BB141C7",
+          "package_id": "PKG-090EE8402A8A"
+        },
+        {
+          "base_cost": 1437341355,
+          "group_id": "GRP-54996D58942E",
+          "package_id": "PKG-0B5CE35B2D3F"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-5E228C5FC118",
+          "package_id": "PKG-32D43FEA2FEA"
+        },
+        {
+          "base_cost": 4286807550,
+          "group_id": "GRP-B377EB24FFA0",
+          "package_id": "PKG-03BC3016F7FB"
+        },
+        {
+          "base_cost": 17323745805,
+          "group_id": "GRP-52548955CD48",
+          "package_id": "PKG-9B690C1DAB49"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-B7AC97181DAA",
+          "package_id": "PKG-D8C84AE8A88D"
+        },
+        {
+          "base_cost": 11296998720,
+          "group_id": "GRP-1F5F202EAD59",
+          "package_id": "PKG-02F6239AEBA4"
+        },
+        {
+          "base_cost": 15415696170,
+          "group_id": "GRP-4366FCA00F4A",
+          "package_id": "PKG-983B9F0BD498"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D15B13838DA4",
+          "package_id": "PKG-2D6480A76480"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7E3F38F455B2",
+          "package_id": "PKG-C66E8FBEB7B3"
+        },
+        {
+          "base_cost": 16256246670,
+          "group_id": "GRP-0E0E81336928",
+          "package_id": "PKG-3D754D06BD88"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-49352CE12521",
+          "package_id": "PKG-1AC6A3496C0D"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-942E1AE2DD97",
+          "package_id": "PKG-F1044307053E"
+        },
+        {
+          "base_cost": 16676521920,
+          "group_id": "GRP-07F8B90D3DBA",
+          "package_id": "PKG-3FC5DA913B1C"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-0596028F8A02",
+          "package_id": "PKG-D7819DE32BDC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D04940084F21",
+          "package_id": "PKG-4FC3F1470A1D"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-329ECBCB2E5D",
+          "package_id": "PKG-0A718288DCCE"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D836DFBFA7D6",
+          "package_id": "PKG-36230AEA1BCE"
+        },
+        {
+          "base_cost": 11767707000,
+          "group_id": "GRP-C7F9AE9B3711",
+          "package_id": "PKG-3C52F4CADFED"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-C724D0593442",
+          "package_id": "PKG-7CB5E676A25C"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-637BADF861FC",
+          "package_id": "PKG-41A7FF9A6D1C"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-9BFB8BA12D3E",
+          "package_id": "PKG-1098370B93FB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6BD78A56EA05",
+          "package_id": "PKG-C24BBECD0670"
+        },
+        {
+          "base_cost": 706062420,
+          "group_id": "GRP-6D752F06B2FE",
+          "package_id": "PKG-CDC819E15A27"
+        },
+        {
+          "base_cost": 596790855,
+          "group_id": "GRP-A45A06187926",
+          "package_id": "PKG-735277E371C7"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4D382B99502B",
+          "package_id": "PKG-4CF31FEC1AF2"
+        },
+        {
+          "base_cost": 8405505000,
+          "group_id": "GRP-29042C9D8987",
+          "package_id": "PKG-DB2523A52B16"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6B05384D1FFB",
+          "package_id": "PKG-702EF246F511"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-DCD971A19345",
+          "package_id": "PKG-011D1566F0E2"
+        },
+        {
+          "base_cost": 8119717830,
+          "group_id": "GRP-8A71F9578E06",
+          "package_id": "PKG-1690160932DF"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-5559C529EA73",
+          "package_id": "PKG-C4292D36E857"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4366FCA00F4A",
+          "package_id": "PKG-2DF51214516E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-870987BCEDCA",
+          "package_id": "PKG-B6D2174ACDC7"
+        },
+        {
+          "base_cost": 15684672330,
+          "group_id": "GRP-C724D0593442",
+          "package_id": "PKG-D5494A609831"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-DFEFF15E2520",
+          "package_id": "PKG-7B18CE8F0EB3"
+        },
+        {
+          "base_cost": 11986250130,
+          "group_id": "GRP-BF38D43456A9",
+          "package_id": "PKG-670565DCFB7D"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-0E0E81336928",
+          "package_id": "PKG-55CA1BFD420C"
+        },
+        {
+          "base_cost": 5984719560,
+          "group_id": "GRP-86203F5894F8",
+          "package_id": "PKG-84C2A4A255CB"
+        },
+        {
+          "base_cost": 3900154320,
+          "group_id": "GRP-6D732DF0E0EB",
+          "package_id": "PKG-ECFE1DFB1DBA"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-6D752F06B2FE",
+          "package_id": "PKG-C38E9EEE267A"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-6BD78A56EA05",
+          "package_id": "PKG-7314CF2545E8"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-1F5F202EAD59",
+          "package_id": "PKG-91F0EC342FEB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-BEFEECA1ADCA",
+          "package_id": "PKG-3E6C73A2C1ED"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D2D968D85340",
+          "package_id": "PKG-889571F07DC4"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-9818DE11B8BC",
+          "package_id": "PKG-82A2F6EAB65D"
+        },
+        {
+          "base_cost": 4976058960,
+          "group_id": "GRP-C0FBCBF9A766",
+          "package_id": "PKG-D7B8BE5EE80F"
+        },
+        {
+          "base_cost": 10641369330,
+          "group_id": "GRP-70C87D7E10EC",
+          "package_id": "PKG-E7263D1F671F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-BF38D43456A9",
+          "package_id": "PKG-A9D148FB26A0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-07F8B90D3DBA",
+          "package_id": "PKG-B188D201F8BE"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-7F76C5BA7261",
+          "package_id": "PKG-BE435849FB4D"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-53E64BFE5809",
+          "package_id": "PKG-591F24170D98"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-9C9CA02C6A71",
+          "package_id": "PKG-CB5BB199D9B0"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-E5AE7BB141C7",
+          "package_id": "PKG-778EF2461553"
+        },
+        {
+          "base_cost": 243759645,
+          "group_id": "GRP-53E64BFE5809",
+          "package_id": "PKG-6D8D52932C78"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-21802A2056A9",
+          "package_id": "PKG-703DF59FE416"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A45A06187926",
+          "package_id": "PKG-DA92E5BA1FA7"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-ECC7D50D547A",
+          "package_id": "PKG-D360883190C2"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-912E10C61002",
+          "package_id": "PKG-6EAFE552EC4A"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-58E56109ADB7",
+          "package_id": "PKG-49E70CA0BFC2"
+        },
+        {
+          "base_cost": 10086606000,
+          "group_id": "GRP-4AB77C785D6A",
+          "package_id": "PKG-EF87D6524803"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-456E9E66D663",
+          "package_id": "PKG-525763DC0D23"
+        },
+        {
+          "base_cost": 6270506730,
+          "group_id": "GRP-B93A494CDA62",
+          "package_id": "PKG-94B64549B832"
+        },
+        {
+          "base_cost": 697656915,
+          "group_id": "GRP-FC3DD1ECA0D9",
+          "package_id": "PKG-A65B7EFF1E2B"
+        },
+        {
+          "base_cost": 16441167780,
+          "group_id": "GRP-4972F43ECA6C",
+          "package_id": "PKG-8F9E16FD105B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E3CA6789DB9C",
+          "package_id": "PKG-80EC553C8958"
+        },
+        {
+          "base_cost": 14558334660,
+          "group_id": "GRP-38411A253E1D",
+          "package_id": "PKG-AB8C0A7523F0"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-5E228C5FC118",
+          "package_id": "PKG-2249F135AEA4"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-43A5E9963D6F",
+          "package_id": "PKG-AAC136F23DE1"
+        },
+        {
+          "base_cost": 1714723020,
+          "group_id": "GRP-B0596D76CBFC",
+          "package_id": "PKG-F91574464F83"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-B3F4D8F5C4B3",
+          "package_id": "PKG-709F6A1719C9"
+        },
+        {
+          "base_cost": 5245035120,
+          "group_id": "GRP-6BD78A56EA05",
+          "package_id": "PKG-31BD5944DD20"
+        },
+        {
+          "base_cost": 1344880800,
+          "group_id": "GRP-9C9CA02C6A71",
+          "package_id": "PKG-57066233AB1E"
+        },
+        {
+          "base_cost": 11431486800,
+          "group_id": "GRP-6EEA593B2AD6",
+          "package_id": "PKG-DCD45D87B713"
+        },
+        {
+          "base_cost": 14171681430,
+          "group_id": "GRP-BEFEECA1ADCA",
+          "package_id": "PKG-7784D98A5775"
+        },
+        {
+          "base_cost": 521141310,
+          "group_id": "GRP-BC6A3855CA1F",
+          "package_id": "PKG-A13D91063C20"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-49352CE12521",
+          "package_id": "PKG-5DFA4813C918"
+        },
+        {
+          "base_cost": 14398630065,
+          "group_id": "GRP-7F76C5BA7261",
+          "package_id": "PKG-5C5ABEB189D9"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-720648544988",
+          "package_id": "PKG-5E3DBA47A7AA"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-86E72209A7C6",
+          "package_id": "PKG-224DF48FCDB9"
+        },
+        {
+          "base_cost": 9430976610,
+          "group_id": "GRP-86E72209A7C6",
+          "package_id": "PKG-D11915E92961"
+        },
+        {
+          "base_cost": 14709633750,
+          "group_id": "GRP-870987BCEDCA",
+          "package_id": "PKG-7B2260E86D8B"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-2ACBD7B2D0CD",
+          "package_id": "PKG-16A50C0A611B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-5F5F382ACE78",
+          "package_id": "PKG-8133E6FD52DB"
+        },
+        {
+          "base_cost": 10691802360,
+          "group_id": "GRP-4EDEB8157174",
+          "package_id": "PKG-BCC0F28B30CA"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-49546B030886",
+          "package_id": "PKG-CEDEAE904FE8"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6A7B3EDC74EF",
+          "package_id": "PKG-158CAA7A29ED"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-BA6A94607D9A",
+          "package_id": "PKG-7109E7010267"
+        },
+        {
+          "base_cost": 3900154320,
+          "group_id": "GRP-ECC7D50D547A",
+          "package_id": "PKG-FC88CE26E76B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-9C9CA02C6A71",
+          "package_id": "PKG-339D5EE541BC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A4ABAA913469",
+          "package_id": "PKG-7A8E7B3D66D6"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-AC6F3B04C97C",
+          "package_id": "PKG-721D7D8107C7"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-B377EB24FFA0",
+          "package_id": "PKG-1ACAF259B246"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D802A7C4B25A",
+          "package_id": "PKG-70BE2894EA9F"
+        },
+        {
+          "base_cost": 3681611190,
+          "group_id": "GRP-ED5BA2B0DFB5",
+          "package_id": "PKG-E2A50CB10262"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-316B09642463",
+          "package_id": "PKG-973A47785D3E"
+        },
+        {
+          "base_cost": 12187982250,
+          "group_id": "GRP-D802A7C4B25A",
+          "package_id": "PKG-5B6B4A4E4EF6"
+        },
+        {
+          "base_cost": 1748345040,
+          "group_id": "GRP-D4AD7594760D",
+          "package_id": "PKG-8B8E382A0F1E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-29042C9D8987",
+          "package_id": "PKG-83A045DB189A"
+        },
+        {
+          "base_cost": 8573615100,
+          "group_id": "GRP-4D382B99502B",
+          "package_id": "PKG-561CECED3C4A"
+        },
+        {
+          "base_cost": 15735105360,
+          "group_id": "GRP-8E0A2C20248A",
+          "package_id": "PKG-079270883244"
+        },
+        {
+          "base_cost": 12305659320,
+          "group_id": "GRP-2A1B3442E937",
+          "package_id": "PKG-D105B3B238C1"
+        },
+        {
+          "base_cost": 12507391440,
+          "group_id": "GRP-FE0E4E366DF4",
+          "package_id": "PKG-CD841847A1E3"
+        },
+        {
+          "base_cost": 4269996540,
+          "group_id": "GRP-6A7B3EDC74EF",
+          "package_id": "PKG-670F1075D87D"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4E0465E1877E",
+          "package_id": "PKG-5314325D6B85"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-FF675824ADE4",
+          "package_id": "PKG-7C8D1A9C0C1F"
+        },
+        {
+          "base_cost": 4219563510,
+          "group_id": "GRP-58E56109ADB7",
+          "package_id": "PKG-681CF9AF0191"
+        },
+        {
+          "base_cost": 2799033165,
+          "group_id": "GRP-252305C1AA1E",
+          "package_id": "PKG-22082BA06154"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-EA1535DC7302",
+          "package_id": "PKG-AC387907F8E6"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-65C9ED05EACD",
+          "package_id": "PKG-CABA2DAFD3D7"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-D836DFBFA7D6",
+          "package_id": "PKG-79CB9FAB45E2"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4B2BEE781227",
+          "package_id": "PKG-7586DAF8D641"
+        },
+        {
+          "base_cost": 3412635030,
+          "group_id": "GRP-D125457EE9D0",
+          "package_id": "PKG-E5E946C8EC4B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A239F4AFB5D5",
+          "package_id": "PKG-C8BB12F33EEE"
+        },
+        {
+          "base_cost": 8993890350,
+          "group_id": "GRP-4E0465E1877E",
+          "package_id": "PKG-50C75A1DA8F6"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-B93A494CDA62",
+          "package_id": "PKG-A6FE887303DC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-942E1AE2DD97",
+          "package_id": "PKG-5C3D9F7C4063"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-93422AB6DE56",
+          "package_id": "PKG-74E9D4897DB0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4EDEB8157174",
+          "package_id": "PKG-6FC5962570C6"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7F9A7F021522",
+          "package_id": "PKG-C3263F3D288B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8A71F9578E06",
+          "package_id": "PKG-D75D21B5B9C5"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-282D873C06D7",
+          "package_id": "PKG-2066097062F3"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E551BC72533F",
+          "package_id": "PKG-1CE1CE6E7385"
+        },
+        {
+          "base_cost": 5984719560,
+          "group_id": "GRP-A58AFBF578A5",
+          "package_id": "PKG-7EC5DF45F1CE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-86203F5894F8",
+          "package_id": "PKG-136B56D50E4F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-64A5EF90177F",
+          "package_id": "PKG-1FF1367A0B19"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-65C9ED05EACD",
+          "package_id": "PKG-40377D836583"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7F76C5BA7261",
+          "package_id": "PKG-588B7190F4DF"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-EADF47FD3DC8",
+          "package_id": "PKG-6C1E36C02690"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4E0465E1877E",
+          "package_id": "PKG-E15C0E90AB87"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-54996D58942E",
+          "package_id": "PKG-3C9FE92CD078"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-5E228C5FC118",
+          "package_id": "PKG-D4148872678A"
+        },
+        {
+          "base_cost": 9346921560,
+          "group_id": "GRP-B3F4D8F5C4B3",
+          "package_id": "PKG-35360CD7A32F"
+        },
+        {
+          "base_cost": 9111567420,
+          "group_id": "GRP-2ACBD7B2D0CD",
+          "package_id": "PKG-C5E188463ED7"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-5559C529EA73",
+          "package_id": "PKG-F2381492169B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D4AD7594760D",
+          "package_id": "PKG-E898DA4DB61D"
+        },
+        {
+          "base_cost": 19517582610,
+          "group_id": "GRP-FC8C6D1757D3",
+          "package_id": "PKG-650A09313FB0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-689000EE1D55",
+          "package_id": "PKG-E3F6B0129669"
+        },
+        {
+          "base_cost": 13902705270,
+          "group_id": "GRP-329ECBCB2E5D",
+          "package_id": "PKG-985238BB6D80"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-ED5BA2B0DFB5",
+          "package_id": "PKG-71C6BAF2ECFE"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-86203F5894F8",
+          "package_id": "PKG-1194E0B3E5E9"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-6D752F06B2FE",
+          "package_id": "PKG-F37B28890114"
+        },
+        {
+          "base_cost": 9733574790,
+          "group_id": "GRP-DC8D7F600665",
+          "package_id": "PKG-EF0CC4CBDA9C"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-ED5BA2B0DFB5",
+          "package_id": "PKG-1296D0B0FDDC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A58AFBF578A5",
+          "package_id": "PKG-78638816DBBC"
+        },
+        {
+          "base_cost": 13869083250,
+          "group_id": "GRP-9818DE11B8BC",
+          "package_id": "PKG-91333CD023CC"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-9BFB8BA12D3E",
+          "package_id": "PKG-AD60347ED147"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A5FEEB59C2A4",
+          "package_id": "PKG-209526E753AE"
+        },
+        {
+          "base_cost": 8556804090,
+          "group_id": "GRP-420BE2BF1E57",
+          "package_id": "PKG-CE7E270F4042"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-87B4ED150DD4",
+          "package_id": "PKG-CBE4CC68C920"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-1A8A41D9E97C",
+          "package_id": "PKG-969A0D831405"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-38411A253E1D",
+          "package_id": "PKG-8DCD93F03746"
+        },
+        {
+          "base_cost": 11246565690,
+          "group_id": "GRP-942E1AE2DD97",
+          "package_id": "PKG-A9994C69C9A5"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-5B0592B4F6B3",
+          "package_id": "PKG-BC8A8A775E02"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-10498C20C207",
+          "package_id": "PKG-F74155C0CC93"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-08972BC8354E",
+          "package_id": "PKG-62F3F4402A44"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-720648544988",
+          "package_id": "PKG-715E503ECCD0"
+        },
+        {
+          "base_cost": 1193581710,
+          "group_id": "GRP-A4C97AE7C57B",
+          "package_id": "PKG-6D698891405A"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-DFEFF15E2520",
+          "package_id": "PKG-832D77EAEA2D"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-87B4ED150DD4",
+          "package_id": "PKG-5D525F2C375A"
+        },
+        {
+          "base_cost": 13339536435,
+          "group_id": "GRP-7FC8D27541B2",
+          "package_id": "PKG-6E7EB7F83735"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-A5FEEB59C2A4",
+          "package_id": "PKG-61E8573C9F37"
+        },
+        {
+          "base_cost": 1681101000,
+          "group_id": "GRP-1A8A41D9E97C",
+          "package_id": "PKG-49B67406ACBC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-9818DE11B8BC",
+          "package_id": "PKG-A9677DE07F57"
+        },
+        {
+          "base_cost": 226948635,
+          "group_id": "GRP-BA6A94607D9A",
+          "package_id": "PKG-0C11BC624A88"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-9BFB8BA12D3E",
+          "package_id": "PKG-C01FD22FB274"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-1F5F202EAD59",
+          "package_id": "PKG-3F41DA8058A3"
+        },
+        {
+          "base_cost": 4841570880,
+          "group_id": "GRP-F0D4A7BBDE35",
+          "package_id": "PKG-3625F85F7F1D"
+        },
+        {
+          "base_cost": 8186961870,
+          "group_id": "GRP-DA0883F6E360",
+          "package_id": "PKG-79C7AFEB9710"
+        },
+        {
+          "base_cost": 3479879070,
+          "group_id": "GRP-0A979481E8B7",
+          "package_id": "PKG-080562B2C8D4"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-BA6A94607D9A",
+          "package_id": "PKG-DB6906DAF75E"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-DFEFF15E2520",
+          "package_id": "PKG-91AFAE5F8225"
+        },
+        {
+          "base_cost": 4917220425,
+          "group_id": "GRP-87B4ED150DD4",
+          "package_id": "PKG-914F90F8A98F"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-5B0592B4F6B3",
+          "package_id": "PKG-3EAF241A7E55"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-0BC01FC2E0FC",
+          "package_id": "PKG-BBEB4ACD94C1"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-A58AFBF578A5",
+          "package_id": "PKG-497E65C08FEC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2C15B493DCDC",
+          "package_id": "PKG-021914223F89"
+        },
+        {
+          "base_cost": 12625068510,
+          "group_id": "GRP-637BADF861FC",
+          "package_id": "PKG-D26F176DAB22"
+        },
+        {
+          "base_cost": 3345390990,
+          "group_id": "GRP-E24296027B4F",
+          "package_id": "PKG-E5176ED5FF1A"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-BEFEECA1ADCA",
+          "package_id": "PKG-E4E1BC14413F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-0E0E81336928",
+          "package_id": "PKG-6C1BDE4303F0"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-A5FEEB59C2A4",
+          "package_id": "PKG-392E8ECB2628"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-5B0592B4F6B3",
+          "package_id": "PKG-A5C1F86D638B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-420BE2BF1E57",
+          "package_id": "PKG-AAC5375FEDDE"
+        },
+        {
+          "base_cost": 24964349850,
+          "group_id": "GRP-5E228C5FC118",
+          "package_id": "PKG-9E617DADCB42"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E24296027B4F",
+          "package_id": "PKG-794575E06ED9"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D125457EE9D0",
+          "package_id": "PKG-78A57E06B39F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-49546B030886",
+          "package_id": "PKG-2AF39BA09696"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-EADF47FD3DC8",
+          "package_id": "PKG-989CCF22E985"
+        },
+        {
+          "base_cost": 14760066780,
+          "group_id": "GRP-4AAE7EFEB4BF",
+          "package_id": "PKG-BDEF4120DFF5"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6D752F06B2FE",
+          "package_id": "PKG-EA8A7BCDE977"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-52548955CD48",
+          "package_id": "PKG-BA1ECF410338"
+        },
+        {
+          "base_cost": 16777387980,
+          "group_id": "GRP-65C9ED05EACD",
+          "package_id": "PKG-299BF3A3FADB"
+        },
+        {
+          "base_cost": 2050943220,
+          "group_id": "GRP-803DCCDA812C",
+          "package_id": "PKG-C6EDBD9CA651"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-8E0A2C20248A",
+          "package_id": "PKG-8A23956209D8"
+        },
+        {
+          "base_cost": 4673460780,
+          "group_id": "GRP-004BBFD62E0A",
+          "package_id": "PKG-DF6CB20F0515"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D15B13838DA4",
+          "package_id": "PKG-4972AA2574E0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-09C683A77C61",
+          "package_id": "PKG-627AD30B1BAE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-3392E26A0BEB",
+          "package_id": "PKG-C0D5B9FE4019"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-43A5E9963D6F",
+          "package_id": "PKG-2253A49CC1C6"
+        },
+        {
+          "base_cost": 14272547490,
+          "group_id": "GRP-E5AE7BB141C7",
+          "package_id": "PKG-9E57D1AF9D51"
+        },
+        {
+          "base_cost": 4673460780,
+          "group_id": "GRP-4B2BEE781227",
+          "package_id": "PKG-AD021E295469"
+        },
+        {
+          "base_cost": 8993890350,
+          "group_id": "GRP-A4ABAA913469",
+          "package_id": "PKG-2D6F36635792"
+        },
+        {
+          "base_cost": 6758026020,
+          "group_id": "GRP-A5FEEB59C2A4",
+          "package_id": "PKG-E458B8D97D95"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-93422AB6DE56",
+          "package_id": "PKG-DE8B238C072A"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-DC8D7F600665",
+          "package_id": "PKG-39E8208EB183"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-FE0E4E366DF4",
+          "package_id": "PKG-33A6B76B5F8C"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-BF38D43456A9",
+          "package_id": "PKG-56E62F477FC9"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-21802A2056A9",
+          "package_id": "PKG-FE3B7AD0F84A"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-7FC8D27541B2",
+          "package_id": "PKG-2818A6716EBA"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-C724D0593442",
+          "package_id": "PKG-9633920584FB"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-7F76C5BA7261",
+          "package_id": "PKG-09EFEB62E26A"
+        },
+        {
+          "base_cost": 9397354590,
+          "group_id": "GRP-64A5EF90177F",
+          "package_id": "PKG-09515A5C9EB5"
+        },
+        {
+          "base_cost": 11179321650,
+          "group_id": "GRP-DCD971A19345",
+          "package_id": "PKG-9E206686D215"
+        },
+        {
+          "base_cost": 13087371285,
+          "group_id": "GRP-DFEFF15E2520",
+          "package_id": "PKG-CA5AF4878267"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-078D2FA8205E",
+          "package_id": "PKG-DF70BD7B484D"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8E0A2C20248A",
+          "package_id": "PKG-2EE7275BE325"
+        },
+        {
+          "base_cost": 806928480,
+          "group_id": "GRP-2C15B493DCDC",
+          "package_id": "PKG-AE25AA02DF27"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-52548955CD48",
+          "package_id": "PKG-AEE20CC0F158"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-912E10C61002",
+          "package_id": "PKG-ED1CD9FAB778"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-F551DE6FE916",
+          "package_id": "PKG-CE40636648D1"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-C7F9AE9B3711",
+          "package_id": "PKG-85609CED0D86"
+        },
+        {
+          "base_cost": 529546815,
+          "group_id": "GRP-4A5C3AAE2AD4",
+          "package_id": "PKG-3C886865F9CE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-0A979481E8B7",
+          "package_id": "PKG-ADAE487FA0BF"
+        },
+        {
+          "base_cost": 470708280,
+          "group_id": "GRP-09C683A77C61",
+          "package_id": "PKG-AB155213AEC3"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-BA6A94607D9A",
+          "package_id": "PKG-AF2DE12A35CE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2ACBD7B2D0CD",
+          "package_id": "PKG-DB463727FA17"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-54996D58942E",
+          "package_id": "PKG-79041C7460D8"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4D382B99502B",
+          "package_id": "PKG-737FB850BA1F"
+        },
+        {
+          "base_cost": 739684440,
+          "group_id": "GRP-DDC90265F54B",
+          "package_id": "PKG-885D88190C2B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2A1B3442E937",
+          "package_id": "PKG-15C43B57D070"
+        },
+        {
+          "base_cost": 13263886890,
+          "group_id": "GRP-D15B13838DA4",
+          "package_id": "PKG-A7FEE7D4D464"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-FF675824ADE4",
+          "package_id": "PKG-8795775BF187"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-29042C9D8987",
+          "package_id": "PKG-3FDAE0787A35"
+        },
+        {
+          "base_cost": 3362202000,
+          "group_id": "GRP-912E10C61002",
+          "package_id": "PKG-CF6D29DBF154"
+        },
+        {
+          "base_cost": 12683907045,
+          "group_id": "GRP-D18EDE3AF9FA",
+          "package_id": "PKG-BE8971E6523B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-356D985B3D7F",
+          "package_id": "PKG-F4B07A8A41E7"
+        },
+        {
+          "base_cost": 7632198540,
+          "group_id": "GRP-D04940084F21",
+          "package_id": "PKG-51D11BF6DE58"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-F0D4A7BBDE35",
+          "package_id": "PKG-7C4C5D4E57DC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-004BBFD62E0A",
+          "package_id": "PKG-A8DF88F299CF"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7FC8D27541B2",
+          "package_id": "PKG-3B016018ABC4"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-FC3DD1ECA0D9",
+          "package_id": "PKG-77C1C44C2142"
+        },
+        {
+          "base_cost": 924605550,
+          "group_id": "GRP-AC6F3B04C97C",
+          "package_id": "PKG-F3475188AEA2"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4AAE7EFEB4BF",
+          "package_id": "PKG-66EB1CBE9E8B"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-87B4ED150DD4",
+          "package_id": "PKG-96B269218854"
+        },
+        {
+          "base_cost": 4202752500,
+          "group_id": "GRP-08972BC8354E",
+          "package_id": "PKG-E9B3EB119FF2"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D18EDE3AF9FA",
+          "package_id": "PKG-377012FDFC55"
+        },
+        {
+          "base_cost": 12574635480,
+          "group_id": "GRP-720648544988",
+          "package_id": "PKG-89529BC1D3BE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2D3D3423DDF6",
+          "package_id": "PKG-6F60D08981BB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-DDC90265F54B",
+          "package_id": "PKG-49BDE888AC53"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-2A1B3442E937",
+          "package_id": "PKG-16FE596C96D2"
+        },
+        {
+          "base_cost": 9498220650,
+          "group_id": "GRP-3392E26A0BEB",
+          "package_id": "PKG-019CFF41072B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-70C87D7E10EC",
+          "package_id": "PKG-61F2282CF78F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-BAB24C5B11F9",
+          "package_id": "PKG-C64923BAD7B4"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4AAE7EFEB4BF",
+          "package_id": "PKG-F116EF841577"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-DA0883F6E360",
+          "package_id": "PKG-D7E315DBA6DC"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-FC8C6D1757D3",
+          "package_id": "PKG-225BCF12F86F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-86E72209A7C6",
+          "package_id": "PKG-FAEB77783609"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-6D732DF0E0EB",
+          "package_id": "PKG-8BE25663D588"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-252305C1AA1E",
+          "package_id": "PKG-20C9E20DC9BD"
+        },
+        {
+          "base_cost": 806928480,
+          "group_id": "GRP-7F9A7F021522",
+          "package_id": "PKG-C04B2DF02DD8"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D18EDE3AF9FA",
+          "package_id": "PKG-51376E43A60F"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-FE0E4E366DF4",
+          "package_id": "PKG-84CCBCE8F86C"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-282D873C06D7",
+          "package_id": "PKG-47695F14D559"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-6EEA593B2AD6",
+          "package_id": "PKG-1083DB83D19B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-08972BC8354E",
+          "package_id": "PKG-A254E1B5094A"
+        },
+        {
+          "base_cost": 5429956230,
+          "group_id": "GRP-456E9E66D663",
+          "package_id": "PKG-5B4F36B86941"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-43A5E9963D6F",
+          "package_id": "PKG-D227246F2CF0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-803DCCDA812C",
+          "package_id": "PKG-A8940C3639FD"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-0BC01FC2E0FC",
+          "package_id": "PKG-C150C755848B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-BC6A3855CA1F",
+          "package_id": "PKG-22433F038069"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A4C97AE7C57B",
+          "package_id": "PKG-D2DBAD93260F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2DC2A548DDA9",
+          "package_id": "PKG-EB8BA9AA41AA"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D4AD7594760D",
+          "package_id": "PKG-BC91E1B394AE"
+        },
+        {
+          "base_cost": 14860932840,
+          "group_id": "GRP-FF675824ADE4",
+          "package_id": "PKG-A24E9F0BA0CB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D836DFBFA7D6",
+          "package_id": "PKG-C2FCF9C69C92"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4AB77C785D6A",
+          "package_id": "PKG-939B6FE40640"
+        },
+        {
+          "base_cost": 453897270,
+          "group_id": "GRP-689000EE1D55",
+          "package_id": "PKG-3022E0003DAD"
+        },
+        {
+          "base_cost": 2252675340,
+          "group_id": "GRP-E3CA6789DB9C",
+          "package_id": "PKG-78A4FABC9239"
+        },
+        {
+          "base_cost": 14642389710,
+          "group_id": "GRP-6B05384D1FFB",
+          "package_id": "PKG-F2102CA0DA48"
+        },
+        {
+          "base_cost": 8657670150,
+          "group_id": "GRP-EA1535DC7302",
+          "package_id": "PKG-AF8496AE899D"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-54996D58942E",
+          "package_id": "PKG-522C677C5322"
+        },
+        {
+          "base_cost": 11851762050,
+          "group_id": "GRP-A239F4AFB5D5",
+          "package_id": "PKG-4479F23280F3"
+        },
+        {
+          "base_cost": 6018341580,
+          "group_id": "GRP-2D3D3423DDF6",
+          "package_id": "PKG-1A98AF6F442C"
+        },
+        {
+          "base_cost": 12692312550,
+          "group_id": "GRP-EADF47FD3DC8",
+          "package_id": "PKG-F5A0588E4DF0"
+        },
+        {
+          "base_cost": 2748600135,
+          "group_id": "GRP-93422AB6DE56",
+          "package_id": "PKG-9ADD4E202F8A"
+        },
+        {
+          "base_cost": 33622020,
+          "group_id": "GRP-316B09642463",
+          "package_id": "PKG-4C0A4EF5052B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-ECC7D50D547A",
+          "package_id": "PKG-E7FA1FE05CA3"
+        },
+        {
+          "base_cost": 10658180340,
+          "group_id": "GRP-5F5F382ACE78",
+          "package_id": "PKG-23760F6F1909"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-C0FBCBF9A766",
+          "package_id": "PKG-333AB95C7507"
+        },
+        {
+          "base_cost": 521141310,
+          "group_id": "GRP-B7AC97181DAA",
+          "package_id": "PKG-81A1564FC996"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-589F06A02BC4",
+          "package_id": "PKG-A49D60A53E62"
+        },
+        {
+          "base_cost": 201732120,
+          "group_id": "GRP-E2FA91865D46",
+          "package_id": "PKG-B238F60432A5"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E5AE7BB141C7",
+          "package_id": "PKG-F99973C914A6"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-7FC8D27541B2",
+          "package_id": "PKG-6D99F483EF9D"
+        },
+        {
+          "base_cost": 3782477250,
+          "group_id": "GRP-30260D433655",
+          "package_id": "PKG-28083E5A68E2"
+        },
+        {
+          "base_cost": 33622020,
+          "group_id": "GRP-F551DE6FE916",
+          "package_id": "PKG-FEE499E7BF4C"
+        },
+        {
+          "base_cost": 1966888170,
+          "group_id": "GRP-078D2FA8205E",
+          "package_id": "PKG-309EAE267839"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-52548955CD48",
+          "package_id": "PKG-CCE0D504473E"
+        },
+        {
+          "base_cost": 13087371285,
+          "group_id": "GRP-5B0592B4F6B3",
+          "package_id": "PKG-F88614845148"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E2FA91865D46",
+          "package_id": "PKG-36779046452E"
+        },
+        {
+          "base_cost": 9935306910,
+          "group_id": "GRP-9BFB8BA12D3E",
+          "package_id": "PKG-D470681EC696"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6D732DF0E0EB",
+          "package_id": "PKG-112B3946BC2E"
+        },
+        {
+          "base_cost": 9632708730,
+          "group_id": "GRP-21802A2056A9",
+          "package_id": "PKG-76ED5D28D8A2"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-DCD971A19345",
+          "package_id": "PKG-C5E5ECDF8C68"
+        },
+        {
+          "base_cost": 10137039030,
+          "group_id": "GRP-BAB24C5B11F9",
+          "package_id": "PKG-BD59ED238465"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-64A5EF90177F",
+          "package_id": "PKG-CCC98CB59C10"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-C7F9AE9B3711",
+          "package_id": "PKG-A010BDEDD2A8"
+        },
+        {
+          "base_cost": 11028022560,
+          "group_id": "GRP-49352CE12521",
+          "package_id": "PKG-0A5033FE4F78"
+        },
+        {
+          "base_cost": 13062154770,
+          "group_id": "GRP-282D873C06D7",
+          "package_id": "PKG-688D67707227"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-93422AB6DE56",
+          "package_id": "PKG-51FE958FF251"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6EEA593B2AD6",
+          "package_id": "PKG-7C13AD4AD548"
+        },
+        {
+          "base_cost": 4034642400,
+          "group_id": "GRP-91B5F01C73A7",
+          "package_id": "PKG-4B7BFDE26270"
+        },
+        {
+          "base_cost": 6102396630,
+          "group_id": "GRP-589F06A02BC4",
+          "package_id": "PKG-6CA3D035F51C"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-5559C529EA73",
+          "package_id": "PKG-16AA07A2890B"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-252305C1AA1E",
+          "package_id": "PKG-338D3F502BC1"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-91B5F01C73A7",
+          "package_id": "PKG-BC33BB906DEC"
+        },
+        {
+          "base_cost": 714467925,
+          "group_id": "GRP-0596028F8A02",
+          "package_id": "PKG-ADC81EC41A43"
+        }
+      ],
+      "classification": {
+        "cohort_terms": [
+          {
+            "cohort_id": "COH-4156985E73AE",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6",
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-DBD5815C160F",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-655561BC4A39",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-7A0ACB575596",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-4B4549AAD8DB",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-29D81511FA84",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-31DFA71FE963",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-F9A318585601",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-811579FE4DED",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-EE3D5C25D361",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-AE17C6E72C55",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-2E190385ADF9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-BC3E54FB7836",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-1D90D5B63FE2",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-1CD08B23C4CA",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-5CE88CF84DC9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-ED31AAF17DDA",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-E4D9F1B92B52",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-71CD76300EFF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-4E63FD7FFEE7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-17B2AAE9E790",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-F0E83E84BEE8",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-48BFA63F8CDE",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-3FD4826F1B05",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-7A9A43728C74",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-5DEDD54DFA7F",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-C878AB769444",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-314917317898",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-C63D66026345",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-29800658E09E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-AEB30551FEED",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-E97F2F7F8AE2",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-82538C2163AB",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D744E1A81E55",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-4A761DD0F4C9",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-66FB0BCF9E6D",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556",
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-33E7776E3FD6",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-116682B4F881",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-683517FF1710",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-7476F2AC2678",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-E02C7CFD7929",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-2CD22462F2BF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-40A7A9533758",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-1CF05F642D24",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-32B5B45CA7F5",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-1BD399B47767",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-F5BA2CC5EB40",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-AD1366770B89",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-05FC38F0AD30",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-87E5BD7A00AF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-F27E0F22C3F7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-81D4C02D9625",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-528BCBA39B03",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-1AD0B4D7D976",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-A8D5A0084A30",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-C28A1FAF3D9B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-D583A9DD54FE",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-86D521E18946",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-FA492F0A25D4",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-DD9FB097EB48",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-E21874DCCE9C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-49DC1FEF405C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-7CFCA0B04ED6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-4F402A5A18CD",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-19451EA63EC0",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-1AE16285DF21",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-FA2FAA64E4C2",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-5DDF0B4E78B1",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-9D7DB0E1363F",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-255F7CAF28E6",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-99FB30D4C53C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-BFAE3C97B646",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-5947C6E94891",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-BB792BB0F7F4",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-FD298CE3C5B3",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-40939906577E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-776B297030EE",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-C1AD4B677E24",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-1470EA0AFCB3",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-F2931A33C549",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-8A7E9B9932C9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-A5A7B471DC75",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-68ECAB281829",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-1A4029FED83D",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-E6C92826F563",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D4CBFA8BB2CC",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-032029718943",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-9AB972DFBC51",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-A2871954AD3F",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-5C07963DDC7F",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-1AD977C4391E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-EB7F1F011A02",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-C0B0A3B170E4",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-24F31DBB289C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-26CCD07DEC70",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-24F6F135E17B",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-CFE6B48BCC0B",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-6EF2978494E3",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-9CA4911AD1F6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-C5AB6534CAA7",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-8E9BF652B79C",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D6FE89BE5DB3",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-9EA72EF24625",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-84F5EF716A68",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-4C364A4A9CEC",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-1451E3C43850",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D7215EF27626",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-6E264819AB98",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6",
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-428E78C606DD",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-5696E1A6FC5A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-FAC2E966E9D7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184",
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-F3428F882BF0",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-A0DE8BF21D14",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-182D299DB404",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-0AA9EF0B143E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-3D0405AB26E1",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-10BD31528696",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-6932B797F88C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-E4D831F3D753",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-29F7B2F96EBD",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-E10F5B2C53F9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-143CE4606E73",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-F8458BB0E2B4",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-F4F30E9F710D",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-AC0F28E6B2E8",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-F434A2853B80",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-887BEB098137",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-86817472BFAD",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-97E7AD51B372",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-C032F0E754AA",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-E2CC2636AA0E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-E9BFFD9B3F4B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-B6D772F5D2ED",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-6098F55BD12A",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-9046958E91DA",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-0C247E7462D1",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6",
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-7142A4ADF126",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-83DA9C4AC6A2",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-4E0113E37A7D",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-ADDAB2CAC440",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-5AABD0CB707A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-53D8554D9E9E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-AAA39ADE0DC6",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-B4FEAF9124F6",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-74CBD71754D3",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-BB14CD7D65E4",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-316F7D0343F1",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-62D2C3F28DE7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-220D47ECABDA",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-B56C7342EE31",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-A49EF36FE1A6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-32B4D5D4E786",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-AC411F173CEF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-A69D053C0F41",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-A963DE1322BD",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D1D7F523366D",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-C27E85BC80CF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-0699C29A7DE4",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-3E5405AB5E8F",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-DD950624A868",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-BB20FBE07D92",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-DAB7A3029158",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-74FE26B03D4C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-B9EACB24D3D1",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-418B20BC29D7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357",
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-DDC227A3C0BC",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-CFCD0B0E2449",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-4833186EE6A8",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-81E5FD8EC3E6",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-A8471F118B44",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-B7B6F973A161",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-238C57EA4590",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-3DC3811D8EFC",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-0BD7716573DC",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-419EACF10D16",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-D4FCEFE08D26",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-2917439C32C1",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-7B3C206E29E8",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-700A768659EB",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-248C5524024F",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-35FC8C6FE145",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-54D946E7CCE6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-806841561232",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-E1387C1E7409",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-CF52BD310B1B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-5E30447B8BF8",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-A894186355A1",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-A566A57499D9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-C571D47D41E7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-1E22A2543812",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-5C7583EA27A4",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F",
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-5EA7ADDCC0B2",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-488968D7F683",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-336A1FA8AA8D",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-97E91DB27C69",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-7ACCCACC8547",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-3222585A7267",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-0076101AEF36",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-55355153CADF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-AA79000A8C1A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-694CC1734BA3",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-0ED9BAAA74B8",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-A83DBBBC3B92",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-E686C4CB02DA",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-C00ACCDD01D0",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-7FD2971C16A5",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F",
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-61CDEE017E3C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-800095837569",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-F73D3D682C25",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-10B2455A7A9A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357",
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-7489FFF6B571",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-F54C1947057C",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-BA8A21B8C849",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-D5033691030B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-436F9BD1EE52",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-79A7FDD2FA76",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-E5B26815EC62",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-E0D7BF675A9D",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-707C6657F551",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-B9F4CBC5FCAF",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-C724DFA8E49E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-0692C1202276",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-A4F7D6C0993B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-730C7EAA622C",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-E18E60924B54",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-951A21BE7A51",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D52196958ED9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-8B3F35C48D2E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-A3CB6EAD10FE",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-39EC81FD5CA3",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-E3D4D0A5885B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-5C80A5DEF01B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184",
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-B90CB0BF3205",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-CB40D39EA3C4",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-684FF5BB0B08",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-782700E44CCD",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-2B19A6FE8C60",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-C899F09A697E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-FDA1EC2D954E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-BDF1CD666EA4",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-B2059EF0A71E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-AFE717D412F7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-EAF17A689CE5",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-1E39F0CBA3A4",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-DF9F036B25A6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-4E6F0EEB3927",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-AC4CA3A960A1",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-6E41534FCB4B",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-8E401DA0FED6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-EFA35FE2B99D",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-0F67421D960A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-8A0F0C086A54",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-6B37B97BA3C6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-6D064562E943",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-88D3FA5A703B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-E74EECBFCAC9",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F"
+            ]
+          },
+          {
+            "cohort_id": "COH-D63621E66D92",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-A0946491C05C",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-C78F046EEB81",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A",
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-CA72F03CDCDC",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-8F0BF4A93006",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-15966A84F8B6",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-609F2223F69B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-CE3701052567",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-663F158243B5",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-89E8AECBCD95",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-C2600B93863E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-6240E55D13B7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59",
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-0034DE5576FF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-924EAD0D20F7",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-07CC8FA6A407",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-B315E6E1F971",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-856A2DEB81DC",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-7E231D611D45",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-104C9C66B76B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-27ADDF63E498",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-1385B3E7DBB2",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-89EA45F1137F",
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-8F25158C4B4D",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-6C886F6EFC63",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-8753F61C7F14",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-C47D8C65E561",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-4329DE763D1A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-509AC6DB2822",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-FBEFC53F774A",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D6F9F4729A0E",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-5E58BA9C1100",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-300FBB186901",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-30A782634EF6",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-A26A6B1643F1",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-8D6994316491",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-D6DCAA1A7A26",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-8A3A302110A3",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-CDB4406A843B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-A6327845B782",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-B95D8AA8EB9A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-0EFD52E07911",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-6F832D1B373F",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-57C694E3A3BF",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F"
+            ]
+          },
+          {
+            "cohort_id": "COH-D86BA7B43445",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-EFABB2CE46B8",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-6E1A80676777",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-B0E2FB9DD7EA",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-F3BC19A2E522",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-7595537D3191",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-47910EC43928",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-3120FA7CEEDC",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-E775F47F5A87",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-BFADDF1F6A59",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-93AD90E71DF5",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-13A071840C5D",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-9C66443AE5C7",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59",
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-49E7114A581C",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-8BEC3FFD6D13",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-419A888ED021",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69"
+            ]
+          },
+          {
+            "cohort_id": "COH-89D43EA2C8D2",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-AF317EE957BC",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-3D71B164AA7D",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-AD2639C64DB8",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-813FBB34D0D6"
+            ]
+          },
+          {
+            "cohort_id": "COH-ED3F3806F227",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-4F6ABD0814F5",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87",
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-40FCFCB69D46",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-019461288F8F",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-FD5FCA738907",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-62DBBE958314",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59"
+            ]
+          },
+          {
+            "cohort_id": "COH-775EEF954992",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD"
+            ]
+          },
+          {
+            "cohort_id": "COH-AC56D87B54B8",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-3BECDC836A49",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-600AEB884F69",
+              "DOM-316C666D374E"
+            ]
+          },
+          {
+            "cohort_id": "COH-3DC0BE18D58A",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-9CD20ECD4997",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-CC157A7E33DD",
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-436A6A80E876",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-912908908876"
+            ]
+          },
+          {
+            "cohort_id": "COH-7D0F0B654C66",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-82DB98E8CF6D",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-DDFCECFAB13A"
+            ]
+          },
+          {
+            "cohort_id": "COH-D736DF150C47",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-CAEDC3D10E5A",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-3074D0BFF692",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-7F3BA05FB70F",
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-EE9764D17836",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-201BD1339592",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4A10B9A18556"
+            ]
+          },
+          {
+            "cohort_id": "COH-FCFA1F720F07",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-83AA1F077357"
+            ]
+          },
+          {
+            "cohort_id": "COH-66AC46CF0A21",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-EE625EB624AF",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-87FC9E45C16B",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-8226ED297F87"
+            ]
+          },
+          {
+            "cohort_id": "COH-FA785BCE230B",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-15F2DB8D6B83",
+            "mode": "modern",
+            "support_domains": []
+          },
+          {
+            "cohort_id": "COH-45500ED1471E",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-6BD60A69CD59",
+              "DOM-CE1C9EF4E184"
+            ]
+          },
+          {
+            "cohort_id": "COH-C0CBC8C37061",
+            "mode": "legacy",
+            "support_domains": [
+              "DOM-4E59777954C2"
+            ]
+          },
+          {
+            "cohort_id": "COH-17F05A4734C5",
+            "mode": "modern",
+            "support_domains": []
+          }
+        ],
+        "encoding": "mediated",
+        "package_cohorts": [
+          {
+            "cohort_id": "COH-6E1A80676777",
+            "package_id": "PKG-703DF59FE416"
+          },
+          {
+            "cohort_id": "COH-3DC0BE18D58A",
+            "package_id": "PKG-7314CF2545E8"
+          },
+          {
+            "cohort_id": "COH-BC3E54FB7836",
+            "package_id": "PKG-EA8A7BCDE977"
+          },
+          {
+            "cohort_id": "COH-A963DE1322BD",
+            "package_id": "PKG-A65B7EFF1E2B"
+          },
+          {
+            "cohort_id": "COH-68ECAB281829",
+            "package_id": "PKG-16FE596C96D2"
+          },
+          {
+            "cohort_id": "COH-CA72F03CDCDC",
+            "package_id": "PKG-79041C7460D8"
+          },
+          {
+            "cohort_id": "COH-7489FFF6B571",
+            "package_id": "PKG-78638816DBBC"
+          },
+          {
+            "cohort_id": "COH-F9A318585601",
+            "package_id": "PKG-CE40636648D1"
+          },
+          {
+            "cohort_id": "COH-F54C1947057C",
+            "package_id": "PKG-983B9F0BD498"
+          },
+          {
+            "cohort_id": "COH-D736DF150C47",
+            "package_id": "PKG-AF8496AE899D"
+          },
+          {
+            "cohort_id": "COH-A49EF36FE1A6",
+            "package_id": "PKG-C0D5B9FE4019"
+          },
+          {
+            "cohort_id": "COH-3222585A7267",
+            "package_id": "PKG-BE8971E6523B"
+          },
+          {
+            "cohort_id": "COH-A566A57499D9",
+            "package_id": "PKG-57FF45C65EE3"
+          },
+          {
+            "cohort_id": "COH-62DBBE958314",
+            "package_id": "PKG-84CCBCE8F86C"
+          },
+          {
+            "cohort_id": "COH-57C694E3A3BF",
+            "package_id": "PKG-1098370B93FB"
+          },
+          {
+            "cohort_id": "COH-663F158243B5",
+            "package_id": "PKG-94453EEB3907"
+          },
+          {
+            "cohort_id": "COH-7A9A43728C74",
+            "package_id": "PKG-A9D148FB26A0"
+          },
+          {
+            "cohort_id": "COH-E4D831F3D753",
+            "package_id": "PKG-5C3D9F7C4063"
+          },
+          {
+            "cohort_id": "COH-1AD977C4391E",
+            "package_id": "PKG-F4E0588CD9BB"
+          },
+          {
+            "cohort_id": "COH-0C247E7462D1",
+            "package_id": "PKG-BC33BB906DEC"
+          },
+          {
+            "cohort_id": "COH-AC56D87B54B8",
+            "package_id": "PKG-23760F6F1909"
+          },
+          {
+            "cohort_id": "COH-D5033691030B",
+            "package_id": "PKG-8795775BF187"
+          },
+          {
+            "cohort_id": "COH-3FD4826F1B05",
+            "package_id": "PKG-CF6D29DBF154"
+          },
+          {
+            "cohort_id": "COH-48BFA63F8CDE",
+            "package_id": "PKG-85609CED0D86"
+          },
+          {
+            "cohort_id": "COH-86817472BFAD",
+            "package_id": "PKG-FE3B7AD0F84A"
+          },
+          {
+            "cohort_id": "COH-683517FF1710",
+            "package_id": "PKG-CBE4CC68C920"
+          },
+          {
+            "cohort_id": "COH-55355153CADF",
+            "package_id": "PKG-5B4F36B86941"
+          },
+          {
+            "cohort_id": "COH-19451EA63EC0",
+            "package_id": "PKG-61E8573C9F37"
+          },
+          {
+            "cohort_id": "COH-BB792BB0F7F4",
+            "package_id": "PKG-670F1075D87D"
+          },
+          {
+            "cohort_id": "COH-D744E1A81E55",
+            "package_id": "PKG-7B2260E86D8B"
+          },
+          {
+            "cohort_id": "COH-74FE26B03D4C",
+            "package_id": "PKG-973A47785D3E"
+          },
+          {
+            "cohort_id": "COH-811579FE4DED",
+            "package_id": "PKG-112B3946BC2E"
+          },
+          {
+            "cohort_id": "COH-248C5524024F",
+            "package_id": "PKG-49BDE888AC53"
+          },
+          {
+            "cohort_id": "COH-1AE16285DF21",
+            "package_id": "PKG-1AC6A3496C0D"
+          },
+          {
+            "cohort_id": "COH-BFADDF1F6A59",
+            "package_id": "PKG-DE8B238C072A"
+          },
+          {
+            "cohort_id": "COH-2917439C32C1",
+            "package_id": "PKG-70BE2894EA9F"
+          },
+          {
+            "cohort_id": "COH-17B2AAE9E790",
+            "package_id": "PKG-5314325D6B85"
+          },
+          {
+            "cohort_id": "COH-BDF1CD666EA4",
+            "package_id": "PKG-E7FA1FE05CA3"
+          },
+          {
+            "cohort_id": "COH-6C886F6EFC63",
+            "package_id": "PKG-ADC81EC41A43"
+          },
+          {
+            "cohort_id": "COH-019461288F8F",
+            "package_id": "PKG-81A1564FC996"
+          },
+          {
+            "cohort_id": "COH-CFCD0B0E2449",
+            "package_id": "PKG-AD60347ED147"
+          },
+          {
+            "cohort_id": "COH-86D521E18946",
+            "package_id": "PKG-989CCF22E985"
+          },
+          {
+            "cohort_id": "COH-10BD31528696",
+            "package_id": "PKG-6F60D08981BB"
+          },
+          {
+            "cohort_id": "COH-300FBB186901",
+            "package_id": "PKG-49B67406ACBC"
+          },
+          {
+            "cohort_id": "COH-8F25158C4B4D",
+            "package_id": "PKG-627AD30B1BAE"
+          },
+          {
+            "cohort_id": "COH-E6C92826F563",
+            "package_id": "PKG-6CA3D035F51C"
+          },
+          {
+            "cohort_id": "COH-D6DCAA1A7A26",
+            "package_id": "PKG-0C11BC624A88"
+          },
+          {
+            "cohort_id": "COH-8B3F35C48D2E",
+            "package_id": "PKG-F1044307053E"
+          },
+          {
+            "cohort_id": "COH-E686C4CB02DA",
+            "package_id": "PKG-9B690C1DAB49"
+          },
+          {
+            "cohort_id": "COH-BB20FBE07D92",
+            "package_id": "PKG-EF87D6524803"
+          },
+          {
+            "cohort_id": "COH-A0946491C05C",
+            "package_id": "PKG-794575E06ED9"
+          },
+          {
+            "cohort_id": "COH-83DA9C4AC6A2",
+            "package_id": "PKG-40377D836583"
+          },
+          {
+            "cohort_id": "COH-4156985E73AE",
+            "package_id": "PKG-889571F07DC4"
+          },
+          {
+            "cohort_id": "COH-84F5EF716A68",
+            "package_id": "PKG-55CA1BFD420C"
+          },
+          {
+            "cohort_id": "COH-DD950624A868",
+            "package_id": "PKG-CB5BB199D9B0"
+          },
+          {
+            "cohort_id": "COH-97E7AD51B372",
+            "package_id": "PKG-907E6EC64E8D"
+          },
+          {
+            "cohort_id": "COH-5C80A5DEF01B",
+            "package_id": "PKG-78A57E06B39F"
+          },
+          {
+            "cohort_id": "COH-F8458BB0E2B4",
+            "package_id": "PKG-D5BCD4790255"
+          },
+          {
+            "cohort_id": "COH-924EAD0D20F7",
+            "package_id": "PKG-2C90291BED17"
+          },
+          {
+            "cohort_id": "COH-EFA35FE2B99D",
+            "package_id": "PKG-DB2523A52B16"
+          },
+          {
+            "cohort_id": "COH-40FCFCB69D46",
+            "package_id": "PKG-CDC819E15A27"
+          },
+          {
+            "cohort_id": "COH-B9F4CBC5FCAF",
+            "package_id": "PKG-2253A49CC1C6"
+          },
+          {
+            "cohort_id": "COH-5C7583EA27A4",
+            "package_id": "PKG-F74155C0CC93"
+          },
+          {
+            "cohort_id": "COH-39EC81FD5CA3",
+            "package_id": "PKG-225BCF12F86F"
+          },
+          {
+            "cohort_id": "COH-8A3A302110A3",
+            "package_id": "PKG-AD021E295469"
+          },
+          {
+            "cohort_id": "COH-4B4549AAD8DB",
+            "package_id": "PKG-021914223F89"
+          },
+          {
+            "cohort_id": "COH-B56C7342EE31",
+            "package_id": "PKG-7784D98A5775"
+          },
+          {
+            "cohort_id": "COH-82538C2163AB",
+            "package_id": "PKG-EF0CC4CBDA9C"
+          },
+          {
+            "cohort_id": "COH-E21874DCCE9C",
+            "package_id": "PKG-BBEB4ACD94C1"
+          },
+          {
+            "cohort_id": "COH-336A1FA8AA8D",
+            "package_id": "PKG-4479F23280F3"
+          },
+          {
+            "cohort_id": "COH-FAC2E966E9D7",
+            "package_id": "PKG-7A8E7B3D66D6"
+          },
+          {
+            "cohort_id": "COH-5DDF0B4E78B1",
+            "package_id": "PKG-E5E946C8EC4B"
+          },
+          {
+            "cohort_id": "COH-13A071840C5D",
+            "package_id": "PKG-F88614845148"
+          },
+          {
+            "cohort_id": "COH-DDC227A3C0BC",
+            "package_id": "PKG-BCC0F28B30CA"
+          },
+          {
+            "cohort_id": "COH-9AB972DFBC51",
+            "package_id": "PKG-339D5EE541BC"
+          },
+          {
+            "cohort_id": "COH-A3CB6EAD10FE",
+            "package_id": "PKG-D2DBAD93260F"
+          },
+          {
+            "cohort_id": "COH-1E22A2543812",
+            "package_id": "PKG-AAC5375FEDDE"
+          },
+          {
+            "cohort_id": "COH-CAEDC3D10E5A",
+            "package_id": "PKG-28083E5A68E2"
+          },
+          {
+            "cohort_id": "COH-ED3F3806F227",
+            "package_id": "PKG-2AF39BA09696"
+          },
+          {
+            "cohort_id": "COH-A8471F118B44",
+            "package_id": "PKG-E8223A9FAB2C"
+          },
+          {
+            "cohort_id": "COH-EE3D5C25D361",
+            "package_id": "PKG-DA92E5BA1FA7"
+          },
+          {
+            "cohort_id": "COH-3D0405AB26E1",
+            "package_id": "PKG-E942DD00E170"
+          },
+          {
+            "cohort_id": "COH-FD5FCA738907",
+            "package_id": "PKG-D470681EC696"
+          },
+          {
+            "cohort_id": "COH-62D2C3F28DE7",
+            "package_id": "PKG-83A045DB189A"
+          },
+          {
+            "cohort_id": "COH-DBD5815C160F",
+            "package_id": "PKG-209526E753AE"
+          },
+          {
+            "cohort_id": "COH-15F2DB8D6B83",
+            "package_id": "PKG-F2102CA0DA48"
+          },
+          {
+            "cohort_id": "COH-7A0ACB575596",
+            "package_id": "PKG-C6EDBD9CA651"
+          },
+          {
+            "cohort_id": "COH-0692C1202276",
+            "package_id": "PKG-7CB5E676A25C"
+          },
+          {
+            "cohort_id": "COH-E1387C1E7409",
+            "package_id": "PKG-A254E1B5094A"
+          },
+          {
+            "cohort_id": "COH-2CD22462F2BF",
+            "package_id": "PKG-4C0A4EF5052B"
+          },
+          {
+            "cohort_id": "COH-856A2DEB81DC",
+            "package_id": "PKG-6D8D52932C78"
+          },
+          {
+            "cohort_id": "COH-15966A84F8B6",
+            "package_id": "PKG-5B6B4A4E4EF6"
+          },
+          {
+            "cohort_id": "COH-05FC38F0AD30",
+            "package_id": "PKG-735277E371C7"
+          },
+          {
+            "cohort_id": "COH-4A761DD0F4C9",
+            "package_id": "PKG-66F2871BE8BD"
+          },
+          {
+            "cohort_id": "COH-FA492F0A25D4",
+            "package_id": "PKG-014D5AA785B6"
+          },
+          {
+            "cohort_id": "COH-4E6F0EEB3927",
+            "package_id": "PKG-EAC4CB7D5095"
+          },
+          {
+            "cohort_id": "COH-81E5FD8EC3E6",
+            "package_id": "PKG-E5176ED5FF1A"
+          },
+          {
+            "cohort_id": "COH-F2931A33C549",
+            "package_id": "PKG-8A23956209D8"
+          },
+          {
+            "cohort_id": "COH-E74EECBFCAC9",
+            "package_id": "PKG-7B18CE8F0EB3"
+          },
+          {
+            "cohort_id": "COH-CB40D39EA3C4",
+            "package_id": "PKG-32D43FEA2FEA"
+          },
+          {
+            "cohort_id": "COH-71CD76300EFF",
+            "package_id": "PKG-650A09313FB0"
+          },
+          {
+            "cohort_id": "COH-800095837569",
+            "package_id": "PKG-2818A6716EBA"
+          },
+          {
+            "cohort_id": "COH-7FD2971C16A5",
+            "package_id": "PKG-8DCD93F03746"
+          },
+          {
+            "cohort_id": "COH-C724DFA8E49E",
+            "package_id": "PKG-136B56D50E4F"
+          },
+          {
+            "cohort_id": "COH-B9EACB24D3D1",
+            "package_id": "PKG-AE25AA02DF27"
+          },
+          {
+            "cohort_id": "COH-C899F09A697E",
+            "package_id": "PKG-6E7EB7F83735"
+          },
+          {
+            "cohort_id": "COH-B315E6E1F971",
+            "package_id": "PKG-3FC5DA913B1C"
+          },
+          {
+            "cohort_id": "COH-8753F61C7F14",
+            "package_id": "PKG-89EFC4D0B311"
+          },
+          {
+            "cohort_id": "COH-F4F30E9F710D",
+            "package_id": "PKG-079270883244"
+          },
+          {
+            "cohort_id": "COH-17F05A4734C5",
+            "package_id": "PKG-E7263D1F671F"
+          },
+          {
+            "cohort_id": "COH-87FC9E45C16B",
+            "package_id": "PKG-1083DB83D19B"
+          },
+          {
+            "cohort_id": "COH-0F67421D960A",
+            "package_id": "PKG-C150C755848B"
+          },
+          {
+            "cohort_id": "COH-201BD1339592",
+            "package_id": "PKG-737FB850BA1F"
+          },
+          {
+            "cohort_id": "COH-8E401DA0FED6",
+            "package_id": "PKG-7F5615C94A91"
+          },
+          {
+            "cohort_id": "COH-49DC1FEF405C",
+            "package_id": "PKG-16AA07A2890B"
+          },
+          {
+            "cohort_id": "COH-E0D7BF675A9D",
+            "package_id": "PKG-56E62F477FC9"
+          },
+          {
+            "cohort_id": "COH-951A21BE7A51",
+            "package_id": "PKG-A24E9F0BA0CB"
+          },
+          {
+            "cohort_id": "COH-EB7F1F011A02",
+            "package_id": "PKG-6D99F483EF9D"
+          },
+          {
+            "cohort_id": "COH-238C57EA4590",
+            "package_id": "PKG-84C2A4A255CB"
+          },
+          {
+            "cohort_id": "COH-31DFA71FE963",
+            "package_id": "PKG-D26F176DAB22"
+          },
+          {
+            "cohort_id": "COH-B95D8AA8EB9A",
+            "package_id": "PKG-B992A2825A0D"
+          },
+          {
+            "cohort_id": "COH-B0E2FB9DD7EA",
+            "package_id": "PKG-588B7190F4DF"
+          },
+          {
+            "cohort_id": "COH-29F7B2F96EBD",
+            "package_id": "PKG-A5C1F86D638B"
+          },
+          {
+            "cohort_id": "COH-B4FEAF9124F6",
+            "package_id": "PKG-3CB2CC03207D"
+          },
+          {
+            "cohort_id": "COH-7B3C206E29E8",
+            "package_id": "PKG-00D3904A9F5F"
+          },
+          {
+            "cohort_id": "COH-E2CC2636AA0E",
+            "package_id": "PKG-45D87C0FF1D8"
+          },
+          {
+            "cohort_id": "COH-9C66443AE5C7",
+            "package_id": "PKG-362380DD6B6B"
+          },
+          {
+            "cohort_id": "COH-7D0F0B654C66",
+            "package_id": "PKG-AA46A59EE5DC"
+          },
+          {
+            "cohort_id": "COH-29800658E09E",
+            "package_id": "PKG-BE435849FB4D"
+          },
+          {
+            "cohort_id": "COH-EE625EB624AF",
+            "package_id": "PKG-299BF3A3FADB"
+          },
+          {
+            "cohort_id": "COH-8D6994316491",
+            "package_id": "PKG-50C75A1DA8F6"
+          },
+          {
+            "cohort_id": "COH-C47D8C65E561",
+            "package_id": "PKG-22082BA06154"
+          },
+          {
+            "cohort_id": "COH-A0DE8BF21D14",
+            "package_id": "PKG-1FF1367A0B19"
+          },
+          {
+            "cohort_id": "COH-9D7DB0E1363F",
+            "package_id": "PKG-969A0D831405"
+          },
+          {
+            "cohort_id": "COH-0BD7716573DC",
+            "package_id": "PKG-7109E7010267"
+          },
+          {
+            "cohort_id": "COH-E775F47F5A87",
+            "package_id": "PKG-A010BDEDD2A8"
+          },
+          {
+            "cohort_id": "COH-8BEC3FFD6D13",
+            "package_id": "PKG-561CECED3C4A"
+          },
+          {
+            "cohort_id": "COH-AE17C6E72C55",
+            "package_id": "PKG-0A718288DCCE"
+          },
+          {
+            "cohort_id": "COH-6D064562E943",
+            "package_id": "PKG-715E503ECCD0"
+          },
+          {
+            "cohort_id": "COH-B2059EF0A71E",
+            "package_id": "PKG-6BDABB6DA3F2"
+          },
+          {
+            "cohort_id": "COH-5E58BA9C1100",
+            "package_id": "PKG-31BD5944DD20"
+          },
+          {
+            "cohort_id": "COH-7CFCA0B04ED6",
+            "package_id": "PKG-7C4C5D4E57DC"
+          },
+          {
+            "cohort_id": "COH-AC4CA3A960A1",
+            "package_id": "PKG-36230AEA1BCE"
+          },
+          {
+            "cohort_id": "COH-3BECDC836A49",
+            "package_id": "PKG-A8DF88F299CF"
+          },
+          {
+            "cohort_id": "COH-782700E44CCD",
+            "package_id": "PKG-080562B2C8D4"
+          },
+          {
+            "cohort_id": "COH-6B37B97BA3C6",
+            "package_id": "PKG-C4292D36E857"
+          },
+          {
+            "cohort_id": "COH-74CBD71754D3",
+            "package_id": "PKG-2D6F36635792"
+          },
+          {
+            "cohort_id": "COH-81D4C02D9625",
+            "package_id": "PKG-16A50C0A611B"
+          },
+          {
+            "cohort_id": "COH-EE9764D17836",
+            "package_id": "PKG-309EAE267839"
+          },
+          {
+            "cohort_id": "COH-6932B797F88C",
+            "package_id": "PKG-B6D2174ACDC7"
+          },
+          {
+            "cohort_id": "COH-E02C7CFD7929",
+            "package_id": "PKG-CEDEAE904FE8"
+          },
+          {
+            "cohort_id": "COH-F3428F882BF0",
+            "package_id": "PKG-E4E1BC14413F"
+          },
+          {
+            "cohort_id": "COH-61CDEE017E3C",
+            "package_id": "PKG-C64923BAD7B4"
+          },
+          {
+            "cohort_id": "COH-1451E3C43850",
+            "package_id": "PKG-688D67707227"
+          },
+          {
+            "cohort_id": "COH-88D3FA5A703B",
+            "package_id": "PKG-7586DAF8D641"
+          },
+          {
+            "cohort_id": "COH-53D8554D9E9E",
+            "package_id": "PKG-9ADD4E202F8A"
+          },
+          {
+            "cohort_id": "COH-806841561232",
+            "package_id": "PKG-96B269218854"
+          },
+          {
+            "cohort_id": "COH-DAB7A3029158",
+            "package_id": "PKG-0B5CE35B2D3F"
+          },
+          {
+            "cohort_id": "COH-AA79000A8C1A",
+            "package_id": "PKG-20C9E20DC9BD"
+          },
+          {
+            "cohort_id": "COH-1CF05F642D24",
+            "package_id": "PKG-ED1CD9FAB778"
+          },
+          {
+            "cohort_id": "COH-2B19A6FE8C60",
+            "package_id": "PKG-D227246F2CF0"
+          },
+          {
+            "cohort_id": "COH-0076101AEF36",
+            "package_id": "PKG-D52F24489D57"
+          },
+          {
+            "cohort_id": "COH-509AC6DB2822",
+            "package_id": "PKG-778EF2461553"
+          },
+          {
+            "cohort_id": "COH-1A4029FED83D",
+            "package_id": "PKG-681CF9AF0191"
+          },
+          {
+            "cohort_id": "COH-E97F2F7F8AE2",
+            "package_id": "PKG-D105B3B238C1"
+          },
+          {
+            "cohort_id": "COH-ADDAB2CAC440",
+            "package_id": "PKG-A6FE887303DC"
+          },
+          {
+            "cohort_id": "COH-488968D7F683",
+            "package_id": "PKG-78A4FABC9239"
+          },
+          {
+            "cohort_id": "COH-182D299DB404",
+            "package_id": "PKG-F99973C914A6"
+          },
+          {
+            "cohort_id": "COH-32B5B45CA7F5",
+            "package_id": "PKG-A8940C3639FD"
+          },
+          {
+            "cohort_id": "COH-0699C29A7DE4",
+            "package_id": "PKG-FAEB77783609"
+          },
+          {
+            "cohort_id": "COH-707C6657F551",
+            "package_id": "PKG-D8C84AE8A88D"
+          },
+          {
+            "cohort_id": "COH-DD9FB097EB48",
+            "package_id": "PKG-9633920584FB"
+          },
+          {
+            "cohort_id": "COH-314917317898",
+            "package_id": "PKG-F116EF841577"
+          },
+          {
+            "cohort_id": "COH-6EF2978494E3",
+            "package_id": "PKG-6C1E36C02690"
+          },
+          {
+            "cohort_id": "COH-1385B3E7DBB2",
+            "package_id": "PKG-DF70BD7B484D"
+          },
+          {
+            "cohort_id": "COH-684FF5BB0B08",
+            "package_id": "PKG-FC88CE26E76B"
+          },
+          {
+            "cohort_id": "COH-143CE4606E73",
+            "package_id": "PKG-E458B8D97D95"
+          },
+          {
+            "cohort_id": "COH-ED31AAF17DDA",
+            "package_id": "PKG-62F3F4402A44"
+          },
+          {
+            "cohort_id": "COH-0EFD52E07911",
+            "package_id": "PKG-3EAF241A7E55"
+          },
+          {
+            "cohort_id": "COH-5CE88CF84DC9",
+            "package_id": "PKG-61F2282CF78F"
+          },
+          {
+            "cohort_id": "COH-8E9BF652B79C",
+            "package_id": "PKG-985238BB6D80"
+          },
+          {
+            "cohort_id": "COH-1D90D5B63FE2",
+            "package_id": "PKG-8133E6FD52DB"
+          },
+          {
+            "cohort_id": "COH-419EACF10D16",
+            "package_id": "PKG-91F0EC342FEB"
+          },
+          {
+            "cohort_id": "COH-4C364A4A9CEC",
+            "package_id": "PKG-4CF31FEC1AF2"
+          },
+          {
+            "cohort_id": "COH-A4F7D6C0993B",
+            "package_id": "PKG-2249F135AEA4"
+          },
+          {
+            "cohort_id": "COH-776B297030EE",
+            "package_id": "PKG-80EC553C8958"
+          },
+          {
+            "cohort_id": "COH-89D43EA2C8D2",
+            "package_id": "PKG-847F8BB569EE"
+          },
+          {
+            "cohort_id": "COH-D1D7F523366D",
+            "package_id": "PKG-C66E8FBEB7B3"
+          },
+          {
+            "cohort_id": "COH-B90CB0BF3205",
+            "package_id": "PKG-02F6239AEBA4"
+          },
+          {
+            "cohort_id": "COH-1BD399B47767",
+            "package_id": "PKG-6C1BDE4303F0"
+          },
+          {
+            "cohort_id": "COH-89E8AECBCD95",
+            "package_id": "PKG-914F90F8A98F"
+          },
+          {
+            "cohort_id": "COH-49E7114A581C",
+            "package_id": "PKG-9E57D1AF9D51"
+          },
+          {
+            "cohort_id": "COH-24F31DBB289C",
+            "package_id": "PKG-ADAE487FA0BF"
+          },
+          {
+            "cohort_id": "COH-8A0F0C086A54",
+            "package_id": "PKG-EB8BA9AA41AA"
+          },
+          {
+            "cohort_id": "COH-E9BFFD9B3F4B",
+            "package_id": "PKG-36779046452E"
+          },
+          {
+            "cohort_id": "COH-FDA1EC2D954E",
+            "package_id": "PKG-C5E5ECDF8C68"
+          },
+          {
+            "cohort_id": "COH-C78F046EEB81",
+            "package_id": "PKG-702EF246F511"
+          },
+          {
+            "cohort_id": "COH-C63D66026345",
+            "package_id": "PKG-832D77EAEA2D"
+          },
+          {
+            "cohort_id": "COH-4E63FD7FFEE7",
+            "package_id": "PKG-D827FA6F17B5"
+          },
+          {
+            "cohort_id": "COH-FCFA1F720F07",
+            "package_id": "PKG-3FDAE0787A35"
+          },
+          {
+            "cohort_id": "COH-C2600B93863E",
+            "package_id": "PKG-76ED5D28D8A2"
+          },
+          {
+            "cohort_id": "COH-D6F9F4729A0E",
+            "package_id": "PKG-3C886865F9CE"
+          },
+          {
+            "cohort_id": "COH-D52196958ED9",
+            "package_id": "PKG-CCE0D504473E"
+          },
+          {
+            "cohort_id": "COH-F5BA2CC5EB40",
+            "package_id": "PKG-3022E0003DAD"
+          },
+          {
+            "cohort_id": "COH-EAF17A689CE5",
+            "package_id": "PKG-39E8208EB183"
+          },
+          {
+            "cohort_id": "COH-5DEDD54DFA7F",
+            "package_id": "PKG-89529BC1D3BE"
+          },
+          {
+            "cohort_id": "COH-BB14CD7D65E4",
+            "package_id": "PKG-3C52F4CADFED"
+          },
+          {
+            "cohort_id": "COH-730C7EAA622C",
+            "package_id": "PKG-D11915E92961"
+          },
+          {
+            "cohort_id": "COH-F27E0F22C3F7",
+            "package_id": "PKG-51376E43A60F"
+          },
+          {
+            "cohort_id": "COH-FBEFC53F774A",
+            "package_id": "PKG-BD59ED238465"
+          },
+          {
+            "cohort_id": "COH-7595537D3191",
+            "package_id": "PKG-1296D0B0FDDC"
+          },
+          {
+            "cohort_id": "COH-6098F55BD12A",
+            "package_id": "PKG-A13D91063C20"
+          },
+          {
+            "cohort_id": "COH-32B4D5D4E786",
+            "package_id": "PKG-6878A031A53A"
+          },
+          {
+            "cohort_id": "COH-D6FE89BE5DB3",
+            "package_id": "PKG-09515A5C9EB5"
+          },
+          {
+            "cohort_id": "COH-4F6ABD0814F5",
+            "package_id": "PKG-B188D201F8BE"
+          },
+          {
+            "cohort_id": "COH-26CCD07DEC70",
+            "package_id": "PKG-DB463727FA17"
+          },
+          {
+            "cohort_id": "COH-D7215EF27626",
+            "package_id": "PKG-AB155213AEC3"
+          },
+          {
+            "cohort_id": "COH-D63621E66D92",
+            "package_id": "PKG-22433F038069"
+          },
+          {
+            "cohort_id": "COH-418B20BC29D7",
+            "package_id": "PKG-1CE1CE6E7385"
+          },
+          {
+            "cohort_id": "COH-4E0113E37A7D",
+            "package_id": "PKG-57066233AB1E"
+          },
+          {
+            "cohort_id": "COH-A69D053C0F41",
+            "package_id": "PKG-4972AA2574E0"
+          },
+          {
+            "cohort_id": "COH-FD298CE3C5B3",
+            "package_id": "PKG-A9994C69C9A5"
+          },
+          {
+            "cohort_id": "COH-6E41534FCB4B",
+            "package_id": "PKG-6D698891405A"
+          },
+          {
+            "cohort_id": "COH-AF317EE957BC",
+            "package_id": "PKG-71C6BAF2ECFE"
+          },
+          {
+            "cohort_id": "COH-93AD90E71DF5",
+            "package_id": "PKG-6A637992A9F4"
+          },
+          {
+            "cohort_id": "COH-6F832D1B373F",
+            "package_id": "PKG-FEE499E7BF4C"
+          },
+          {
+            "cohort_id": "COH-9CA4911AD1F6",
+            "package_id": "PKG-4980BB24CBE4"
+          },
+          {
+            "cohort_id": "COH-7142A4ADF126",
+            "package_id": "PKG-3625F85F7F1D"
+          },
+          {
+            "cohort_id": "COH-A894186355A1",
+            "package_id": "PKG-9E617DADCB42"
+          },
+          {
+            "cohort_id": "COH-07CC8FA6A407",
+            "package_id": "PKG-392E8ECB2628"
+          },
+          {
+            "cohort_id": "COH-AFE717D412F7",
+            "package_id": "PKG-91AFAE5F8225"
+          },
+          {
+            "cohort_id": "COH-700A768659EB",
+            "package_id": "PKG-525763DC0D23"
+          },
+          {
+            "cohort_id": "COH-EFABB2CE46B8",
+            "package_id": "PKG-AAC136F23DE1"
+          },
+          {
+            "cohort_id": "COH-3D71B164AA7D",
+            "package_id": "PKG-BA1ECF410338"
+          },
+          {
+            "cohort_id": "COH-BA8A21B8C849",
+            "package_id": "PKG-E15C0E90AB87"
+          },
+          {
+            "cohort_id": "COH-C0B0A3B170E4",
+            "package_id": "PKG-51D11BF6DE58"
+          },
+          {
+            "cohort_id": "COH-C28A1FAF3D9B",
+            "package_id": "PKG-E3F6B0129669"
+          },
+          {
+            "cohort_id": "COH-A83DBBBC3B92",
+            "package_id": "PKG-CD841847A1E3"
+          },
+          {
+            "cohort_id": "COH-D583A9DD54FE",
+            "package_id": "PKG-33A6B76B5F8C"
+          },
+          {
+            "cohort_id": "COH-436F9BD1EE52",
+            "package_id": "PKG-019CFF41072B"
+          },
+          {
+            "cohort_id": "COH-3E5405AB5E8F",
+            "package_id": "PKG-338D3F502BC1"
+          },
+          {
+            "cohort_id": "COH-F0E83E84BEE8",
+            "package_id": "PKG-E2A50CB10262"
+          },
+          {
+            "cohort_id": "COH-C032F0E754AA",
+            "package_id": "PKG-377012FDFC55"
+          },
+          {
+            "cohort_id": "COH-4F402A5A18CD",
+            "package_id": "PKG-B238F60432A5"
+          },
+          {
+            "cohort_id": "COH-5696E1A6FC5A",
+            "package_id": "PKG-939B6FE40640"
+          },
+          {
+            "cohort_id": "COH-1470EA0AFCB3",
+            "package_id": "PKG-5DFA4813C918"
+          },
+          {
+            "cohort_id": "COH-A5A7B471DC75",
+            "package_id": "PKG-3D754D06BD88"
+          },
+          {
+            "cohort_id": "COH-97E91DB27C69",
+            "package_id": "PKG-3E6C73A2C1ED"
+          },
+          {
+            "cohort_id": "COH-F3BC19A2E522",
+            "package_id": "PKG-49E70CA0BFC2"
+          },
+          {
+            "cohort_id": "COH-BFAE3C97B646",
+            "package_id": "PKG-1ACAF259B246"
+          },
+          {
+            "cohort_id": "COH-5947C6E94891",
+            "package_id": "PKG-C5E188463ED7"
+          },
+          {
+            "cohort_id": "COH-45500ED1471E",
+            "package_id": "PKG-709F6A1719C9"
+          },
+          {
+            "cohort_id": "COH-104C9C66B76B",
+            "package_id": "PKG-AEE20CC0F158"
+          },
+          {
+            "cohort_id": "COH-99FB30D4C53C",
+            "package_id": "PKG-7C8D1A9C0C1F"
+          },
+          {
+            "cohort_id": "COH-775EEF954992",
+            "package_id": "PKG-C38E9EEE267A"
+          },
+          {
+            "cohort_id": "COH-C00ACCDD01D0",
+            "package_id": "PKG-CE7E270F4042"
+          },
+          {
+            "cohort_id": "COH-FA785BCE230B",
+            "package_id": "PKG-CCDEB74F6BB4"
+          },
+          {
+            "cohort_id": "COH-220D47ECABDA",
+            "package_id": "PKG-E898DA4DB61D"
+          },
+          {
+            "cohort_id": "COH-C571D47D41E7",
+            "package_id": "PKG-333AB95C7507"
+          },
+          {
+            "cohort_id": "COH-4833186EE6A8",
+            "package_id": "PKG-D7B8BE5EE80F"
+          },
+          {
+            "cohort_id": "COH-3120FA7CEEDC",
+            "package_id": "PKG-670565DCFB7D"
+          },
+          {
+            "cohort_id": "COH-82DB98E8CF6D",
+            "package_id": "PKG-522C677C5322"
+          },
+          {
+            "cohort_id": "COH-66AC46CF0A21",
+            "package_id": "PKG-011D1566F0E2"
+          },
+          {
+            "cohort_id": "COH-10B2455A7A9A",
+            "package_id": "PKG-158CAA7A29ED"
+          },
+          {
+            "cohort_id": "COH-1AD0B4D7D976",
+            "package_id": "PKG-AB8C0A7523F0"
+          },
+          {
+            "cohort_id": "COH-032029718943",
+            "package_id": "PKG-591F24170D98"
+          },
+          {
+            "cohort_id": "COH-5EA7ADDCC0B2",
+            "package_id": "PKG-9E206686D215"
+          },
+          {
+            "cohort_id": "COH-B7B6F973A161",
+            "package_id": "PKG-AF2DE12A35CE"
+          },
+          {
+            "cohort_id": "COH-255F7CAF28E6",
+            "package_id": "PKG-0A5033FE4F78"
+          },
+          {
+            "cohort_id": "COH-AD1366770B89",
+            "package_id": "PKG-15C43B57D070"
+          },
+          {
+            "cohort_id": "COH-54D946E7CCE6",
+            "package_id": "PKG-66EB1CBE9E8B"
+          },
+          {
+            "cohort_id": "COH-436A6A80E876",
+            "package_id": "PKG-D360883190C2"
+          },
+          {
+            "cohort_id": "COH-8F0BF4A93006",
+            "package_id": "PKG-D5494A609831"
+          },
+          {
+            "cohort_id": "COH-33E7776E3FD6",
+            "package_id": "PKG-44247B104FFB"
+          },
+          {
+            "cohort_id": "COH-87E5BD7A00AF",
+            "package_id": "PKG-A7FEE7D4D464"
+          },
+          {
+            "cohort_id": "COH-AC0F28E6B2E8",
+            "package_id": "PKG-1A98AF6F442C"
+          },
+          {
+            "cohort_id": "COH-1CD08B23C4CA",
+            "package_id": "PKG-C2FCF9C69C92"
+          },
+          {
+            "cohort_id": "COH-E10F5B2C53F9",
+            "package_id": "PKG-090EE8402A8A"
+          },
+          {
+            "cohort_id": "COH-FA2FAA64E4C2",
+            "package_id": "PKG-885D88190C2B"
+          },
+          {
+            "cohort_id": "COH-47910EC43928",
+            "package_id": "PKG-CA5AF4878267"
+          },
+          {
+            "cohort_id": "COH-C27E85BC80CF",
+            "package_id": "PKG-91333CD023CC"
+          },
+          {
+            "cohort_id": "COH-CDB4406A843B",
+            "package_id": "PKG-CCC98CB59C10"
+          },
+          {
+            "cohort_id": "COH-428E78C606DD",
+            "package_id": "PKG-77C1C44C2142"
+          },
+          {
+            "cohort_id": "COH-5E30447B8BF8",
+            "package_id": "PKG-497E65C08FEC"
+          },
+          {
+            "cohort_id": "COH-7476F2AC2678",
+            "package_id": "PKG-D7E315DBA6DC"
+          },
+          {
+            "cohort_id": "COH-316F7D0343F1",
+            "package_id": "PKG-224DF48FCDB9"
+          },
+          {
+            "cohort_id": "COH-D4CBFA8BB2CC",
+            "package_id": "PKG-BC91E1B394AE"
+          },
+          {
+            "cohort_id": "COH-7ACCCACC8547",
+            "package_id": "PKG-DF6CB20F0515"
+          },
+          {
+            "cohort_id": "COH-A6327845B782",
+            "package_id": "PKG-5D525F2C375A"
+          },
+          {
+            "cohort_id": "COH-E4D9F1B92B52",
+            "package_id": "PKG-2D6480A76480"
+          },
+          {
+            "cohort_id": "COH-35FC8C6FE145",
+            "package_id": "PKG-2DF51214516E"
+          },
+          {
+            "cohort_id": "COH-D86BA7B43445",
+            "package_id": "PKG-5E3DBA47A7AA"
+          },
+          {
+            "cohort_id": "COH-4329DE763D1A",
+            "package_id": "PKG-8BE25663D588"
+          },
+          {
+            "cohort_id": "COH-29D81511FA84",
+            "package_id": "PKG-1194E0B3E5E9"
+          },
+          {
+            "cohort_id": "COH-528BCBA39B03",
+            "package_id": "PKG-E9B3EB119FF2"
+          },
+          {
+            "cohort_id": "COH-C5AB6534CAA7",
+            "package_id": "PKG-5C5ABEB189D9"
+          },
+          {
+            "cohort_id": "COH-D4FCEFE08D26",
+            "package_id": "PKG-F5A0588E4DF0"
+          },
+          {
+            "cohort_id": "COH-30A782634EF6",
+            "package_id": "PKG-D75D21B5B9C5"
+          },
+          {
+            "cohort_id": "COH-E18E60924B54",
+            "package_id": "PKG-4B7BFDE26270"
+          },
+          {
+            "cohort_id": "COH-B6D772F5D2ED",
+            "package_id": "PKG-8F9E16FD105B"
+          },
+          {
+            "cohort_id": "COH-C1AD4B677E24",
+            "package_id": "PKG-6FC5962570C6"
+          },
+          {
+            "cohort_id": "COH-C0CBC8C37061",
+            "package_id": "PKG-D7819DE32BDC"
+          },
+          {
+            "cohort_id": "COH-66FB0BCF9E6D",
+            "package_id": "PKG-721D7D8107C7"
+          },
+          {
+            "cohort_id": "COH-AEB30551FEED",
+            "package_id": "PKG-A49D60A53E62"
+          },
+          {
+            "cohort_id": "COH-AC411F173CEF",
+            "package_id": "PKG-F91574464F83"
+          },
+          {
+            "cohort_id": "COH-887BEB098137",
+            "package_id": "PKG-8B8E382A0F1E"
+          },
+          {
+            "cohort_id": "COH-9046958E91DA",
+            "package_id": "PKG-2EE7275BE325"
+          },
+          {
+            "cohort_id": "COH-6240E55D13B7",
+            "package_id": "PKG-AC387907F8E6"
+          },
+          {
+            "cohort_id": "COH-AD2639C64DB8",
+            "package_id": "PKG-C3263F3D288B"
+          },
+          {
+            "cohort_id": "COH-0034DE5576FF",
+            "package_id": "PKG-C04B2DF02DD8"
+          },
+          {
+            "cohort_id": "COH-3DC3811D8EFC",
+            "package_id": "PKG-C01FD22FB274"
+          },
+          {
+            "cohort_id": "COH-F434A2853B80",
+            "package_id": "PKG-1690160932DF"
+          },
+          {
+            "cohort_id": "COH-1E39F0CBA3A4",
+            "package_id": "PKG-F3475188AEA2"
+          },
+          {
+            "cohort_id": "COH-5C07963DDC7F",
+            "package_id": "PKG-51FE958FF251"
+          },
+          {
+            "cohort_id": "COH-609F2223F69B",
+            "package_id": "PKG-F4B07A8A41E7"
+          },
+          {
+            "cohort_id": "COH-40A7A9533758",
+            "package_id": "PKG-BC8A8A775E02"
+          },
+          {
+            "cohort_id": "COH-655561BC4A39",
+            "package_id": "PKG-09EFEB62E26A"
+          },
+          {
+            "cohort_id": "COH-C878AB769444",
+            "package_id": "PKG-CABA2DAFD3D7"
+          },
+          {
+            "cohort_id": "COH-116682B4F881",
+            "package_id": "PKG-82A2F6EAB65D"
+          },
+          {
+            "cohort_id": "COH-A2871954AD3F",
+            "package_id": "PKG-F2381492169B"
+          },
+          {
+            "cohort_id": "COH-8A7E9B9932C9",
+            "package_id": "PKG-3F41DA8058A3"
+          },
+          {
+            "cohort_id": "COH-CF52BD310B1B",
+            "package_id": "PKG-74E9D4897DB0"
+          },
+          {
+            "cohort_id": "COH-2E190385ADF9",
+            "package_id": "PKG-3B016018ABC4"
+          },
+          {
+            "cohort_id": "COH-40939906577E",
+            "package_id": "PKG-03BC3016F7FB"
+          },
+          {
+            "cohort_id": "COH-AAA39ADE0DC6",
+            "package_id": "PKG-DCD45D87B713"
+          },
+          {
+            "cohort_id": "COH-9EA72EF24625",
+            "package_id": "PKG-819BA73A1997"
+          },
+          {
+            "cohort_id": "COH-27ADDF63E498",
+            "package_id": "PKG-2066097062F3"
+          },
+          {
+            "cohort_id": "COH-E3D4D0A5885B",
+            "package_id": "PKG-DB6906DAF75E"
+          },
+          {
+            "cohort_id": "COH-5AABD0CB707A",
+            "package_id": "PKG-C24BBECD0670"
+          },
+          {
+            "cohort_id": "COH-6E264819AB98",
+            "package_id": "PKG-4FC3F1470A1D"
+          },
+          {
+            "cohort_id": "COH-419A888ED021",
+            "package_id": "PKG-A9677DE07F57"
+          },
+          {
+            "cohort_id": "COH-0AA9EF0B143E",
+            "package_id": "PKG-7C13AD4AD548"
+          },
+          {
+            "cohort_id": "COH-CE3701052567",
+            "package_id": "PKG-79CB9FAB45E2"
+          },
+          {
+            "cohort_id": "COH-CFE6B48BCC0B",
+            "package_id": "PKG-35360CD7A32F"
+          },
+          {
+            "cohort_id": "COH-E5B26815EC62",
+            "package_id": "PKG-79C7AFEB9710"
+          },
+          {
+            "cohort_id": "COH-A26A6B1643F1",
+            "package_id": "PKG-6EAFE552EC4A"
+          },
+          {
+            "cohort_id": "COH-694CC1734BA3",
+            "package_id": "PKG-94B64549B832"
+          },
+          {
+            "cohort_id": "COH-24F6F135E17B",
+            "package_id": "PKG-ECFE1DFB1DBA"
+          },
+          {
+            "cohort_id": "COH-79A7FDD2FA76",
+            "package_id": "PKG-47695F14D559"
+          },
+          {
+            "cohort_id": "COH-7E231D611D45",
+            "package_id": "PKG-7EC5DF45F1CE"
+          },
+          {
+            "cohort_id": "COH-DF9F036B25A6",
+            "package_id": "PKG-F37B28890114"
+          },
+          {
+            "cohort_id": "COH-3074D0BFF692",
+            "package_id": "PKG-41A7FF9A6D1C"
+          },
+          {
+            "cohort_id": "COH-0ED9BAAA74B8",
+            "package_id": "PKG-D4148872678A"
+          },
+          {
+            "cohort_id": "COH-9CD20ECD4997",
+            "package_id": "PKG-C8BB12F33EEE"
+          },
+          {
+            "cohort_id": "COH-F73D3D682C25",
+            "package_id": "PKG-BDEF4120DFF5"
+          },
+          {
+            "cohort_id": "COH-A8D5A0084A30",
+            "package_id": "PKG-3C9FE92CD078"
+          }
+        ]
+      },
+      "group_order": [
+        "GRP-C724D0593442",
+        "GRP-D125457EE9D0",
+        "GRP-720648544988",
+        "GRP-4AB77C785D6A",
+        "GRP-49352CE12521",
+        "GRP-10498C20C207",
+        "GRP-2ACBD7B2D0CD",
+        "GRP-BAB24C5B11F9",
+        "GRP-0BC01FC2E0FC",
+        "GRP-8A71F9578E06",
+        "GRP-6BD78A56EA05",
+        "GRP-420BE2BF1E57",
+        "GRP-C7F9AE9B3711",
+        "GRP-3392E26A0BEB",
+        "GRP-86E72209A7C6",
+        "GRP-4366FCA00F4A",
+        "GRP-FF675824ADE4",
+        "GRP-EA1535DC7302",
+        "GRP-9C9CA02C6A71",
+        "GRP-4B2BEE781227",
+        "GRP-ECC7D50D547A",
+        "GRP-B377EB24FFA0",
+        "GRP-65C9ED05EACD",
+        "GRP-DC8D7F600665",
+        "GRP-BEFEECA1ADCA",
+        "GRP-91B5F01C73A7",
+        "GRP-58E56109ADB7",
+        "GRP-07F8B90D3DBA",
+        "GRP-ED5BA2B0DFB5",
+        "GRP-F0D4A7BBDE35",
+        "GRP-DCD971A19345",
+        "GRP-B0596D76CBFC",
+        "GRP-29042C9D8987",
+        "GRP-4972F43ECA6C",
+        "GRP-9818DE11B8BC",
+        "GRP-E3CA6789DB9C",
+        "GRP-589F06A02BC4",
+        "GRP-6B05384D1FFB",
+        "GRP-E24296027B4F",
+        "GRP-637BADF861FC",
+        "GRP-D802A7C4B25A",
+        "GRP-0A979481E8B7",
+        "GRP-BF38D43456A9",
+        "GRP-078D2FA8205E",
+        "GRP-86203F5894F8",
+        "GRP-1A8A41D9E97C",
+        "GRP-004BBFD62E0A",
+        "GRP-A4ABAA913469",
+        "GRP-4AAE7EFEB4BF",
+        "GRP-D2D968D85340",
+        "GRP-D4AD7594760D",
+        "GRP-329ECBCB2E5D",
+        "GRP-2A1B3442E937",
+        "GRP-F551DE6FE916",
+        "GRP-282D873C06D7",
+        "GRP-A239F4AFB5D5",
+        "GRP-21802A2056A9",
+        "GRP-38411A253E1D",
+        "GRP-A58AFBF578A5",
+        "GRP-316B09642463",
+        "GRP-6D732DF0E0EB",
+        "GRP-D04940084F21",
+        "GRP-D15B13838DA4",
+        "GRP-AC6F3B04C97C",
+        "GRP-64A5EF90177F",
+        "GRP-B3F4D8F5C4B3",
+        "GRP-942E1AE2DD97",
+        "GRP-2DC2A548DDA9",
+        "GRP-4E0465E1877E",
+        "GRP-456E9E66D663",
+        "GRP-B93A494CDA62",
+        "GRP-C0FBCBF9A766",
+        "GRP-1F5F202EAD59",
+        "GRP-2D3D3423DDF6",
+        "GRP-5F5F382ACE78",
+        "GRP-DA0883F6E360",
+        "GRP-0E0E81336928",
+        "GRP-E551BC72533F",
+        "GRP-08972BC8354E",
+        "GRP-A4C97AE7C57B",
+        "GRP-6EEA593B2AD6",
+        "GRP-7E3F38F455B2",
+        "GRP-912E10C61002",
+        "GRP-4EDEB8157174",
+        "GRP-8E0A2C20248A",
+        "GRP-803DCCDA812C",
+        "GRP-870987BCEDCA",
+        "GRP-70C87D7E10EC",
+        "GRP-4D382B99502B",
+        "GRP-6A7B3EDC74EF",
+        "GRP-EADF47FD3DC8",
+        "GRP-43A5E9963D6F",
+        "GRP-9BFB8BA12D3E",
+        "GRP-5B0592B4F6B3",
+        "GRP-5E228C5FC118",
+        "GRP-D836DFBFA7D6",
+        "GRP-7F76C5BA7261",
+        "GRP-93422AB6DE56",
+        "GRP-D18EDE3AF9FA",
+        "GRP-DFEFF15E2520",
+        "GRP-7FC8D27541B2",
+        "GRP-FE0E4E366DF4",
+        "GRP-FC8C6D1757D3",
+        "GRP-BA6A94607D9A",
+        "GRP-252305C1AA1E",
+        "GRP-49546B030886",
+        "GRP-6D752F06B2FE",
+        "GRP-A5FEEB59C2A4",
+        "GRP-5559C529EA73",
+        "GRP-52548955CD48",
+        "GRP-87B4ED150DD4",
+        "GRP-30260D433655",
+        "GRP-E5AE7BB141C7",
+        "GRP-54996D58942E",
+        "GRP-0596028F8A02",
+        "GRP-2C15B493DCDC",
+        "GRP-689000EE1D55",
+        "GRP-B7AC97181DAA",
+        "GRP-A45A06187926",
+        "GRP-4A5C3AAE2AD4",
+        "GRP-53E64BFE5809",
+        "GRP-E2FA91865D46",
+        "GRP-BC6A3855CA1F",
+        "GRP-DDC90265F54B",
+        "GRP-7F9A7F021522",
+        "GRP-FC3DD1ECA0D9",
+        "GRP-356D985B3D7F",
+        "GRP-09C683A77C61"
+      ],
+      "objective_offset": 643592706840,
+      "package_count_range": [
+        2,
+        4
+      ],
+      "support_policy": [
+        {
+          "domain_id": "DOM-4A10B9A18556",
+          "fixed_charge": 66395346651
+        },
+        {
+          "domain_id": "DOM-8226ED297F87",
+          "fixed_charge": 77221899747
+        },
+        {
+          "domain_id": "DOM-7F3BA05FB70F",
+          "fixed_charge": 71850260844
+        },
+        {
+          "domain_id": "DOM-DDFCECFAB13A",
+          "fixed_charge": 79541295867
+        },
+        {
+          "domain_id": "DOM-912908908876",
+          "fixed_charge": 82946573964
+        },
+        {
+          "domain_id": "DOM-316C666D374E",
+          "fixed_charge": 53446403286
+        },
+        {
+          "domain_id": "DOM-6BD60A69CD59",
+          "fixed_charge": 80348230503
+        },
+        {
+          "domain_id": "DOM-813FBB34D0D6",
+          "fixed_charge": 86501084787
+        },
+        {
+          "domain_id": "DOM-600AEB884F69",
+          "fixed_charge": 57014541441
+        },
+        {
+          "domain_id": "DOM-CE1C9EF4E184",
+          "fixed_charge": 67571986023
+        },
+        {
+          "domain_id": "DOM-89EA45F1137F",
+          "fixed_charge": 81256033251
+        },
+        {
+          "domain_id": "DOM-CC157A7E33DD",
+          "fixed_charge": 63747415584
+        },
+        {
+          "domain_id": "DOM-83AA1F077357",
+          "fixed_charge": 75246081273
+        },
+        {
+          "domain_id": "DOM-4E59777954C2",
+          "fixed_charge": 77668967448
+        }
+      ]
+    },
+    "support_domain_count": 14
+  },
+  "rung_index": 2,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 0
+}

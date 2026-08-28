@@ -1,0 +1,30 @@
+{
+  "name": "algoworlds-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.8.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check && node --test tests/*.test.mjs",
+    "build": "astro build",
+    "validate:html": "html-validate \"dist/**/*.html\"",
+    "preview": "astro preview",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test:all": "npm run check && npm run build && npm run validate:html && npm run test:e2e"
+  },
+  "dependencies": {
+    "astro": "7.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@axe-core/playwright": "4.12.1",
+    "@playwright/test": "1.62.1",
+    "@types/node": "24.10.13",
+    "html-validate": "11.10.0",
+    "typescript": "5.9.3"
+  }
+}

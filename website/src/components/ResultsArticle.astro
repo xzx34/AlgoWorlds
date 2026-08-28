@@ -1,0 +1,121 @@
+---
+import type { SiteCopy } from "../content/copy";
+import { modelProviders, results } from "../data/site";
+
+interface Props {
+  copy: SiteCopy["results"];
+}
+
+const { copy } = Astro.props;
+const number = new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const diagnostic = results.informationSufficiencyDiagnostic;
+const metrics = ["exact", "feasible", "referenceUtility", "informationSufficiency", "discoveryCoverage"] as const;
+const rankedModels = [...results.models].sort(
+  (left, right) => right.exact.mean - left.exact.mean || left.name.localeCompare(right.name),
+);
+const best = Object.fromEntries(
+  metrics.map((metric) => [metric, Math.max(...results.models.map((model) => model[metric].mean))]),
+);
+const share = (count: number) => Number(((count / diagnostic.total) * 100).toFixed(1));
+const outcomes = [
+  { key: "exact", label: copy.optimalOutcome, count: diagnostic.exact },
+  {
+    key: "suboptimal",
+    label: copy.feasibleSuboptimal,
+    count: diagnostic.feasibleSuboptimal,
+  },
+  { key: "infeasible", label: copy.infeasible, count: diagnostic.infeasible },
+  {
+    key: "no-submission",
+    label: copy.noDecisionOrProtocol,
+    count: diagnostic.noSubmission + diagnostic.protocolOutcome,
+  },
+]
+  .filter((outcome) => outcome.count > 0)
+  .map((outcome) => ({ ...outcome, percent: share(outcome.count) }));
+const outcomeSummary = outcomes
+  .map((outcome) => `${outcome.label}: ${outcome.percent}%`)
+  .join("; ");
+---
+
+<section id="results" class="article-section page-shell" aria-labelledby="results-title">
+  <div class="section-lead reading-column" data-reveal>
+    <h2 id="results-title">{copy.heading}</h2>
+    <div class="prose results-prose">
+      {copy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+  </div>
+
+  <section class="pooled-diagnostic content-module" aria-labelledby="diagnostic-title" data-reveal>
+    <div class="diagnostic-head">
+      <div>
+        <h3 id="diagnostic-title">{copy.diagnosticHeading}</h3>
+        <p>{copy.diagnosticText}</p>
+      </div>
+    </div>
+
+    <div class="outcome-bar" role="img" aria-label={`Outcome distribution. ${outcomeSummary}`}>
+      {outcomes.map((outcome) => (
+        <span
+          class={`outcome-segment ${outcome.key}`}
+          style={`--count: ${outcome.count}`}
+          title={`${outcome.label}: ${outcome.percent}%`}
+        ></span>
+      ))}
+    </div>
+    <dl class="outcome-legend">
+      {outcomes.map((outcome) => (
+        <div class={outcome.key}>
+          <dt><span aria-hidden="true"></span>{outcome.label}</dt>
+          <dd>{outcome.percent}%</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+
+  <section class="content-module" aria-labelledby="leaderboard-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="leaderboard-title">{copy.leaderboardHeading}</h3>
+      <p>{copy.leaderboardIntro}</p>
+    </div>
+    <section class="table-region" tabindex="0" aria-label={`${copy.leaderboardHeading} table`}>
+      <table class="leaderboard-table">
+        <thead>
+          <tr class="leaderboard-groups">
+            <th scope="col" rowspan="2">{copy.model}</th>
+            <th scope="colgroup" colspan="3">{copy.finalDecisionGroup}</th>
+            <th scope="colgroup" colspan="2">{copy.trajectoryGroup}</th>
+          </tr>
+          <tr class="leaderboard-metrics">
+            <th scope="col" aria-sort="descending">{copy.exact}</th>
+            <th scope="col">{copy.feasible}</th>
+            <th scope="col">{copy.utility}</th>
+            <th scope="col">{copy.sufficiency}</th>
+            <th scope="col">{copy.discovery}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rankedModels.map((model) => (
+            <tr>
+              <th scope="row">
+                <span class="model-name">
+                  <span class="provider-badge">
+                    {modelProviders[model.id]}
+                  </span>
+                  <span>{model.name}</span>
+                </span>
+              </th>
+              {metrics.map((metric) => (
+                <td>
+                  <strong class={model[metric].mean === best[metric] ? "best" : undefined}>{number.format(model[metric].mean)}</strong>
+                  <small> ± {number.format(model[metric].sd)}</small>
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+    <p class="table-note reading-column">{copy.errorNote}</p>
+  </section>
+</section>

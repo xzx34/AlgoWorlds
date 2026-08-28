@@ -1,0 +1,93 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algoworlds"
+version = "0.1.0"
+description = "A benchmark for turning tool-acquired information into globally optimal decisions"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.11,<3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE", "DATA_LICENSE"]
+keywords = [
+  "agents",
+  "benchmark",
+  "language-models",
+  "planning",
+  "tool-use",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "openai>=1.66,<3",
+]
+
+[project.optional-dependencies]
+anthropic = [
+  "anthropic>=0.109,<1",
+]
+dev = [
+  "build>=1.2,<2",
+  "pip-audit>=2.9,<3",
+  "pytest>=9.0.3,<10",
+  "pytest-mock>=3.12,<4",
+]
+
+[project.scripts]
+algoworlds = "algoworlds.cli:main"
+
+[project.urls]
+Homepage = "https://xzx34.github.io/AlgoWorlds/"
+Repository = "https://github.com/xzx34/AlgoWorlds"
+Paper = "https://arxiv.org/search/?query=AlgoWorlds&searchtype=title"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+  "algoworlds*",
+  "benchmark*",
+]
+exclude = [
+  "tests*",
+  "review-response*",
+  "phase0_sourcing*",
+]
+
+[tool.setuptools.package-data]
+"*" = [
+  "*.json",
+  "*.md",
+  "*.txt",
+  "instances/arm_0/*.json",
+  "instances/arm_1/*.json",
+  "instances/certificates/*.json",
+  "prompts/*.md",
+  "prompts/*.txt",
+]
+
+[tool.setuptools.data-files]
+"share/algoworlds/examples" = [
+  "examples/anthropic-messages.json",
+  "examples/openai-compatible.json",
+  "examples/openai-responses.json",
+]
+"share/doc/algoworlds" = [
+  "README.md",
+  "docs/OPEN_SOURCE_QUICKSTART.md",
+  "CONTRIBUTING.md",
+  "DATA_LICENSE",
+  "NOTICE",
+  "SECURITY.md",
+]

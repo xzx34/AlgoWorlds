@@ -1,0 +1,12 @@
+Match all <participant_count> participants exactly once while minimizing unary
+pair costs plus directed handoff costs between consecutive selected rights in
+the published left order. The compatibility graph has
+<participants_per_side> participants per side, <pair_catalog_size> feasible
+pair records, and <handoff_catalog_size> directed handoff records.
+
+Participant handles:
+
+<participant_handles_text>
+
+Acquire topology, pair costs, and the handoff policy, then call
+`submit_matching` exactly once with the complete pair-id list.

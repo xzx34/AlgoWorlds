@@ -1,0 +1,147 @@
+---
+import type { SiteCopy } from "../content/copy";
+import { results, taskDefinitions } from "../data/site";
+import Icon, { type IconName } from "./Icon.astro";
+
+interface Props {
+  copy: SiteCopy["benchmark"];
+}
+
+const { copy } = Astro.props;
+const taskData = new Map(results.tasks.map((task) => [task.taskFamilyId, task]));
+const flowIcons: IconName[] = ["instance", "verification", "interfaces"];
+---
+
+<section id="benchmark" class="article-section page-shell" aria-labelledby="benchmark-title">
+  <div class="section-lead reading-column" data-reveal>
+    <h2 id="benchmark-title">{copy.heading}</h2>
+    <div class="prose">
+      {copy.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+  </div>
+
+  <section class="content-module" aria-labelledby="statistics-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="statistics-title">{copy.statsHeading}</h3>
+    </div>
+    <dl class="fact-grid">
+      {copy.facts.map((fact) => (
+        <div class="fact-item">
+          <dt>{fact.label}</dt>
+          <dd>{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+
+  <section class="content-module validation-module" aria-labelledby="validation-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="validation-title">{copy.validationHeading}</h3>
+      <p>{copy.validationIntro}</p>
+    </div>
+    <dl class="validation-grid">
+      {copy.validationFacts.map((fact) => (
+        <div>
+          <dt>{fact.label}</dt>
+          <dd>{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
+  </section>
+
+  <section class="content-module benchmark-flow" aria-labelledby="flow-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="flow-title">{copy.flowHeading}</h3>
+      <p>{copy.flowIntro}</p>
+    </div>
+    <ol class="flow-list">
+      {copy.flowStages.map((stage, index) => (
+        <li>
+          <div class="flow-marker">
+            <Icon name={flowIcons[index]} />
+            <span>{String(index + 1).padStart(2, "0")}</span>
+          </div>
+          <h4>{stage.title}</h4>
+          <p>{stage.body}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="content-module" aria-labelledby="families-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="families-title">{copy.familiesHeading}</h3>
+      <p>{copy.familiesIntro}</p>
+    </div>
+    <section class="table-region" tabindex="0" aria-label={`${copy.familiesHeading} table`}>
+      <table class="families-table">
+        <thead>
+          <tr>
+            <th scope="col">{copy.task}</th>
+            <th scope="col">{copy.decision}</th>
+            <th scope="col">{copy.instanceData}</th>
+            <th scope="col">{copy.method}</th>
+            <th scope="col">{copy.tools}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {taskDefinitions.map((definition) => {
+            const data = taskData.get(definition.taskFamilyId);
+            if (!data) throw new Error(`Missing task data for ${definition.taskFamilyId}`);
+            return (
+              <tr>
+                <th scope="row">{definition.name}</th>
+                <td>{definition.decision}</td>
+                <td>{definition.instanceData}</td>
+                <td>{definition.method}</td>
+                <td class="numeric">{data.queryTools}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </section>
+  </section>
+
+  <section class="content-module" aria-labelledby="competencies-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="competencies-title">{copy.competenciesHeading}</h3>
+      <p>{copy.competenciesLead}</p>
+    </div>
+    <ol class="competency-list">
+      {copy.competencies.map((item, index) => (
+        <li>
+          <span>{String(index + 1).padStart(2, "0")}</span>
+          <p><strong>{item.title}</strong>{item.body}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="content-module" aria-labelledby="evaluation-title" data-reveal>
+    <div class="module-heading reading-column">
+      <h3 id="evaluation-title">{copy.evaluationHeading}</h3>
+      <p>{copy.evaluationBody}</p>
+    </div>
+    <section class="table-region" tabindex="0" aria-label={`${copy.evaluationHeading} table`}>
+      <table class="metrics-table">
+        <thead>
+          <tr>
+            <th scope="col">{copy.layer}</th>
+            <th scope="col">{copy.measures}</th>
+            <th scope="col">{copy.diagnosticQuestion}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {copy.metricLayers.map((item) => (
+            <tr>
+              <th scope="row">{item.layer}</th>
+              <td>{item.measures}</td>
+              <td>{item.question}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  </section>
+</section>

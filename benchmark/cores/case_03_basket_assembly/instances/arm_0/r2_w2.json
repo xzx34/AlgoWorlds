@@ -1,0 +1,990 @@
+{
+  "arm_index": 0,
+  "case_id": "case_03_basket_assembly",
+  "member_key": "case_03_basket_assembly/rung-2/world-2/arm-0",
+  "payload": {
+    "catalog_size": 91,
+    "cost_budget": 539,
+    "cost_vector": {
+      "evaluate_basket": 16,
+      "read_bundle": 3,
+      "read_catalog_window": 8,
+      "read_item_index": 1,
+      "read_requirements": 2
+    },
+    "group_count": 8,
+    "item_count": 24,
+    "source_documents": {
+      "catalog": {
+        "bundles": [
+          {
+            "bundle_id": "BSK-255BE021CF5C",
+            "price": 20211,
+            "quantities": {
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-9570C258E3EF",
+            "price": 1563,
+            "quantities": {
+              "ITM-6236D2006E54": 1,
+              "ITM-9F448FAC9288": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-84379C585486",
+            "price": 4734,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-3E21B440561D": 1,
+              "ITM-DDDB0906C67E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CB38C86A982A",
+            "price": 20219,
+            "quantities": {
+              "ITM-783E282D313C": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BC79358D8730",
+            "price": 20209,
+            "quantities": {
+              "ITM-69E01434C86B": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-2E14E4E9A0BF",
+            "price": 1562,
+            "quantities": {
+              "ITM-4B038F790632": 1,
+              "ITM-6236D2006E54": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-A16A51096E81",
+            "price": 1556,
+            "quantities": {
+              "ITM-5B8828EF03B4": 1,
+              "ITM-CB2DBAA1F2AC": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-25B01CE735CD",
+            "price": 20199,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-15388B09BCDA",
+            "price": 1567,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-9F448FAC9288": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-77D337C2ACDD",
+            "price": 20215,
+            "quantities": {
+              "ITM-4B038F790632": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-5B40B542FD4B",
+            "price": 20186,
+            "quantities": {
+              "ITM-96CF75F2B294": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-F958344960DF",
+            "price": 1619,
+            "quantities": {
+              "ITM-C07C374CE39E": 1,
+              "ITM-CB2DBAA1F2AC": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E1BF08E8D660",
+            "price": 29,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-B12EC4E77162": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-734A429777D5",
+            "price": 21793,
+            "quantities": {
+              "ITM-3E21B440561D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E37ABCC16AFB",
+            "price": 3138,
+            "quantities": {
+              "ITM-C07C374CE39E": 1,
+              "ITM-C9DC9C2E571D": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-FD9657FBC81E",
+            "price": 1561,
+            "quantities": {
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-6236D2006E54": 1,
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-9B2CE368DA25",
+            "price": 20200,
+            "quantities": {
+              "ITM-B12EC4E77162": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-FAFAC9983953",
+            "price": 30,
+            "quantities": {
+              "ITM-6236D2006E54": 1,
+              "ITM-69E01434C86B": 1,
+              "ITM-C9DC9C2E571D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BD94E0D255D7",
+            "price": 20207,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-1D7B29D8DC56",
+            "price": 4727,
+            "quantities": {
+              "ITM-3E21B440561D": 1,
+              "ITM-C07C374CE39E": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-003437353AF5",
+            "price": 1545,
+            "quantities": {
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-6236D2006E54": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-25BB12850B26",
+            "price": 58,
+            "quantities": {
+              "ITM-783E282D313C": 1,
+              "ITM-879435EEED80": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-F91735F380ED",
+            "price": 1555,
+            "quantities": {
+              "ITM-879435EEED80": 1,
+              "ITM-9F448FAC9288": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-AEF32D1F4F54",
+            "price": 1545,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-879435EEED80": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-3DC11B0FA1A8",
+            "price": 1560,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-4B2563AFC66C",
+            "price": 3152,
+            "quantities": {
+              "ITM-783E282D313C": 1,
+              "ITM-C07C374CE39E": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-16CD5BE08E6C",
+            "price": 3150,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-4B038F790632": 1,
+              "ITM-DDDB0906C67E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CEDFBE9B98D0",
+            "price": 3155,
+            "quantities": {
+              "ITM-4B038F790632": 1,
+              "ITM-5B8828EF03B4": 1,
+              "ITM-DDDB0906C67E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E9F036CC2BF9",
+            "price": 5,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-96CF75F2B294": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-732E4F7E44C8",
+            "price": 1554,
+            "quantities": {
+              "ITM-9E8694ABDA6C": 1,
+              "ITM-9F448FAC9288": 1,
+              "ITM-B12EC4E77162": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-56F289711B1B",
+            "price": 1552,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-4B038F790632": 1,
+              "ITM-879435EEED80": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BD9F7A91F44E",
+            "price": 1571,
+            "quantities": {
+              "ITM-5B8828EF03B4": 1,
+              "ITM-9F448FAC9288": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-3D9C865C6E73",
+            "price": 35,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CE2D06D84102",
+            "price": 3130,
+            "quantities": {
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-3E21B440561D": 1,
+              "ITM-B12EC4E77162": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-6933077C013B",
+            "price": 1575,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-783E282D313C": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-EFE0A848FF09",
+            "price": 20206,
+            "quantities": {
+              "ITM-5B8828EF03B4": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CD3880DCF728",
+            "price": 3134,
+            "quantities": {
+              "ITM-96CF75F2B294": 1,
+              "ITM-DDDB0906C67E": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BD9F1A667389",
+            "price": 1545,
+            "quantities": {
+              "ITM-69E01434C86B": 1,
+              "ITM-96CF75F2B294": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BB5D87D5BD27",
+            "price": 20200,
+            "quantities": {
+              "ITM-6236D2006E54": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-21EE2DD0AA32",
+            "price": 1545,
+            "quantities": {
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-4B038F790632": 1,
+              "ITM-B12EC4E77162": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-599BF1B453D6",
+            "price": 1555,
+            "quantities": {
+              "ITM-5B8828EF03B4": 1,
+              "ITM-C9DC9C2E571D": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-9C77C2CB63F0",
+            "price": 20207,
+            "quantities": {
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CAFB89D01A3F",
+            "price": 20,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-4B038F790632": 1,
+              "ITM-96CF75F2B294": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-308FC02F447C",
+            "price": 20203,
+            "quantities": {
+              "ITM-2720FFDC8413": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E5F753858BC4",
+            "price": 1566,
+            "quantities": {
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-69E01434C86B": 1,
+              "ITM-879435EEED80": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E651DC540127",
+            "price": 1537,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-2720FFDC8413": 1,
+              "ITM-C9DC9C2E571D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-3D416DB5541C",
+            "price": 1557,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-5B8828EF03B4": 1,
+              "ITM-69E01434C86B": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-3325DBA582DB",
+            "price": 3137,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-3E21B440561D": 1,
+              "ITM-879435EEED80": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-D8D03655F8FD",
+            "price": 6,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-96CF75F2B294": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-484569C7B62E",
+            "price": 3134,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-9F448FAC9288": 1,
+              "ITM-C07C374CE39E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-0BD61403458C",
+            "price": 1560,
+            "quantities": {
+              "ITM-879435EEED80": 1,
+              "ITM-B57F3EB595EF": 1,
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-89D671D95FAD",
+            "price": 1537,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-96CF75F2B294": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-6D0432788221",
+            "price": 3141,
+            "quantities": {
+              "ITM-3E21B440561D": 1,
+              "ITM-96CF75F2B294": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-37FAF0400853",
+            "price": 1542,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-5B8828EF03B4": 1,
+              "ITM-C9DC9C2E571D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CB66D3331CC8",
+            "price": 20195,
+            "quantities": {
+              "ITM-9A29F5131F0A": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-090D00C0F5A2",
+            "price": 20218,
+            "quantities": {
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-9CEB77134B51",
+            "price": 3159,
+            "quantities": {
+              "ITM-4B038F790632": 1,
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-C07C374CE39E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-2CD79E97BBC5",
+            "price": 3143,
+            "quantities": {
+              "ITM-9A29F5131F0A": 1,
+              "ITM-DDDB0906C67E": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-6E432261FB8B",
+            "price": 1567,
+            "quantities": {
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-69E01434C86B": 1,
+              "ITM-B12EC4E77162": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BDD79112C5E4",
+            "price": 3126,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-3E21B440561D": 1,
+              "ITM-9A29F5131F0A": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-8E969E64F0F1",
+            "price": 20205,
+            "quantities": {
+              "ITM-879435EEED80": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-F4B44FF11C12",
+            "price": 1542,
+            "quantities": {
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-783E282D313C": 1,
+              "ITM-96CF75F2B294": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E52DC0347E87",
+            "price": 1538,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-9A29F5131F0A": 1,
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-EA1D2DD3E6FF",
+            "price": 3144,
+            "quantities": {
+              "ITM-3E21B440561D": 1,
+              "ITM-6236D2006E54": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-99AACEA20F2D",
+            "price": 20203,
+            "quantities": {
+              "ITM-C9DC9C2E571D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-AE92C6347936",
+            "price": 33,
+            "quantities": {
+              "ITM-9A29F5131F0A": 1,
+              "ITM-9E8694ABDA6C": 1,
+              "ITM-9F448FAC9288": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E7AA8956B455",
+            "price": 20220,
+            "quantities": {
+              "ITM-9E8694ABDA6C": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-D4F1FEF9C131",
+            "price": 1554,
+            "quantities": {
+              "ITM-69E01434C86B": 1,
+              "ITM-9A29F5131F0A": 1,
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-3ADAA93B2B15",
+            "price": 3222,
+            "quantities": {
+              "ITM-3E21B440561D": 1,
+              "ITM-5B8828EF03B4": 1,
+              "ITM-DDDB0906C67E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-82F88EBE2FFB",
+            "price": 20205,
+            "quantities": {
+              "ITM-3ABFB48D61F4": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-3025636553C0",
+            "price": 1565,
+            "quantities": {
+              "ITM-783E282D313C": 1,
+              "ITM-B12EC4E77162": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-DBA46DDEAB80",
+            "price": 1572,
+            "quantities": {
+              "ITM-783E282D313C": 1,
+              "ITM-9A29F5131F0A": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-C2E9D0F9EF72",
+            "price": 20208,
+            "quantities": {
+              "ITM-9F448FAC9288": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-C561CB68A907",
+            "price": 3133,
+            "quantities": {
+              "ITM-69E01434C86B": 1,
+              "ITM-C07C374CE39E": 1,
+              "ITM-C9DC9C2E571D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-86F0BA7D3C0A",
+            "price": 20216,
+            "quantities": {
+              "ITM-ED26459B1E17": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-16EBA1F2E803",
+            "price": 1549,
+            "quantities": {
+              "ITM-96CF75F2B294": 1,
+              "ITM-B57F3EB595EF": 1,
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-B4F7FA85F452",
+            "price": 4,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-96CF75F2B294": 1,
+              "ITM-C9DC9C2E571D": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-61ACC4DD6EF7",
+            "price": 1560,
+            "quantities": {
+              "ITM-4B038F790632": 1,
+              "ITM-9A29F5131F0A": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-CD5C27DE2427",
+            "price": 1549,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-9A29F5131F0A": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-4A775A8ABD16",
+            "price": 1547,
+            "quantities": {
+              "ITM-96CF75F2B294": 1,
+              "ITM-9E8694ABDA6C": 1,
+              "ITM-9F448FAC9288": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-C3A72114346C",
+            "price": 1559,
+            "quantities": {
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-B12EC4E77162": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-AEDE04A4F966",
+            "price": 1534,
+            "quantities": {
+              "ITM-0CF2840AB3FF": 1,
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-6236D2006E54": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-66A7449CA59F",
+            "price": 21803,
+            "quantities": {
+              "ITM-DDDB0906C67E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-BAC17E3CBC8A",
+            "price": 20220,
+            "quantities": {
+              "ITM-5B4B6A8B4AAC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-C5269C729C07",
+            "price": 1563,
+            "quantities": {
+              "ITM-6236D2006E54": 1,
+              "ITM-783E282D313C": 1,
+              "ITM-9E8694ABDA6C": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-E8F95583F276",
+            "price": 3149,
+            "quantities": {
+              "ITM-879435EEED80": 1,
+              "ITM-DDDB0906C67E": 1,
+              "ITM-EDA457AE01CD": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-F5815D957E45",
+            "price": 1583,
+            "quantities": {
+              "ITM-5B4B6A8B4AAC": 1,
+              "ITM-5B8828EF03B4": 1,
+              "ITM-783E282D313C": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-077060D1A91B",
+            "price": 1533,
+            "quantities": {
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-B12EC4E77162": 1,
+              "ITM-CB2DBAA1F2AC": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-032937BC0441",
+            "price": 1566,
+            "quantities": {
+              "ITM-2720FFDC8413": 1,
+              "ITM-69E01434C86B": 1,
+              "ITM-B57F3EB595EF": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-282BF2CE22DA",
+            "price": 3119,
+            "quantities": {
+              "ITM-1C70A7DC0A4C": 1,
+              "ITM-3ABFB48D61F4": 1,
+              "ITM-C07C374CE39E": 1
+            }
+          },
+          {
+            "bundle_id": "BSK-1D51B0481C15",
+            "price": 21790,
+            "quantities": {
+              "ITM-C07C374CE39E": 1
+            }
+          }
+        ],
+        "encoding": "direct"
+      },
+      "catalog_order": [
+        "BSK-255BE021CF5C",
+        "BSK-9570C258E3EF",
+        "BSK-84379C585486",
+        "BSK-CB38C86A982A",
+        "BSK-BC79358D8730",
+        "BSK-2E14E4E9A0BF",
+        "BSK-A16A51096E81",
+        "BSK-25B01CE735CD",
+        "BSK-15388B09BCDA",
+        "BSK-77D337C2ACDD",
+        "BSK-5B40B542FD4B",
+        "BSK-F958344960DF",
+        "BSK-E1BF08E8D660",
+        "BSK-734A429777D5",
+        "BSK-E37ABCC16AFB",
+        "BSK-FD9657FBC81E",
+        "BSK-9B2CE368DA25",
+        "BSK-FAFAC9983953",
+        "BSK-BD94E0D255D7",
+        "BSK-1D7B29D8DC56",
+        "BSK-003437353AF5",
+        "BSK-25BB12850B26",
+        "BSK-F91735F380ED",
+        "BSK-AEF32D1F4F54",
+        "BSK-3DC11B0FA1A8",
+        "BSK-4B2563AFC66C",
+        "BSK-16CD5BE08E6C",
+        "BSK-CEDFBE9B98D0",
+        "BSK-E9F036CC2BF9",
+        "BSK-732E4F7E44C8",
+        "BSK-56F289711B1B",
+        "BSK-BD9F7A91F44E",
+        "BSK-3D9C865C6E73",
+        "BSK-CE2D06D84102",
+        "BSK-6933077C013B",
+        "BSK-EFE0A848FF09",
+        "BSK-CD3880DCF728",
+        "BSK-BD9F1A667389",
+        "BSK-BB5D87D5BD27",
+        "BSK-21EE2DD0AA32",
+        "BSK-599BF1B453D6",
+        "BSK-9C77C2CB63F0",
+        "BSK-CAFB89D01A3F",
+        "BSK-308FC02F447C",
+        "BSK-E5F753858BC4",
+        "BSK-E651DC540127",
+        "BSK-3D416DB5541C",
+        "BSK-3325DBA582DB",
+        "BSK-D8D03655F8FD",
+        "BSK-484569C7B62E",
+        "BSK-0BD61403458C",
+        "BSK-89D671D95FAD",
+        "BSK-6D0432788221",
+        "BSK-37FAF0400853",
+        "BSK-CB66D3331CC8",
+        "BSK-090D00C0F5A2",
+        "BSK-9CEB77134B51",
+        "BSK-2CD79E97BBC5",
+        "BSK-6E432261FB8B",
+        "BSK-BDD79112C5E4",
+        "BSK-8E969E64F0F1",
+        "BSK-F4B44FF11C12",
+        "BSK-E52DC0347E87",
+        "BSK-EA1D2DD3E6FF",
+        "BSK-99AACEA20F2D",
+        "BSK-AE92C6347936",
+        "BSK-E7AA8956B455",
+        "BSK-D4F1FEF9C131",
+        "BSK-3ADAA93B2B15",
+        "BSK-82F88EBE2FFB",
+        "BSK-3025636553C0",
+        "BSK-DBA46DDEAB80",
+        "BSK-C2E9D0F9EF72",
+        "BSK-C561CB68A907",
+        "BSK-86F0BA7D3C0A",
+        "BSK-16EBA1F2E803",
+        "BSK-B4F7FA85F452",
+        "BSK-61ACC4DD6EF7",
+        "BSK-CD5C27DE2427",
+        "BSK-4A775A8ABD16",
+        "BSK-C3A72114346C",
+        "BSK-AEDE04A4F966",
+        "BSK-66A7449CA59F",
+        "BSK-BAC17E3CBC8A",
+        "BSK-C5269C729C07",
+        "BSK-E8F95583F276",
+        "BSK-F5815D957E45",
+        "BSK-077060D1A91B",
+        "BSK-032937BC0441",
+        "BSK-282BF2CE22DA",
+        "BSK-1D51B0481C15"
+      ],
+      "requirements": [
+        {
+          "item_id": "ITM-879435EEED80",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-5B8828EF03B4",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-C9DC9C2E571D",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-9A29F5131F0A",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-CB2DBAA1F2AC",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-69E01434C86B",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-2720FFDC8413",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-ED26459B1E17",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-4B038F790632",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-B57F3EB595EF",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-6236D2006E54",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-C07C374CE39E",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-783E282D313C",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-EDA457AE01CD",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-5B4B6A8B4AAC",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-0CF2840AB3FF",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-B12EC4E77162",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-96CF75F2B294",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-DDDB0906C67E",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-9F448FAC9288",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-3E21B440561D",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-9E8694ABDA6C",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-1C70A7DC0A4C",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-3ABFB48D61F4",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  "rung_index": 2,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 2
+}

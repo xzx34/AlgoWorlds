@@ -1,0 +1,2059 @@
+{
+  "arm_index": 0,
+  "case_id": "case_18_match_pairing",
+  "member_key": "case_18_match_pairing/rung-2/world-0/arm-0",
+  "payload": {
+    "cost_budget": 223,
+    "cost_vector": {
+      "evaluate_matching": 5,
+      "read_compatibility_row": 8,
+      "read_handoff_policy": 2,
+      "read_pair": 3,
+      "read_pair_window": 8,
+      "read_participant": 2
+    },
+    "handoff_catalog_size": 156,
+    "pair_catalog_size": 169,
+    "participant_count": 26,
+    "participant_handles_text": "PERE8F1CBB75FA7, PER1F28D7A78896, PER6EBC705FBEE3, PER8E61D8D7C3AB, PERCF710B1C0CE3, PER48FFB56A9B5D, PER126BE89AF04C, PERA7C18217DF53, PEREC0D1927AF27, PER3461C8774504, PER48A73AC492CF, PER3F9E8ECDF3FB, PERA993E1468865, PER39D1077858FB, PERD700128C20C3, PERF1CFC91DD12D, PERA654492A4886, PER10766C386565, PER8368E162BF51, PER85750D183C00, PERD10AB33A4435, PER55D2CFE79051, PER44BE855C1207, PER8F958AC4C79E, PERE1116FBAA618, PER6E6A0DBC45E4",
+    "participants_per_side": 13,
+    "source_documents": {
+      "handoff_policy": {
+        "left_order": [
+          "PERE8F1CBB75FA7",
+          "PER6EBC705FBEE3",
+          "PERCF710B1C0CE3",
+          "PER126BE89AF04C",
+          "PEREC0D1927AF27",
+          "PER48A73AC492CF",
+          "PERA993E1468865",
+          "PERD700128C20C3",
+          "PERA654492A4886",
+          "PER8368E162BF51",
+          "PERD10AB33A4435",
+          "PER44BE855C1207",
+          "PERE1116FBAA618"
+        ],
+        "right_order": [
+          "PER1F28D7A78896",
+          "PER8E61D8D7C3AB",
+          "PER48FFB56A9B5D",
+          "PERA7C18217DF53",
+          "PER3461C8774504",
+          "PER3F9E8ECDF3FB",
+          "PER39D1077858FB",
+          "PERF1CFC91DD12D",
+          "PER10766C386565",
+          "PER85750D183C00",
+          "PER55D2CFE79051",
+          "PER8F958AC4C79E",
+          "PER6E6A0DBC45E4"
+        ],
+        "rows": [
+          {
+            "cost": 3568,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 1171,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 276,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 3347,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 550,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 1025,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 3379,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 1930,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 3612,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 3672,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1921,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 2417,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 3963,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 1228,
+            "from_right": "PER10766C386565",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 1614,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 215685,
+            "from_right": "PER10766C386565",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 216464,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1656,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 2633,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 3569,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 278,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 1432,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 627,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 2704,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 462,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 2493,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 202,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 113,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 1750,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 313,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 1918,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 588,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 3555,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 1799,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 2190,
+            "from_right": "PER10766C386565",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 707,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 2909,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 1278,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 3584,
+            "from_right": "PER10766C386565",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 3727,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 1125,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1587,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 215624,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 2821,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 216924,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 3422,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 4085,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 213242,
+            "from_right": "PER85750D183C00",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 1873,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 3418,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 3313,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 1992,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 955,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 1052,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 710,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 1470,
+            "from_right": "PER10766C386565",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 2146,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 2308,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 2616,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 214947,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 3506,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 438,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 920,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 3987,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 343,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1063,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 1614,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 3431,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 179,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 3945,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 2326,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1918,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 1433,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 361,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 1518,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 2703,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 3352,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 89,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 892,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 725,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 3392,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 2897,
+            "from_right": "PER10766C386565",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 3890,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 3086,
+            "from_right": "PER10766C386565",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 2270,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 3612,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 3541,
+            "from_right": "PER3461C8774504",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 1025,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 3616,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 216374,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 2872,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 366,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 6,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 3907,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 1001,
+            "from_right": "PER85750D183C00",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 1886,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1371,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 2572,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 1264,
+            "from_right": "PER10766C386565",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 2180,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 216137,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 1288,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 805,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 2000,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 2797,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 1750,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 1195,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 84,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER10766C386565"
+          },
+          {
+            "cost": 216024,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 3904,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 2976,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 1560,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 315,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 2073,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 1544,
+            "from_right": "PER10766C386565",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 3902,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 1160,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 1740,
+            "from_right": "PER10766C386565",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 2218,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 3708,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 2755,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 445,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 2771,
+            "from_right": "PER3461C8774504",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 216169,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 783,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 3685,
+            "from_right": "PER10766C386565",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 2888,
+            "from_right": "PER10766C386565",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 552,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER39D1077858FB"
+          },
+          {
+            "cost": 1268,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 2658,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 3479,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 216110,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 2677,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 2243,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 552,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 1998,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 491,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER85750D183C00"
+          },
+          {
+            "cost": 1978,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 2848,
+            "from_right": "PER39D1077858FB",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 782,
+            "from_right": "PER3F9E8ECDF3FB",
+            "to_right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 3187,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 3495,
+            "from_right": "PER1F28D7A78896",
+            "to_right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 1849,
+            "from_right": "PERA7C18217DF53",
+            "to_right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 75,
+            "from_right": "PER8F958AC4C79E",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 389,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 2402,
+            "from_right": "PER3461C8774504",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 193,
+            "from_right": "PER55D2CFE79051",
+            "to_right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 3102,
+            "from_right": "PER8E61D8D7C3AB",
+            "to_right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 1092,
+            "from_right": "PER48FFB56A9B5D",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 1455,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 42,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 214558,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 534,
+            "from_right": "PER85750D183C00",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 2728,
+            "from_right": "PERF1CFC91DD12D",
+            "to_right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 2659,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER3461C8774504"
+          },
+          {
+            "cost": 881,
+            "from_right": "PER6E6A0DBC45E4",
+            "to_right": "PER3F9E8ECDF3FB"
+          }
+        ],
+        "rule": "left_sequence_adjacent_right_handoff"
+      },
+      "pair_order": [
+        "PAIR49574EFA4BC3",
+        "PAIRFCBF6CD7A890",
+        "PAIRBA409418DF3E",
+        "PAIR56274559F013",
+        "PAIR5044B88F463A",
+        "PAIRF21F319A84D7",
+        "PAIR1554E3568C15",
+        "PAIR231F5AB3AEFE",
+        "PAIR621865B553A6",
+        "PAIR418456EFD97F",
+        "PAIR4214980A45E0",
+        "PAIR9A51F737E820",
+        "PAIR013CF65DCE4F",
+        "PAIR6DE6356891F5",
+        "PAIR836CDD9F2FC4",
+        "PAIR7AEEBF594DA1",
+        "PAIR7C3E9B39D35B",
+        "PAIR432386820363",
+        "PAIR35B14BE32D52",
+        "PAIR54016E33BF1D",
+        "PAIRD489A2034986",
+        "PAIR32234E97BF71",
+        "PAIRA83E70C7DDF0",
+        "PAIRFA7FF1561430",
+        "PAIR5CC669E08827",
+        "PAIRD541E813FBB3",
+        "PAIR8B0B8373379E",
+        "PAIRAEF49F212370",
+        "PAIR9ADADBA352C4",
+        "PAIR569F78780009",
+        "PAIRB5C064BFF726",
+        "PAIR3820BA63AACB",
+        "PAIR3F07903E9D02",
+        "PAIR94F342B7552A",
+        "PAIRDA2843BFD0C3",
+        "PAIRBE88BE689C2B",
+        "PAIR8F47E77AA800",
+        "PAIR8033C36EE56E",
+        "PAIR5E4E03F04762",
+        "PAIRD4391D75D641",
+        "PAIR4E860BC91C84",
+        "PAIR728A99D655A0",
+        "PAIR089E1729018A",
+        "PAIR93A76274A688",
+        "PAIR2D6521C2089E",
+        "PAIR60E308A75D89",
+        "PAIR82F5ED66DEF1",
+        "PAIR6E1114D08E94",
+        "PAIR2A324BE71164",
+        "PAIR92EF97236565",
+        "PAIR10143F76595E",
+        "PAIRA23053F29890",
+        "PAIR0BA760DFF432",
+        "PAIR0C7977F13780",
+        "PAIRCB1651EAAD16",
+        "PAIREBEF0377087B",
+        "PAIR82E570B86175",
+        "PAIR7D7C13B823F7",
+        "PAIR4A11E5BA39BF",
+        "PAIRABB502958BDE",
+        "PAIR9A138C8C9EC0",
+        "PAIR70469DE6B162",
+        "PAIRD57940E384D1",
+        "PAIREB9CBCA553B0",
+        "PAIR82078BD2CA2D",
+        "PAIR580450AFA5BB",
+        "PAIRB3EDF8E00013",
+        "PAIR7F2430983858",
+        "PAIR4A316EC5764A",
+        "PAIR5D92B925F810",
+        "PAIR6008781626FB",
+        "PAIR9A65F91FB21D",
+        "PAIR4AF42F73ADED",
+        "PAIR2F4B3FBE08BA",
+        "PAIRC4B1D6EB1199",
+        "PAIRA7F819DD1342",
+        "PAIR3128E8574CC1",
+        "PAIR81163A3DB083",
+        "PAIR05C0D6348ED9",
+        "PAIRD3385CFEBA9B",
+        "PAIR0F55E182576E",
+        "PAIRF9A50D28F84D",
+        "PAIR676CF7D4771F",
+        "PAIRC2AAE16A5526",
+        "PAIREDBFBC2A4A7D",
+        "PAIRB163C4AE731C",
+        "PAIR0536DFDE6539",
+        "PAIRF69F5F052C74",
+        "PAIRFC3D1AE4A137",
+        "PAIR55C99B38CB4D",
+        "PAIR3EF455D082D0",
+        "PAIRC11AC4C99763",
+        "PAIRF29CF40A040F",
+        "PAIR73587E39C25D",
+        "PAIR9BD12139E8E3",
+        "PAIRAA5FF0D79B1E",
+        "PAIR606F9488354E",
+        "PAIR70FFB9C10556",
+        "PAIR14588C0F0323",
+        "PAIR7C43851242CB",
+        "PAIR736DCD86BA30",
+        "PAIR2A0A6FC4036B",
+        "PAIR45A0E4C95123",
+        "PAIR187A9BB3A4D5",
+        "PAIRFD686C2E116A",
+        "PAIRC30020CF660B",
+        "PAIR24B058D2A61C",
+        "PAIRF43CA52AB99B",
+        "PAIR61DC81844F6C",
+        "PAIR1813E865F776",
+        "PAIR2C58C2F5DA89",
+        "PAIRA551219D69ED",
+        "PAIRF1D5793F0574",
+        "PAIR4AC906D2FBC6",
+        "PAIRA80F19229355",
+        "PAIR3D071A698A2C",
+        "PAIR91EE7011BEE4",
+        "PAIRC0BF3C456413",
+        "PAIRDA68D306858E",
+        "PAIR77A5BED0B49B",
+        "PAIR7B422A57CBA8",
+        "PAIR33F5CAA56C3F",
+        "PAIRE657E5E75C57",
+        "PAIR6B43D44ED1A1",
+        "PAIR0FCF61B19B79",
+        "PAIR035E77BED84A",
+        "PAIR92A92D060040",
+        "PAIRFF90920300EF",
+        "PAIR120AEE27FC4C",
+        "PAIR47A58799B5CE",
+        "PAIRF1A9A941B384",
+        "PAIR49081D33D1BC",
+        "PAIRF95075AF3842",
+        "PAIR735A60F5A69E",
+        "PAIR3268375993A2",
+        "PAIR9560EC5071C4",
+        "PAIR6FB59E63378D",
+        "PAIRED321E9E978E",
+        "PAIR8131EA7B54C5",
+        "PAIRA74E895706F7",
+        "PAIRF32533840C5F",
+        "PAIRBF34549DB747",
+        "PAIR5A5D30C98538",
+        "PAIR78FE5467CA0A",
+        "PAIR015660B7865D",
+        "PAIR39E4E738A0D1",
+        "PAIRAAFF61C0C943",
+        "PAIR1C0DCD9149E8",
+        "PAIR2CC4903069EE",
+        "PAIR3B101CEF8B60",
+        "PAIRD66C644891A4",
+        "PAIR340CCCBCA0A9",
+        "PAIR0BB502C1D471",
+        "PAIR6DB911C5B989",
+        "PAIR8ADB0C65D5CF",
+        "PAIR5EF9470736F2",
+        "PAIR5173371F20FC",
+        "PAIR12EB85F8A1A3",
+        "PAIR74BA83CB0B6D",
+        "PAIR96FD49B211EA",
+        "PAIRCB4E97B04FBC",
+        "PAIRCEE5761A94C1",
+        "PAIR763CBD293723",
+        "PAIRF11941BD174B",
+        "PAIR16E6FB1BCE14",
+        "PAIRE50C6556CE5F",
+        "PAIRF9AAF375E4C2",
+        "PAIR5462C99F1500",
+        "PAIR2EEEA7210CC0"
+      ],
+      "pair_source": {
+        "encoding": "direct",
+        "pairs": [
+          {
+            "cost": 20052,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR49574EFA4BC3",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 17653,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIRFCBF6CD7A890",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 10211,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIRBA409418DF3E",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 20034,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR56274559F013",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 9047,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR5044B88F463A",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9047,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIRF21F319A84D7",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 9066,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR1554E3568C15",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9079,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR231F5AB3AEFE",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 21631,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR621865B553A6",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 11827,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR418456EFD97F",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 9399,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR4214980A45E0",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 11808,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR9A51F737E820",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 16069,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR013CF65DCE4F",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 13661,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR6DE6356891F5",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 10222,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR836CDD9F2FC4",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 14430,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR7AEEBF594DA1",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 16104,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR7C3E9B39D35B",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 19261,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR432386820363",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 9094,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR35B14BE32D52",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 14514,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR54016E33BF1D",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 17670,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIRD489A2034986",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 9053,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR32234E97BF71",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 13640,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIRA83E70C7DDF0",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 10986,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIRFA7FF1561430",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 13667,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR5CC669E08827",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 9227,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIRD541E813FBB3",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 9040,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR8B0B8373379E",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 13693,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIRAEF49F212370",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 16855,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR9ADADBA352C4",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 10974,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR569F78780009",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 19264,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIRB5C064BFF726",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 9305,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR3820BA63AACB",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 21642,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR3F07903E9D02",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 16861,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR94F342B7552A",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 9301,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIRDA2843BFD0C3",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9040,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIRBE88BE689C2B",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 9042,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR8F47E77AA800",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 9397,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR8033C36EE56E",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 15268,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR5E4E03F04762",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 14467,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIRD4391D75D641",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 9430,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR4E860BC91C84",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 9083,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR728A99D655A0",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 16057,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR089E1729018A",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 9108,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR93A76274A688",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 10207,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR2D6521C2089E",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 11015,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR60E308A75D89",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 12630,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR82F5ED66DEF1",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9422,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR6E1114D08E94",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 12615,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR2A324BE71164",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 14504,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR92EF97236565",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 11755,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR10143F76595E",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 16044,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIRA23053F29890",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 9055,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR0BA760DFF432",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 16088,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR0C7977F13780",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 14491,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIRCB1651EAAD16",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 15263,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIREBEF0377087B",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 16866,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR82E570B86175",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 10229,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR7D7C13B823F7",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 12570,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR4A11E5BA39BF",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 18430,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIRABB502958BDE",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 13707,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR9A138C8C9EC0",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 14468,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR70469DE6B162",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 11814,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIRD57940E384D1",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 17655,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIREB9CBCA553B0",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 9038,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR82078BD2CA2D",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 9068,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR580450AFA5BB",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 13710,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIRB3EDF8E00013",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 16086,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR7F2430983858",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 9294,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR4A316EC5764A",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 19253,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR5D92B925F810",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 9043,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR6008781626FB",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 13707,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR9A65F91FB21D",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 19218,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR4AF42F73ADED",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 15278,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR2F4B3FBE08BA",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 9253,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIRC4B1D6EB1199",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 9437,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIRA7F819DD1342",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 18483,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR3128E8574CC1",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 11766,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR81163A3DB083",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 10220,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR05C0D6348ED9",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 20854,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIRD3385CFEBA9B",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 10978,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR0F55E182576E",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 11826,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIRF9A50D28F84D",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 9074,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR676CF7D4771F",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 10168,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIRC2AAE16A5526",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 17665,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIREDBFBC2A4A7D",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 17618,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIRB163C4AE731C",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 17660,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR0536DFDE6539",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 9385,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIRF69F5F052C74",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 12622,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIRFC3D1AE4A137",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 15304,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR55C99B38CB4D",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 9027,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR3EF455D082D0",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 9055,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIRC11AC4C99763",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 12553,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIRF29CF40A040F",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 9255,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR73587E39C25D",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 16069,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR9BD12139E8E3",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 16022,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIRAA5FF0D79B1E",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 9052,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR606F9488354E",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 10978,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR70FFB9C10556",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 11820,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR14588C0F0323",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 9084,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR7C43851242CB",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 9056,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR736DCD86BA30",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 9032,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR2A0A6FC4036B",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9243,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR45A0E4C95123",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 14457,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR187A9BB3A4D5",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 16848,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIRFD686C2E116A",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 16883,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIRC30020CF660B",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 9056,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR24B058D2A61C",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 9104,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIRF43CA52AB99B",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 9101,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR61DC81844F6C",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 19416,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR1813E865F776",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 14441,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR2C58C2F5DA89",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 11762,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIRA551219D69ED",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 13674,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIRF1D5793F0574",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 9308,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR4AC906D2FBC6",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 10205,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIRA80F19229355",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 18458,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR3D071A698A2C",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 17687,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR91EE7011BEE4",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 20853,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIRC0BF3C456413",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 14477,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIRDA68D306858E",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 14502,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR77A5BED0B49B",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 20029,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR7B422A57CBA8",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 11023,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR33F5CAA56C3F",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 11008,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIRE657E5E75C57",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 12588,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR6B43D44ED1A1",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 11032,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR0FCF61B19B79",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 12611,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR035E77BED84A",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 9047,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR92A92D060040",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 13713,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIRFF90920300EF",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 16909,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR120AEE27FC4C",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 16075,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR47A58799B5CE",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 9267,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIRF1A9A941B384",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 9079,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR49081D33D1BC",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 9053,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIRF95075AF3842",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 15254,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR735A60F5A69E",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 16840,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR3268375993A2",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 18457,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIR9560EC5071C4",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 11830,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR6FB59E63378D",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9050,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIRED321E9E978E",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 13631,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIR8131EA7B54C5",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 14487,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIRA74E895706F7",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 10183,
+            "left": "PER44BE855C1207",
+            "pair_id": "PAIRF32533840C5F",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 9045,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIRBF34549DB747",
+            "right": "PER85750D183C00"
+          },
+          {
+            "cost": 9240,
+            "left": "PERCF710B1C0CE3",
+            "pair_id": "PAIR5A5D30C98538",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 15303,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR78FE5467CA0A",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 12597,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR015660B7865D",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 18450,
+            "left": "PERE1116FBAA618",
+            "pair_id": "PAIR39E4E738A0D1",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 15292,
+            "left": "PER126BE89AF04C",
+            "pair_id": "PAIRAAFF61C0C943",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 9112,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR1C0DCD9149E8",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 18464,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR2CC4903069EE",
+            "right": "PER6E6A0DBC45E4"
+          },
+          {
+            "cost": 12556,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR3B101CEF8B60",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 13662,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIRD66C644891A4",
+            "right": "PER55D2CFE79051"
+          },
+          {
+            "cost": 9043,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR340CCCBCA0A9",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 20068,
+            "left": "PEREC0D1927AF27",
+            "pair_id": "PAIR0BB502C1D471",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 20819,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR6DB911C5B989",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 9312,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIR8ADB0C65D5CF",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 9283,
+            "left": "PERD700128C20C3",
+            "pair_id": "PAIR5EF9470736F2",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 13663,
+            "left": "PERE8F1CBB75FA7",
+            "pair_id": "PAIR5173371F20FC",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 11015,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIR12EB85F8A1A3",
+            "right": "PER1F28D7A78896"
+          },
+          {
+            "cost": 9054,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR74BA83CB0B6D",
+            "right": "PER3461C8774504"
+          },
+          {
+            "cost": 12544,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIR96FD49B211EA",
+            "right": "PER48FFB56A9B5D"
+          },
+          {
+            "cost": 15325,
+            "left": "PER48A73AC492CF",
+            "pair_id": "PAIRCB4E97B04FBC",
+            "right": "PER39D1077858FB"
+          },
+          {
+            "cost": 9411,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIRCEE5761A94C1",
+            "right": "PER3F9E8ECDF3FB"
+          },
+          {
+            "cost": 15230,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIR763CBD293723",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 11776,
+            "left": "PER8368E162BF51",
+            "pair_id": "PAIRF11941BD174B",
+            "right": "PER8F958AC4C79E"
+          },
+          {
+            "cost": 12590,
+            "left": "PERD10AB33A4435",
+            "pair_id": "PAIR16E6FB1BCE14",
+            "right": "PERF1CFC91DD12D"
+          },
+          {
+            "cost": 9215,
+            "left": "PER6EBC705FBEE3",
+            "pair_id": "PAIRE50C6556CE5F",
+            "right": "PER10766C386565"
+          },
+          {
+            "cost": 15238,
+            "left": "PERA654492A4886",
+            "pair_id": "PAIRF9AAF375E4C2",
+            "right": "PERA7C18217DF53"
+          },
+          {
+            "cost": 16884,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR5462C99F1500",
+            "right": "PER8E61D8D7C3AB"
+          },
+          {
+            "cost": 19249,
+            "left": "PERA993E1468865",
+            "pair_id": "PAIR2EEEA7210CC0",
+            "right": "PER48FFB56A9B5D"
+          }
+        ]
+      },
+      "participant_order": [
+        "PERE8F1CBB75FA7",
+        "PER1F28D7A78896",
+        "PER6EBC705FBEE3",
+        "PER8E61D8D7C3AB",
+        "PERCF710B1C0CE3",
+        "PER48FFB56A9B5D",
+        "PER126BE89AF04C",
+        "PERA7C18217DF53",
+        "PEREC0D1927AF27",
+        "PER3461C8774504",
+        "PER48A73AC492CF",
+        "PER3F9E8ECDF3FB",
+        "PERA993E1468865",
+        "PER39D1077858FB",
+        "PERD700128C20C3",
+        "PERF1CFC91DD12D",
+        "PERA654492A4886",
+        "PER10766C386565",
+        "PER8368E162BF51",
+        "PER85750D183C00",
+        "PERD10AB33A4435",
+        "PER55D2CFE79051",
+        "PER44BE855C1207",
+        "PER8F958AC4C79E",
+        "PERE1116FBAA618",
+        "PER6E6A0DBC45E4"
+      ]
+    }
+  },
+  "rung_index": 2,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 0
+}

@@ -1,0 +1,23 @@
+---
+import { copy } from "../content/copy";
+import AbstractSection from "./AbstractSection.astro";
+import BenchmarkArticle from "./BenchmarkArticle.astro";
+import Masthead from "./Masthead.astro";
+import PaperFigure from "./PaperFigure.astro";
+import ResultsArticle from "./ResultsArticle.astro";
+import SiteFooter from "./SiteFooter.astro";
+import SiteHeader from "./SiteHeader.astro";
+
+---
+
+<div id="top">
+  <SiteHeader copy={copy} />
+  <main id="main-content">
+    <Masthead copy={copy} />
+    <AbstractSection copy={copy.abstract} />
+    <PaperFigure copy={copy.paperFigure} />
+    <ResultsArticle copy={copy.results} />
+    <BenchmarkArticle copy={copy.benchmark} />
+  </main>
+  <SiteFooter copy={copy.footer} />
+</div>

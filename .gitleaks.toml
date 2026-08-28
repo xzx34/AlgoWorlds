@@ -1,0 +1,19 @@
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Case 20 semantic handles are benchmark identifiers, not credentials."
+condition = "AND"
+regexTarget = "secret"
+regexes = ['''^KEY-[A-Za-z0-9_-]{11}$''']
+paths = ['''^benchmark/cores/case_20_evidence_join/instances/arm_[01]/r[1-4]_w[0-2]\.json$''']
+
+[[rules.allowlists]]
+description = "The public source manifest contains only lowercase SHA-256 digests."
+condition = "AND"
+regexTarget = "secret"
+regexes = ['''^[0-9a-f]{64}$''']
+paths = ['''^PUBLIC_RELEASE_MANIFEST\.json$''']
