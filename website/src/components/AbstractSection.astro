@@ -1,0 +1,14 @@
+---
+import type { SiteCopy } from "../content/copy";
+
+interface Props {
+  copy: SiteCopy["abstract"];
+}
+
+const { copy } = Astro.props;
+---
+
+<section id="abstract" class="article-section page-shell" aria-labelledby="abstract-title" data-reveal>
+  <h2 id="abstract-title">{copy.heading}</h2>
+  <p class="prose abstract-prose">{copy.paragraph}</p>
+</section>

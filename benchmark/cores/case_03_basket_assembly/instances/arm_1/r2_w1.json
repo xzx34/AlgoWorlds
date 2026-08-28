@@ -1,0 +1,1801 @@
+{
+  "arm_index": 1,
+  "case_id": "case_03_basket_assembly",
+  "member_key": "case_03_basket_assembly/rung-2/world-1/arm-1",
+  "payload": {
+    "catalog_size": 91,
+    "cost_budget": 448,
+    "cost_vector": {
+      "evaluate_basket": 16,
+      "read_bundle": 2,
+      "read_catalog_window": 8,
+      "read_item_index": 3,
+      "read_requirements": 2
+    },
+    "group_count": 8,
+    "item_count": 24,
+    "source_documents": {
+      "catalog": {
+        "bundles": [
+          {
+            "bundle_id": "BSK-FD6B442F03CF",
+            "price": 20278,
+            "recipe_id": "RCP-0BB77AF82F21"
+          },
+          {
+            "bundle_id": "BSK-0652A6A24867",
+            "price": 31,
+            "recipe_id": "RCP-768F6FEA0A2E"
+          },
+          {
+            "bundle_id": "BSK-2C6CF96905D2",
+            "price": 1561,
+            "recipe_id": "RCP-BC59CC93B447"
+          },
+          {
+            "bundle_id": "BSK-B944F6F0A777",
+            "price": 20296,
+            "recipe_id": "RCP-0D2E1A85F469"
+          },
+          {
+            "bundle_id": "BSK-AF3725B01F26",
+            "price": 20272,
+            "recipe_id": "RCP-2FAB1D885CEC"
+          },
+          {
+            "bundle_id": "BSK-3DF5A8868260",
+            "price": 3151,
+            "recipe_id": "RCP-20491755D99D"
+          },
+          {
+            "bundle_id": "BSK-D67070E61EB7",
+            "price": 1561,
+            "recipe_id": "RCP-C33FD3B5209C"
+          },
+          {
+            "bundle_id": "BSK-EA88D4855E4C",
+            "price": 20274,
+            "recipe_id": "RCP-B1EF997ED41C"
+          },
+          {
+            "bundle_id": "BSK-473DE55302B3",
+            "price": 1644,
+            "recipe_id": "RCP-14CE51476F72"
+          },
+          {
+            "bundle_id": "BSK-BFB23E3AB0E3",
+            "price": 1570,
+            "recipe_id": "RCP-8B52FEAF3975"
+          },
+          {
+            "bundle_id": "BSK-884C23ACC412",
+            "price": 20276,
+            "recipe_id": "RCP-C7D2493452E5"
+          },
+          {
+            "bundle_id": "BSK-7F8F16069E8C",
+            "price": 1554,
+            "recipe_id": "RCP-A0DD4E03F89C"
+          },
+          {
+            "bundle_id": "BSK-D400EFAFDEA9",
+            "price": 21875,
+            "recipe_id": "RCP-57E12222BCEA"
+          },
+          {
+            "bundle_id": "BSK-C0B0921D5ED2",
+            "price": 4740,
+            "recipe_id": "RCP-C867FE0FEDC4"
+          },
+          {
+            "bundle_id": "BSK-188CF5C11B22",
+            "price": 1567,
+            "recipe_id": "RCP-3F7231D3413C"
+          },
+          {
+            "bundle_id": "BSK-20293E939FA6",
+            "price": 20275,
+            "recipe_id": "RCP-A04C042614D1"
+          },
+          {
+            "bundle_id": "BSK-ED9DA53BE29F",
+            "price": 3211,
+            "recipe_id": "RCP-7DEE8CAA9D87"
+          },
+          {
+            "bundle_id": "BSK-FAE413509EFA",
+            "price": 1575,
+            "recipe_id": "RCP-B4DA9B499AD5"
+          },
+          {
+            "bundle_id": "BSK-9B395CB9F1AA",
+            "price": 4735,
+            "recipe_id": "RCP-D4857847D097"
+          },
+          {
+            "bundle_id": "BSK-8D8125E7AE21",
+            "price": 1553,
+            "recipe_id": "RCP-FCD4B1DA6BC2"
+          },
+          {
+            "bundle_id": "BSK-07C8B96EAF3A",
+            "price": 1544,
+            "recipe_id": "RCP-948F7AEED6DC"
+          },
+          {
+            "bundle_id": "BSK-5B8AD8908285",
+            "price": 3168,
+            "recipe_id": "RCP-B7942263C205"
+          },
+          {
+            "bundle_id": "BSK-C73AF35F7160",
+            "price": 3140,
+            "recipe_id": "RCP-65226C8D5BD3"
+          },
+          {
+            "bundle_id": "BSK-30AB9623911A",
+            "price": 3154,
+            "recipe_id": "RCP-5B16E2272029"
+          },
+          {
+            "bundle_id": "BSK-C83A55404556",
+            "price": 1561,
+            "recipe_id": "RCP-325943EA7AC0"
+          },
+          {
+            "bundle_id": "BSK-391C7587BE22",
+            "price": 20274,
+            "recipe_id": "RCP-636B4D90B589"
+          },
+          {
+            "bundle_id": "BSK-1C9E30B8A19E",
+            "price": 25,
+            "recipe_id": "RCP-F504B631E860"
+          },
+          {
+            "bundle_id": "BSK-3E3326752F27",
+            "price": 21859,
+            "recipe_id": "RCP-19FE6ABFACE6"
+          },
+          {
+            "bundle_id": "BSK-FD2B950C9B81",
+            "price": 47,
+            "recipe_id": "RCP-65E458A9F21C"
+          },
+          {
+            "bundle_id": "BSK-C6DDD67E3134",
+            "price": 1552,
+            "recipe_id": "RCP-F3FA0B4815E0"
+          },
+          {
+            "bundle_id": "BSK-17681B7AC6A6",
+            "price": 3136,
+            "recipe_id": "RCP-5E4DF00D4E9D"
+          },
+          {
+            "bundle_id": "BSK-BEBB914B693E",
+            "price": 20269,
+            "recipe_id": "RCP-88F83A026441"
+          },
+          {
+            "bundle_id": "BSK-7C50CE733A6D",
+            "price": 20275,
+            "recipe_id": "RCP-71AEA311202E"
+          },
+          {
+            "bundle_id": "BSK-9C558B1FA52A",
+            "price": 3168,
+            "recipe_id": "RCP-E135815FC510"
+          },
+          {
+            "bundle_id": "BSK-0B329BB669E1",
+            "price": 5,
+            "recipe_id": "RCP-B57D7E4B6B08"
+          },
+          {
+            "bundle_id": "BSK-A34398DE3F04",
+            "price": 1567,
+            "recipe_id": "RCP-90957E72291D"
+          },
+          {
+            "bundle_id": "BSK-63550300289C",
+            "price": 3124,
+            "recipe_id": "RCP-F1C01E1F8336"
+          },
+          {
+            "bundle_id": "BSK-C4359951459C",
+            "price": 1543,
+            "recipe_id": "RCP-5EFAA7E80BEA"
+          },
+          {
+            "bundle_id": "BSK-BAD061D81C1E",
+            "price": 20290,
+            "recipe_id": "RCP-5FA34396A5B3"
+          },
+          {
+            "bundle_id": "BSK-D5B4B964C01B",
+            "price": 3149,
+            "recipe_id": "RCP-FC81FD2957AB"
+          },
+          {
+            "bundle_id": "BSK-C5F14E58BA5D",
+            "price": 1574,
+            "recipe_id": "RCP-E7937C779A7D"
+          },
+          {
+            "bundle_id": "BSK-191C2AF6DF05",
+            "price": 6,
+            "recipe_id": "RCP-7B5C1BE7DE09"
+          },
+          {
+            "bundle_id": "BSK-9003BB2D64D5",
+            "price": 20280,
+            "recipe_id": "RCP-0E95FE0FC633"
+          },
+          {
+            "bundle_id": "BSK-FE2F5960FDA7",
+            "price": 1556,
+            "recipe_id": "RCP-35B8720562F0"
+          },
+          {
+            "bundle_id": "BSK-5B2AE119D265",
+            "price": 1591,
+            "recipe_id": "RCP-2F987A0348BF"
+          },
+          {
+            "bundle_id": "BSK-2ED9F8172D6E",
+            "price": 20290,
+            "recipe_id": "RCP-3063699B28C5"
+          },
+          {
+            "bundle_id": "BSK-0EDA45AB25B4",
+            "price": 20270,
+            "recipe_id": "RCP-A231C67C07CD"
+          },
+          {
+            "bundle_id": "BSK-57F3D0011587",
+            "price": 1579,
+            "recipe_id": "RCP-CE2DD8F9C84C"
+          },
+          {
+            "bundle_id": "BSK-3B5BDF06DC32",
+            "price": 21864,
+            "recipe_id": "RCP-6E4AFFA841FB"
+          },
+          {
+            "bundle_id": "BSK-A5BA52C7FCF1",
+            "price": 1537,
+            "recipe_id": "RCP-887359A2FD1D"
+          },
+          {
+            "bundle_id": "BSK-ACA24D20BECB",
+            "price": 20276,
+            "recipe_id": "RCP-A0507150EBB4"
+          },
+          {
+            "bundle_id": "BSK-AF55125B61FF",
+            "price": 1579,
+            "recipe_id": "RCP-E652AADC5BF9"
+          },
+          {
+            "bundle_id": "BSK-4DAA640B893D",
+            "price": 1562,
+            "recipe_id": "RCP-CD4C2C0CA1E6"
+          },
+          {
+            "bundle_id": "BSK-28BD3A4737B6",
+            "price": 1574,
+            "recipe_id": "RCP-2719C5137DD4"
+          },
+          {
+            "bundle_id": "BSK-133BCBB39300",
+            "price": 20273,
+            "recipe_id": "RCP-59BAA083D5CC"
+          },
+          {
+            "bundle_id": "BSK-65A5DC79A81E",
+            "price": 22,
+            "recipe_id": "RCP-FAA37C019D97"
+          },
+          {
+            "bundle_id": "BSK-2B5118D1E085",
+            "price": 1563,
+            "recipe_id": "RCP-059D6C93E92E"
+          },
+          {
+            "bundle_id": "BSK-FBB446DDF250",
+            "price": 3158,
+            "recipe_id": "RCP-3E514E2A48C9"
+          },
+          {
+            "bundle_id": "BSK-854123F22CEE",
+            "price": 1566,
+            "recipe_id": "RCP-AF4BF5DAA71B"
+          },
+          {
+            "bundle_id": "BSK-540246B26354",
+            "price": 1564,
+            "recipe_id": "RCP-7EEE47119D15"
+          },
+          {
+            "bundle_id": "BSK-316A5874A7B1",
+            "price": 20253,
+            "recipe_id": "RCP-BDA4BB321CEC"
+          },
+          {
+            "bundle_id": "BSK-7DC5272DA72F",
+            "price": 3135,
+            "recipe_id": "RCP-41DDC1E06082"
+          },
+          {
+            "bundle_id": "BSK-305936CD5C33",
+            "price": 20276,
+            "recipe_id": "RCP-33DBF02D1C14"
+          },
+          {
+            "bundle_id": "BSK-0DBCF39DBC09",
+            "price": 20266,
+            "recipe_id": "RCP-48C5849A9101"
+          },
+          {
+            "bundle_id": "BSK-56C8269448B9",
+            "price": 30,
+            "recipe_id": "RCP-B65BAD5C4652"
+          },
+          {
+            "bundle_id": "BSK-025659D6AE11",
+            "price": 1592,
+            "recipe_id": "RCP-F2AE2CA97352"
+          },
+          {
+            "bundle_id": "BSK-7B76FFAD6230",
+            "price": 1576,
+            "recipe_id": "RCP-35EAD1C1D5B1"
+          },
+          {
+            "bundle_id": "BSK-C7ACCBB4CD51",
+            "price": 1566,
+            "recipe_id": "RCP-4D14CD5F0F25"
+          },
+          {
+            "bundle_id": "BSK-ED0699379208",
+            "price": 1558,
+            "recipe_id": "RCP-DCA4BFEF1C49"
+          },
+          {
+            "bundle_id": "BSK-21ACBAB2AF41",
+            "price": 1570,
+            "recipe_id": "RCP-610D8E6F8919"
+          },
+          {
+            "bundle_id": "BSK-A269F4644041",
+            "price": 53,
+            "recipe_id": "RCP-3AFA2BFF59C3"
+          },
+          {
+            "bundle_id": "BSK-C94F98661D9F",
+            "price": 1548,
+            "recipe_id": "RCP-41BC67630192"
+          },
+          {
+            "bundle_id": "BSK-7B59CB026F1C",
+            "price": 4737,
+            "recipe_id": "RCP-21D7D692F5BB"
+          },
+          {
+            "bundle_id": "BSK-9FA0B1CA3D3C",
+            "price": 1561,
+            "recipe_id": "RCP-E9AF5DD61AD1"
+          },
+          {
+            "bundle_id": "BSK-016C2A0A3AC9",
+            "price": 3141,
+            "recipe_id": "RCP-DD2F72682293"
+          },
+          {
+            "bundle_id": "BSK-E60E78007752",
+            "price": 4,
+            "recipe_id": "RCP-B4CEE7547E00"
+          },
+          {
+            "bundle_id": "BSK-FF31214A1A8E",
+            "price": 3129,
+            "recipe_id": "RCP-3BEA51F832C6"
+          },
+          {
+            "bundle_id": "BSK-254E828DC9CF",
+            "price": 1539,
+            "recipe_id": "RCP-240D5BE7332A"
+          },
+          {
+            "bundle_id": "BSK-2E61AF3C7F44",
+            "price": 1566,
+            "recipe_id": "RCP-87684B6AA93C"
+          },
+          {
+            "bundle_id": "BSK-F8686BA703F4",
+            "price": 20283,
+            "recipe_id": "RCP-4EC615B4CAFC"
+          },
+          {
+            "bundle_id": "BSK-D152FB6DD295",
+            "price": 3157,
+            "recipe_id": "RCP-A47B0651458E"
+          },
+          {
+            "bundle_id": "BSK-5A47A34164B6",
+            "price": 1554,
+            "recipe_id": "RCP-B7F83563AABB"
+          },
+          {
+            "bundle_id": "BSK-98BFB0ACFA46",
+            "price": 1560,
+            "recipe_id": "RCP-B5D0AB18085B"
+          },
+          {
+            "bundle_id": "BSK-0AF817FB3044",
+            "price": 1553,
+            "recipe_id": "RCP-1E36856950B8"
+          },
+          {
+            "bundle_id": "BSK-025C3EFDC9D6",
+            "price": 3151,
+            "recipe_id": "RCP-1360A9B21BB8"
+          },
+          {
+            "bundle_id": "BSK-ED39532058C0",
+            "price": 20266,
+            "recipe_id": "RCP-F2B4222FCE63"
+          },
+          {
+            "bundle_id": "BSK-713EE352023D",
+            "price": 1575,
+            "recipe_id": "RCP-3AB3F941B449"
+          },
+          {
+            "bundle_id": "BSK-DCA1F2B83634",
+            "price": 20277,
+            "recipe_id": "RCP-6B9DDCBC58B9"
+          },
+          {
+            "bundle_id": "BSK-ECBAE7B61214",
+            "price": 1539,
+            "recipe_id": "RCP-1532C9689E82"
+          },
+          {
+            "bundle_id": "BSK-AE37A135C676",
+            "price": 1552,
+            "recipe_id": "RCP-9FDD6A0C0B14"
+          },
+          {
+            "bundle_id": "BSK-71787C7A1F88",
+            "price": 1552,
+            "recipe_id": "RCP-D18C1E1BEB5D"
+          }
+        ],
+        "encoding": "mediated",
+        "recipe_rows": [
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-948F7AEED6DC"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-DCA4BFEF1C49"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-E652AADC5BF9"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-D18C1E1BEB5D"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-48C5849A9101"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-E7937C779A7D"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-E7937C779A7D"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-3AFA2BFF59C3"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-768F6FEA0A2E"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-7DEE8CAA9D87"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-19FE6ABFACE6"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-3F7231D3413C"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-FC81FD2957AB"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-B4CEE7547E00"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-3F7231D3413C"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-7B5C1BE7DE09"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-DD2F72682293"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-610D8E6F8919"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-3BEA51F832C6"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-F1C01E1F8336"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-E9AF5DD61AD1"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-5E4DF00D4E9D"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-BC59CC93B447"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-B7F83563AABB"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-F2AE2CA97352"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-BC59CC93B447"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-7B5C1BE7DE09"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-D4857847D097"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-2719C5137DD4"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-E9AF5DD61AD1"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-B5D0AB18085B"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-FCD4B1DA6BC2"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-FC81FD2957AB"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-636B4D90B589"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-325943EA7AC0"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-41BC67630192"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-5E4DF00D4E9D"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-5B16E2272029"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-B7F83563AABB"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-CD4C2C0CA1E6"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-887359A2FD1D"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-B1EF997ED41C"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-4D14CD5F0F25"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-C7D2493452E5"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-B7942263C205"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-5EFAA7E80BEA"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-E9AF5DD61AD1"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-E652AADC5BF9"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-F2AE2CA97352"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-768F6FEA0A2E"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-5B16E2272029"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-B4CEE7547E00"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-325943EA7AC0"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-20491755D99D"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-90957E72291D"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-A04C042614D1"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-1E36856950B8"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-CE2DD8F9C84C"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-610D8E6F8919"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-41BC67630192"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-A0DD4E03F89C"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-21D7D692F5BB"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-90957E72291D"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-87684B6AA93C"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-BC59CC93B447"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-5E4DF00D4E9D"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-E652AADC5BF9"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-A0DD4E03F89C"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-5EFAA7E80BEA"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-9FDD6A0C0B14"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-C33FD3B5209C"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-A0507150EBB4"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-35B8720562F0"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-1360A9B21BB8"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-DCA4BFEF1C49"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-5B16E2272029"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-C33FD3B5209C"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-14CE51476F72"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-3BEA51F832C6"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-3063699B28C5"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-FCD4B1DA6BC2"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-20491755D99D"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-0E95FE0FC633"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-87684B6AA93C"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-14CE51476F72"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-D18C1E1BEB5D"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-21D7D692F5BB"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-1532C9689E82"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-887359A2FD1D"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-7DEE8CAA9D87"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-9FDD6A0C0B14"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-240D5BE7332A"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-9FDD6A0C0B14"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-87684B6AA93C"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-65226C8D5BD3"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-E135815FC510"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-3AB3F941B449"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-3BEA51F832C6"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-059D6C93E92E"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-2719C5137DD4"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-5EFAA7E80BEA"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-B57D7E4B6B08"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-C867FE0FEDC4"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-C867FE0FEDC4"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-71AEA311202E"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-B5D0AB18085B"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-7DEE8CAA9D87"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-948F7AEED6DC"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-059D6C93E92E"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-4D14CD5F0F25"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-65226C8D5BD3"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-1E36856950B8"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-33DBF02D1C14"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-41DDC1E06082"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-A0DD4E03F89C"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-3E514E2A48C9"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-41DDC1E06082"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-B57D7E4B6B08"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-D18C1E1BEB5D"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-B4DA9B499AD5"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-41DDC1E06082"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-65E458A9F21C"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-2719C5137DD4"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-B7F83563AABB"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-4EC615B4CAFC"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-CD4C2C0CA1E6"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-BDA4BB321CEC"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-14CE51476F72"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-90957E72291D"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-FCD4B1DA6BC2"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-D4857847D097"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-FAA37C019D97"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-3AB3F941B449"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-A47B0651458E"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-7B5C1BE7DE09"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-35EAD1C1D5B1"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-F2B4222FCE63"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-059D6C93E92E"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-8B52FEAF3975"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-20491755D99D"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-2FAB1D885CEC"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-CD4C2C0CA1E6"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-2F987A0348BF"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-3AFA2BFF59C3"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-88F83A026441"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-B65BAD5C4652"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-F3FA0B4815E0"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-2F987A0348BF"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-C867FE0FEDC4"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-B4DA9B499AD5"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-2F987A0348BF"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-3E514E2A48C9"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-F504B631E860"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-6B9DDCBC58B9"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-A47B0651458E"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-5FA34396A5B3"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-F3FA0B4815E0"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-1532C9689E82"
+          },
+          {
+            "item_id": "ITM-3B55B63A3EC4",
+            "quantity": 1,
+            "recipe_id": "RCP-B5D0AB18085B"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-DCA4BFEF1C49"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-B65BAD5C4652"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-57E12222BCEA"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-AF4BF5DAA71B"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-F504B631E860"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-C33FD3B5209C"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-35EAD1C1D5B1"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-E7937C779A7D"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-A47B0651458E"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-65E458A9F21C"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-CE2DD8F9C84C"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-21D7D692F5BB"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-3AB3F941B449"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-8B52FEAF3975"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-1360A9B21BB8"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-3F7231D3413C"
+          },
+          {
+            "item_id": "ITM-60AF5B00EA29",
+            "quantity": 1,
+            "recipe_id": "RCP-3E514E2A48C9"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-F3FA0B4815E0"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-E135815FC510"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-CE2DD8F9C84C"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-1360A9B21BB8"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-F1C01E1F8336"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-E135815FC510"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-948F7AEED6DC"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-35B8720562F0"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-35B8720562F0"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-4D14CD5F0F25"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-DD2F72682293"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-240D5BE7332A"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-3AFA2BFF59C3"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-325943EA7AC0"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-F2AE2CA97352"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-1532C9689E82"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-59BAA083D5CC"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-65E458A9F21C"
+          },
+          {
+            "item_id": "ITM-79A81DCE363A",
+            "quantity": 1,
+            "recipe_id": "RCP-AF4BF5DAA71B"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-7EEE47119D15"
+          },
+          {
+            "item_id": "ITM-26871490D77B",
+            "quantity": 1,
+            "recipe_id": "RCP-240D5BE7332A"
+          },
+          {
+            "item_id": "ITM-2465412ED372",
+            "quantity": 1,
+            "recipe_id": "RCP-887359A2FD1D"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-B57D7E4B6B08"
+          },
+          {
+            "item_id": "ITM-589801DD9262",
+            "quantity": 1,
+            "recipe_id": "RCP-0BB77AF82F21"
+          },
+          {
+            "item_id": "ITM-D215D880F56D",
+            "quantity": 1,
+            "recipe_id": "RCP-8B52FEAF3975"
+          },
+          {
+            "item_id": "ITM-38264147CC4D",
+            "quantity": 1,
+            "recipe_id": "RCP-FAA37C019D97"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-B4DA9B499AD5"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-65226C8D5BD3"
+          },
+          {
+            "item_id": "ITM-3CAFD9DB78BF",
+            "quantity": 1,
+            "recipe_id": "RCP-6E4AFFA841FB"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-7EEE47119D15"
+          },
+          {
+            "item_id": "ITM-225172E1F34A",
+            "quantity": 1,
+            "recipe_id": "RCP-F504B631E860"
+          },
+          {
+            "item_id": "ITM-81DDECA4D59C",
+            "quantity": 1,
+            "recipe_id": "RCP-B4CEE7547E00"
+          },
+          {
+            "item_id": "ITM-EE235381910D",
+            "quantity": 1,
+            "recipe_id": "RCP-35EAD1C1D5B1"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-B65BAD5C4652"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-FC81FD2957AB"
+          },
+          {
+            "item_id": "ITM-7F6C1E561D5A",
+            "quantity": 1,
+            "recipe_id": "RCP-DD2F72682293"
+          },
+          {
+            "item_id": "ITM-D195E787BFA4",
+            "quantity": 1,
+            "recipe_id": "RCP-AF4BF5DAA71B"
+          },
+          {
+            "item_id": "ITM-F2EDA3A13462",
+            "quantity": 1,
+            "recipe_id": "RCP-7EEE47119D15"
+          },
+          {
+            "item_id": "ITM-30706374677C",
+            "quantity": 1,
+            "recipe_id": "RCP-768F6FEA0A2E"
+          },
+          {
+            "item_id": "ITM-CC8BD1CEFFFA",
+            "quantity": 1,
+            "recipe_id": "RCP-1E36856950B8"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-B7942263C205"
+          },
+          {
+            "item_id": "ITM-C62549E7C2E0",
+            "quantity": 1,
+            "recipe_id": "RCP-0D2E1A85F469"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-D4857847D097"
+          },
+          {
+            "item_id": "ITM-A0F567FE9B1F",
+            "quantity": 1,
+            "recipe_id": "RCP-A231C67C07CD"
+          },
+          {
+            "item_id": "ITM-8F55E874B1BF",
+            "quantity": 1,
+            "recipe_id": "RCP-FAA37C019D97"
+          },
+          {
+            "item_id": "ITM-168439C9F1D7",
+            "quantity": 1,
+            "recipe_id": "RCP-610D8E6F8919"
+          },
+          {
+            "item_id": "ITM-9A14FF7B2261",
+            "quantity": 1,
+            "recipe_id": "RCP-F1C01E1F8336"
+          },
+          {
+            "item_id": "ITM-321F0D1FF59D",
+            "quantity": 1,
+            "recipe_id": "RCP-41BC67630192"
+          },
+          {
+            "item_id": "ITM-AC3E7A83E1B9",
+            "quantity": 1,
+            "recipe_id": "RCP-B7942263C205"
+          }
+        ]
+      },
+      "catalog_order": [
+        "BSK-FD6B442F03CF",
+        "BSK-0652A6A24867",
+        "BSK-2C6CF96905D2",
+        "BSK-B944F6F0A777",
+        "BSK-AF3725B01F26",
+        "BSK-3DF5A8868260",
+        "BSK-D67070E61EB7",
+        "BSK-EA88D4855E4C",
+        "BSK-473DE55302B3",
+        "BSK-BFB23E3AB0E3",
+        "BSK-884C23ACC412",
+        "BSK-7F8F16069E8C",
+        "BSK-D400EFAFDEA9",
+        "BSK-C0B0921D5ED2",
+        "BSK-188CF5C11B22",
+        "BSK-20293E939FA6",
+        "BSK-ED9DA53BE29F",
+        "BSK-FAE413509EFA",
+        "BSK-9B395CB9F1AA",
+        "BSK-8D8125E7AE21",
+        "BSK-07C8B96EAF3A",
+        "BSK-5B8AD8908285",
+        "BSK-C73AF35F7160",
+        "BSK-30AB9623911A",
+        "BSK-C83A55404556",
+        "BSK-391C7587BE22",
+        "BSK-1C9E30B8A19E",
+        "BSK-3E3326752F27",
+        "BSK-FD2B950C9B81",
+        "BSK-C6DDD67E3134",
+        "BSK-17681B7AC6A6",
+        "BSK-BEBB914B693E",
+        "BSK-7C50CE733A6D",
+        "BSK-9C558B1FA52A",
+        "BSK-0B329BB669E1",
+        "BSK-A34398DE3F04",
+        "BSK-63550300289C",
+        "BSK-C4359951459C",
+        "BSK-BAD061D81C1E",
+        "BSK-D5B4B964C01B",
+        "BSK-C5F14E58BA5D",
+        "BSK-191C2AF6DF05",
+        "BSK-9003BB2D64D5",
+        "BSK-FE2F5960FDA7",
+        "BSK-5B2AE119D265",
+        "BSK-2ED9F8172D6E",
+        "BSK-0EDA45AB25B4",
+        "BSK-57F3D0011587",
+        "BSK-3B5BDF06DC32",
+        "BSK-A5BA52C7FCF1",
+        "BSK-ACA24D20BECB",
+        "BSK-AF55125B61FF",
+        "BSK-4DAA640B893D",
+        "BSK-28BD3A4737B6",
+        "BSK-133BCBB39300",
+        "BSK-65A5DC79A81E",
+        "BSK-2B5118D1E085",
+        "BSK-FBB446DDF250",
+        "BSK-854123F22CEE",
+        "BSK-540246B26354",
+        "BSK-316A5874A7B1",
+        "BSK-7DC5272DA72F",
+        "BSK-305936CD5C33",
+        "BSK-0DBCF39DBC09",
+        "BSK-56C8269448B9",
+        "BSK-025659D6AE11",
+        "BSK-7B76FFAD6230",
+        "BSK-C7ACCBB4CD51",
+        "BSK-ED0699379208",
+        "BSK-21ACBAB2AF41",
+        "BSK-A269F4644041",
+        "BSK-C94F98661D9F",
+        "BSK-7B59CB026F1C",
+        "BSK-9FA0B1CA3D3C",
+        "BSK-016C2A0A3AC9",
+        "BSK-E60E78007752",
+        "BSK-FF31214A1A8E",
+        "BSK-254E828DC9CF",
+        "BSK-2E61AF3C7F44",
+        "BSK-F8686BA703F4",
+        "BSK-D152FB6DD295",
+        "BSK-5A47A34164B6",
+        "BSK-98BFB0ACFA46",
+        "BSK-0AF817FB3044",
+        "BSK-025C3EFDC9D6",
+        "BSK-ED39532058C0",
+        "BSK-713EE352023D",
+        "BSK-DCA1F2B83634",
+        "BSK-ECBAE7B61214",
+        "BSK-AE37A135C676",
+        "BSK-71787C7A1F88"
+      ],
+      "requirements": [
+        {
+          "item_id": "ITM-8F55E874B1BF",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-81DDECA4D59C",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-26871490D77B",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-D195E787BFA4",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-168439C9F1D7",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-60AF5B00EA29",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-79A81DCE363A",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-3B55B63A3EC4",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-30706374677C",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-589801DD9262",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-9A14FF7B2261",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-2465412ED372",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-225172E1F34A",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-CC8BD1CEFFFA",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-F2EDA3A13462",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-3CAFD9DB78BF",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-321F0D1FF59D",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-D215D880F56D",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-AC3E7A83E1B9",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-EE235381910D",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-A0F567FE9B1F",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-7F6C1E561D5A",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-C62549E7C2E0",
+          "quantity": 1
+        },
+        {
+          "item_id": "ITM-38264147CC4D",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  "rung_index": 2,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 1
+}

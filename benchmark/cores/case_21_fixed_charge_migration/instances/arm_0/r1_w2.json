@@ -1,0 +1,2824 @@
+{
+  "arm_index": 0,
+  "case_id": "case_21_fixed_charge_migration",
+  "member_key": "case_21_fixed_charge_migration/rung-1/world-2/arm-0",
+  "payload": {
+    "cost_budget": 407,
+    "cost_vector": {
+      "evaluate_portfolio": 5,
+      "read_catalog_group": 3,
+      "read_catalog_page": 40,
+      "read_catalog_window": 7,
+      "read_classification_group": 3,
+      "read_classification_page": 40,
+      "read_classification_window": 7,
+      "read_support_policy": 2
+    },
+    "group_count": 80,
+    "group_handles_text": "GRP-ADCF0EC0C585, GRP-A88AFBAF81C4, GRP-2D405642EC50, GRP-6089394E1ECD, GRP-AA88A93ED28C, GRP-09EC2671CFA1, GRP-A86D6E4F1879, GRP-B04CC131E275, GRP-1892F05EDB83, GRP-6BADC45FE990, GRP-F919F23193EF, GRP-BA310B2BB930, GRP-4F15CFFB7809, GRP-115ECC2E85A0, GRP-1A130EB69C61, GRP-8591F55D93BF, GRP-D7985B3CAD53, GRP-7F1E462A0952, GRP-8C2C12A7B60C, GRP-92C6F4921143, GRP-AC935C69EFCE, GRP-7AE46D9A8F8C, GRP-489B76387BD7, GRP-84A98BBBF59B, GRP-23603EBC80E9, GRP-6E15470DB1B0, GRP-CEC37EDD7352, GRP-A6FF90EC33A4, GRP-2DA9D61EE4B5, GRP-4D362E4F49B7, GRP-4E8D6CF4F7B8, GRP-546DF0CEC5B6, GRP-539E35142D1A, GRP-67DCF3A9C4C5, GRP-E3B041C94CC5, GRP-8A667733F586, GRP-6CE0B1901347, GRP-0B6F1FDDC13C, GRP-A711CCFA5ECD, GRP-A4415F40AA1D, GRP-888E0014591D, GRP-508EA2F58C61, GRP-62D7BF7C54C3, GRP-7D30DDAB7EC6, GRP-04AA0305AC05, GRP-51677FDA3292, GRP-4439305B31C3, GRP-EDA196CE2DCE, GRP-9E67C03AADDA, GRP-1FF1A8F287D9, GRP-7B7597DF4E1B, GRP-E49623164D57, GRP-3EB76AA953DE, GRP-4C235361F2D3, GRP-AE65F3B303A6, GRP-5E3CE4640799, GRP-9BFDA30AA87F, GRP-E4B9D77C5048, GRP-732F87609595, GRP-DA5930E30A5B, GRP-275EC413F6EF, GRP-9F86FDD80488, GRP-3D4F9D040543, GRP-53BB37F73AAB, GRP-3550EF66C54F, GRP-C14B3FF6F726, GRP-672A0EBE70B6, GRP-47732A3AD79E, GRP-17F2B0A37288, GRP-D2355035D5AC, GRP-13D199700F07, GRP-A01AB0740C2C, GRP-D7705C820492, GRP-2E059D51E822, GRP-8B709FD56CAE, GRP-5C8908B77A21, GRP-E01955E0B065, GRP-2C0E57E23DFC, GRP-8514B14E9D19, GRP-D28B72E5D115",
+    "package_count_range": [
+      2,
+      4
+    ],
+    "source_documents": {
+      "catalog": [
+        {
+          "base_cost": 647521200,
+          "group_id": "GRP-E4B9D77C5048",
+          "package_id": "PKG-40A45E6740D2"
+        },
+        {
+          "base_cost": 172409100,
+          "group_id": "GRP-A4415F40AA1D",
+          "package_id": "PKG-4CF6D1E20AA4"
+        },
+        {
+          "base_cost": 498801900,
+          "group_id": "GRP-A88AFBAF81C4",
+          "package_id": "PKG-E1DAE5FBC265"
+        },
+        {
+          "base_cost": 535652700,
+          "group_id": "GRP-4F15CFFB7809",
+          "package_id": "PKG-AFD7044507ED"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-3550EF66C54F",
+          "package_id": "PKG-F34ADF3D9D14"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2D405642EC50",
+          "package_id": "PKG-46B89833EBB3"
+        },
+        {
+          "base_cost": 327708900,
+          "group_id": "GRP-53BB37F73AAB",
+          "package_id": "PKG-4C11D520D939"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-888E0014591D",
+          "package_id": "PKG-38FD8B1A1706"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7F1E462A0952",
+          "package_id": "PKG-5B360CD92B1F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-ADCF0EC0C585",
+          "package_id": "PKG-002C3E4D212B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6CE0B1901347",
+          "package_id": "PKG-22927FD684F1"
+        },
+        {
+          "base_cost": 639624600,
+          "group_id": "GRP-17F2B0A37288",
+          "package_id": "PKG-E9A9DC86ADD6"
+        },
+        {
+          "base_cost": 298096650,
+          "group_id": "GRP-04AA0305AC05",
+          "package_id": "PKG-4A264D8A6E46"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-17F2B0A37288",
+          "package_id": "PKG-E2DACDF28917"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-0B6F1FDDC13C",
+          "package_id": "PKG-937D48623100"
+        },
+        {
+          "base_cost": 155957850,
+          "group_id": "GRP-D2355035D5AC",
+          "package_id": "PKG-49DD88F8CA7A"
+        },
+        {
+          "base_cost": 377720700,
+          "group_id": "GRP-115ECC2E85A0",
+          "package_id": "PKG-6CD57EEC4114"
+        },
+        {
+          "base_cost": 611986500,
+          "group_id": "GRP-2D405642EC50",
+          "package_id": "PKG-87AF6E94F482"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-9F86FDD80488",
+          "package_id": "PKG-A4AD64FC8FE4"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D7985B3CAD53",
+          "package_id": "PKG-9ACC823E104D"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-2D405642EC50",
+          "package_id": "PKG-7F28C72B9AFF"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-2DA9D61EE4B5",
+          "package_id": "PKG-EB92B7B4ECCB"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-CEC37EDD7352",
+          "package_id": "PKG-011F3D7C6CDA"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A88AFBAF81C4",
+          "package_id": "PKG-23327F0BE94F"
+        },
+        {
+          "base_cost": 481692600,
+          "group_id": "GRP-8A667733F586",
+          "package_id": "PKG-4FC818BBA3B4"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-1892F05EDB83",
+          "package_id": "PKG-248A28899F9C"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-9E67C03AADDA",
+          "package_id": "PKG-C686672221BE"
+        },
+        {
+          "base_cost": 610670400,
+          "group_id": "GRP-6BADC45FE990",
+          "package_id": "PKG-F31D9041BF13"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-672A0EBE70B6",
+          "package_id": "PKG-C1D5898E3A3A"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-51677FDA3292",
+          "package_id": "PKG-2CCB48D3CD7E"
+        },
+        {
+          "base_cost": 5593425,
+          "group_id": "GRP-D7705C820492",
+          "package_id": "PKG-77FFB50AFA61"
+        },
+        {
+          "base_cost": 975230100,
+          "group_id": "GRP-9E67C03AADDA",
+          "package_id": "PKG-60EB2E45D8E8"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-23603EBC80E9",
+          "package_id": "PKG-B3ED699A272E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-CEC37EDD7352",
+          "package_id": "PKG-EE029F6E78A1"
+        },
+        {
+          "base_cost": 647521200,
+          "group_id": "GRP-A6FF90EC33A4",
+          "package_id": "PKG-12C6829F3CD5"
+        },
+        {
+          "base_cost": 528085125,
+          "group_id": "GRP-3550EF66C54F",
+          "package_id": "PKG-33A497AECDBB"
+        },
+        {
+          "base_cost": 629753850,
+          "group_id": "GRP-5E3CE4640799",
+          "package_id": "PKG-EED3B0AC5F0E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-51677FDA3292",
+          "package_id": "PKG-1361F3F14B5F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-888E0014591D",
+          "package_id": "PKG-D676B9D340BC"
+        },
+        {
+          "base_cost": 248742900,
+          "group_id": "GRP-4E8D6CF4F7B8",
+          "package_id": "PKG-3EB0E80A9F6C"
+        },
+        {
+          "base_cost": 3948300,
+          "group_id": "GRP-8514B14E9D19",
+          "package_id": "PKG-B22294FED27E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2DA9D61EE4B5",
+          "package_id": "PKG-BBF4F84CE05C"
+        },
+        {
+          "base_cost": 382985100,
+          "group_id": "GRP-489B76387BD7",
+          "package_id": "PKG-99D743CF8CD2"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-1892F05EDB83",
+          "package_id": "PKG-D43C6A972A28"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-AE65F3B303A6",
+          "package_id": "PKG-50E64945940E"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-4C235361F2D3",
+          "package_id": "PKG-402D9B9C6227"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8A667733F586",
+          "package_id": "PKG-10DF202FA7CD"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D28B72E5D115",
+          "package_id": "PKG-1CD68AA5F3AC"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-1FF1A8F287D9",
+          "package_id": "PKG-F72B2A8C54EB"
+        },
+        {
+          "base_cost": 369824100,
+          "group_id": "GRP-23603EBC80E9",
+          "package_id": "PKG-251F93511F3E"
+        },
+        {
+          "base_cost": 109894350,
+          "group_id": "GRP-62D7BF7C54C3",
+          "package_id": "PKG-3D9B2C438465"
+        },
+        {
+          "base_cost": 7896600,
+          "group_id": "GRP-5C8908B77A21",
+          "package_id": "PKG-9DF679A5E1E6"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-5E3CE4640799",
+          "package_id": "PKG-560215565737"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7AE46D9A8F8C",
+          "package_id": "PKG-8C8AFD2AF3B5"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-BA310B2BB930",
+          "package_id": "PKG-6CFC055ACE27"
+        },
+        {
+          "base_cost": 38495925,
+          "group_id": "GRP-3D4F9D040543",
+          "package_id": "PKG-B8287EBEC196"
+        },
+        {
+          "base_cost": 233607750,
+          "group_id": "GRP-0B6F1FDDC13C",
+          "package_id": "PKG-8F1D3AAB2A35"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-C14B3FF6F726",
+          "package_id": "PKG-C0A092AB8CF8"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-9F86FDD80488",
+          "package_id": "PKG-AD81C71C6FAB"
+        },
+        {
+          "base_cost": 97720425,
+          "group_id": "GRP-4C235361F2D3",
+          "package_id": "PKG-3FA74E9548FD"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-DA5930E30A5B",
+          "package_id": "PKG-A8F6417E13CC"
+        },
+        {
+          "base_cost": 658050,
+          "group_id": "GRP-888E0014591D",
+          "package_id": "PKG-ABD2246A3EE7"
+        },
+        {
+          "base_cost": 457344750,
+          "group_id": "GRP-A711CCFA5ECD",
+          "package_id": "PKG-23F28E6731AF"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A711CCFA5ECD",
+          "package_id": "PKG-1F6A9C565621"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4C235361F2D3",
+          "package_id": "PKG-67F1BAD88FFF"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-3EB76AA953DE",
+          "package_id": "PKG-25D2C44A0E67"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-17F2B0A37288",
+          "package_id": "PKG-694C5AF8E652"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-47732A3AD79E",
+          "package_id": "PKG-0EA11D18DD43"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-5C8908B77A21",
+          "package_id": "PKG-FE298153FAD1"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-DA5930E30A5B",
+          "package_id": "PKG-0ED5785AF44A"
+        },
+        {
+          "base_cost": 480376500,
+          "group_id": "GRP-1A130EB69C61",
+          "package_id": "PKG-F22EEB6F2EF1"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-1A130EB69C61",
+          "package_id": "PKG-19BEAE78EA47"
+        },
+        {
+          "base_cost": 287567850,
+          "group_id": "GRP-B04CC131E275",
+          "package_id": "PKG-797C792D2B91"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-51677FDA3292",
+          "package_id": "PKG-2939F61B8E83"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-3EB76AA953DE",
+          "package_id": "PKG-EC902A6E066D"
+        },
+        {
+          "base_cost": 952527375,
+          "group_id": "GRP-672A0EBE70B6",
+          "package_id": "PKG-9D6E782D2E92"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6E15470DB1B0",
+          "package_id": "PKG-956130ACC781"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A01AB0740C2C",
+          "package_id": "PKG-4C7928947E8D"
+        },
+        {
+          "base_cost": 573819600,
+          "group_id": "GRP-6E15470DB1B0",
+          "package_id": "PKG-83BD140B67B0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-546DF0CEC5B6",
+          "package_id": "PKG-F4C580E0970B"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-E49623164D57",
+          "package_id": "PKG-1D0E1082986B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-9BFDA30AA87F",
+          "package_id": "PKG-B4D07490F618"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7B7597DF4E1B",
+          "package_id": "PKG-C3648657618A"
+        },
+        {
+          "base_cost": 321786450,
+          "group_id": "GRP-8C2C12A7B60C",
+          "package_id": "PKG-734E5AF5276B"
+        },
+        {
+          "base_cost": 207943800,
+          "group_id": "GRP-09EC2671CFA1",
+          "package_id": "PKG-21BCDFC52646"
+        },
+        {
+          "base_cost": 152667600,
+          "group_id": "GRP-A86D6E4F1879",
+          "package_id": "PKG-EE3F1A6E0013"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-92C6F4921143",
+          "package_id": "PKG-E3EA46304C80"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-7D30DDAB7EC6",
+          "package_id": "PKG-6909D8CB4ABE"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D7985B3CAD53",
+          "package_id": "PKG-28D042F025BF"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-7B7597DF4E1B",
+          "package_id": "PKG-97B350FD1203"
+        },
+        {
+          "base_cost": 429377625,
+          "group_id": "GRP-DA5930E30A5B",
+          "package_id": "PKG-4166BF468646"
+        },
+        {
+          "base_cost": 188860350,
+          "group_id": "GRP-F919F23193EF",
+          "package_id": "PKG-7B592953EC3E"
+        },
+        {
+          "base_cost": 571845450,
+          "group_id": "GRP-67DCF3A9C4C5",
+          "package_id": "PKG-8F16F8E33F27"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-AC935C69EFCE",
+          "package_id": "PKG-2E861DEDEC8D"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-AA88A93ED28C",
+          "package_id": "PKG-C3CF9A11DCD1"
+        },
+        {
+          "base_cost": 371798250,
+          "group_id": "GRP-ADCF0EC0C585",
+          "package_id": "PKG-F8C191DFE633"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-539E35142D1A",
+          "package_id": "PKG-A09E0D267B64"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-D2355035D5AC",
+          "package_id": "PKG-8A5F082D4411"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A4415F40AA1D",
+          "package_id": "PKG-F52C5CBB8192"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6089394E1ECD",
+          "package_id": "PKG-F54E69EA46B0"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-A711CCFA5ECD",
+          "package_id": "PKG-459872DFACE0"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4439305B31C3",
+          "package_id": "PKG-87A8C30F19F2"
+        },
+        {
+          "base_cost": 352056750,
+          "group_id": "GRP-546DF0CEC5B6",
+          "package_id": "PKG-F7AD7D55C65E"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-ADCF0EC0C585",
+          "package_id": "PKG-19D34CAD2F24"
+        },
+        {
+          "base_cost": 217156500,
+          "group_id": "GRP-AC935C69EFCE",
+          "package_id": "PKG-CCB231428B42"
+        },
+        {
+          "base_cost": 499459950,
+          "group_id": "GRP-2DA9D61EE4B5",
+          "package_id": "PKG-8F4D79A433B2"
+        },
+        {
+          "base_cost": 487615050,
+          "group_id": "GRP-9F86FDD80488",
+          "package_id": "PKG-2B90646D1CA5"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A86D6E4F1879",
+          "package_id": "PKG-A461ACB78D49"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-4439305B31C3",
+          "package_id": "PKG-60D83CB7D2E9"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-A86D6E4F1879",
+          "package_id": "PKG-9063AC56191E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4D362E4F49B7",
+          "package_id": "PKG-0B24372EC627"
+        },
+        {
+          "base_cost": 4606350,
+          "group_id": "GRP-D28B72E5D115",
+          "package_id": "PKG-6A2BB4348A04"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-275EC413F6EF",
+          "package_id": "PKG-4E3178873290"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-672A0EBE70B6",
+          "package_id": "PKG-8A0A19C43852"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4F15CFFB7809",
+          "package_id": "PKG-762680EAD212"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-1FF1A8F287D9",
+          "package_id": "PKG-89361CAA35A0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-489B76387BD7",
+          "package_id": "PKG-8FC38FA38122"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8B709FD56CAE",
+          "package_id": "PKG-52FE36C44B04"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-AE65F3B303A6",
+          "package_id": "PKG-3EF5D29F2C3B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E49623164D57",
+          "package_id": "PKG-FCF39A8999AA"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-D2355035D5AC",
+          "package_id": "PKG-5A116E542AF9"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-04AA0305AC05",
+          "package_id": "PKG-82AB8F23573F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-5E3CE4640799",
+          "package_id": "PKG-D29E8DD55B13"
+        },
+        {
+          "base_cost": 562632750,
+          "group_id": "GRP-51677FDA3292",
+          "package_id": "PKG-2A2FF287EF7C"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4439305B31C3",
+          "package_id": "PKG-49D10EBE8BA8"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-9BFDA30AA87F",
+          "package_id": "PKG-2FD07C89B33D"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-3D4F9D040543",
+          "package_id": "PKG-D4C974B00F0E"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-AC935C69EFCE",
+          "package_id": "PKG-87A97E993823"
+        },
+        {
+          "base_cost": 962398125,
+          "group_id": "GRP-AE65F3B303A6",
+          "package_id": "PKG-353F37CFD24C"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-1A130EB69C61",
+          "package_id": "PKG-2663D3D960FE"
+        },
+        {
+          "base_cost": 819272250,
+          "group_id": "GRP-EDA196CE2DCE",
+          "package_id": "PKG-340692FB23B7"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-C14B3FF6F726",
+          "package_id": "PKG-274C6CDCA48A"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-275EC413F6EF",
+          "package_id": "PKG-9AA1E7AD03BE"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-489B76387BD7",
+          "package_id": "PKG-8A5F17B8753F"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-C14B3FF6F726",
+          "package_id": "PKG-C2D253F0BE61"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-6BADC45FE990",
+          "package_id": "PKG-22324171C7BC"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-7B7597DF4E1B",
+          "package_id": "PKG-53F0F8A74ED5"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-E4B9D77C5048",
+          "package_id": "PKG-6765EA8E7FC4"
+        },
+        {
+          "base_cost": 29612250,
+          "group_id": "GRP-2E059D51E822",
+          "package_id": "PKG-09C712BE652B"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-8C2C12A7B60C",
+          "package_id": "PKG-52E0AE62D408"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-67DCF3A9C4C5",
+          "package_id": "PKG-F9A180FF6102"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-AA88A93ED28C",
+          "package_id": "PKG-4C10191A2171"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-732F87609595",
+          "package_id": "PKG-8DDD99B89A1B"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-E3B041C94CC5",
+          "package_id": "PKG-C31B2B27AC54"
+        },
+        {
+          "base_cost": 149377350,
+          "group_id": "GRP-8591F55D93BF",
+          "package_id": "PKG-093A0D0DE432"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-13D199700F07",
+          "package_id": "PKG-22A911F08913"
+        },
+        {
+          "base_cost": 6251475,
+          "group_id": "GRP-13D199700F07",
+          "package_id": "PKG-91C4F1FCE093"
+        },
+        {
+          "base_cost": 618567000,
+          "group_id": "GRP-508EA2F58C61",
+          "package_id": "PKG-7C453C4506D9"
+        },
+        {
+          "base_cost": 5264400,
+          "group_id": "GRP-2C0E57E23DFC",
+          "package_id": "PKG-70D16E931CC2"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E3B041C94CC5",
+          "package_id": "PKG-B9E6DE3DDDE4"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-47732A3AD79E",
+          "package_id": "PKG-13DA04672C19"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-EDA196CE2DCE",
+          "package_id": "PKG-7699743C2E32"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-84A98BBBF59B",
+          "package_id": "PKG-FD990CC73ED2"
+        },
+        {
+          "base_cost": 649495350,
+          "group_id": "GRP-732F87609595",
+          "package_id": "PKG-B0B0B38A6A8C"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-E49623164D57",
+          "package_id": "PKG-90E62FB788D2"
+        },
+        {
+          "base_cost": 652127550,
+          "group_id": "GRP-D7985B3CAD53",
+          "package_id": "PKG-34C3FC45CD7D"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-DA5930E30A5B",
+          "package_id": "PKG-378C686489B8"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8C2C12A7B60C",
+          "package_id": "PKG-E75210E82292"
+        },
+        {
+          "base_cost": 153983700,
+          "group_id": "GRP-E3B041C94CC5",
+          "package_id": "PKG-73EEC37A56F1"
+        },
+        {
+          "base_cost": 73043550,
+          "group_id": "GRP-7D30DDAB7EC6",
+          "package_id": "PKG-6B243AB6D927"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-3550EF66C54F",
+          "package_id": "PKG-1CC869188728"
+        },
+        {
+          "base_cost": 904160700,
+          "group_id": "GRP-47732A3AD79E",
+          "package_id": "PKG-444EA987BA02"
+        },
+        {
+          "base_cost": 602115750,
+          "group_id": "GRP-6089394E1ECD",
+          "package_id": "PKG-6484D58387F9"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8514B14E9D19",
+          "package_id": "PKG-BA4B36FB6205"
+        },
+        {
+          "base_cost": 22702725,
+          "group_id": "GRP-8B709FD56CAE",
+          "package_id": "PKG-A4ACB440CA91"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-539E35142D1A",
+          "package_id": "PKG-D9325C342C42"
+        },
+        {
+          "base_cost": 252691200,
+          "group_id": "GRP-7AE46D9A8F8C",
+          "package_id": "PKG-2507342E28D9"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-6CE0B1901347",
+          "package_id": "PKG-544DBAFDB0D8"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-EDA196CE2DCE",
+          "package_id": "PKG-694DC6CCC8A6"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-EDA196CE2DCE",
+          "package_id": "PKG-6DE96ED61D29"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-9BFDA30AA87F",
+          "package_id": "PKG-5C5A57997D0A"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-8591F55D93BF",
+          "package_id": "PKG-44ECDE6A5E6A"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-508EA2F58C61",
+          "package_id": "PKG-D82E5A443652"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-62D7BF7C54C3",
+          "package_id": "PKG-34F2B9E128D4"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D7705C820492",
+          "package_id": "PKG-54FE9E50E0C6"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-F919F23193EF",
+          "package_id": "PKG-1A791BEA82A0"
+        },
+        {
+          "base_cost": 228343350,
+          "group_id": "GRP-BA310B2BB930",
+          "package_id": "PKG-1AFC9CAAE8AB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2E059D51E822",
+          "package_id": "PKG-676092E9B2DC"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-17F2B0A37288",
+          "package_id": "PKG-28D43BD09280"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-3550EF66C54F",
+          "package_id": "PKG-03691C6498B8"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-732F87609595",
+          "package_id": "PKG-4A5E49201180"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4C235361F2D3",
+          "package_id": "PKG-7FB96F0782EB"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-53BB37F73AAB",
+          "package_id": "PKG-C7D96F1FDA64"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-9E67C03AADDA",
+          "package_id": "PKG-8EBC76F788F4"
+        },
+        {
+          "base_cost": 535981725,
+          "group_id": "GRP-1FF1A8F287D9",
+          "package_id": "PKG-067A22FC7528"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-3D4F9D040543",
+          "package_id": "PKG-FB186C4CF9DB"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E01955E0B065",
+          "package_id": "PKG-705A180C4D94"
+        },
+        {
+          "base_cost": 860729400,
+          "group_id": "GRP-275EC413F6EF",
+          "package_id": "PKG-5FAFCC1EDBED"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-1FF1A8F287D9",
+          "package_id": "PKG-CACE5875EDAC"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-B04CC131E275",
+          "package_id": "PKG-DF34B721C7EB"
+        },
+        {
+          "base_cost": 898238250,
+          "group_id": "GRP-9BFDA30AA87F",
+          "package_id": "PKG-31B7EA836877"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-D2355035D5AC",
+          "package_id": "PKG-30AFB7FED5E5"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-04AA0305AC05",
+          "package_id": "PKG-66B7D185EDB9"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-AE65F3B303A6",
+          "package_id": "PKG-2E219229DA3E"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-3D4F9D040543",
+          "package_id": "PKG-8A1899A8A4C7"
+        },
+        {
+          "base_cost": 608038200,
+          "group_id": "GRP-7F1E462A0952",
+          "package_id": "PKG-0F81A04E548F"
+        },
+        {
+          "base_cost": 3948300,
+          "group_id": "GRP-A01AB0740C2C",
+          "package_id": "PKG-8A2F5CFED857"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-4E8D6CF4F7B8",
+          "package_id": "PKG-09868818B24B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-A6FF90EC33A4",
+          "package_id": "PKG-A4F230CFF227"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4F15CFFB7809",
+          "package_id": "PKG-B65C33769F66"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-115ECC2E85A0",
+          "package_id": "PKG-4100F8942E01"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-9E67C03AADDA",
+          "package_id": "PKG-8D51B06A1704"
+        },
+        {
+          "base_cost": 463267200,
+          "group_id": "GRP-6CE0B1901347",
+          "package_id": "PKG-12119190A7DA"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-E4B9D77C5048",
+          "package_id": "PKG-C47B520DF866"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-672A0EBE70B6",
+          "package_id": "PKG-4E7AFCACBE0C"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-E4B9D77C5048",
+          "package_id": "PKG-968E8CA37E29"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-2C0E57E23DFC",
+          "package_id": "PKG-61BE6631E2B2"
+        },
+        {
+          "base_cost": 585335475,
+          "group_id": "GRP-3EB76AA953DE",
+          "package_id": "PKG-5F6CDAB5302B"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-732F87609595",
+          "package_id": "PKG-6E81AD0C8687"
+        },
+        {
+          "base_cost": 80282100,
+          "group_id": "GRP-539E35142D1A",
+          "package_id": "PKG-F0AFAC9636AB"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-4E8D6CF4F7B8",
+          "package_id": "PKG-F8D30A0C883D"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-53BB37F73AAB",
+          "package_id": "PKG-57252D788ADF"
+        },
+        {
+          "base_cost": 229988475,
+          "group_id": "GRP-4439305B31C3",
+          "package_id": "PKG-A380BD5770F4"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-62D7BF7C54C3",
+          "package_id": "PKG-A57BE18BC278"
+        },
+        {
+          "base_cost": 517885350,
+          "group_id": "GRP-CEC37EDD7352",
+          "package_id": "PKG-9A8B2E30C4CE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-09EC2671CFA1",
+          "package_id": "PKG-60A47B8F1209"
+        },
+        {
+          "base_cost": 304019100,
+          "group_id": "GRP-84A98BBBF59B",
+          "package_id": "PKG-0787E1AACF9B"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-23603EBC80E9",
+          "package_id": "PKG-6C8E14399CF6"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-5E3CE4640799",
+          "package_id": "PKG-38DCCD19C077"
+        },
+        {
+          "base_cost": 100023600,
+          "group_id": "GRP-AA88A93ED28C",
+          "package_id": "PKG-4C94273A4027"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-53BB37F73AAB",
+          "package_id": "PKG-1FEB27EBE05C"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-9F86FDD80488",
+          "package_id": "PKG-31712ABD40ED"
+        },
+        {
+          "base_cost": 759060675,
+          "group_id": "GRP-E49623164D57",
+          "package_id": "PKG-08A32D6E34C8"
+        },
+        {
+          "base_cost": 16451250,
+          "group_id": "GRP-92C6F4921143",
+          "package_id": "PKG-B41DAA507375"
+        },
+        {
+          "base_cost": 91468950,
+          "group_id": "GRP-4D362E4F49B7",
+          "package_id": "PKG-F01168C43DCA"
+        },
+        {
+          "base_cost": 2,
+          "group_id": "GRP-3EB76AA953DE",
+          "package_id": "PKG-5C9A19F2E9B5"
+        },
+        {
+          "base_cost": 1,
+          "group_id": "GRP-275EC413F6EF",
+          "package_id": "PKG-F062F47999A5"
+        },
+        {
+          "base_cost": 467215500,
+          "group_id": "GRP-1892F05EDB83",
+          "package_id": "PKG-2296C299FF1C"
+        },
+        {
+          "base_cost": 10528800,
+          "group_id": "GRP-E01955E0B065",
+          "package_id": "PKG-E9B4F0E004F9"
+        },
+        {
+          "base_cost": 845923275,
+          "group_id": "GRP-7B7597DF4E1B",
+          "package_id": "PKG-E787BCD94E3F"
+        },
+        {
+          "base_cost": 857768175,
+          "group_id": "GRP-C14B3FF6F726",
+          "package_id": "PKG-5E290E6BA7D0"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-47732A3AD79E",
+          "package_id": "PKG-7C4633B9C8AE"
+        },
+        {
+          "base_cost": 0,
+          "group_id": "GRP-F919F23193EF",
+          "package_id": "PKG-386FE110377E"
+        }
+      ],
+      "classification": {
+        "encoding": "direct",
+        "rows": [
+          {
+            "mode": "modern",
+            "package_id": "PKG-6A2BB4348A04",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-91C4F1FCE093",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-F8C191DFE633",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-4FC818BBA3B4",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1361F3F14B5F",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-734E5AF5276B",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-46B89833EBB3",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-03691C6498B8",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-A8F6417E13CC",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-7C4633B9C8AE",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-A4ACB440CA91",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-25D2C44A0E67",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-067A22FC7528",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-38FD8B1A1706",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-A4F230CFF227",
+            "support_domains": [
+              "DOM-104C1810F3B2",
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-28D042F025BF",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-6765EA8E7FC4",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-6909D8CB4ABE",
+            "support_domains": [
+              "DOM-85CFEC535838",
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-5B360CD92B1F",
+            "support_domains": [
+              "DOM-0133B7A1F34C",
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-340692FB23B7",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-274C6CDCA48A",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-FB186C4CF9DB",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-093A0D0DE432",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-694DC6CCC8A6",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-89361CAA35A0",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-4CF6D1E20AA4",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-0787E1AACF9B",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-4166BF468646",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-08A32D6E34C8",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C1D5898E3A3A",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-9063AC56191E",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-1AFC9CAAE8AB",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8A0A19C43852",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8D51B06A1704",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F062F47999A5",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-53F0F8A74ED5",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-968E8CA37E29",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-87A8C30F19F2",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-011F3D7C6CDA",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-762680EAD212",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-6CFC055ACE27",
+            "support_domains": [
+              "DOM-DEC176ACC487",
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8EBC76F788F4",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-5F6CDAB5302B",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-3EF5D29F2C3B",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F52C5CBB8192",
+            "support_domains": [
+              "DOM-85CFEC535838",
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-2E861DEDEC8D",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-9DF679A5E1E6",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-5C5A57997D0A",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-40A45E6740D2",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-52FE36C44B04",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8A5F17B8753F",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C686672221BE",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-54FE9E50E0C6",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-A380BD5770F4",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-E9A9DC86ADD6",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-EE029F6E78A1",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-B8287EBEC196",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-2A2FF287EF7C",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-4C11D520D939",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-8F4D79A433B2",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-3FA74E9548FD",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-459872DFACE0",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-5FAFCC1EDBED",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-D676B9D340BC",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-4E7AFCACBE0C",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-19D34CAD2F24",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-67F1BAD88FFF",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-82AB8F23573F",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-E3EA46304C80",
+            "support_domains": [
+              "DOM-DEC176ACC487",
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-694C5AF8E652",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-5A116E542AF9",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-19BEAE78EA47",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-66B7D185EDB9",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-E75210E82292",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-CACE5875EDAC",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-F7AD7D55C65E",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-6DE96ED61D29",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-705A180C4D94",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-402D9B9C6227",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-0F81A04E548F",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-70D16E931CC2",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-F0AFAC9636AB",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-87AF6E94F482",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-60EB2E45D8E8",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-6E81AD0C8687",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-6B243AB6D927",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-7F28C72B9AFF",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C3CF9A11DCD1",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-B41DAA507375",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-353F37CFD24C",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-378C686489B8",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-2CCB48D3CD7E",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-9ACC823E104D",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-F01168C43DCA",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-60D83CB7D2E9",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-7B592953EC3E",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-97B350FD1203",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-248A28899F9C",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-22A911F08913",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F34ADF3D9D14",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-CCB231428B42",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-8A2F5CFED857",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-444EA987BA02",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-2507342E28D9",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-3D9B2C438465",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-2B90646D1CA5",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F4C580E0970B",
+            "support_domains": [
+              "DOM-971DC4765517",
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-7699743C2E32",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-EE3F1A6E0013",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-2296C299FF1C",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F54E69EA46B0",
+            "support_domains": [
+              "DOM-0133B7A1F34C",
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C3648657618A",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-F31D9041BF13",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-4A264D8A6E46",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-9D6E782D2E92",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-34C3FC45CD7D",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-9A8B2E30C4CE",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-B4D07490F618",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-D4C974B00F0E",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-4A5E49201180",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-AD81C71C6FAB",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C31B2B27AC54",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-73EEC37A56F1",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-AFD7044507ED",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-A57BE18BC278",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-E787BCD94E3F",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-5C9A19F2E9B5",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8DDD99B89A1B",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8C8AFD2AF3B5",
+            "support_domains": [
+              "DOM-E4E60263DC4D",
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-4100F8942E01",
+            "support_domains": [
+              "DOM-E4E60263DC4D",
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8FC38FA38122",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-0ED5785AF44A",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-B65C33769F66",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C47B520DF866",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-8F16F8E33F27",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-0EA11D18DD43",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-23F28E6731AF",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1CC869188728",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-6C8E14399CF6",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-2E219229DA3E",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C7D96F1FDA64",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-33A497AECDBB",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-EC902A6E066D",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-50E64945940E",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-A4AD64FC8FE4",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-2939F61B8E83",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-87A97E993823",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-7C453C4506D9",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-544DBAFDB0D8",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-7FB96F0782EB",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-560215565737",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-E2DACDF28917",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-5E290E6BA7D0",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F9A180FF6102",
+            "support_domains": [
+              "DOM-0A96E298AF05",
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1CD68AA5F3AC",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-44ECDE6A5E6A",
+            "support_domains": [
+              "DOM-DEC176ACC487",
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-002C3E4D212B",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-B3ED699A272E",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-52E0AE62D408",
+            "support_domains": [
+              "DOM-0133B7A1F34C"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-FE298153FAD1",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-34F2B9E128D4",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-83BD140B67B0",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1F6A9C565621",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-BBF4F84CE05C",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-8F1D3AAB2A35",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C0A092AB8CF8",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-49DD88F8CA7A",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-F22EEB6F2EF1",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-D43C6A972A28",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-3EB0E80A9F6C",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-2FD07C89B33D",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-D9325C342C42",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-12C6829F3CD5",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-09868818B24B",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-A461ACB78D49",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-6484D58387F9",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-30AFB7FED5E5",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-09C712BE652B",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-FD990CC73ED2",
+            "support_domains": [
+              "DOM-1E4804122508",
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1FEB27EBE05C",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-B9E6DE3DDDE4",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-21BCDFC52646",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-10DF202FA7CD",
+            "support_domains": [
+              "DOM-1E4804122508",
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-676092E9B2DC",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-49D10EBE8BA8",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-57252D788ADF",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-31B7EA836877",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-C2D253F0BE61",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-A09E0D267B64",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-4C94273A4027",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-DF34B721C7EB",
+            "support_domains": [
+              "DOM-0133B7A1F34C",
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-E1DAE5FBC265",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-937D48623100",
+            "support_domains": [
+              "DOM-F4A70DD66872",
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-9AA1E7AD03BE",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1D0E1082986B",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-B0B0B38A6A8C",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-61BE6631E2B2",
+            "support_domains": [
+              "DOM-1E4804122508"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-FCF39A8999AA",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F8D30A0C883D",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-28D43BD09280",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-99D743CF8CD2",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-22927FD684F1",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-956130ACC781",
+            "support_domains": [
+              "DOM-F4A70DD66872",
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-77FFB50AFA61",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-ABD2246A3EE7",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-386FE110377E",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-D82E5A443652",
+            "support_domains": [
+              "DOM-85CFEC535838",
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-4C10191A2171",
+            "support_domains": [
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-4E3178873290",
+            "support_domains": [
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-22324171C7BC",
+            "support_domains": [
+              "DOM-1E4804122508",
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-90E62FB788D2",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-31712ABD40ED",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8A1899A8A4C7",
+            "support_domains": [
+              "DOM-F4A70DD66872"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-23327F0BE94F",
+            "support_domains": [
+              "DOM-F4A70DD66872",
+              "DOM-104C1810F3B2"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-251F93511F3E",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-12119190A7DA",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-1A791BEA82A0",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-60A47B8F1209",
+            "support_domains": [
+              "DOM-0133B7A1F34C",
+              "DOM-0A96E298AF05"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-EED3B0AC5F0E",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-F72B2A8C54EB",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-D29E8DD55B13",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-4C7928947E8D",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-38DCCD19C077",
+            "support_domains": [
+              "DOM-85CFEC535838"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-E9B4F0E004F9",
+            "support_domains": []
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-797C792D2B91",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-8A5F082D4411",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-EB92B7B4ECCB",
+            "support_domains": [
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-BA4B36FB6205",
+            "support_domains": [
+              "DOM-3711B90D035E"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-0B24372EC627",
+            "support_domains": [
+              "DOM-971DC4765517",
+              "DOM-DEC176ACC487"
+            ]
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-13DA04672C19",
+            "support_domains": [
+              "DOM-E4E60263DC4D"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-6CD57EEC4114",
+            "support_domains": []
+          },
+          {
+            "mode": "legacy",
+            "package_id": "PKG-2663D3D960FE",
+            "support_domains": [
+              "DOM-971DC4765517"
+            ]
+          },
+          {
+            "mode": "modern",
+            "package_id": "PKG-B22294FED27E",
+            "support_domains": []
+          }
+        ]
+      },
+      "group_order": [
+        "GRP-ADCF0EC0C585",
+        "GRP-A88AFBAF81C4",
+        "GRP-2D405642EC50",
+        "GRP-6089394E1ECD",
+        "GRP-AA88A93ED28C",
+        "GRP-09EC2671CFA1",
+        "GRP-A86D6E4F1879",
+        "GRP-B04CC131E275",
+        "GRP-1892F05EDB83",
+        "GRP-6BADC45FE990",
+        "GRP-F919F23193EF",
+        "GRP-BA310B2BB930",
+        "GRP-4F15CFFB7809",
+        "GRP-115ECC2E85A0",
+        "GRP-1A130EB69C61",
+        "GRP-8591F55D93BF",
+        "GRP-D7985B3CAD53",
+        "GRP-7F1E462A0952",
+        "GRP-8C2C12A7B60C",
+        "GRP-92C6F4921143",
+        "GRP-AC935C69EFCE",
+        "GRP-7AE46D9A8F8C",
+        "GRP-489B76387BD7",
+        "GRP-84A98BBBF59B",
+        "GRP-23603EBC80E9",
+        "GRP-6E15470DB1B0",
+        "GRP-CEC37EDD7352",
+        "GRP-A6FF90EC33A4",
+        "GRP-2DA9D61EE4B5",
+        "GRP-4D362E4F49B7",
+        "GRP-4E8D6CF4F7B8",
+        "GRP-546DF0CEC5B6",
+        "GRP-539E35142D1A",
+        "GRP-67DCF3A9C4C5",
+        "GRP-E3B041C94CC5",
+        "GRP-8A667733F586",
+        "GRP-6CE0B1901347",
+        "GRP-0B6F1FDDC13C",
+        "GRP-A711CCFA5ECD",
+        "GRP-A4415F40AA1D",
+        "GRP-888E0014591D",
+        "GRP-508EA2F58C61",
+        "GRP-62D7BF7C54C3",
+        "GRP-7D30DDAB7EC6",
+        "GRP-04AA0305AC05",
+        "GRP-51677FDA3292",
+        "GRP-4439305B31C3",
+        "GRP-EDA196CE2DCE",
+        "GRP-9E67C03AADDA",
+        "GRP-1FF1A8F287D9",
+        "GRP-7B7597DF4E1B",
+        "GRP-E49623164D57",
+        "GRP-3EB76AA953DE",
+        "GRP-4C235361F2D3",
+        "GRP-AE65F3B303A6",
+        "GRP-5E3CE4640799",
+        "GRP-9BFDA30AA87F",
+        "GRP-E4B9D77C5048",
+        "GRP-732F87609595",
+        "GRP-DA5930E30A5B",
+        "GRP-275EC413F6EF",
+        "GRP-9F86FDD80488",
+        "GRP-3D4F9D040543",
+        "GRP-53BB37F73AAB",
+        "GRP-3550EF66C54F",
+        "GRP-C14B3FF6F726",
+        "GRP-672A0EBE70B6",
+        "GRP-47732A3AD79E",
+        "GRP-17F2B0A37288",
+        "GRP-D2355035D5AC",
+        "GRP-13D199700F07",
+        "GRP-A01AB0740C2C",
+        "GRP-D7705C820492",
+        "GRP-2E059D51E822",
+        "GRP-8B709FD56CAE",
+        "GRP-5C8908B77A21",
+        "GRP-E01955E0B065",
+        "GRP-2C0E57E23DFC",
+        "GRP-8514B14E9D19",
+        "GRP-D28B72E5D115"
+      ],
+      "objective_offset": 16985257575,
+      "package_count_range": [
+        2,
+        4
+      ],
+      "support_policy": [
+        {
+          "domain_id": "DOM-971DC4765517",
+          "fixed_charge": 3662379843
+        },
+        {
+          "domain_id": "DOM-85CFEC535838",
+          "fixed_charge": 3458711121
+        },
+        {
+          "domain_id": "DOM-1E4804122508",
+          "fixed_charge": 3106330161
+        },
+        {
+          "domain_id": "DOM-3711B90D035E",
+          "fixed_charge": 2056899627
+        },
+        {
+          "domain_id": "DOM-DEC176ACC487",
+          "fixed_charge": 3962787372
+        },
+        {
+          "domain_id": "DOM-F4A70DD66872",
+          "fixed_charge": 2849048019
+        },
+        {
+          "domain_id": "DOM-0A96E298AF05",
+          "fixed_charge": 3177805626
+        },
+        {
+          "domain_id": "DOM-E4E60263DC4D",
+          "fixed_charge": 3136924992
+        },
+        {
+          "domain_id": "DOM-104C1810F3B2",
+          "fixed_charge": 3027071088
+        },
+        {
+          "domain_id": "DOM-0133B7A1F34C",
+          "fixed_charge": 2699980434
+        }
+      ]
+    },
+    "support_domain_count": 10
+  },
+  "rung_index": 1,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 2
+}

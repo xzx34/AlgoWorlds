@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "algoworlds_landing_results/4",
+  "provenance": {
+    "paperPdfSha256": "1fff1553f1ee144c2adea438f9bcfcb77d87302c9d1fd41bae7f0d27618d105c"
+  },
+  "benchmark": {
+    "algorithmicWorlds": 240,
+    "evaluatedModels": 7,
+    "hiddenInstances": 120,
+    "instancesPerFamilyLevel": 3,
+    "optimizationFamilies": 10,
+    "pairedInterfaces": 2,
+    "publicName": "AlgoWorlds",
+    "trials": 3,
+    "validation": {
+      "channelCounterfactuals": 648,
+      "pairedHiddenInstances": 120,
+      "responseIsolationChecks": 1464,
+      "sufficientAcquisitionPlans": 480,
+      "uniqueOptima": 120
+    },
+    "workloadLevels": 4
+  },
+  "models": [
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "exact": {
+        "mean": 38.611111,
+        "sd": 4.646036
+      },
+      "feasible": {
+        "mean": 96.25,
+        "sd": 2.886751
+      },
+      "referenceUtility": {
+        "mean": 73.137431,
+        "sd": 11.811811
+      },
+      "informationSufficiency": {
+        "mean": 81.527778,
+        "sd": 8.743384
+      },
+      "discoveryCoverage": {
+        "mean": 97.329105,
+        "sd": 1.448301
+      }
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "name": "GPT-5.6 Sol",
+      "exact": {
+        "mean": 38.194444,
+        "sd": 1.339396
+      },
+      "feasible": {
+        "mean": 97.5,
+        "sd": 0.0
+      },
+      "referenceUtility": {
+        "mean": 74.98317,
+        "sd": 1.772115
+      },
+      "informationSufficiency": {
+        "mean": 89.861111,
+        "sd": 0.636469
+      },
+      "discoveryCoverage": {
+        "mean": 99.098172,
+        "sd": 0.127374
+      }
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "exact": {
+        "mean": 32.361111,
+        "sd": 3.849002
+      },
+      "feasible": {
+        "mean": 92.083333,
+        "sd": 0.833333
+      },
+      "referenceUtility": {
+        "mean": 67.195168,
+        "sd": 9.534495
+      },
+      "informationSufficiency": {
+        "mean": 86.388889,
+        "sd": 7.363731
+      },
+      "discoveryCoverage": {
+        "mean": 98.591109,
+        "sd": 1.083044
+      }
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "name": "GPT-5.6 Terra",
+      "exact": {
+        "mean": 26.388889,
+        "sd": 1.339396
+      },
+      "feasible": {
+        "mean": 87.777778,
+        "sd": 0.867361
+      },
+      "referenceUtility": {
+        "mean": 54.097581,
+        "sd": 1.952158
+      },
+      "informationSufficiency": {
+        "mean": 79.722222,
+        "sd": 3.127314
+      },
+      "discoveryCoverage": {
+        "mean": 96.647921,
+        "sd": 0.250307
+      }
+    },
+    {
+      "id": "glm-5.2",
+      "name": "GLM 5.2",
+      "exact": {
+        "mean": 24.861111,
+        "sd": 0.636469
+      },
+      "feasible": {
+        "mean": 64.583333,
+        "sd": 3.145764
+      },
+      "referenceUtility": {
+        "mean": 35.481356,
+        "sd": 2.665412
+      },
+      "informationSufficiency": {
+        "mean": 83.333333,
+        "sd": 3.818813
+      },
+      "discoveryCoverage": {
+        "mean": 93.907472,
+        "sd": 1.489393
+      }
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "exact": {
+        "mean": 16.111111,
+        "sd": 1.048588
+      },
+      "feasible": {
+        "mean": 83.888889,
+        "sd": 1.339396
+      },
+      "referenceUtility": {
+        "mean": 28.485918,
+        "sd": 0.909185
+      },
+      "informationSufficiency": {
+        "mean": 79.583333,
+        "sd": 1.666667
+      },
+      "discoveryCoverage": {
+        "mean": 97.740747,
+        "sd": 0.110668
+      }
+    },
+    {
+      "id": "qwen3.5-plus",
+      "name": "Qwen 3.5 Plus",
+      "exact": {
+        "mean": 5.416667,
+        "sd": 0.416667
+      },
+      "feasible": {
+        "mean": 48.888889,
+        "sd": 1.734722
+      },
+      "referenceUtility": {
+        "mean": 15.822551,
+        "sd": 0.867059
+      },
+      "informationSufficiency": {
+        "mean": 37.916667,
+        "sd": 1.25
+      },
+      "discoveryCoverage": {
+        "mean": 81.553644,
+        "sd": 0.420338
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "taskFamilyId": "transit_routing",
+      "queryTools": 6
+    },
+    {
+      "taskFamilyId": "basket_assembly",
+      "queryTools": 5
+    },
+    {
+      "taskFamilyId": "station_siting",
+      "queryTools": 4
+    },
+    {
+      "taskFamilyId": "authorization_planning",
+      "queryTools": 6
+    },
+    {
+      "taskFamilyId": "series_portfolio",
+      "queryTools": 6
+    },
+    {
+      "taskFamilyId": "machine_layout",
+      "queryTools": 8
+    },
+    {
+      "taskFamilyId": "sequential_matching",
+      "queryTools": 6
+    },
+    {
+      "taskFamilyId": "fleet_dispatch",
+      "queryTools": 6
+    },
+    {
+      "taskFamilyId": "evidence_joined_routing",
+      "queryTools": 6
+    },
+    {
+      "taskFamilyId": "migration_portfolio",
+      "queryTools": 8
+    }
+  ],
+  "informationSufficiencyDiagnostic": {
+    "model": "GPT-5.6 Sol",
+    "total": 647,
+    "exact": 269,
+    "feasibleSuboptimal": 364,
+    "infeasible": 14,
+    "noSubmission": 0,
+    "protocolOutcome": 0
+  }
+}

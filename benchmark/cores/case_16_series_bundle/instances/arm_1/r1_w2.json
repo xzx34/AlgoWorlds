@@ -1,0 +1,6419 @@
+{
+  "arm_index": 1,
+  "case_id": "case_16_series_bundle",
+  "member_key": "case_16_series_bundle/rung-1/world-2/arm-1",
+  "payload": {
+    "cost_budget": 1284,
+    "cost_vector": {
+      "evaluate_portfolio": 1000,
+      "read_catalog_window": 8,
+      "read_series": 3,
+      "read_series_page": 12,
+      "read_title": 4,
+      "read_title_index": 4
+    },
+    "group_count": 44,
+    "max_series_span": 6,
+    "series_count": 205,
+    "series_handles_text": "SER-7DA5491E8D1C, SER-6DE53A7C6F51, SER-6A8D01508934, SER-B4B79E5962EC, SER-D92D4328BACF, SER-97BACDCCA3C5, SER-D80D44B32432, SER-8E592510AE51, SER-0468E4052E16, SER-BC1AB9ECDFEA, SER-5660CB918B5A, SER-E02A72648202, SER-E5B17B0FE11C, SER-92301C9A7030, SER-FD5F89E2A0CB, SER-6A5DA1D6EBCC, SER-4609725EF0CE, SER-51FD349A1F4A, SER-0376F5F9404D, SER-00AB9805AA95, SER-0113DA020B47, SER-820D043F9879, SER-031D55484F13, SER-736D7F7D9108, SER-2232B94AD090, SER-CAD248DE9231, SER-AFFB2DC936E2, SER-83A3300D1C89, SER-AE9571A5D517, SER-D04219B2E7DF, SER-743106982542, SER-4569064D5CA4, SER-1F31996EB045, SER-535BE26BAA06, SER-BD65674E71AD, SER-1412C6D597DC, SER-BD8689000948, SER-4AD1800588FF, SER-6AA2F2F8624E, SER-522BA57C7D32, SER-86FB20C29702, SER-3E6E74D3B4C9, SER-A1CD7F1C9F88, SER-3E0218B9E586, SER-DA9B7657E760, SER-853A9CEA894D, SER-93728489588E, SER-7947740D4EE2, SER-E27E316336F3, SER-3A46A63EE5BC, SER-C3158C489E99, SER-A00610E0B9AF, SER-1704A8B72281, SER-1003B1DC447C, SER-83E3080F3543, SER-84632C3912B3, SER-88F2D50D7BDA, SER-33882DDC239E, SER-978629972C14, SER-BF2B82A64D5B, SER-6E1BBFEB0E20, SER-5E5C9E0A8FC1, SER-22FEDFCCF634, SER-5F5111E7655F, SER-4C22A9C023AF, SER-AA71730A08E4, SER-0079AE268E37, SER-E8E25C27ED37, SER-E72F493755AA, SER-27EE8C1FA4BC, SER-079494965DE6, SER-2C197857BCF6, SER-16FE63E5CC15, SER-E4CFEFA008F4, SER-D423B7554B52, SER-15ED5720F9EC, SER-EA27087B0716, SER-9DD28FCEEE84, SER-785CF98AE6A1, SER-499BD8D274A4, SER-10ED21B08C09, SER-21D85EFF40A5, SER-24D99F504156, SER-D9A7EB0E6A3A, SER-DA3726D90A51, SER-95A0211018AC, SER-1251CE8E59D8, SER-50690B1D8FBF, SER-BB0CD4493B44, SER-F09549B7D9C5, SER-F32870226E88, SER-D2515C4821EE, SER-9EA6EDA4C0A4, SER-699AEFF873F2, SER-C2CAFD0F6CF0, SER-F03204273C94, SER-C3BEDE138D1D, SER-5895192DCAAD, SER-3D4E988B2E1F, SER-A442A2A1A228, SER-AC4EA1F01A54, SER-BD4A146F4908, SER-A526CCB56BA3, SER-5C4DB655CACD, SER-E0951CCB5A63, SER-611C9D123075, SER-4A9D2AAA1F5E, SER-39E7DE54DC5F, SER-C3BCBFF6180D, SER-EADDE4A87C20, SER-2855FC8D523F, SER-33EC059391E5, SER-FECE4F741440, SER-99185B32FD58, SER-A898D662CCD6, SER-75B8DE33ACE8, SER-1054B5DA70CF, SER-FDE2BF12AB7C, SER-3DF1405BAC32, SER-A24CC1D4C5F2, SER-0CF5EB95BCA9, SER-89C60636D52F, SER-D5E6BBD33BA5, SER-D6074596A865, SER-8D34FD206826, SER-5DA2FD887749, SER-2BD4FC3E5D83, SER-3D4D8B6807FF, SER-E9CF1AAD0E45, SER-74756F863C16, SER-E27B4086570C, SER-3588A426D416, SER-B83F3D15589F, SER-FA7D758A8FC4, SER-3A039DD87F01, SER-F1918D63E72F, SER-B373624CE4B8, SER-7CBBEA0EF9A4, SER-0E9807C18FDB, SER-CF24B3FDFB81, SER-EE9E4B2C52BB, SER-415FA2BBBD45, SER-0A23370D3674, SER-146FEABE623C, SER-6D9BE6B31E62, SER-2F252005B393, SER-CD7AAF41B80E, SER-C8A6EBEA15A1, SER-54DB2CF20538, SER-70DA4D3723C6, SER-3A0C0D978B52, SER-4C23F6250AAB, SER-F10C76551A3D, SER-41CA378A5092, SER-BC719BEAEC5A, SER-60B0B1D8633B, SER-24F72DC96AC1, SER-37308ADC957C, SER-1BB81736117A, SER-7D1C3E0359F5, SER-324B5AFB8DD3, SER-4E5EB85A3B27, SER-0E4E36734259, SER-76663EA222F6, SER-A99BF69E8C3E, SER-34BAB43C9DCF, SER-DF88DCECEEE0, SER-67EB8B935910, SER-B229EAC8EC5B, SER-06181BADA2FD, SER-E01CADAE8AC5, SER-9AD51462062C, SER-B1EDB3205881, SER-593F54249F0C, SER-AF6E8C69EAC7, SER-45E51F4C1173, SER-9A26FC96558C, SER-77BCFF803BF4, SER-EAB97001B35B, SER-829F60BF56BF, SER-B31137081571, SER-D8356EE675FA, SER-A0E0978A2722, SER-1B61BA3A058C, SER-3E1EE4A014AF, SER-269EE186F249, SER-BA786BBEE1D0, SER-3DA04C1C5C73, SER-54F2042F1843, SER-B3158B350774, SER-0D49F2CB65BF, SER-C470962539B2, SER-FF7B76BFD822, SER-6CFAC8D2D530, SER-681D41F26D88, SER-E576C62302D7, SER-1BC776DD5FE2, SER-F8C9C2E30662, SER-8144EFF76234, SER-7060475D4764, SER-542CF47F80F3, SER-92AF4980FF0B, SER-ACF26F07068F, SER-3AD60B03EBCE, SER-3C05A3D241E3",
+    "source_documents": {
+      "declared_max_series_span": 6,
+      "series_order": [
+        "SER-7DA5491E8D1C",
+        "SER-6DE53A7C6F51",
+        "SER-6A8D01508934",
+        "SER-B4B79E5962EC",
+        "SER-D92D4328BACF",
+        "SER-97BACDCCA3C5",
+        "SER-D80D44B32432",
+        "SER-8E592510AE51",
+        "SER-0468E4052E16",
+        "SER-BC1AB9ECDFEA",
+        "SER-5660CB918B5A",
+        "SER-E02A72648202",
+        "SER-E5B17B0FE11C",
+        "SER-92301C9A7030",
+        "SER-FD5F89E2A0CB",
+        "SER-6A5DA1D6EBCC",
+        "SER-4609725EF0CE",
+        "SER-51FD349A1F4A",
+        "SER-0376F5F9404D",
+        "SER-00AB9805AA95",
+        "SER-0113DA020B47",
+        "SER-820D043F9879",
+        "SER-031D55484F13",
+        "SER-736D7F7D9108",
+        "SER-2232B94AD090",
+        "SER-CAD248DE9231",
+        "SER-AFFB2DC936E2",
+        "SER-83A3300D1C89",
+        "SER-AE9571A5D517",
+        "SER-D04219B2E7DF",
+        "SER-743106982542",
+        "SER-4569064D5CA4",
+        "SER-1F31996EB045",
+        "SER-535BE26BAA06",
+        "SER-BD65674E71AD",
+        "SER-1412C6D597DC",
+        "SER-BD8689000948",
+        "SER-4AD1800588FF",
+        "SER-6AA2F2F8624E",
+        "SER-522BA57C7D32",
+        "SER-86FB20C29702",
+        "SER-3E6E74D3B4C9",
+        "SER-A1CD7F1C9F88",
+        "SER-3E0218B9E586",
+        "SER-DA9B7657E760",
+        "SER-853A9CEA894D",
+        "SER-93728489588E",
+        "SER-7947740D4EE2",
+        "SER-E27E316336F3",
+        "SER-3A46A63EE5BC",
+        "SER-C3158C489E99",
+        "SER-A00610E0B9AF",
+        "SER-1704A8B72281",
+        "SER-1003B1DC447C",
+        "SER-83E3080F3543",
+        "SER-84632C3912B3",
+        "SER-88F2D50D7BDA",
+        "SER-33882DDC239E",
+        "SER-978629972C14",
+        "SER-BF2B82A64D5B",
+        "SER-6E1BBFEB0E20",
+        "SER-5E5C9E0A8FC1",
+        "SER-22FEDFCCF634",
+        "SER-5F5111E7655F",
+        "SER-4C22A9C023AF",
+        "SER-AA71730A08E4",
+        "SER-0079AE268E37",
+        "SER-E8E25C27ED37",
+        "SER-E72F493755AA",
+        "SER-27EE8C1FA4BC",
+        "SER-079494965DE6",
+        "SER-2C197857BCF6",
+        "SER-16FE63E5CC15",
+        "SER-E4CFEFA008F4",
+        "SER-D423B7554B52",
+        "SER-15ED5720F9EC",
+        "SER-EA27087B0716",
+        "SER-9DD28FCEEE84",
+        "SER-785CF98AE6A1",
+        "SER-499BD8D274A4",
+        "SER-10ED21B08C09",
+        "SER-21D85EFF40A5",
+        "SER-24D99F504156",
+        "SER-D9A7EB0E6A3A",
+        "SER-DA3726D90A51",
+        "SER-95A0211018AC",
+        "SER-1251CE8E59D8",
+        "SER-50690B1D8FBF",
+        "SER-BB0CD4493B44",
+        "SER-F09549B7D9C5",
+        "SER-F32870226E88",
+        "SER-D2515C4821EE",
+        "SER-9EA6EDA4C0A4",
+        "SER-699AEFF873F2",
+        "SER-C2CAFD0F6CF0",
+        "SER-F03204273C94",
+        "SER-C3BEDE138D1D",
+        "SER-5895192DCAAD",
+        "SER-3D4E988B2E1F",
+        "SER-A442A2A1A228",
+        "SER-AC4EA1F01A54",
+        "SER-BD4A146F4908",
+        "SER-A526CCB56BA3",
+        "SER-5C4DB655CACD",
+        "SER-E0951CCB5A63",
+        "SER-611C9D123075",
+        "SER-4A9D2AAA1F5E",
+        "SER-39E7DE54DC5F",
+        "SER-C3BCBFF6180D",
+        "SER-EADDE4A87C20",
+        "SER-2855FC8D523F",
+        "SER-33EC059391E5",
+        "SER-FECE4F741440",
+        "SER-99185B32FD58",
+        "SER-A898D662CCD6",
+        "SER-75B8DE33ACE8",
+        "SER-1054B5DA70CF",
+        "SER-FDE2BF12AB7C",
+        "SER-3DF1405BAC32",
+        "SER-A24CC1D4C5F2",
+        "SER-0CF5EB95BCA9",
+        "SER-89C60636D52F",
+        "SER-D5E6BBD33BA5",
+        "SER-D6074596A865",
+        "SER-8D34FD206826",
+        "SER-5DA2FD887749",
+        "SER-2BD4FC3E5D83",
+        "SER-3D4D8B6807FF",
+        "SER-E9CF1AAD0E45",
+        "SER-74756F863C16",
+        "SER-E27B4086570C",
+        "SER-3588A426D416",
+        "SER-B83F3D15589F",
+        "SER-FA7D758A8FC4",
+        "SER-3A039DD87F01",
+        "SER-F1918D63E72F",
+        "SER-B373624CE4B8",
+        "SER-7CBBEA0EF9A4",
+        "SER-0E9807C18FDB",
+        "SER-CF24B3FDFB81",
+        "SER-EE9E4B2C52BB",
+        "SER-415FA2BBBD45",
+        "SER-0A23370D3674",
+        "SER-146FEABE623C",
+        "SER-6D9BE6B31E62",
+        "SER-2F252005B393",
+        "SER-CD7AAF41B80E",
+        "SER-C8A6EBEA15A1",
+        "SER-54DB2CF20538",
+        "SER-70DA4D3723C6",
+        "SER-3A0C0D978B52",
+        "SER-4C23F6250AAB",
+        "SER-F10C76551A3D",
+        "SER-41CA378A5092",
+        "SER-BC719BEAEC5A",
+        "SER-60B0B1D8633B",
+        "SER-24F72DC96AC1",
+        "SER-37308ADC957C",
+        "SER-1BB81736117A",
+        "SER-7D1C3E0359F5",
+        "SER-324B5AFB8DD3",
+        "SER-4E5EB85A3B27",
+        "SER-0E4E36734259",
+        "SER-76663EA222F6",
+        "SER-A99BF69E8C3E",
+        "SER-34BAB43C9DCF",
+        "SER-DF88DCECEEE0",
+        "SER-67EB8B935910",
+        "SER-B229EAC8EC5B",
+        "SER-06181BADA2FD",
+        "SER-E01CADAE8AC5",
+        "SER-9AD51462062C",
+        "SER-B1EDB3205881",
+        "SER-593F54249F0C",
+        "SER-AF6E8C69EAC7",
+        "SER-45E51F4C1173",
+        "SER-9A26FC96558C",
+        "SER-77BCFF803BF4",
+        "SER-EAB97001B35B",
+        "SER-829F60BF56BF",
+        "SER-B31137081571",
+        "SER-D8356EE675FA",
+        "SER-A0E0978A2722",
+        "SER-1B61BA3A058C",
+        "SER-3E1EE4A014AF",
+        "SER-269EE186F249",
+        "SER-BA786BBEE1D0",
+        "SER-3DA04C1C5C73",
+        "SER-54F2042F1843",
+        "SER-B3158B350774",
+        "SER-0D49F2CB65BF",
+        "SER-C470962539B2",
+        "SER-FF7B76BFD822",
+        "SER-6CFAC8D2D530",
+        "SER-681D41F26D88",
+        "SER-E576C62302D7",
+        "SER-1BC776DD5FE2",
+        "SER-F8C9C2E30662",
+        "SER-8144EFF76234",
+        "SER-7060475D4764",
+        "SER-542CF47F80F3",
+        "SER-92AF4980FF0B",
+        "SER-ACF26F07068F",
+        "SER-3AD60B03EBCE",
+        "SER-3C05A3D241E3"
+      ],
+      "series_source": {
+        "encoding": "licensed",
+        "license_rows": [
+          {
+            "license_id": "LIC-C97D0B86459A",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-51F1D96CA000",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-EC49F96E99AA",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-DC59DEA565CB",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-C453C43DD12F",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-8FAB80137782",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-B658B677587C",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-3EA9380C6474",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-70C2EC824DC3",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-DC59DEA565CB",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-8B35B13C398B",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-7814356E0A62",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-0B4F5DF0106E",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-A120BD2F19E7",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-EC25BE5614A1",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-861AEE7ECA07",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-4BB0FA5D491D",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-AB6191D7DFC4",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-7B2A00A53BAE",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-0EA6B485A48B",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-491E4C9FC337",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-546E7CA61175",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-EF305FABE2D6",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-BA0A7D9984ED",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-A3A68EA4C5A6",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-DA0A1CD75712",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-3766BE828D20",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-21028F3A3E11",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-3DBA5C0A47AD",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-5F6E97A607DF",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-1996EB7119B1",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-77315CE75B93",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-2F62D2CBE853",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-8B35B13C398B",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-701F3167C5A3",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-66F944B6FDAD",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-1E18BBE3355B",
+            "one_lot_id": "LOT-B-B1C2D3483F30",
+            "zero_lot_id": "LOT-A-B82E8E110C14"
+          },
+          {
+            "license_id": "LIC-241375020821",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-28ACE23FB0F3",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-36BE4D1C3390",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-79595EE1CFA0",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-8CB4D47D1C65",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-FBA70A2AFE09",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-5ED35317CECB",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-62F27E13D4EE",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-3EA9380C6474",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-8635E4CC7B63",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-1E18BBE3355B",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-70C2EC824DC3",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-A5D9D3A5A0A3",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-4B52B297A707",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-174F32416E1C",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-2EFDD294E2A6",
+            "one_lot_id": "LOT-B-50DCE53A4701",
+            "zero_lot_id": "LOT-A-AF307F021565"
+          },
+          {
+            "license_id": "LIC-7B2A00A53BAE",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-47229891D23F",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-17B3E32D31DA",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-102D6244FDD7",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-C8D487D57CFA",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-90520E4C3D8E",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-8FAB80137782",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-6F2AAC655961",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-584EDB060EE5",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-3CA6EB990B01",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-0B351B7FD560",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-F54623AB06A5",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-D4EF3F31B3B5",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-EE9C3C7BF1E3",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-052F4268E94F",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-7CD22DD414F8",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-1E80FEF83648",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-D87A3617D816",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-C8D487D57CFA",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-7814356E0A62",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-2C40C8CF6C4B",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-7826D589314B",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-0EA6B485A48B",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-1985697DF19C",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-D8B5BAF7C043",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-0A2222DB04EC",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-23317C33E55C",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-1D6D6ACC8601",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-1996EB7119B1",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-6D6B1817281C",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-FCE9AE2DF64F",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-19AF7F90308C",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-791F4DF0D7C0",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-5F6E97A607DF",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-791F4DF0D7C0",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-03CB370FDD9C",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-A8743FC2D503",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-B658B677587C",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-476293C78EC1",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-E710045BF44B",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-F20698EC5FBD",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-6C47516D8708",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-DBC3C23D30AE",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-3DBA5C0A47AD",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-32499327C7B6",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-FCE9AE2DF64F",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-957D735F31C1",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-2D5FCEED26DE",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-27BA8E7AAF68",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-7CD22DD414F8",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-3D8B0D4E478D",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-BE151403C2B7",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-3F1E2861CD43",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-B3FBB0546A8E",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-80E6F3510453",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-D8B5BAF7C043",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-36BE4D1C3390",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-C3BE81F899C2",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-424BFFE87181",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-47B6A35DBB56",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-DA0A1CD75712",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-1D6D6ACC8601",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-5370B1CFBCD4",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-67FB6C1CB902",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-0D2A4FAFE098",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-A52270C8A2BA",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-839E52BFCD51",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-534E01B8D203",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-19AF7F90308C",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-4598C80AFC35",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-3F1E2861CD43",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-1E80FEF83648",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-3EA9380C6474",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-0B351B7FD560",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-25E86706F91E",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-8A5562AA7CBB",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-AE1134AF7F90",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-56DB40B69494",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-D87A3617D816",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-1E80FEF83648",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-17B3E32D31DA",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-07DD1918F371",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-872F5E70ED31",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-5E0BE607FE14",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-27BA8E7AAF68",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-C25AC2205479",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-7F85DAF703F5",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-9B5845919253",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-BE16FEC469DF",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-DA89BD928524",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-DA89BD928524",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-2E3106385FE8",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-C64119270AED",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-3DBA5C0A47AD",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-FBA70A2AFE09",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-2260703D5623",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-9D9DB336FBC8",
+            "one_lot_id": "LOT-B-B1C2D3483F30",
+            "zero_lot_id": "LOT-A-B82E8E110C14"
+          },
+          {
+            "license_id": "LIC-A3A68EA4C5A6",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-A82135092A39",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-83DA5C07ED5C",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-7CD22DD414F8",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-16925F848377",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-EFAC057F37B9",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-2B014059E580",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-F77DA3CE974F",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-2B014059E580",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-CEF52E23729B",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-C1494531212F",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-56837CF39692",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-DFA18968AB8D",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-DFA18968AB8D",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-DC59DEA565CB",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-DC1C48642B22",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-6D6B1817281C",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-CF3240E477B7",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-81F8DF2EC4A0",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-03CB370FDD9C",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-F92F89E5D24C",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-2BEF8764877C",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-F4BC01A4A708",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-AA77F878A292",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-9D9DB336FBC8",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-D698CC5CEC5F",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-0D2A4FAFE098",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-102D6244FDD7",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-0D42D86E172B",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-07DD1918F371",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-C302847483DD",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-5ED35317CECB",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-CD14AB743957",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-872F5E70ED31",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-A99280E5FC53",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-BE16FEC469DF",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-4F74C3A18DF1",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-BB15E0A40078",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-19424BE26B40",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-CE3EFDF57C73",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-3D8B0D4E478D",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-07E0877B0C78",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-8A5562AA7CBB",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-F1B2DD9FC6B9",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-6D3B5929907B",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-2E3106385FE8",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-EFAC057F37B9",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-F9F41B5B28F0",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-80E6F3510453",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-4F2A21CF3F87",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-A91328E5F4CE",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-51F1D96CA000",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-36BE4D1C3390",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-321CBE82A6A5",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-1E9EF537871D",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-8CB4D47D1C65",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-D698CC5CEC5F",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-6D15A080CCDB",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-8CB4D47D1C65",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-32499327C7B6",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-2C40C8CF6C4B",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-491E4C9FC337",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-9FF8035BA625",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-47B6A35DBB56",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-B3FBB0546A8E",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-A99280E5FC53",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-F1B2DD9FC6B9",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-D8B5BAF7C043",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-AF0657029475",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-AE1134AF7F90",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-A627117F67DC",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-3766BE828D20",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-534E01B8D203",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-C3D825EC4792",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-83DA5C07ED5C",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-AF0657029475",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-56837CF39692",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-C3BE81F899C2",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-D4EF3F31B3B5",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-BE151403C2B7",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-CF3240E477B7",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-5E0BE607FE14",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-10A4550F21A4",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-B60A04B2BCA8",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-4F2A21CF3F87",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-A52270C8A2BA",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-A99280E5FC53",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-BA0A7D9984ED",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-4890CE57EDCA",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-12DDAD8D5D44",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-4598C80AFC35",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-AB6191D7DFC4",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-A5D9D3A5A0A3",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-546E7CA61175",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-321CBE82A6A5",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-EC25BE5614A1",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-10A4550F21A4",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-606FE8A869C0",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-317FA44198F3",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-CF0AB0BC77B9",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-F631F0149A63",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-9D9DB336FBC8",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-F92F89E5D24C",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-6D6B1817281C",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-CE3EFDF57C73",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-3994E31F3A90",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-4598C80AFC35",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-F92F89E5D24C",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-11A8B8FECE70",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-C97D0B86459A",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-12AD224B27DD",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-0A2222DB04EC",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-CF3240E477B7",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-F77DA3CE974F",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-4F2A21CF3F87",
+            "one_lot_id": "LOT-B-50DCE53A4701",
+            "zero_lot_id": "LOT-A-AF307F021565"
+          },
+          {
+            "license_id": "LIC-5ED35317CECB",
+            "one_lot_id": "LOT-B-B1C2D3483F30",
+            "zero_lot_id": "LOT-A-B82E8E110C14"
+          },
+          {
+            "license_id": "LIC-07186A086991",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-701F3167C5A3",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-A627117F67DC",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-07E0877B0C78",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-CEF52E23729B",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-6D15A080CCDB",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-62F27E13D4EE",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-2F62D2CBE853",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-E31492570F4F",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-1CBFE9D721FC",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-5594FA308667",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-12DDAD8D5D44",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-CFCEEE8BA7DB",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-EC49F96E99AA",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-EF552A3D1264",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-A495F6CA8986",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-3766BE828D20",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-A52270C8A2BA",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-1E9EF537871D",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-7814356E0A62",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-10A4550F21A4",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-90520E4C3D8E",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-47B6A35DBB56",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-476293C78EC1",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-F631F0149A63",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-317FA44198F3",
+            "one_lot_id": "LOT-B-50DCE53A4701",
+            "zero_lot_id": "LOT-A-AF307F021565"
+          },
+          {
+            "license_id": "LIC-29147D9DD0DD",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-CF574F8841C8",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-AB6191D7DFC4",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-67FB6C1CB902",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-CEF52E23729B",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-C0FDCA072EA2",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-2260703D5623",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-4F74C3A18DF1",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-A6E4695A4FDF",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-CF574F8841C8",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-6C47516D8708",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-21028F3A3E11",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-77315CE75B93",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-0A2222DB04EC",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-A0843F3F2536",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-701F3167C5A3",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-4847BB49501E",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-7F85DAF703F5",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-16925F848377",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-56DB40B69494",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-56837CF39692",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-5D62720CBFA6",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-CE4D4F1E85BE",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-241375020821",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-97E1502A1F82",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-25E86706F91E",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-E31492570F4F",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-79595EE1CFA0",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-1D6D6ACC8601",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-D4EF3F31B3B5",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-EC3ADF42BF2E",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-2260703D5623",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-7F85DAF703F5",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-D8AB7A8ED7B3",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-86B041B85942",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-CD57B04291BA",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-BB15E0A40078",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-8C678D3A0AA4",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-7245085CD100",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-80E6F3510453",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-23317C33E55C",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-317FA44198F3",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-CD57B04291BA",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-A58ECD318538",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-861AEE7ECA07",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-B658B677587C",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-2BEF8764877C",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-EF552A3D1264",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-C97D0B86459A",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-E710045BF44B",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-F20698EC5FBD",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-DBC3C23D30AE",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-CF0AB0BC77B9",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-12DDAD8D5D44",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-EC49F96E99AA",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-CD57B04291BA",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-C1494531212F",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-19424BE26B40",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-872F5E70ED31",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-354FC19A9311",
+            "one_lot_id": "LOT-B-50DCE53A4701",
+            "zero_lot_id": "LOT-A-AF307F021565"
+          },
+          {
+            "license_id": "LIC-AE1134AF7F90",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-A0843F3F2536",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-EE9C3C7BF1E3",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-C3D825EC4792",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-E710045BF44B",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-5D62720CBFA6",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-68368D67DE8C",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-A82135092A39",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-7D914BFE8F7C",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-81F8DF2EC4A0",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-FCE9AE2DF64F",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-5D62720CBFA6",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-C0FDCA072EA2",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-8635E4CC7B63",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-EFAC057F37B9",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-DA0A1CD75712",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-E9EE36CC85F5",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-0EA6B485A48B",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-06275973B8D6",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-29147D9DD0DD",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-CFCEEE8BA7DB",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-930DF45F3E7E",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-19424BE26B40",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-2D5FCEED26DE",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-A3A68EA4C5A6",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-A120BD2F19E7",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-35290BB270CF",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-01B03EFF72FC",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-9FF8035BA625",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-07186A086991",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-16925F848377",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-06275973B8D6",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-F4BC01A4A708",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-0B4F5DF0106E",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-354FC19A9311",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-AA77F878A292",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-A6E4695A4FDF",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-9974B7143A07",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-CE4D4F1E85BE",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-102D6244FDD7",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-424BFFE87181",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-C302847483DD",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-3994E31F3A90",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-A6E4695A4FDF",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-6D3B5929907B",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-9B5845919253",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-CD14AB743957",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-3D8B0D4E478D",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-F9F41B5B28F0",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-CFCEEE8BA7DB",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-B60A04B2BCA8",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-E2EB24557F34",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-9FF8035BA625",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-1996EB7119B1",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-DC1C48642B22",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-29147D9DD0DD",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-D698CC5CEC5F",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-606FE8A869C0",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-888DB9BAEA8E",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-EC3ADF42BF2E",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-67FB6C1CB902",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-5370B1CFBCD4",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-957D735F31C1",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-97E1502A1F82",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-DBC3C23D30AE",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-0B4F5DF0106E",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-32499327C7B6",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-E9EE36CC85F5",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-2D5FCEED26DE",
+            "one_lot_id": "LOT-B-5E70AD9C81D5",
+            "zero_lot_id": "LOT-A-B4A6D4807031"
+          },
+          {
+            "license_id": "LIC-25E86706F91E",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-01B03EFF72FC",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-19AF7F90308C",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-03CB370FDD9C",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-01B03EFF72FC",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-9974B7143A07",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-A120BD2F19E7",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-47229891D23F",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-23317C33E55C",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-888DB9BAEA8E",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-9974B7143A07",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-E9EE36CC85F5",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-1E9EF537871D",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-07E0877B0C78",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-F77DA3CE974F",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-A5D9D3A5A0A3",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-A8743FC2D503",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-21028F3A3E11",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-97E1502A1F82",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-68368D67DE8C",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-321CBE82A6A5",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-3994E31F3A90",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-A82135092A39",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-D87A3617D816",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-888DB9BAEA8E",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-3F1E2861CD43",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-11A8B8FECE70",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-A495F6CA8986",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-35290BB270CF",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-BE16FEC469DF",
+            "one_lot_id": "LOT-B-B1C2D3483F30",
+            "zero_lot_id": "LOT-A-B82E8E110C14"
+          },
+          {
+            "license_id": "LIC-6F2AAC655961",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-CE4D4F1E85BE",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-10A834E8CF42",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-957D735F31C1",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-E2EB24557F34",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-C302847483DD",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-0B351B7FD560",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-D8AB7A8ED7B3",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-491E4C9FC337",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-2EFDD294E2A6",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-0D42D86E172B",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-35290BB270CF",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-4B52B297A707",
+            "one_lot_id": "LOT-B-B1C2D3483F30",
+            "zero_lot_id": "LOT-A-B82E8E110C14"
+          },
+          {
+            "license_id": "LIC-C0FDCA072EA2",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-0D42D86E172B",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-F54623AB06A5",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-68368D67DE8C",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-2E3106385FE8",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-66F944B6FDAD",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-7213BA1C62A8",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-EE9C3C7BF1E3",
+            "one_lot_id": "LOT-B-7D32C886FF82",
+            "zero_lot_id": "LOT-A-A916F8289069"
+          },
+          {
+            "license_id": "LIC-861AEE7ECA07",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-E2EB24557F34",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-47229891D23F",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-5370B1CFBCD4",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-10A834E8CF42",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-C25AC2205479",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-0D2A4FAFE098",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-06275973B8D6",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-A495F6CA8986",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-07DD1918F371",
+            "one_lot_id": "LOT-B-BBD8077A8972",
+            "zero_lot_id": "LOT-A-FA06246BE81C"
+          },
+          {
+            "license_id": "LIC-83DA5C07ED5C",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-A58ECD318538",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-11A8B8FECE70",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-DFA18968AB8D",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-A0843F3F2536",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-86B041B85942",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-56DB40B69494",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-5F6E97A607DF",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-7D914BFE8F7C",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-86B041B85942",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-7245085CD100",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-1CBFE9D721FC",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-77315CE75B93",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-3CA6EB990B01",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-7C12C8A3075C",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-A91328E5F4CE",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-839E52BFCD51",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-26E69DB195E8",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-2EFDD294E2A6",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-4890CE57EDCA",
+            "one_lot_id": "LOT-B-0DA2843D9D6F",
+            "zero_lot_id": "LOT-A-F9DD7A85F88A"
+          },
+          {
+            "license_id": "LIC-1E18BBE3355B",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-A8743FC2D503",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-8A5562AA7CBB",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-052F4268E94F",
+            "one_lot_id": "LOT-B-09D6028B0880",
+            "zero_lot_id": "LOT-A-D0D3CB38A0B3"
+          },
+          {
+            "license_id": "LIC-5594FA308667",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-052F4268E94F",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-C453C43DD12F",
+            "one_lot_id": "LOT-B-DE2865B572D9",
+            "zero_lot_id": "LOT-A-09B499317686"
+          },
+          {
+            "license_id": "LIC-791F4DF0D7C0",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-CF0AB0BC77B9",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-70C2EC824DC3",
+            "one_lot_id": "LOT-B-6496E7905CD8",
+            "zero_lot_id": "LOT-A-E3507F7B4004"
+          },
+          {
+            "license_id": "LIC-EC25BE5614A1",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-174F32416E1C",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-4890CE57EDCA",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-DC1C48642B22",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-DA89BD928524",
+            "one_lot_id": "LOT-B-C6022C4D3A26",
+            "zero_lot_id": "LOT-A-36197937E5C8"
+          },
+          {
+            "license_id": "LIC-66F944B6FDAD",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-F54623AB06A5",
+            "one_lot_id": "LOT-B-E421CBFAF988",
+            "zero_lot_id": "LOT-A-BC3A412CAF79"
+          },
+          {
+            "license_id": "LIC-534E01B8D203",
+            "one_lot_id": "LOT-B-50DCE53A4701",
+            "zero_lot_id": "LOT-A-AF307F021565"
+          },
+          {
+            "license_id": "LIC-584EDB060EE5",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-10A834E8CF42",
+            "one_lot_id": "LOT-B-3667D5076B24",
+            "zero_lot_id": "LOT-A-E79F03942013"
+          },
+          {
+            "license_id": "LIC-A91328E5F4CE",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-27BA8E7AAF68",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-07186A086991",
+            "one_lot_id": "LOT-B-F492535A0F7D",
+            "zero_lot_id": "LOT-A-1CB043AA77BF"
+          },
+          {
+            "license_id": "LIC-584EDB060EE5",
+            "one_lot_id": "LOT-B-ACC457C7CB44",
+            "zero_lot_id": "LOT-A-3E7C52D9755B"
+          },
+          {
+            "license_id": "LIC-424BFFE87181",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-17B3E32D31DA",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-C64119270AED",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-CD14AB743957",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-8FAB80137782",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-5594FA308667",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-51F1D96CA000",
+            "one_lot_id": "LOT-B-741B541CE3A6",
+            "zero_lot_id": "LOT-A-C4FB9A0DAA51"
+          },
+          {
+            "license_id": "LIC-AF0657029475",
+            "one_lot_id": "LOT-B-A0FAADCE05ED",
+            "zero_lot_id": "LOT-A-CEF996FBD04E"
+          },
+          {
+            "license_id": "LIC-C453C43DD12F",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-26E69DB195E8",
+            "one_lot_id": "LOT-B-C2537DF48103",
+            "zero_lot_id": "LOT-A-687AB5D77D5A"
+          },
+          {
+            "license_id": "LIC-930DF45F3E7E",
+            "one_lot_id": "LOT-B-5CF8C1233B25",
+            "zero_lot_id": "LOT-A-175336791ADB"
+          },
+          {
+            "license_id": "LIC-4BB0FA5D491D",
+            "one_lot_id": "LOT-B-E3F7AB511B16",
+            "zero_lot_id": "LOT-A-B2DEB67E3928"
+          },
+          {
+            "license_id": "LIC-174F32416E1C",
+            "one_lot_id": "LOT-B-CE4B4FB5E59B",
+            "zero_lot_id": "LOT-A-08B8734920B2"
+          },
+          {
+            "license_id": "LIC-C8D487D57CFA",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-4847BB49501E",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-2F62D2CBE853",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-28ACE23FB0F3",
+            "one_lot_id": "LOT-B-2E34AB382988",
+            "zero_lot_id": "LOT-A-5454C77726F5"
+          },
+          {
+            "license_id": "LIC-EF305FABE2D6",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-26E69DB195E8",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-A627117F67DC",
+            "one_lot_id": "LOT-B-64DB47FBAD9E",
+            "zero_lot_id": "LOT-A-7C0454348D8F"
+          },
+          {
+            "license_id": "LIC-62F27E13D4EE",
+            "one_lot_id": "LOT-B-1958215A07BC",
+            "zero_lot_id": "LOT-A-13F1B1801BE1"
+          },
+          {
+            "license_id": "LIC-7213BA1C62A8",
+            "one_lot_id": "LOT-B-9DA140F10964",
+            "zero_lot_id": "LOT-A-68FABCA0F9A2"
+          },
+          {
+            "license_id": "LIC-AA77F878A292",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          },
+          {
+            "license_id": "LIC-7C12C8A3075C",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-F4BC01A4A708",
+            "one_lot_id": "LOT-B-16FACE759F53",
+            "zero_lot_id": "LOT-A-40DB4F22CC0A"
+          },
+          {
+            "license_id": "LIC-1985697DF19C",
+            "one_lot_id": "LOT-B-ED2892923C29",
+            "zero_lot_id": "LOT-A-0D1EA0768E2C"
+          },
+          {
+            "license_id": "LIC-79595EE1CFA0",
+            "one_lot_id": "LOT-B-9FBC824FD289",
+            "zero_lot_id": "LOT-A-366F58E4BFBD"
+          },
+          {
+            "license_id": "LIC-F1B2DD9FC6B9",
+            "one_lot_id": "LOT-B-9BF279B3C25B",
+            "zero_lot_id": "LOT-A-5098F581D951"
+          },
+          {
+            "license_id": "LIC-12AD224B27DD",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-606FE8A869C0",
+            "one_lot_id": "LOT-B-B11B01968660",
+            "zero_lot_id": "LOT-A-86F0D7F60299"
+          },
+          {
+            "license_id": "LIC-B60A04B2BCA8",
+            "one_lot_id": "LOT-B-AAD0B3731564",
+            "zero_lot_id": "LOT-A-6655E77183E7"
+          },
+          {
+            "license_id": "LIC-CF574F8841C8",
+            "one_lot_id": "LOT-B-58523389215E",
+            "zero_lot_id": "LOT-A-C3914FE1DE96"
+          },
+          {
+            "license_id": "LIC-7826D589314B",
+            "one_lot_id": "LOT-B-807462BE626E",
+            "zero_lot_id": "LOT-A-465B9A208B68"
+          },
+          {
+            "license_id": "LIC-28ACE23FB0F3",
+            "one_lot_id": "LOT-B-A853C1B3F2D5",
+            "zero_lot_id": "LOT-A-339BB350E19E"
+          },
+          {
+            "license_id": "LIC-BA0A7D9984ED",
+            "one_lot_id": "LOT-B-AE87955A8FF9",
+            "zero_lot_id": "LOT-A-A349FE940016"
+          },
+          {
+            "license_id": "LIC-1CBFE9D721FC",
+            "one_lot_id": "LOT-B-CD511D768F19",
+            "zero_lot_id": "LOT-A-6282A073A17C"
+          },
+          {
+            "license_id": "LIC-F631F0149A63",
+            "one_lot_id": "LOT-B-DBBA7F35897D",
+            "zero_lot_id": "LOT-A-FC007B3FF283"
+          },
+          {
+            "license_id": "LIC-8C678D3A0AA4",
+            "one_lot_id": "LOT-B-300F3C3C9F15",
+            "zero_lot_id": "LOT-A-400FAB2299B9"
+          },
+          {
+            "license_id": "LIC-CE3EFDF57C73",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-B3FBB0546A8E",
+            "one_lot_id": "LOT-B-4FEA38295443",
+            "zero_lot_id": "LOT-A-D8449B7814B5"
+          },
+          {
+            "license_id": "LIC-2B014059E580",
+            "one_lot_id": "LOT-B-F0EB9E222B8A",
+            "zero_lot_id": "LOT-A-51CD130075B9"
+          },
+          {
+            "license_id": "LIC-C3D825EC4792",
+            "one_lot_id": "LOT-B-39363CE60FF3",
+            "zero_lot_id": "LOT-A-2D95EF8728FB"
+          },
+          {
+            "license_id": "LIC-9B5845919253",
+            "one_lot_id": "LOT-B-F4A04E8CF9E3",
+            "zero_lot_id": "LOT-A-4CB40CF59DA3"
+          },
+          {
+            "license_id": "LIC-6D3B5929907B",
+            "one_lot_id": "LOT-B-90A23B74D130",
+            "zero_lot_id": "LOT-A-88CDA8BB6A44"
+          },
+          {
+            "license_id": "LIC-7D914BFE8F7C",
+            "one_lot_id": "LOT-B-EC43A1D29639",
+            "zero_lot_id": "LOT-A-CD0A4D387906"
+          },
+          {
+            "license_id": "LIC-EF552A3D1264",
+            "one_lot_id": "LOT-B-79F67E217541",
+            "zero_lot_id": "LOT-A-2418FB52F994"
+          }
+        ],
+        "series": [
+          {
+            "adjustments": [
+              1433,
+              379,
+              -533,
+              1049,
+              347,
+              41,
+              -1527,
+              -1189
+            ],
+            "license_id": "LIC-68368D67DE8C",
+            "series_id": "SER-C470962539B2"
+          },
+          {
+            "adjustments": [
+              -459,
+              -665,
+              1399,
+              -187,
+              999,
+              133,
+              -27,
+              -1193
+            ],
+            "license_id": "LIC-CE3EFDF57C73",
+            "series_id": "SER-88F2D50D7BDA"
+          },
+          {
+            "adjustments": [
+              841,
+              671,
+              -585,
+              -927
+            ],
+            "license_id": "LIC-7B2A00A53BAE",
+            "series_id": "SER-10ED21B08C09"
+          },
+          {
+            "adjustments": [
+              185,
+              -821,
+              331,
+              1305,
+              -645,
+              -327,
+              441,
+              -469
+            ],
+            "license_id": "LIC-6D3B5929907B",
+            "series_id": "SER-00AB9805AA95"
+          },
+          {
+            "adjustments": [
+              -165,
+              861,
+              -1955,
+              -1317,
+              -435,
+              795,
+              1195,
+              1021
+            ],
+            "license_id": "LIC-4598C80AFC35",
+            "series_id": "SER-0079AE268E37"
+          },
+          {
+            "adjustments": [
+              1075,
+              -1659,
+              1125,
+              -797,
+              -779,
+              1203,
+              1891,
+              -2059
+            ],
+            "license_id": "LIC-DA89BD928524",
+            "series_id": "SER-829F60BF56BF"
+          },
+          {
+            "adjustments": [
+              -577,
+              865,
+              33,
+              -1345,
+              -1423,
+              2191,
+              431,
+              -175
+            ],
+            "license_id": "LIC-8FAB80137782",
+            "series_id": "SER-9EA6EDA4C0A4"
+          },
+          {
+            "adjustments": [
+              -299,
+              247,
+              -809,
+              661,
+              -457,
+              -251,
+              869,
+              39
+            ],
+            "license_id": "LIC-A8743FC2D503",
+            "series_id": "SER-16FE63E5CC15"
+          },
+          {
+            "adjustments": [
+              319,
+              -927,
+              401,
+              -257,
+              -831,
+              2111,
+              -737,
+              -79
+            ],
+            "license_id": "LIC-EC49F96E99AA",
+            "series_id": "SER-BB0CD4493B44"
+          },
+          {
+            "adjustments": [
+              -1647,
+              1699,
+              1075,
+              -351,
+              -573,
+              289,
+              1169,
+              -1661
+            ],
+            "license_id": "LIC-888DB9BAEA8E",
+            "series_id": "SER-27EE8C1FA4BC"
+          },
+          {
+            "adjustments": [
+              -537,
+              -2215,
+              137,
+              -793,
+              1193,
+              1351,
+              743,
+              121
+            ],
+            "license_id": "LIC-25E86706F91E",
+            "series_id": "SER-9A26FC96558C"
+          },
+          {
+            "adjustments": [
+              1603,
+              1013,
+              -1403,
+              -1405,
+              389,
+              -605,
+              1043,
+              -635
+            ],
+            "license_id": "LIC-E710045BF44B",
+            "series_id": "SER-820D043F9879"
+          },
+          {
+            "adjustments": [
+              -1663,
+              -1165,
+              1411,
+              -1279,
+              163,
+              1649,
+              337,
+              547
+            ],
+            "license_id": "LIC-957D735F31C1",
+            "series_id": "SER-67EB8B935910"
+          },
+          {
+            "adjustments": [
+              -421,
+              -227,
+              -1251,
+              -21,
+              1229,
+              75,
+              -197,
+              813
+            ],
+            "license_id": "LIC-CF574F8841C8",
+            "series_id": "SER-0468E4052E16"
+          },
+          {
+            "adjustments": [
+              -1173,
+              1277,
+              -2547,
+              -501,
+              1069,
+              603,
+              587,
+              685
+            ],
+            "license_id": "LIC-584EDB060EE5",
+            "series_id": "SER-4E5EB85A3B27"
+          },
+          {
+            "adjustments": [
+              781,
+              -385,
+              -1473,
+              205,
+              -273,
+              -291,
+              1197,
+              239
+            ],
+            "license_id": "LIC-01B03EFF72FC",
+            "series_id": "SER-E5B17B0FE11C"
+          },
+          {
+            "adjustments": [
+              1257,
+              955,
+              155,
+              -2055,
+              1771,
+              -199,
+              -1511,
+              -373
+            ],
+            "license_id": "LIC-F92F89E5D24C",
+            "series_id": "SER-BD8689000948"
+          },
+          {
+            "adjustments": [
+              119,
+              237,
+              5,
+              -361
+            ],
+            "license_id": "LIC-6F2AAC655961",
+            "series_id": "SER-6A5DA1D6EBCC"
+          },
+          {
+            "adjustments": [
+              -807,
+              1579,
+              -517,
+              393,
+              -549,
+              601,
+              1545,
+              -2245
+            ],
+            "license_id": "LIC-AE1134AF7F90",
+            "series_id": "SER-BC719BEAEC5A"
+          },
+          {
+            "adjustments": [
+              -853,
+              1053,
+              1949,
+              -949,
+              -1587,
+              -981,
+              1131,
+              237
+            ],
+            "license_id": "LIC-7D914BFE8F7C",
+            "series_id": "SER-1F31996EB045"
+          },
+          {
+            "adjustments": [
+              -351,
+              995,
+              -253,
+              -1039,
+              611,
+              113,
+              -1823,
+              1747
+            ],
+            "license_id": "LIC-2D5FCEED26DE",
+            "series_id": "SER-E9CF1AAD0E45"
+          },
+          {
+            "adjustments": [
+              -305,
+              -75,
+              -507,
+              887
+            ],
+            "license_id": "LIC-81F8DF2EC4A0",
+            "series_id": "SER-3A0C0D978B52"
+          },
+          {
+            "adjustments": [
+              -891,
+              1607,
+              -1017,
+              -731,
+              135,
+              -555,
+              549,
+              903
+            ],
+            "license_id": "LIC-36BE4D1C3390",
+            "series_id": "SER-4AD1800588FF"
+          },
+          {
+            "adjustments": [
+              -1147,
+              1767,
+              23,
+              -2123,
+              -137,
+              709,
+              -331,
+              1239
+            ],
+            "license_id": "LIC-0EA6B485A48B",
+            "series_id": "SER-C3BEDE138D1D"
+          },
+          {
+            "adjustments": [
+              563,
+              -799,
+              945,
+              -709
+            ],
+            "license_id": "LIC-E31492570F4F",
+            "series_id": "SER-853A9CEA894D"
+          },
+          {
+            "adjustments": [
+              -2025,
+              969,
+              953,
+              1095,
+              -2103,
+              791,
+              743,
+              -423
+            ],
+            "license_id": "LIC-5ED35317CECB",
+            "series_id": "SER-B4B79E5962EC"
+          },
+          {
+            "adjustments": [
+              595,
+              -619,
+              -203,
+              259,
+              -1595,
+              1347,
+              -445,
+              661
+            ],
+            "license_id": "LIC-C302847483DD",
+            "series_id": "SER-3E1EE4A014AF"
+          },
+          {
+            "adjustments": [
+              149,
+              711,
+              983,
+              -811,
+              887,
+              -667,
+              981,
+              -2233
+            ],
+            "license_id": "LIC-9974B7143A07",
+            "series_id": "SER-A898D662CCD6"
+          },
+          {
+            "adjustments": [
+              -33,
+              -155,
+              397,
+              -209
+            ],
+            "license_id": "LIC-EC3ADF42BF2E",
+            "series_id": "SER-15ED5720F9EC"
+          },
+          {
+            "adjustments": [
+              -709,
+              1789,
+              1117,
+              -1893,
+              157,
+              1819,
+              -869,
+              -1411
+            ],
+            "license_id": "LIC-3DBA5C0A47AD",
+            "series_id": "SER-A442A2A1A228"
+          },
+          {
+            "adjustments": [
+              111,
+              1665,
+              -1199,
+              847,
+              -431,
+              287,
+              575,
+              -1855
+            ],
+            "license_id": "LIC-5594FA308667",
+            "series_id": "SER-7947740D4EE2"
+          },
+          {
+            "adjustments": [
+              -837,
+              1197,
+              -643,
+              -773,
+              1133,
+              -1253,
+              507,
+              669
+            ],
+            "license_id": "LIC-79595EE1CFA0",
+            "series_id": "SER-EAB97001B35B"
+          },
+          {
+            "adjustments": [
+              595,
+              837,
+              1093,
+              1731,
+              -1451,
+              -621,
+              -397,
+              -1787
+            ],
+            "license_id": "LIC-26E69DB195E8",
+            "series_id": "SER-4A9D2AAA1F5E"
+          },
+          {
+            "adjustments": [
+              -1831,
+              -501,
+              -677,
+              665,
+              1355,
+              617,
+              681,
+              -309
+            ],
+            "license_id": "LIC-51F1D96CA000",
+            "series_id": "SER-542CF47F80F3"
+          },
+          {
+            "adjustments": [
+              -649,
+              -311,
+              57,
+              -953,
+              1401,
+              -361,
+              423,
+              393
+            ],
+            "license_id": "LIC-7F85DAF703F5",
+            "series_id": "SER-EADDE4A87C20"
+          },
+          {
+            "adjustments": [
+              627,
+              37,
+              -411,
+              -717,
+              -523,
+              163,
+              611,
+              213
+            ],
+            "license_id": "LIC-DC1C48642B22",
+            "series_id": "SER-E27E316336F3"
+          },
+          {
+            "adjustments": [
+              185,
+              1243,
+              1259,
+              1385,
+              -277,
+              -695,
+              -791,
+              -2309
+            ],
+            "license_id": "LIC-424BFFE87181",
+            "series_id": "SER-A00610E0B9AF"
+          },
+          {
+            "adjustments": [
+              1331,
+              1173,
+              -2251,
+              -2157,
+              -331,
+              403,
+              35,
+              1797
+            ],
+            "license_id": "LIC-B60A04B2BCA8",
+            "series_id": "SER-1BC776DD5FE2"
+          },
+          {
+            "adjustments": [
+              -943,
+              1539,
+              -1933,
+              1585,
+              -317,
+              -1983,
+              1,
+              2051
+            ],
+            "license_id": "LIC-10A834E8CF42",
+            "series_id": "SER-522BA57C7D32"
+          },
+          {
+            "adjustments": [
+              1227,
+              -867,
+              -1331,
+              -5,
+              1309,
+              -1765,
+              667,
+              765
+            ],
+            "license_id": "LIC-3994E31F3A90",
+            "series_id": "SER-1251CE8E59D8"
+          },
+          {
+            "adjustments": [
+              -853,
+              61,
+              -99,
+              -581,
+              157,
+              491,
+              779,
+              45
+            ],
+            "license_id": "LIC-06275973B8D6",
+            "series_id": "SER-83E3080F3543"
+          },
+          {
+            "adjustments": [
+              -325,
+              -7,
+              553,
+              -221
+            ],
+            "license_id": "LIC-12AD224B27DD",
+            "series_id": "SER-F03204273C94"
+          },
+          {
+            "adjustments": [
+              -901,
+              1741,
+              -1539,
+              -469,
+              1789,
+              587,
+              -805,
+              -403
+            ],
+            "license_id": "LIC-47B6A35DBB56",
+            "series_id": "SER-4569064D5CA4"
+          },
+          {
+            "adjustments": [
+              1339,
+              -319,
+              -327,
+              -693
+            ],
+            "license_id": "LIC-241375020821",
+            "series_id": "SER-86FB20C29702"
+          },
+          {
+            "adjustments": [
+              257,
+              883,
+              -573,
+              -1023,
+              819,
+              -1247,
+              481,
+              403
+            ],
+            "license_id": "LIC-1E18BBE3355B",
+            "series_id": "SER-6A8D01508934"
+          },
+          {
+            "adjustments": [
+              -503,
+              759,
+              -137,
+              -119
+            ],
+            "license_id": "LIC-BB15E0A40078",
+            "series_id": "SER-E01CADAE8AC5"
+          },
+          {
+            "adjustments": [
+              351,
+              -671,
+              -1551,
+              1903,
+              -1647,
+              1263,
+              591,
+              -239
+            ],
+            "license_id": "LIC-F631F0149A63",
+            "series_id": "SER-BF2B82A64D5B"
+          },
+          {
+            "adjustments": [
+              -973,
+              453,
+              885,
+              595,
+              181,
+              275,
+              -525,
+              -891
+            ],
+            "license_id": "LIC-C97D0B86459A",
+            "series_id": "SER-6CFAC8D2D530"
+          },
+          {
+            "adjustments": [
+              -87,
+              -1445,
+              875,
+              -583,
+              -1653,
+              1033,
+              841,
+              1019
+            ],
+            "license_id": "LIC-D698CC5CEC5F",
+            "series_id": "SER-B1EDB3205881"
+          },
+          {
+            "adjustments": [
+              521,
+              27,
+              -805,
+              -1351,
+              -1301,
+              1321,
+              537,
+              1051
+            ],
+            "license_id": "LIC-606FE8A869C0",
+            "series_id": "SER-C2CAFD0F6CF0"
+          },
+          {
+            "adjustments": [
+              173,
+              -385,
+              -1617,
+              -675,
+              943,
+              941,
+              -35,
+              655
+            ],
+            "license_id": "LIC-491E4C9FC337",
+            "series_id": "SER-1BB81736117A"
+          },
+          {
+            "adjustments": [
+              1355,
+              -419,
+              -163,
+              667,
+              -675,
+              -1173,
+              -1189,
+              1597
+            ],
+            "license_id": "LIC-102D6244FDD7",
+            "series_id": "SER-E4CFEFA008F4"
+          },
+          {
+            "adjustments": [
+              563,
+              -439,
+              -31,
+              -93
+            ],
+            "license_id": "LIC-7245085CD100",
+            "series_id": "SER-324B5AFB8DD3"
+          },
+          {
+            "adjustments": [
+              855,
+              -403,
+              237,
+              -689
+            ],
+            "license_id": "LIC-C3BE81F899C2",
+            "series_id": "SER-269EE186F249"
+          },
+          {
+            "adjustments": [
+              -3,
+              163,
+              -53,
+              -107
+            ],
+            "license_id": "LIC-354FC19A9311",
+            "series_id": "SER-3C05A3D241E3"
+          },
+          {
+            "adjustments": [
+              1095,
+              1529,
+              -631,
+              -1513,
+              745,
+              199,
+              -1321,
+              -103
+            ],
+            "license_id": "LIC-AA77F878A292",
+            "series_id": "SER-D80D44B32432"
+          },
+          {
+            "adjustments": [
+              1057,
+              -1053,
+              -93,
+              -319,
+              1507,
+              -479,
+              -1055,
+              435
+            ],
+            "license_id": "LIC-C453C43DD12F",
+            "series_id": "SER-0E9807C18FDB"
+          },
+          {
+            "adjustments": [
+              -117,
+              765,
+              1197,
+              907,
+              -1203,
+              -1637,
+              -661,
+              749
+            ],
+            "license_id": "LIC-AF0657029475",
+            "series_id": "SER-A99BF69E8C3E"
+          },
+          {
+            "adjustments": [
+              -2171,
+              1127,
+              199,
+              597,
+              1543,
+              1141,
+              53,
+              -2489
+            ],
+            "license_id": "LIC-DFA18968AB8D",
+            "series_id": "SER-99185B32FD58"
+          },
+          {
+            "adjustments": [
+              141,
+              -1089,
+              511,
+              1229,
+              1343,
+              205,
+              -659,
+              -1681
+            ],
+            "license_id": "LIC-80E6F3510453",
+            "series_id": "SER-BC1AB9ECDFEA"
+          },
+          {
+            "adjustments": [
+              -261,
+              -87,
+              425,
+              -77
+            ],
+            "license_id": "LIC-8C678D3A0AA4",
+            "series_id": "SER-5DA2FD887749"
+          },
+          {
+            "adjustments": [
+              -987,
+              2135,
+              103,
+              -923,
+              -889,
+              -1307,
+              -603,
+              2471
+            ],
+            "license_id": "LIC-10A4550F21A4",
+            "series_id": "SER-978629972C14"
+          },
+          {
+            "adjustments": [
+              99,
+              -667,
+              -411,
+              515,
+              965,
+              -1325,
+              2099,
+              -1275
+            ],
+            "license_id": "LIC-EE9C3C7BF1E3",
+            "series_id": "SER-8D34FD206826"
+          },
+          {
+            "adjustments": [
+              871,
+              -1047,
+              169,
+              -1193,
+              -311,
+              823,
+              791,
+              -103
+            ],
+            "license_id": "LIC-03CB370FDD9C",
+            "series_id": "SER-74756F863C16"
+          },
+          {
+            "adjustments": [
+              -887,
+              -1749,
+              -1781,
+              1513,
+              859,
+              1577,
+              1753,
+              -1285
+            ],
+            "license_id": "LIC-97E1502A1F82",
+            "series_id": "SER-3E0218B9E586"
+          },
+          {
+            "adjustments": [
+              493,
+              191,
+              -241,
+              173,
+              -1745,
+              -1155,
+              541,
+              1743
+            ],
+            "license_id": "LIC-5D62720CBFA6",
+            "series_id": "SER-FDE2BF12AB7C"
+          },
+          {
+            "adjustments": [
+              925,
+              -1,
+              -561,
+              157,
+              -449,
+              845,
+              -675,
+              -241
+            ],
+            "license_id": "LIC-A3A68EA4C5A6",
+            "series_id": "SER-B373624CE4B8"
+          },
+          {
+            "adjustments": [
+              -665,
+              469,
+              397,
+              -201
+            ],
+            "license_id": "LIC-C64119270AED",
+            "series_id": "SER-F1918D63E72F"
+          },
+          {
+            "adjustments": [
+              -903,
+              -693,
+              -789,
+              1609,
+              1835,
+              -1527,
+              -1431,
+              1899
+            ],
+            "license_id": "LIC-7814356E0A62",
+            "series_id": "SER-4C22A9C023AF"
+          },
+          {
+            "adjustments": [
+              -67,
+              623,
+              63,
+              -355,
+              -1601,
+              -371,
+              1325,
+              383
+            ],
+            "license_id": "LIC-C0FDCA072EA2",
+            "series_id": "SER-3DF1405BAC32"
+          },
+          {
+            "adjustments": [
+              775,
+              -1847,
+              809,
+              -1945,
+              -487,
+              711,
+              711,
+              1273
+            ],
+            "license_id": "LIC-AB6191D7DFC4",
+            "series_id": "SER-0E4E36734259"
+          },
+          {
+            "adjustments": [
+              -649,
+              53,
+              -155,
+              751
+            ],
+            "license_id": "LIC-6C47516D8708",
+            "series_id": "SER-E27B4086570C"
+          },
+          {
+            "adjustments": [
+              -409,
+              21,
+              597,
+              -209
+            ],
+            "license_id": "LIC-930DF45F3E7E",
+            "series_id": "SER-EE9E4B2C52BB"
+          },
+          {
+            "adjustments": [
+              -673,
+              -1487,
+              -1183,
+              -593,
+              289,
+              1007,
+              1343,
+              1297
+            ],
+            "license_id": "LIC-A5D9D3A5A0A3",
+            "series_id": "SER-9AD51462062C"
+          },
+          {
+            "adjustments": [
+              1919,
+              -1583,
+              769,
+              351,
+              721,
+              -33,
+              -1409,
+              -735
+            ],
+            "license_id": "LIC-67FB6C1CB902",
+            "series_id": "SER-1054B5DA70CF"
+          },
+          {
+            "adjustments": [
+              309,
+              -697,
+              1175,
+              309,
+              599,
+              117,
+              -587,
+              -1225
+            ],
+            "license_id": "LIC-DBC3C23D30AE",
+            "series_id": "SER-AF6E8C69EAC7"
+          },
+          {
+            "adjustments": [
+              655,
+              -715,
+              -483,
+              543
+            ],
+            "license_id": "LIC-F20698EC5FBD",
+            "series_id": "SER-CAD248DE9231"
+          },
+          {
+            "adjustments": [
+              -181,
+              525,
+              1181,
+              -1669,
+              -291,
+              251,
+              -85,
+              269
+            ],
+            "license_id": "LIC-2260703D5623",
+            "series_id": "SER-B3158B350774"
+          },
+          {
+            "adjustments": [
+              -87,
+              -197,
+              1419,
+              601,
+              -293,
+              -1207,
+              1369,
+              -1605
+            ],
+            "license_id": "LIC-5F6E97A607DF",
+            "series_id": "SER-F8C9C2E30662"
+          },
+          {
+            "adjustments": [
+              533,
+              455,
+              471,
+              1877,
+              -713,
+              -1931,
+              -1675,
+              983
+            ],
+            "license_id": "LIC-BE16FEC469DF",
+            "series_id": "SER-6DE53A7C6F51"
+          },
+          {
+            "adjustments": [
+              -1789,
+              517,
+              -971,
+              1427,
+              -1019,
+              1059,
+              947,
+              -171
+            ],
+            "license_id": "LIC-2B014059E580",
+            "series_id": "SER-2BD4FC3E5D83"
+          },
+          {
+            "adjustments": [
+              -1019,
+              -425,
+              631,
+              229,
+              1495,
+              1221,
+              -1499,
+              -633
+            ],
+            "license_id": "LIC-CD57B04291BA",
+            "series_id": "SER-BD65674E71AD"
+          },
+          {
+            "adjustments": [
+              837,
+              -2153,
+              -1273,
+              933,
+              1095,
+              -219,
+              69,
+              711
+            ],
+            "license_id": "LIC-E2EB24557F34",
+            "series_id": "SER-A1CD7F1C9F88"
+          },
+          {
+            "adjustments": [
+              531,
+              -1387,
+              1445,
+              483,
+              -1163,
+              99,
+              755,
+              -763
+            ],
+            "license_id": "LIC-D8B5BAF7C043",
+            "series_id": "SER-AE9571A5D517"
+          },
+          {
+            "adjustments": [
+              -173,
+              -551,
+              41,
+              683
+            ],
+            "license_id": "LIC-1985697DF19C",
+            "series_id": "SER-ACF26F07068F"
+          },
+          {
+            "adjustments": [
+              -2043,
+              935,
+              -489,
+              853,
+              615,
+              -107,
+              -219,
+              455
+            ],
+            "license_id": "LIC-6D6B1817281C",
+            "series_id": "SER-6D9BE6B31E62"
+          },
+          {
+            "adjustments": [
+              -1931,
+              1191,
+              935,
+              645,
+              -1161,
+              -283,
+              -107,
+              711
+            ],
+            "license_id": "LIC-C8D487D57CFA",
+            "series_id": "SER-7CBBEA0EF9A4"
+          },
+          {
+            "adjustments": [
+              -1449,
+              1593,
+              265,
+              391,
+              1353,
+              535,
+              -1497,
+              -1191
+            ],
+            "license_id": "LIC-A627117F67DC",
+            "series_id": "SER-415FA2BBBD45"
+          },
+          {
+            "adjustments": [
+              -551,
+              -949,
+              59,
+              345,
+              363,
+              681,
+              633,
+              -581
+            ],
+            "license_id": "LIC-534E01B8D203",
+            "series_id": "SER-3AD60B03EBCE"
+          },
+          {
+            "adjustments": [
+              475,
+              893,
+              813,
+              -517,
+              -1475,
+              811,
+              203,
+              -1203
+            ],
+            "license_id": "LIC-62F27E13D4EE",
+            "series_id": "SER-0A23370D3674"
+          },
+          {
+            "adjustments": [
+              1721,
+              -197,
+              267,
+              -1431,
+              2219,
+              -599,
+              -1511,
+              -469
+            ],
+            "license_id": "LIC-77315CE75B93",
+            "series_id": "SER-D423B7554B52"
+          },
+          {
+            "adjustments": [
+              9,
+              363,
+              1051,
+              -55,
+              -1989,
+              -103,
+              265,
+              459
+            ],
+            "license_id": "LIC-EF552A3D1264",
+            "series_id": "SER-FD5F89E2A0CB"
+          },
+          {
+            "adjustments": [
+              -303,
+              239,
+              -241,
+              305
+            ],
+            "license_id": "LIC-C1494531212F",
+            "series_id": "SER-0CF5EB95BCA9"
+          },
+          {
+            "adjustments": [
+              -961,
+              541,
+              933,
+              -513
+            ],
+            "license_id": "LIC-8635E4CC7B63",
+            "series_id": "SER-AA71730A08E4"
+          },
+          {
+            "adjustments": [
+              1723,
+              -563,
+              957,
+              1387,
+              557,
+              -2293,
+              -949,
+              -819
+            ],
+            "license_id": "LIC-A82135092A39",
+            "series_id": "SER-54F2042F1843"
+          },
+          {
+            "adjustments": [
+              -1151,
+              307,
+              -269,
+              -1951,
+              1587,
+              -1391,
+              833,
+              2035
+            ],
+            "license_id": "LIC-872F5E70ED31",
+            "series_id": "SER-1003B1DC447C"
+          },
+          {
+            "adjustments": [
+              289,
+              1507,
+              179,
+              -2223,
+              1347,
+              -63,
+              -2207,
+              1171
+            ],
+            "license_id": "LIC-07186A086991",
+            "series_id": "SER-CF24B3FDFB81"
+          },
+          {
+            "adjustments": [
+              29,
+              -1713,
+              431,
+              -1779,
+              383,
+              1517,
+              877,
+              255
+            ],
+            "license_id": "LIC-0D2A4FAFE098",
+            "series_id": "SER-83A3300D1C89"
+          },
+          {
+            "adjustments": [
+              81,
+              -273,
+              -17,
+              209
+            ],
+            "license_id": "LIC-546E7CA61175",
+            "series_id": "SER-0D49F2CB65BF"
+          },
+          {
+            "adjustments": [
+              -65,
+              61,
+              253,
+              -249
+            ],
+            "license_id": "LIC-476293C78EC1",
+            "series_id": "SER-1412C6D597DC"
+          },
+          {
+            "adjustments": [
+              1593,
+              -645,
+              -2165,
+              537,
+              -261,
+              -183,
+              -471,
+              1595
+            ],
+            "license_id": "LIC-317FA44198F3",
+            "series_id": "SER-92AF4980FF0B"
+          },
+          {
+            "adjustments": [
+              -965,
+              -435,
+              1581,
+              -1413,
+              -435,
+              1339,
+              523,
+              -195
+            ],
+            "license_id": "LIC-12DDAD8D5D44",
+            "series_id": "SER-4C23F6250AAB"
+          },
+          {
+            "adjustments": [
+              -993,
+              321,
+              -479,
+              559,
+              593,
+              1583,
+              287,
+              -1871
+            ],
+            "license_id": "LIC-CF0AB0BC77B9",
+            "series_id": "SER-A526CCB56BA3"
+          },
+          {
+            "adjustments": [
+              -755,
+              -737,
+              111,
+              781,
+              -1265,
+              445,
+              2557,
+              -1137
+            ],
+            "license_id": "LIC-9D9DB336FBC8",
+            "series_id": "SER-D92D4328BACF"
+          },
+          {
+            "adjustments": [
+              -1679,
+              -1725,
+              -429,
+              865,
+              2243,
+              1377,
+              161,
+              -813
+            ],
+            "license_id": "LIC-A495F6CA8986",
+            "series_id": "SER-699AEFF873F2"
+          },
+          {
+            "adjustments": [
+              65,
+              -393,
+              -585,
+              913
+            ],
+            "license_id": "LIC-4BB0FA5D491D",
+            "series_id": "SER-84632C3912B3"
+          },
+          {
+            "adjustments": [
+              -287,
+              695,
+              -497,
+              89
+            ],
+            "license_id": "LIC-7213BA1C62A8",
+            "series_id": "SER-F32870226E88"
+          },
+          {
+            "adjustments": [
+              -1025,
+              -1135,
+              -399,
+              143,
+              593,
+              1087,
+              -17,
+              753
+            ],
+            "license_id": "LIC-0B351B7FD560",
+            "series_id": "SER-E8E25C27ED37"
+          },
+          {
+            "adjustments": [
+              -183,
+              -617,
+              1047,
+              -247
+            ],
+            "license_id": "LIC-90520E4C3D8E",
+            "series_id": "SER-AC4EA1F01A54"
+          },
+          {
+            "adjustments": [
+              1003,
+              -579,
+              93,
+              -341,
+              381,
+              1243,
+              -1205,
+              -595
+            ],
+            "license_id": "LIC-07DD1918F371",
+            "series_id": "SER-8E592510AE51"
+          },
+          {
+            "adjustments": [
+              279,
+              -887,
+              921,
+              -681,
+              265,
+              295,
+              -1689,
+              1497
+            ],
+            "license_id": "LIC-0A2222DB04EC",
+            "series_id": "SER-B229EAC8EC5B"
+          },
+          {
+            "adjustments": [
+              -821,
+              -791,
+              849,
+              763
+            ],
+            "license_id": "LIC-5E0BE607FE14",
+            "series_id": "SER-34BAB43C9DCF"
+          },
+          {
+            "adjustments": [
+              -1803,
+              1351,
+              -1113,
+              -1595,
+              631,
+              837,
+              1109,
+              583
+            ],
+            "license_id": "LIC-1E9EF537871D",
+            "series_id": "SER-0376F5F9404D"
+          },
+          {
+            "adjustments": [
+              -311,
+              -1269,
+              -1237,
+              9,
+              59,
+              -119,
+              1977,
+              891
+            ],
+            "license_id": "LIC-17B3E32D31DA",
+            "series_id": "SER-FF7B76BFD822"
+          },
+          {
+            "adjustments": [
+              -421,
+              -847,
+              817,
+              451
+            ],
+            "license_id": "LIC-A58ECD318538",
+            "series_id": "SER-7060475D4764"
+          },
+          {
+            "adjustments": [
+              1101,
+              -549,
+              -69,
+              -483
+            ],
+            "license_id": "LIC-7826D589314B",
+            "series_id": "SER-B31137081571"
+          },
+          {
+            "adjustments": [
+              1943,
+              -375,
+              665,
+              631,
+              585,
+              -1065,
+              -1065,
+              -1319
+            ],
+            "license_id": "LIC-F54623AB06A5",
+            "series_id": "SER-4609725EF0CE"
+          },
+          {
+            "adjustments": [
+              -2329,
+              937,
+              553,
+              855,
+              -119,
+              -1753,
+              647,
+              1209
+            ],
+            "license_id": "LIC-B658B677587C",
+            "series_id": "SER-89C60636D52F"
+          },
+          {
+            "adjustments": [
+              1499,
+              1165,
+              -1843,
+              -1829,
+              461,
+              1643,
+              827,
+              -1923
+            ],
+            "license_id": "LIC-5370B1CFBCD4",
+            "series_id": "SER-3DA04C1C5C73"
+          },
+          {
+            "adjustments": [
+              309,
+              -665,
+              -73,
+              -379,
+              967,
+              -1323,
+              1813,
+              -649
+            ],
+            "license_id": "LIC-3D8B0D4E478D",
+            "series_id": "SER-21D85EFF40A5"
+          },
+          {
+            "adjustments": [
+              -369,
+              141,
+              45,
+              183
+            ],
+            "license_id": "LIC-3CA6EB990B01",
+            "series_id": "SER-60B0B1D8633B"
+          },
+          {
+            "adjustments": [
+              181,
+              215,
+              151,
+              741,
+              -2105,
+              645,
+              373,
+              -201
+            ],
+            "license_id": "LIC-A99280E5FC53",
+            "series_id": "SER-785CF98AE6A1"
+          },
+          {
+            "adjustments": [
+              45,
+              339,
+              147,
+              -531
+            ],
+            "license_id": "LIC-4B52B297A707",
+            "series_id": "SER-7DA5491E8D1C"
+          },
+          {
+            "adjustments": [
+              265,
+              -217,
+              47,
+              -95
+            ],
+            "license_id": "LIC-FBA70A2AFE09",
+            "series_id": "SER-0113DA020B47"
+          },
+          {
+            "adjustments": [
+              -155,
+              315,
+              243,
+              -403
+            ],
+            "license_id": "LIC-2C40C8CF6C4B",
+            "series_id": "SER-75B8DE33ACE8"
+          },
+          {
+            "adjustments": [
+              -141,
+              -855,
+              -7,
+              1003
+            ],
+            "license_id": "LIC-4847BB49501E",
+            "series_id": "SER-079494965DE6"
+          },
+          {
+            "adjustments": [
+              -263,
+              1787,
+              -1605,
+              873,
+              235,
+              -1319,
+              1049,
+              -757
+            ],
+            "license_id": "LIC-86B041B85942",
+            "series_id": "SER-B83F3D15589F"
+          },
+          {
+            "adjustments": [
+              1389,
+              -193,
+              -817,
+              573,
+              -1937,
+              -915,
+              1325,
+              575
+            ],
+            "license_id": "LIC-CF3240E477B7",
+            "series_id": "SER-A24CC1D4C5F2"
+          },
+          {
+            "adjustments": [
+              -1617,
+              225,
+              -1199,
+              1311,
+              -575,
+              687,
+              399,
+              769
+            ],
+            "license_id": "LIC-DC59DEA565CB",
+            "series_id": "SER-33EC059391E5"
+          },
+          {
+            "adjustments": [
+              699,
+              -655,
+              -775,
+              731
+            ],
+            "license_id": "LIC-D8AB7A8ED7B3",
+            "series_id": "SER-6E1BBFEB0E20"
+          },
+          {
+            "adjustments": [
+              1359,
+              -543,
+              1185,
+              207,
+              689,
+              -1825,
+              -1281,
+              209
+            ],
+            "license_id": "LIC-28ACE23FB0F3",
+            "series_id": "SER-39E7DE54DC5F"
+          },
+          {
+            "adjustments": [
+              1795,
+              -331,
+              725,
+              -589,
+              629,
+              -653,
+              83,
+              -1659
+            ],
+            "license_id": "LIC-D87A3617D816",
+            "series_id": "SER-146FEABE623C"
+          },
+          {
+            "adjustments": [
+              -579,
+              1567,
+              1455,
+              1405,
+              -1521,
+              -1171,
+              45,
+              -1201
+            ],
+            "license_id": "LIC-C3D825EC4792",
+            "series_id": "SER-22FEDFCCF634"
+          },
+          {
+            "adjustments": [
+              -533,
+              -1491,
+              2173,
+              -117,
+              -963,
+              1515,
+              -853,
+              269
+            ],
+            "license_id": "LIC-791F4DF0D7C0",
+            "series_id": "SER-C3BCBFF6180D"
+          },
+          {
+            "adjustments": [
+              -37,
+              2045,
+              -755,
+              235,
+              -243,
+              315,
+              -1541,
+              -19
+            ],
+            "license_id": "LIC-19424BE26B40",
+            "series_id": "SER-3A039DD87F01"
+          },
+          {
+            "adjustments": [
+              2251,
+              -1203,
+              109,
+              -581,
+              301,
+              -789,
+              -1365,
+              1277
+            ],
+            "license_id": "LIC-2EFDD294E2A6",
+            "series_id": "SER-8144EFF76234"
+          },
+          {
+            "adjustments": [
+              -461,
+              -1691,
+              485,
+              1219,
+              613,
+              1139,
+              -2461,
+              1157
+            ],
+            "license_id": "LIC-23317C33E55C",
+            "series_id": "SER-DA3726D90A51"
+          },
+          {
+            "adjustments": [
+              529,
+              471,
+              -633,
+              -367
+            ],
+            "license_id": "LIC-F9F41B5B28F0",
+            "series_id": "SER-E576C62302D7"
+          },
+          {
+            "adjustments": [
+              -879,
+              -733,
+              1059,
+              1505,
+              147,
+              -399,
+              529,
+              -1229
+            ],
+            "license_id": "LIC-7CD22DD414F8",
+            "series_id": "SER-41CA378A5092"
+          },
+          {
+            "adjustments": [
+              1903,
+              -1487,
+              2353,
+              -865,
+              -191,
+              -417,
+              -1009,
+              -287
+            ],
+            "license_id": "LIC-9B5845919253",
+            "series_id": "SER-DA9B7657E760"
+          },
+          {
+            "adjustments": [
+              889,
+              427,
+              -1125,
+              41,
+              91,
+              201,
+              25,
+              -549
+            ],
+            "license_id": "LIC-4F2A21CF3F87",
+            "series_id": "SER-681D41F26D88"
+          },
+          {
+            "adjustments": [
+              -1539,
+              527,
+              -657,
+              1469,
+              1167,
+              -339,
+              173,
+              -801
+            ],
+            "license_id": "LIC-F4BC01A4A708",
+            "series_id": "SER-D04219B2E7DF"
+          },
+          {
+            "adjustments": [
+              -181,
+              433,
+              577,
+              -829
+            ],
+            "license_id": "LIC-4F74C3A18DF1",
+            "series_id": "SER-743106982542"
+          },
+          {
+            "adjustments": [
+              1275,
+              -503,
+              -631,
+              -141
+            ],
+            "license_id": "LIC-8B35B13C398B",
+            "series_id": "SER-611C9D123075"
+          },
+          {
+            "adjustments": [
+              245,
+              -1529,
+              -2249,
+              181,
+              599,
+              1429,
+              -395,
+              1719
+            ],
+            "license_id": "LIC-A120BD2F19E7",
+            "series_id": "SER-D6074596A865"
+          },
+          {
+            "adjustments": [
+              -705,
+              577,
+              145,
+              -145,
+              881,
+              -769,
+              591,
+              -575
+            ],
+            "license_id": "LIC-83DA5C07ED5C",
+            "series_id": "SER-A0E0978A2722"
+          },
+          {
+            "adjustments": [
+              -651,
+              71,
+              231,
+              -827,
+              1783,
+              -75,
+              -139,
+              -393
+            ],
+            "license_id": "LIC-A0843F3F2536",
+            "series_id": "SER-3E6E74D3B4C9"
+          },
+          {
+            "adjustments": [
+              1547,
+              -675,
+              -387,
+              -613,
+              1213,
+              1291,
+              -517,
+              -1859
+            ],
+            "license_id": "LIC-1CBFE9D721FC",
+            "series_id": "SER-F10C76551A3D"
+          },
+          {
+            "adjustments": [
+              -355,
+              -225,
+              -481,
+              1101,
+              -465,
+              -579,
+              2077,
+              -1073
+            ],
+            "license_id": "LIC-CEF52E23729B",
+            "series_id": "SER-93728489588E"
+          },
+          {
+            "adjustments": [
+              925,
+              195,
+              -533,
+              -587
+            ],
+            "license_id": "LIC-7C12C8A3075C",
+            "series_id": "SER-C3158C489E99"
+          },
+          {
+            "adjustments": [
+              -741,
+              -1475,
+              -899,
+              1275,
+              845,
+              -437,
+              -261,
+              1693
+            ],
+            "license_id": "LIC-32499327C7B6",
+            "series_id": "SER-54DB2CF20538"
+          },
+          {
+            "adjustments": [
+              -751,
+              1251,
+              1043,
+              289,
+              563,
+              -1887,
+              -1199,
+              691
+            ],
+            "license_id": "LIC-2E3106385FE8",
+            "series_id": "SER-5C4DB655CACD"
+          },
+          {
+            "adjustments": [
+              271,
+              -627,
+              261,
+              95
+            ],
+            "license_id": "LIC-C25AC2205479",
+            "series_id": "SER-2855FC8D523F"
+          },
+          {
+            "adjustments": [
+              427,
+              1501,
+              -1587,
+              -1093,
+              1053,
+              -1237,
+              -773,
+              1709
+            ],
+            "license_id": "LIC-11A8B8FECE70",
+            "series_id": "SER-77BCFF803BF4"
+          },
+          {
+            "adjustments": [
+              -1213,
+              -1323,
+              933,
+              -1437,
+              -1483,
+              1571,
+              1843,
+              1109
+            ],
+            "license_id": "LIC-EFAC057F37B9",
+            "series_id": "SER-2C197857BCF6"
+          },
+          {
+            "adjustments": [
+              371,
+              -1499,
+              245,
+              1075,
+              1605,
+              1267,
+              -1645,
+              -1419
+            ],
+            "license_id": "LIC-3766BE828D20",
+            "series_id": "SER-C8A6EBEA15A1"
+          },
+          {
+            "adjustments": [
+              -185,
+              921,
+              1113,
+              -1977,
+              1705,
+              -1497,
+              1063,
+              -1143
+            ],
+            "license_id": "LIC-A6E4695A4FDF",
+            "series_id": "SER-51FD349A1F4A"
+          },
+          {
+            "adjustments": [
+              1455,
+              1153,
+              -1279,
+              -241,
+              1025,
+              -641,
+              -2353,
+              881
+            ],
+            "license_id": "LIC-0D42D86E172B",
+            "series_id": "SER-D2515C4821EE"
+          },
+          {
+            "adjustments": [
+              1335,
+              393,
+              -839,
+              1015,
+              -1575,
+              631,
+              -1513,
+              553
+            ],
+            "license_id": "LIC-CD14AB743957",
+            "series_id": "SER-1B61BA3A058C"
+          },
+          {
+            "adjustments": [
+              -819,
+              -1617,
+              1263,
+              173,
+              1839,
+              -1459,
+              1821,
+              -1201
+            ],
+            "license_id": "LIC-E9EE36CC85F5",
+            "series_id": "SER-70DA4D3723C6"
+          },
+          {
+            "adjustments": [
+              165,
+              807,
+              1063,
+              709,
+              -1609,
+              693,
+              -555,
+              -1273
+            ],
+            "license_id": "LIC-19AF7F90308C",
+            "series_id": "SER-06181BADA2FD"
+          },
+          {
+            "adjustments": [
+              91,
+              753,
+              -623,
+              -221
+            ],
+            "license_id": "LIC-2BEF8764877C",
+            "series_id": "SER-95A0211018AC"
+          },
+          {
+            "adjustments": [
+              1433,
+              2555,
+              -389,
+              -1159,
+              -421,
+              73,
+              -999,
+              -1093
+            ],
+            "license_id": "LIC-9FF8035BA625",
+            "series_id": "SER-CD7AAF41B80E"
+          },
+          {
+            "adjustments": [
+              401,
+              -1357,
+              -1357,
+              -831,
+              -605,
+              -63,
+              2497,
+              1315
+            ],
+            "license_id": "LIC-D4EF3F31B3B5",
+            "series_id": "SER-5895192DCAAD"
+          },
+          {
+            "adjustments": [
+              845,
+              -2241,
+              1007,
+              541,
+              927,
+              -675,
+              989,
+              -1393
+            ],
+            "license_id": "LIC-2F62D2CBE853",
+            "series_id": "SER-24D99F504156"
+          },
+          {
+            "adjustments": [
+              1277,
+              -1185,
+              -2257,
+              669,
+              815,
+              765,
+              -1427,
+              1343
+            ],
+            "license_id": "LIC-FCE9AE2DF64F",
+            "series_id": "SER-E0951CCB5A63"
+          },
+          {
+            "adjustments": [
+              61,
+              -513,
+              -81,
+              253,
+              799,
+              -211,
+              -1763,
+              1455
+            ],
+            "license_id": "LIC-56837CF39692",
+            "series_id": "SER-D9A7EB0E6A3A"
+          },
+          {
+            "adjustments": [
+              -295,
+              -869,
+              -773,
+              169,
+              1387,
+              361,
+              -711,
+              731
+            ],
+            "license_id": "LIC-3EA9380C6474",
+            "series_id": "SER-E72F493755AA"
+          },
+          {
+            "adjustments": [
+              -1029,
+              1853,
+              -1043,
+              -533,
+              -1123,
+              683,
+              507,
+              685
+            ],
+            "license_id": "LIC-F77DA3CE974F",
+            "series_id": "SER-37308ADC957C"
+          },
+          {
+            "adjustments": [
+              1039,
+              -1743,
+              961,
+              -2625,
+              -223,
+              1375,
+              351,
+              865
+            ],
+            "license_id": "LIC-EC25BE5614A1",
+            "series_id": "SER-D8356EE675FA"
+          },
+          {
+            "adjustments": [
+              -437,
+              -67,
+              -211,
+              -789,
+              -291,
+              43,
+              1355,
+              397
+            ],
+            "license_id": "LIC-21028F3A3E11",
+            "series_id": "SER-24F72DC96AC1"
+          },
+          {
+            "adjustments": [
+              -1497,
+              -135,
+              -487,
+              935,
+              409,
+              -1033,
+              503,
+              1305
+            ],
+            "license_id": "LIC-052F4268E94F",
+            "series_id": "SER-031D55484F13"
+          },
+          {
+            "adjustments": [
+              1401,
+              1995,
+              -1845,
+              1785,
+              139,
+              -1799,
+              25,
+              -1701
+            ],
+            "license_id": "LIC-CFCEEE8BA7DB",
+            "series_id": "SER-BA786BBEE1D0"
+          },
+          {
+            "adjustments": [
+              -457,
+              -983,
+              793,
+              -409,
+              89,
+              471,
+              1479,
+              -983
+            ],
+            "license_id": "LIC-DA0A1CD75712",
+            "series_id": "SER-F09549B7D9C5"
+          },
+          {
+            "adjustments": [
+              -1099,
+              -249,
+              -745,
+              -1003,
+              -121,
+              1717,
+              1733,
+              -233
+            ],
+            "license_id": "LIC-CE4D4F1E85BE",
+            "series_id": "SER-92301C9A7030"
+          },
+          {
+            "adjustments": [
+              -1507,
+              1551,
+              -337,
+              93,
+              -465,
+              1389,
+              -1459,
+              735
+            ],
+            "license_id": "LIC-A52270C8A2BA",
+            "series_id": "SER-D5E6BBD33BA5"
+          },
+          {
+            "adjustments": [
+              -1597,
+              -539,
+              -811,
+              1155,
+              1333,
+              3,
+              1315,
+              -859
+            ],
+            "license_id": "LIC-1996EB7119B1",
+            "series_id": "SER-AFFB2DC936E2"
+          },
+          {
+            "adjustments": [
+              -345,
+              -1191,
+              -167,
+              -345,
+              1945,
+              263,
+              -729,
+              569
+            ],
+            "license_id": "LIC-29147D9DD0DD",
+            "series_id": "SER-5E5C9E0A8FC1"
+          },
+          {
+            "adjustments": [
+              -191,
+              175,
+              -313,
+              329
+            ],
+            "license_id": "LIC-BE151403C2B7",
+            "series_id": "SER-97BACDCCA3C5"
+          },
+          {
+            "adjustments": [
+              -2369,
+              -255,
+              1345,
+              1487,
+              -1439,
+              1231,
+              1295,
+              -1295
+            ],
+            "license_id": "LIC-27BA8E7AAF68",
+            "series_id": "SER-3A46A63EE5BC"
+          },
+          {
+            "adjustments": [
+              1191,
+              2457,
+              -1271,
+              -441,
+              -1399,
+              231,
+              -1401,
+              633
+            ],
+            "license_id": "LIC-321CBE82A6A5",
+            "series_id": "SER-3588A426D416"
+          },
+          {
+            "adjustments": [
+              507,
+              -1443,
+              285,
+              299,
+              -1795,
+              -197,
+              139,
+              2205
+            ],
+            "license_id": "LIC-174F32416E1C",
+            "series_id": "SER-3D4E988B2E1F"
+          },
+          {
+            "adjustments": [
+              405,
+              379,
+              -1349,
+              565
+            ],
+            "license_id": "LIC-839E52BFCD51",
+            "series_id": "SER-5660CB918B5A"
+          },
+          {
+            "adjustments": [
+              1723,
+              429,
+              -1411,
+              -997,
+              1805,
+              -1557,
+              -917,
+              925
+            ],
+            "license_id": "LIC-56DB40B69494",
+            "series_id": "SER-FA7D758A8FC4"
+          },
+          {
+            "adjustments": [
+              -237,
+              405,
+              1365,
+              -1245,
+              1413,
+              -957,
+              -1885,
+              1141
+            ],
+            "license_id": "LIC-8CB4D47D1C65",
+            "series_id": "SER-7D1C3E0359F5"
+          },
+          {
+            "adjustments": [
+              -1669,
+              -1747,
+              653,
+              -1157,
+              29,
+              1563,
+              715,
+              1613
+            ],
+            "license_id": "LIC-8A5562AA7CBB",
+            "series_id": "SER-BD4A146F4908"
+          },
+          {
+            "adjustments": [
+              1551,
+              -815,
+              625,
+              255,
+              -415,
+              47,
+              -65,
+              -1183
+            ],
+            "license_id": "LIC-16925F848377",
+            "series_id": "SER-FECE4F741440"
+          },
+          {
+            "adjustments": [
+              -1623,
+              1083,
+              -597,
+              889,
+              123,
+              -503,
+              281,
+              347
+            ],
+            "license_id": "LIC-66F944B6FDAD",
+            "series_id": "SER-76663EA222F6"
+          },
+          {
+            "adjustments": [
+              -1407,
+              -1405,
+              1091,
+              -559,
+              -749,
+              -1215,
+              2225,
+              2019
+            ],
+            "license_id": "LIC-861AEE7ECA07",
+            "series_id": "SER-50690B1D8FBF"
+          },
+          {
+            "adjustments": [
+              63,
+              -671,
+              -207,
+              1775,
+              -351,
+              -673,
+              1103,
+              -1039
+            ],
+            "license_id": "LIC-0B4F5DF0106E",
+            "series_id": "SER-3D4D8B6807FF"
+          },
+          {
+            "adjustments": [
+              -17,
+              -127,
+              529,
+              -2033,
+              1729,
+              687,
+              95,
+              -863
+            ],
+            "license_id": "LIC-A91328E5F4CE",
+            "series_id": "SER-DF88DCECEEE0"
+          },
+          {
+            "adjustments": [
+              -1319,
+              -1461,
+              -693,
+              1641,
+              699,
+              25,
+              1561,
+              -453
+            ],
+            "license_id": "LIC-BA0A7D9984ED",
+            "series_id": "SER-9DD28FCEEE84"
+          },
+          {
+            "adjustments": [
+              -701,
+              -59,
+              1669,
+              835,
+              -379,
+              -653,
+              -1085,
+              373
+            ],
+            "license_id": "LIC-3F1E2861CD43",
+            "series_id": "SER-2232B94AD090"
+          },
+          {
+            "adjustments": [
+              1585,
+              243,
+              -2205,
+              -159,
+              387,
+              481,
+              -735,
+              403
+            ],
+            "license_id": "LIC-701F3167C5A3",
+            "series_id": "SER-1704A8B72281"
+          },
+          {
+            "adjustments": [
+              1281,
+              915,
+              403,
+              -31,
+              1011,
+              -1167,
+              -2271,
+              -141
+            ],
+            "license_id": "LIC-4890CE57EDCA",
+            "series_id": "SER-593F54249F0C"
+          },
+          {
+            "adjustments": [
+              61,
+              251,
+              -197,
+              -115
+            ],
+            "license_id": "LIC-6D15A080CCDB",
+            "series_id": "SER-2F252005B393"
+          },
+          {
+            "adjustments": [
+              -451,
+              111,
+              -273,
+              237,
+              1007,
+              -563,
+              525,
+              -593
+            ],
+            "license_id": "LIC-B3FBB0546A8E",
+            "series_id": "SER-499BD8D274A4"
+          },
+          {
+            "adjustments": [
+              1597,
+              -417,
+              -161,
+              -275,
+              1055,
+              -1763,
+              653,
+              -689
+            ],
+            "license_id": "LIC-F1B2DD9FC6B9",
+            "series_id": "SER-5F5111E7655F"
+          },
+          {
+            "adjustments": [
+              1531,
+              -947,
+              1485,
+              -469,
+              1277,
+              -229,
+              -789,
+              -1859
+            ],
+            "license_id": "LIC-70C2EC824DC3",
+            "series_id": "SER-33882DDC239E"
+          },
+          {
+            "adjustments": [
+              -651,
+              263,
+              1367,
+              725,
+              -1577,
+              -155,
+              -267,
+              295
+            ],
+            "license_id": "LIC-1D6D6ACC8601",
+            "series_id": "SER-535BE26BAA06"
+          },
+          {
+            "adjustments": [
+              -237,
+              -555,
+              -2459,
+              979,
+              1285,
+              1507,
+              -1901,
+              1381
+            ],
+            "license_id": "LIC-1E80FEF83648",
+            "series_id": "SER-E02A72648202"
+          },
+          {
+            "adjustments": [
+              703,
+              -159,
+              1329,
+              -897,
+              2145,
+              -1569,
+              -1057,
+              -495
+            ],
+            "license_id": "LIC-47229891D23F",
+            "series_id": "SER-6AA2F2F8624E"
+          },
+          {
+            "adjustments": [
+              489,
+              -677,
+              491,
+              1417,
+              -1253,
+              -1527,
+              1689,
+              -629
+            ],
+            "license_id": "LIC-07E0877B0C78",
+            "series_id": "SER-736D7F7D9108"
+          },
+          {
+            "adjustments": [
+              763,
+              -327,
+              561,
+              -997
+            ],
+            "license_id": "LIC-EF305FABE2D6",
+            "series_id": "SER-45E51F4C1173"
+          },
+          {
+            "adjustments": [
+              939,
+              -595,
+              -1683,
+              1163,
+              -1619,
+              1707,
+              1051,
+              -963
+            ],
+            "license_id": "LIC-35290BB270CF",
+            "series_id": "SER-EA27087B0716"
+          }
+        ]
+      },
+      "title_order": [
+        "TTL-B6D8EEE36204",
+        "TTL-77159119D0EE",
+        "TTL-BFAEE1138FB6",
+        "TTL-178063C8C154",
+        "TTL-252EEF16472A",
+        "TTL-7708A9948F68",
+        "TTL-75580C5BBAFB",
+        "TTL-0B2705749B18",
+        "TTL-36FA97B47ADF",
+        "TTL-0ECF4F195F23",
+        "TTL-7AF0A81E3100",
+        "TTL-2976C2FEA49A",
+        "TTL-580150C11BE5",
+        "TTL-08847B632C89",
+        "TTL-A6C48FD6A218",
+        "TTL-5A670FFD3B72",
+        "TTL-165DB042E1C7",
+        "TTL-526875F960AA",
+        "TTL-8203ACC5CEA3",
+        "TTL-DF80215A763C",
+        "TTL-57881B61546F",
+        "TTL-8CA696916758",
+        "TTL-35C59E5CBAEB",
+        "TTL-8014BA48770C",
+        "TTL-3B9C791B0873",
+        "TTL-6CC20A66D8ED",
+        "TTL-6425E43A1E43",
+        "TTL-B7FE5F526408",
+        "TTL-B857A1BE621E",
+        "TTL-347F0AACA6D8",
+        "TTL-72A6747813B8",
+        "TTL-668CAB771C70",
+        "TTL-5E0B31F51026",
+        "TTL-0A86333C6BB7",
+        "TTL-9A8D4DA3CF18",
+        "TTL-95405F603155",
+        "TTL-D915C0A0A945",
+        "TTL-1FAB43C3C229",
+        "TTL-755EC48B0983",
+        "TTL-C126B3324E94",
+        "TTL-63B9C5A25C5C",
+        "TTL-88592F081315",
+        "TTL-A8D92EA46E6C",
+        "TTL-B491C00DB859"
+      ],
+      "titles": [
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-300F3C3C9F15"
+            },
+            {
+              "base_value": 116,
+              "lot_id": "LOT-A-400FAB2299B9"
+            }
+          ],
+          "title_id": "TTL-6CC20A66D8ED"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 129,
+              "lot_id": "LOT-B-58523389215E"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-C3914FE1DE96"
+            }
+          ],
+          "title_id": "TTL-77159119D0EE"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 136,
+              "lot_id": "LOT-A-366F58E4BFBD"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-9FBC824FD289"
+            }
+          ],
+          "title_id": "TTL-95405F603155"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 135,
+              "lot_id": "LOT-B-09D6028B0880"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-D0D3CB38A0B3"
+            }
+          ],
+          "title_id": "TTL-75580C5BBAFB"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 135,
+              "lot_id": "LOT-A-68FABCA0F9A2"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-9DA140F10964"
+            }
+          ],
+          "title_id": "TTL-8203ACC5CEA3"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-6496E7905CD8"
+            },
+            {
+              "base_value": 122,
+              "lot_id": "LOT-A-E3507F7B4004"
+            }
+          ],
+          "title_id": "TTL-A6C48FD6A218"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-BC3A412CAF79"
+            },
+            {
+              "base_value": 130,
+              "lot_id": "LOT-B-E421CBFAF988"
+            }
+          ],
+          "title_id": "TTL-178063C8C154"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 121,
+              "lot_id": "LOT-A-09B499317686"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-DE2865B572D9"
+            }
+          ],
+          "title_id": "TTL-B7FE5F526408"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 112,
+              "lot_id": "LOT-A-465B9A208B68"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-807462BE626E"
+            }
+          ],
+          "title_id": "TTL-D915C0A0A945"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 117,
+              "lot_id": "LOT-B-ED2892923C29"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-0D1EA0768E2C"
+            }
+          ],
+          "title_id": "TTL-88592F081315"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-3E7C52D9755B"
+            },
+            {
+              "base_value": 136,
+              "lot_id": "LOT-B-ACC457C7CB44"
+            }
+          ],
+          "title_id": "TTL-9A8D4DA3CF18"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 118,
+              "lot_id": "LOT-A-86F0D7F60299"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-B11B01968660"
+            }
+          ],
+          "title_id": "TTL-57881B61546F"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-B82E8E110C14"
+            },
+            {
+              "base_value": 119,
+              "lot_id": "LOT-B-B1C2D3483F30"
+            }
+          ],
+          "title_id": "TTL-B6D8EEE36204"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 136,
+              "lot_id": "LOT-A-FC007B3FF283"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-DBBA7F35897D"
+            }
+          ],
+          "title_id": "TTL-2976C2FEA49A"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-08B8734920B2"
+            },
+            {
+              "base_value": 131,
+              "lot_id": "LOT-B-CE4B4FB5E59B"
+            }
+          ],
+          "title_id": "TTL-DF80215A763C"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-FA06246BE81C"
+            },
+            {
+              "base_value": 119,
+              "lot_id": "LOT-B-BBD8077A8972"
+            }
+          ],
+          "title_id": "TTL-252EEF16472A"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 120,
+              "lot_id": "LOT-A-2418FB52F994"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-79F67E217541"
+            }
+          ],
+          "title_id": "TTL-BFAEE1138FB6"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 129,
+              "lot_id": "LOT-A-4CB40CF59DA3"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-F4A04E8CF9E3"
+            }
+          ],
+          "title_id": "TTL-7AF0A81E3100"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 121,
+              "lot_id": "LOT-B-C6022C4D3A26"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-36197937E5C8"
+            }
+          ],
+          "title_id": "TTL-63B9C5A25C5C"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-E79F03942013"
+            },
+            {
+              "base_value": 125,
+              "lot_id": "LOT-B-3667D5076B24"
+            }
+          ],
+          "title_id": "TTL-36FA97B47ADF"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-51CD130075B9"
+            },
+            {
+              "base_value": 135,
+              "lot_id": "LOT-B-F0EB9E222B8A"
+            }
+          ],
+          "title_id": "TTL-6425E43A1E43"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-2E34AB382988"
+            },
+            {
+              "base_value": 135,
+              "lot_id": "LOT-A-5454C77726F5"
+            }
+          ],
+          "title_id": "TTL-8CA696916758"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 115,
+              "lot_id": "LOT-A-175336791ADB"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-5CF8C1233B25"
+            }
+          ],
+          "title_id": "TTL-B857A1BE621E"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 131,
+              "lot_id": "LOT-A-339BB350E19E"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-A853C1B3F2D5"
+            }
+          ],
+          "title_id": "TTL-8014BA48770C"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-CEF996FBD04E"
+            },
+            {
+              "base_value": 115,
+              "lot_id": "LOT-B-A0FAADCE05ED"
+            }
+          ],
+          "title_id": "TTL-1FAB43C3C229"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 127,
+              "lot_id": "LOT-A-1CB043AA77BF"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-F492535A0F7D"
+            }
+          ],
+          "title_id": "TTL-5E0B31F51026"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-4FEA38295443"
+            },
+            {
+              "base_value": 128,
+              "lot_id": "LOT-A-D8449B7814B5"
+            }
+          ],
+          "title_id": "TTL-5A670FFD3B72"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-AAD0B3731564"
+            },
+            {
+              "base_value": 112,
+              "lot_id": "LOT-A-6655E77183E7"
+            }
+          ],
+          "title_id": "TTL-C126B3324E94"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-CD511D768F19"
+            },
+            {
+              "base_value": 125,
+              "lot_id": "LOT-A-6282A073A17C"
+            }
+          ],
+          "title_id": "TTL-0A86333C6BB7"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 123,
+              "lot_id": "LOT-B-9BF279B3C25B"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-5098F581D951"
+            }
+          ],
+          "title_id": "TTL-165DB042E1C7"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-1958215A07BC"
+            },
+            {
+              "base_value": 130,
+              "lot_id": "LOT-A-13F1B1801BE1"
+            }
+          ],
+          "title_id": "TTL-668CAB771C70"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 122,
+              "lot_id": "LOT-B-5E70AD9C81D5"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-B4A6D4807031"
+            }
+          ],
+          "title_id": "TTL-347F0AACA6D8"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-7D32C886FF82"
+            },
+            {
+              "base_value": 127,
+              "lot_id": "LOT-A-A916F8289069"
+            }
+          ],
+          "title_id": "TTL-3B9C791B0873"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-687AB5D77D5A"
+            },
+            {
+              "base_value": 126,
+              "lot_id": "LOT-B-C2537DF48103"
+            }
+          ],
+          "title_id": "TTL-35C59E5CBAEB"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-64DB47FBAD9E"
+            },
+            {
+              "base_value": 118,
+              "lot_id": "LOT-A-7C0454348D8F"
+            }
+          ],
+          "title_id": "TTL-72A6747813B8"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 132,
+              "lot_id": "LOT-A-A349FE940016"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-AE87955A8FF9"
+            }
+          ],
+          "title_id": "TTL-526875F960AA"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-B2DEB67E3928"
+            },
+            {
+              "base_value": 131,
+              "lot_id": "LOT-B-E3F7AB511B16"
+            }
+          ],
+          "title_id": "TTL-580150C11BE5"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 120,
+              "lot_id": "LOT-B-EC43A1D29639"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-CD0A4D387906"
+            }
+          ],
+          "title_id": "TTL-0ECF4F195F23"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 130,
+              "lot_id": "LOT-B-90A23B74D130"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-88CDA8BB6A44"
+            }
+          ],
+          "title_id": "TTL-0B2705749B18"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-AF307F021565"
+            },
+            {
+              "base_value": 126,
+              "lot_id": "LOT-B-50DCE53A4701"
+            }
+          ],
+          "title_id": "TTL-B491C00DB859"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 125,
+              "lot_id": "LOT-A-F9DD7A85F88A"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-0DA2843D9D6F"
+            }
+          ],
+          "title_id": "TTL-755EC48B0983"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-C4FB9A0DAA51"
+            },
+            {
+              "base_value": 132,
+              "lot_id": "LOT-B-741B541CE3A6"
+            }
+          ],
+          "title_id": "TTL-A8D92EA46E6C"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 136,
+              "lot_id": "LOT-B-16FACE759F53"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-40DB4F22CC0A"
+            }
+          ],
+          "title_id": "TTL-7708A9948F68"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 123,
+              "lot_id": "LOT-B-39363CE60FF3"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-2D95EF8728FB"
+            }
+          ],
+          "title_id": "TTL-08847B632C89"
+        }
+      ]
+    },
+    "title_handles_text": "TTL-B6D8EEE36204, TTL-77159119D0EE, TTL-BFAEE1138FB6, TTL-178063C8C154, TTL-252EEF16472A, TTL-7708A9948F68, TTL-75580C5BBAFB, TTL-0B2705749B18, TTL-36FA97B47ADF, TTL-0ECF4F195F23, TTL-7AF0A81E3100, TTL-2976C2FEA49A, TTL-580150C11BE5, TTL-08847B632C89, TTL-A6C48FD6A218, TTL-5A670FFD3B72, TTL-165DB042E1C7, TTL-526875F960AA, TTL-8203ACC5CEA3, TTL-DF80215A763C, TTL-57881B61546F, TTL-8CA696916758, TTL-35C59E5CBAEB, TTL-8014BA48770C, TTL-3B9C791B0873, TTL-6CC20A66D8ED, TTL-6425E43A1E43, TTL-B7FE5F526408, TTL-B857A1BE621E, TTL-347F0AACA6D8, TTL-72A6747813B8, TTL-668CAB771C70, TTL-5E0B31F51026, TTL-0A86333C6BB7, TTL-9A8D4DA3CF18, TTL-95405F603155, TTL-D915C0A0A945, TTL-1FAB43C3C229, TTL-755EC48B0983, TTL-C126B3324E94, TTL-63B9C5A25C5C, TTL-88592F081315, TTL-A8D92EA46E6C, TTL-B491C00DB859"
+  },
+  "rung_index": 1,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 2
+}

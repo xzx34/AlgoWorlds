@@ -1,0 +1,3244 @@
+{
+  "arm_index": 1,
+  "case_id": "case_18_match_pairing",
+  "member_key": "case_18_match_pairing/rung-2/world-2/arm-1",
+  "payload": {
+    "cost_budget": 223,
+    "cost_vector": {
+      "evaluate_matching": 5,
+      "read_compatibility_row": 8,
+      "read_handoff_policy": 2,
+      "read_pair": 3,
+      "read_pair_window": 8,
+      "read_participant": 4
+    },
+    "handoff_catalog_size": 156,
+    "pair_catalog_size": 169,
+    "participant_count": 26,
+    "participant_handles_text": "PER780C290F3943, PERF39D73D8143D, PER4F1EE6252F13, PER55C27BDC95BC, PERDCFAEA6DF0E7, PERDEAA3727173C, PERA50599CA4C76, PER1EF0D7B4CD9B, PERF7D171D6319B, PEREC7E93C18C0B, PER8D9D057F1A96, PERE03D589F3593, PER92C36D7DD495, PERE62DA8B28E97, PER28FEB515B635, PERBFB1AB9FC694, PERADF01E9B8BF3, PERBBF23C18BA87, PER15AE23CBE8B9, PER28AAE2EFC7FA, PERD819415E443B, PER261B4A9167AE, PERB93BC9B83B33, PERC63586E27B6C, PERBF5DF0FF032A, PERC474FAC88CB7",
+    "participants_per_side": 13,
+    "source_documents": {
+      "handoff_policy": {
+        "left_order": [
+          "PER780C290F3943",
+          "PER4F1EE6252F13",
+          "PERDCFAEA6DF0E7",
+          "PERA50599CA4C76",
+          "PERF7D171D6319B",
+          "PER8D9D057F1A96",
+          "PER92C36D7DD495",
+          "PER28FEB515B635",
+          "PERADF01E9B8BF3",
+          "PER15AE23CBE8B9",
+          "PERD819415E443B",
+          "PERB93BC9B83B33",
+          "PERBF5DF0FF032A"
+        ],
+        "right_order": [
+          "PERF39D73D8143D",
+          "PER55C27BDC95BC",
+          "PERDEAA3727173C",
+          "PER1EF0D7B4CD9B",
+          "PEREC7E93C18C0B",
+          "PERE03D589F3593",
+          "PERE62DA8B28E97",
+          "PERBFB1AB9FC694",
+          "PERBBF23C18BA87",
+          "PER28AAE2EFC7FA",
+          "PER261B4A9167AE",
+          "PERC63586E27B6C",
+          "PERC474FAC88CB7"
+        ],
+        "rows": [
+          {
+            "cost": 306,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 3737,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 613,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 1042,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 145,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 3574,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 2164,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 468,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 3426,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 2274,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 4078,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 214841,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 215054,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 1749,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 749,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 2637,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 2047,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 1817,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 3959,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 1075,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 2165,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 175,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 30,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 1878,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 2272,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 1327,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 2581,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 780,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 3974,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 2951,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 696,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 2722,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 2219,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 3917,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 215677,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 1453,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 335,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 2457,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 2175,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 3668,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 2053,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 3416,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 2903,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 2030,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 2431,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 3132,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 343,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 4074,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 213903,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 713,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 3382,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 318,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 719,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 3694,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 1404,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 720,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 2332,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 1272,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 266,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 218,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 2614,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 2325,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 3256,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 215184,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 2939,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 2908,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 2728,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 159,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 2448,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 340,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 1072,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 3923,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 2520,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 3620,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 2787,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 278,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 3123,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 2891,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 814,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 214019,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 679,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 214631,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 4070,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 3428,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 215391,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 3037,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 1959,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 2062,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 550,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 4093,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 3494,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 3032,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 3092,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 3182,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 2114,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 213394,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 2386,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 1330,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 852,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 929,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 722,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 1836,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 244,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 1314,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 1599,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 215090,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 1428,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 1995,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 215373,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 1858,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 2442,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 962,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 2006,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 3308,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 911,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 2344,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 3706,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 214512,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 2227,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 213,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 514,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 2573,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 662,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 539,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 1172,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 964,
+            "from_right": "PERDEAA3727173C",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 1837,
+            "from_right": "PERBBF23C18BA87",
+            "to_right": "PERC474FAC88CB7"
+          },
+          {
+            "cost": 307,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 2653,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 964,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 474,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 3365,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PER55C27BDC95BC"
+          },
+          {
+            "cost": 3252,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 3927,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 3960,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PER28AAE2EFC7FA"
+          },
+          {
+            "cost": 1375,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 2532,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 3693,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 1008,
+            "from_right": "PERBFB1AB9FC694",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 4036,
+            "from_right": "PER55C27BDC95BC",
+            "to_right": "PER261B4A9167AE"
+          },
+          {
+            "cost": 446,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 3703,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 1219,
+            "from_right": "PERE03D589F3593",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 1292,
+            "from_right": "PER28AAE2EFC7FA",
+            "to_right": "PERF39D73D8143D"
+          },
+          {
+            "cost": 641,
+            "from_right": "PERE62DA8B28E97",
+            "to_right": "PERC63586E27B6C"
+          },
+          {
+            "cost": 3709,
+            "from_right": "PEREC7E93C18C0B",
+            "to_right": "PER1EF0D7B4CD9B"
+          },
+          {
+            "cost": 1998,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PEREC7E93C18C0B"
+          },
+          {
+            "cost": 3484,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERBFB1AB9FC694"
+          },
+          {
+            "cost": 161,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 3650,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 4050,
+            "from_right": "PER1EF0D7B4CD9B",
+            "to_right": "PERE62DA8B28E97"
+          },
+          {
+            "cost": 2649,
+            "from_right": "PERC474FAC88CB7",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 2899,
+            "from_right": "PERF39D73D8143D",
+            "to_right": "PERE03D589F3593"
+          },
+          {
+            "cost": 3720,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERDEAA3727173C"
+          },
+          {
+            "cost": 3458,
+            "from_right": "PERC63586E27B6C",
+            "to_right": "PERBBF23C18BA87"
+          },
+          {
+            "cost": 1473,
+            "from_right": "PER261B4A9167AE",
+            "to_right": "PERC474FAC88CB7"
+          }
+        ],
+        "rule": "left_sequence_adjacent_right_handoff"
+      },
+      "pair_order": [
+        "PAIR9858E7C50DB2",
+        "PAIR613FA6E64C06",
+        "PAIR95C0B1BB6B8D",
+        "PAIR9A9BA35BF272",
+        "PAIR5756C8E720C3",
+        "PAIRF436B36F7F23",
+        "PAIR5813E34FA9D1",
+        "PAIRE5AFC3D43CB9",
+        "PAIR7EBA6FF1F6E3",
+        "PAIR756AC2EB18E5",
+        "PAIR2282FFC50ACC",
+        "PAIRBE6A4082759A",
+        "PAIR59FCF3283F41",
+        "PAIRF6A131F7E5C8",
+        "PAIRDE2A8D003992",
+        "PAIR4B66CD7AF2AD",
+        "PAIR49F37F791891",
+        "PAIR0BB5AFEC827D",
+        "PAIR44B7CB374B4B",
+        "PAIRF2CEA353A636",
+        "PAIRC3CBF0573438",
+        "PAIR0C2200BBA13C",
+        "PAIR1727612F847E",
+        "PAIR45549935DA5F",
+        "PAIREBE962F0797A",
+        "PAIR0C7413A4F08A",
+        "PAIR99C8BF17E263",
+        "PAIR67D0947D81A8",
+        "PAIR27BE324C8723",
+        "PAIR77DABE18992C",
+        "PAIR7C864947C14C",
+        "PAIR3AE8D921674D",
+        "PAIRB74D93D4E50B",
+        "PAIR6548CEC03C90",
+        "PAIR13F096216E19",
+        "PAIR5A0EDE324999",
+        "PAIRE407E5080FA0",
+        "PAIRC95CAD9FECA3",
+        "PAIR8846AA4B78DB",
+        "PAIRFD7037E0AC00",
+        "PAIR4B94B6A864F8",
+        "PAIR7B7F7B5E4A88",
+        "PAIR97556F853E6F",
+        "PAIRD559A0EE5DDA",
+        "PAIRE4737AC3D1B9",
+        "PAIR5A8DEDDD0407",
+        "PAIR80C94CC03508",
+        "PAIRDD142F0251A9",
+        "PAIRD3D12E63BC16",
+        "PAIR3CA191E0B9F5",
+        "PAIR7C19D3206FA6",
+        "PAIRAC41881AFE10",
+        "PAIR042CA9F321D1",
+        "PAIR646D485E7708",
+        "PAIRFD274A712883",
+        "PAIR23F73D8F9945",
+        "PAIR930E9AE83823",
+        "PAIR5362A2B11C95",
+        "PAIRC4F72D46B91C",
+        "PAIR42D6D5724E73",
+        "PAIRE37BEB0126B2",
+        "PAIREC9F63346BB2",
+        "PAIRE6D06C0ADA18",
+        "PAIR0E5BD50498AC",
+        "PAIR76531D6E0819",
+        "PAIR273150D6D3D2",
+        "PAIR86CCF9845312",
+        "PAIR4FAEE07F15DF",
+        "PAIR6CD934022308",
+        "PAIRE086CED5DA4A",
+        "PAIR667FA48C1F17",
+        "PAIR805DF24AE366",
+        "PAIR45EA61FBD98B",
+        "PAIRB0F80B2282AD",
+        "PAIRCC86D064459E",
+        "PAIR0BCF284E51F9",
+        "PAIR932A42618E54",
+        "PAIR3451579FBA51",
+        "PAIR98D8787CDC38",
+        "PAIR8CE21D41546A",
+        "PAIR1F91D33C2AF7",
+        "PAIR3CAB82BEB5AE",
+        "PAIR9AB8FABBBD98",
+        "PAIR5E71C1143165",
+        "PAIR44D5E448BBAF",
+        "PAIRB60719CCC8BE",
+        "PAIR1BD9E73A50AB",
+        "PAIR97B673E19FB4",
+        "PAIR64F3EE54AB67",
+        "PAIR3554A2A0574E",
+        "PAIR4E1A48565502",
+        "PAIR94EE1375EB01",
+        "PAIR7DC732DBD54E",
+        "PAIRDE258A35B376",
+        "PAIR8C597214E52C",
+        "PAIRA45C82852EF0",
+        "PAIRD8E74E51A376",
+        "PAIRE10933EE5BE6",
+        "PAIRC2A293C668B0",
+        "PAIREA5F1AAB16FA",
+        "PAIR05DC1E771472",
+        "PAIR115DC77BE550",
+        "PAIR74CA32B08E08",
+        "PAIRC6F321381D8C",
+        "PAIR7E0CC4439F21",
+        "PAIRAAEF31ED7CC6",
+        "PAIR896B7C73B3B8",
+        "PAIR0B4778601BDE",
+        "PAIRD8EB78DFE089",
+        "PAIR7E73343B44B6",
+        "PAIR83318C85D8CE",
+        "PAIR0BD150B486F1",
+        "PAIR3DDFDF208806",
+        "PAIR742E6AC3DCD0",
+        "PAIR4EB076677F05",
+        "PAIR0DE1F682C7E4",
+        "PAIR91BF78790B8F",
+        "PAIR76EC15ECDC13",
+        "PAIRA4ECFD9FEB73",
+        "PAIRC775CB33D51D",
+        "PAIR1C71565B76CA",
+        "PAIR9319868C9950",
+        "PAIR56631589452E",
+        "PAIRF049E3BF49CE",
+        "PAIRE042D8B758C0",
+        "PAIR60BA88884BE7",
+        "PAIR5A25B3D38901",
+        "PAIREA8294A80CB4",
+        "PAIRB07E1B003F53",
+        "PAIRE91998BD0F8A",
+        "PAIRCC6F6D0B362F",
+        "PAIRBB16DB493A6E",
+        "PAIRC747690AD735",
+        "PAIR8AFC08EF1D99",
+        "PAIRA7763DABD64B",
+        "PAIRD57382280D02",
+        "PAIR8121FF4B20F2",
+        "PAIR71FFF0F5502F",
+        "PAIR7851F75B5942",
+        "PAIR909702A0C07F",
+        "PAIR25A12BF177B3",
+        "PAIR2C4E4793B468",
+        "PAIR269211BB45C9",
+        "PAIR9EC3036A1A9A",
+        "PAIR0492150FC814",
+        "PAIR2D00BCE8D9FF",
+        "PAIR292837E7F5E1",
+        "PAIR656661CF03AC",
+        "PAIRFCA4CEB71706",
+        "PAIR1D12E38E52D6",
+        "PAIR638367B825C2",
+        "PAIREF63F0627153",
+        "PAIRF125F917E671",
+        "PAIRAB355C6F52D2",
+        "PAIRC0A05CCC347C",
+        "PAIR57FE7066D5E7",
+        "PAIR5AC740F549DB",
+        "PAIR9248FB245192",
+        "PAIR37136EFC1304",
+        "PAIREB64E45D8BFB",
+        "PAIR9260B3C21D8B",
+        "PAIRF5347BA04166",
+        "PAIR5D5B182E55CE",
+        "PAIRF8C9023B5857",
+        "PAIR1E01BF99C5EA",
+        "PAIRE902D43E3D6D",
+        "PAIR13F8FD36D4C9",
+        "PAIR53F54E691889",
+        "PAIR0B7F3B9CCC8E"
+      ],
+      "pair_source": {
+        "attendance": [
+          {
+            "event_id": "EVT04559CAEA0B7",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT0E5646D2E070",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTE66851079CD1",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT9B96295DC80E",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT4435607ABD70",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVTB7FFC21058FF",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT1C247136CEA8",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT4507BF3D6E46",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT0E5646D2E070",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVTF2751D0C86CA",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVT15C182F8F9B3",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTA9198F6D86C5",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVTEC4D9EA60A86",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVT3E0763782FD4",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTCB314437708C",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTC7A9923576ED",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT70AFBD0D5477",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT239DE26FD67C",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTC12D5641BC88",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVT1C247136CEA8",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVTBCD9D5B79A1E",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT1B8E23F35127",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT3000E57FD182",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT365514063251",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVTA413D2D34158",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT8186B906D0D6",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT7571B64F3CD7",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTB4DB69791BA2",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVT42128848315B",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTC2687FB622CC",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTC618D3647D8B",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTC12D5641BC88",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT667DEEB49B64",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT2C6CF29A50A0",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT01410B960713",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVT20B934407AB0",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT9EA0B6D00D38",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVTF942C8DB4719",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVTDEBB0192B5D3",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT8C3DCE225D04",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTC6AA8E6993C0",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVTD5DC18106EDF",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT2A7364144587",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT464E33E2CA0E",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT627A6205D641",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT9CB6F9B2F654",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVTC9F86059DCC2",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVTD6AE59ACD37E",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT15B065CC66AD",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTF2DF8596B566",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVTEA10919DDB2D",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVT711C9B3B6546",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTAE6270BA51F5",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT492DF9E42BA8",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT2967AFA06C1F",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT4409F628C82C",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT89F5BC34271B",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVTE331C672241A",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTF06ED37B952B",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT383F6CBED7FE",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVTAA233E6685C3",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVTD39AE716469C",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT20B934407AB0",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT978941D4617F",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVTB0B1956DCF41",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT62F1408895CD",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVTA9198F6D86C5",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVTD39AE716469C",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTF06ED37B952B",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT1CC937CC2488",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT4C9DB334A476",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT078DDD0891D2",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVT9B96295DC80E",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT0DF1FFD2A7C0",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVT373B13DDFAFA",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTFE20AC9D0C97",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTBCD9D5B79A1E",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTD8C40A65495D",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT921079179918",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT4433F86A2427",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVTC8E2AEF1A9B7",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVT25C1EA53542D",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVTF68A1466E7E4",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTB7FFC21058FF",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTF2751D0C86CA",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVT89F5BC34271B",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVTEA10919DDB2D",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVTB14CADD34A00",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTD5D330D6E092",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVT4433F86A2427",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVTED55936C7B4B",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT2967AFA06C1F",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVT17366A6BFE01",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVTD5DC18106EDF",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTD218F00A71B3",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT7F16327D3BF6",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT890864AA917D",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVT8CF13A1B1F5E",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVTE5DBB41982DB",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTE7F1DFF641A6",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT9A8D78882EF7",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVT9A8D78882EF7",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT15B065CC66AD",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVT25ED88C9E660",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVTC20FA431AF85",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVT295FD68A4519",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVT529AA09D8F14",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVTB4DB69791BA2",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVT8E8C419133AE",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVT2A7364144587",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVT4982465477BA",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT3E040D2C16A2",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT06CFC5CC2BEC",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVT52D99B8F1B97",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT7DEA3E208D08",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVTED55936C7B4B",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT227F34321954",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVTAC43C57C122A",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVTC1620954555E",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTF942C8DB4719",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVT4435607ABD70",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVTF98B4A15018F",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTF6FF0381737C",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVTE6B68613436C",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT42128848315B",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT7936E9C18799",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVTE6B68613436C",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVT295FD68A4519",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTCDBC596E57A4",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT7571B64F3CD7",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVTBBC115CC2710",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVT706EB33BF7A4",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVT98E36E056F70",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVTCDBC596E57A4",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT80EBA08306B5",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTC2687FB622CC",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVTDC91790CEA6F",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT01DFD5A037B0",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT5DA10673567A",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTB6CA2933B1BF",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVTCC0F062DCC07",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT365514063251",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVTC79FDE0D0C4F",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT8FABD42C72F7",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVTB30FB907C3DB",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTA10CDEDF8B55",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTDEFF6618EFD5",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTC7A9923576ED",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT078DDD0891D2",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTCD6AB20290B9",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVT627A6205D641",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTCB314437708C",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT5632272D2084",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVTFE20AC9D0C97",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT923DC4E07B51",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVTD75BCAE32680",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVTA10CDEDF8B55",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT1B7968FABE6B",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVTD9072C882253",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT3E0763782FD4",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVTB0B1956DCF41",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTB30FB907C3DB",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT97EF4135C9C8",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT1B7968FABE6B",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT1453CF12FE2B",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT06CFC5CC2BEC",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTBFF91D233C67",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVTF4040B1CAA22",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVT148394D75FD4",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVTF98B4A15018F",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT3000E57FD182",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTD48C069AC038",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTF68A1466E7E4",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVTC20FA431AF85",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTCDC37C4EC2CC",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT6AB121CD5244",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVTE5DBB41982DB",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVTF6FF0381737C",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVT8CFEEB133542",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTE84E9A43B729",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTA413D2D34158",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVTBBC115CC2710",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVT3053E7153901",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVTE5BB5EC13AF1",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVTB49F61E64C0A",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVTDC91790CEA6F",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTB49F61E64C0A",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVT8CFEEB133542",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT9F8E03789BC3",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT8E8C419133AE",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT3E040D2C16A2",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTABBDE2EDD968",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT978941D4617F",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTB44C8888D91B",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVTC618D3647D8B",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTE331C672241A",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT492DF9E42BA8",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT239DE26FD67C",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT4C9DB334A476",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT082081249A15",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT80EBA08306B5",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTAEC30E8F1CD4",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTD9998FCEF7E9",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVTF5F35165E1C9",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT7CF47FC0604F",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVTEC894896C235",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT4409F628C82C",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVTDEFF6618EFD5",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT8C3DCE225D04",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVTABBDE2EDD968",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVTA2E8C53BB0BB",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT23CF7B297728",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVTE821EA9A238A",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVT23CF7B297728",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVTE5BB5EC13AF1",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVT9FCB669DF165",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT11671DCCCA7F",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT11671DCCCA7F",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTAEC30E8F1CD4",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT667DEEB49B64",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVTD9072C882253",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT91F03FBA534B",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTCD6AB20290B9",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT3B59C512EC0F",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT62F1408895CD",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVT6B879AE21482",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTC8E2AEF1A9B7",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVT36A55095E960",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT91F03FBA534B",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVTD5D330D6E092",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVTEC894896C235",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT341048481467",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT9CB6F9B2F654",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTC6AA8E6993C0",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTF4040B1CAA22",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT17366A6BFE01",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT8FABD42C72F7",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVTE307C3E4BE32",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVTCDC37C4EC2CC",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTAC43C57C122A",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVT9FCB669DF165",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT0DF1FFD2A7C0",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT98E36E056F70",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTF2DF8596B566",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTA2E8C53BB0BB",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVT706EB33BF7A4",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVTDD3F5727E479",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT7DEA3E208D08",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT6B879AE21482",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT890864AA917D",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVT14D43FC4FA89",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT711C9B3B6546",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVTAA233E6685C3",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT815A1463B987",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVTD75BCAE32680",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVTBFF91D233C67",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVTB6CA2933B1BF",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT815A1463B987",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT4982465477BA",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTD6AE59ACD37E",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT148394D75FD4",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVTC79FDE0D0C4F",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVT0459166549F0",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVTBAE2C3B41149",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT9EA0B6D00D38",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT01410B960713",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVTBAE2C3B41149",
+            "participant_id": "PERBFB1AB9FC694"
+          },
+          {
+            "event_id": "EVT082081249A15",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT1B8E23F35127",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVTD218F00A71B3",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT923DC4E07B51",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTD9998FCEF7E9",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVTF5F35165E1C9",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT15C182F8F9B3",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVTD8C40A65495D",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVT266767730B4C",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT8186B906D0D6",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT0137A0DAC646",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVT4507BF3D6E46",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTE84E9A43B729",
+            "participant_id": "PERD819415E443B"
+          },
+          {
+            "event_id": "EVT9E6A716F422A",
+            "participant_id": "PER8D9D057F1A96"
+          },
+          {
+            "event_id": "EVT921079179918",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVTDD3F5727E479",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVTD48C069AC038",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTD55208DDC6D4",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT7F16327D3BF6",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVTE66851079CD1",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT373B13DDFAFA",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVT529AA09D8F14",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVTCDE19CC65CCF",
+            "participant_id": "PERF39D73D8143D"
+          },
+          {
+            "event_id": "EVT10C5F65D0E4A",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVT9E6A716F422A",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVTDEBB0192B5D3",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVT25ED88C9E660",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT7936E9C18799",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT227F34321954",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVTD9F9235A7A27",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT266767730B4C",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT52D99B8F1B97",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT1CC937CC2488",
+            "participant_id": "PERF7D171D6319B"
+          },
+          {
+            "event_id": "EVTD9F9235A7A27",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT9F8E03789BC3",
+            "participant_id": "PERBF5DF0FF032A"
+          },
+          {
+            "event_id": "EVTC1620954555E",
+            "participant_id": "PER92C36D7DD495"
+          },
+          {
+            "event_id": "EVT3053E7153901",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVTD55208DDC6D4",
+            "participant_id": "PERADF01E9B8BF3"
+          },
+          {
+            "event_id": "EVT01DFD5A037B0",
+            "participant_id": "PERC63586E27B6C"
+          },
+          {
+            "event_id": "EVT14D43FC4FA89",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVT383F6CBED7FE",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVTB44C8888D91B",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVT7CF47FC0604F",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVTAE6270BA51F5",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT5EEA4CAEA8B2",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVT25C1EA53542D",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVT341048481467",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTE7F1DFF641A6",
+            "participant_id": "PER28AAE2EFC7FA"
+          },
+          {
+            "event_id": "EVT6AB121CD5244",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT10C5F65D0E4A",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT0137A0DAC646",
+            "participant_id": "PERE03D589F3593"
+          },
+          {
+            "event_id": "EVT0459166549F0",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT8CF13A1B1F5E",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVTCC0F062DCC07",
+            "participant_id": "PERA50599CA4C76"
+          },
+          {
+            "event_id": "EVTB14CADD34A00",
+            "participant_id": "PERE62DA8B28E97"
+          },
+          {
+            "event_id": "EVT3B59C512EC0F",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVT5DA10673567A",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVT464E33E2CA0E",
+            "participant_id": "PER1EF0D7B4CD9B"
+          },
+          {
+            "event_id": "EVT5EEA4CAEA8B2",
+            "participant_id": "PERBBF23C18BA87"
+          },
+          {
+            "event_id": "EVTC9F86059DCC2",
+            "participant_id": "PER261B4A9167AE"
+          },
+          {
+            "event_id": "EVT97EF4135C9C8",
+            "participant_id": "PERB93BC9B83B33"
+          },
+          {
+            "event_id": "EVT5632272D2084",
+            "participant_id": "PER55C27BDC95BC"
+          },
+          {
+            "event_id": "EVT1453CF12FE2B",
+            "participant_id": "PERDCFAEA6DF0E7"
+          },
+          {
+            "event_id": "EVTE821EA9A238A",
+            "participant_id": "PEREC7E93C18C0B"
+          },
+          {
+            "event_id": "EVT70AFBD0D5477",
+            "participant_id": "PER4F1EE6252F13"
+          },
+          {
+            "event_id": "EVT04559CAEA0B7",
+            "participant_id": "PER780C290F3943"
+          },
+          {
+            "event_id": "EVT36A55095E960",
+            "participant_id": "PERC474FAC88CB7"
+          },
+          {
+            "event_id": "EVT2C6CF29A50A0",
+            "participant_id": "PERDEAA3727173C"
+          },
+          {
+            "event_id": "EVTCDE19CC65CCF",
+            "participant_id": "PER28FEB515B635"
+          },
+          {
+            "event_id": "EVTE307C3E4BE32",
+            "participant_id": "PER15AE23CBE8B9"
+          },
+          {
+            "event_id": "EVTEC4D9EA60A86",
+            "participant_id": "PERC63586E27B6C"
+          }
+        ],
+        "encoding": "event",
+        "pairs": [
+          {
+            "cost": 9073,
+            "event_id": "EVT4409F628C82C",
+            "pair_id": "PAIR9858E7C50DB2"
+          },
+          {
+            "cost": 20067,
+            "event_id": "EVT80EBA08306B5",
+            "pair_id": "PAIR613FA6E64C06"
+          },
+          {
+            "cost": 21624,
+            "event_id": "EVTD48C069AC038",
+            "pair_id": "PAIR95C0B1BB6B8D"
+          },
+          {
+            "cost": 9073,
+            "event_id": "EVT62F1408895CD",
+            "pair_id": "PAIR9A9BA35BF272"
+          },
+          {
+            "cost": 18458,
+            "event_id": "EVTE307C3E4BE32",
+            "pair_id": "PAIR5756C8E720C3"
+          },
+          {
+            "cost": 9298,
+            "event_id": "EVTD75BCAE32680",
+            "pair_id": "PAIRF436B36F7F23"
+          },
+          {
+            "cost": 17671,
+            "event_id": "EVT01410B960713",
+            "pair_id": "PAIR5813E34FA9D1"
+          },
+          {
+            "cost": 9069,
+            "event_id": "EVT1453CF12FE2B",
+            "pair_id": "PAIRE5AFC3D43CB9"
+          },
+          {
+            "cost": 13707,
+            "event_id": "EVTC9F86059DCC2",
+            "pair_id": "PAIR7EBA6FF1F6E3"
+          },
+          {
+            "cost": 9084,
+            "event_id": "EVTB6CA2933B1BF",
+            "pair_id": "PAIR756AC2EB18E5"
+          },
+          {
+            "cost": 9043,
+            "event_id": "EVT921079179918",
+            "pair_id": "PAIR2282FFC50ACC"
+          },
+          {
+            "cost": 9114,
+            "event_id": "EVTD9F9235A7A27",
+            "pair_id": "PAIRBE6A4082759A"
+          },
+          {
+            "cost": 9079,
+            "event_id": "EVTB30FB907C3DB",
+            "pair_id": "PAIR59FCF3283F41"
+          },
+          {
+            "cost": 16031,
+            "event_id": "EVTC8E2AEF1A9B7",
+            "pair_id": "PAIRF6A131F7E5C8"
+          },
+          {
+            "cost": 11020,
+            "event_id": "EVT98E36E056F70",
+            "pair_id": "PAIRDE2A8D003992"
+          },
+          {
+            "cost": 12581,
+            "event_id": "EVT3B59C512EC0F",
+            "pair_id": "PAIR4B66CD7AF2AD"
+          },
+          {
+            "cost": 15286,
+            "event_id": "EVT9EA0B6D00D38",
+            "pair_id": "PAIR49F37F791891"
+          },
+          {
+            "cost": 16871,
+            "event_id": "EVT36A55095E960",
+            "pair_id": "PAIR0BB5AFEC827D"
+          },
+          {
+            "cost": 13717,
+            "event_id": "EVTD218F00A71B3",
+            "pair_id": "PAIR44B7CB374B4B"
+          },
+          {
+            "cost": 13719,
+            "event_id": "EVT923DC4E07B51",
+            "pair_id": "PAIRF2CEA353A636"
+          },
+          {
+            "cost": 9299,
+            "event_id": "EVT1B7968FABE6B",
+            "pair_id": "PAIRC3CBF0573438"
+          },
+          {
+            "cost": 15227,
+            "event_id": "EVT890864AA917D",
+            "pair_id": "PAIR0C2200BBA13C"
+          },
+          {
+            "cost": 16073,
+            "event_id": "EVTD6AE59ACD37E",
+            "pair_id": "PAIR1727612F847E"
+          },
+          {
+            "cost": 9103,
+            "event_id": "EVTABBDE2EDD968",
+            "pair_id": "PAIR45549935DA5F"
+          },
+          {
+            "cost": 14503,
+            "event_id": "EVTDEBB0192B5D3",
+            "pair_id": "PAIREBE962F0797A"
+          },
+          {
+            "cost": 12632,
+            "event_id": "EVT383F6CBED7FE",
+            "pair_id": "PAIR0C7413A4F08A"
+          },
+          {
+            "cost": 9437,
+            "event_id": "EVTF2DF8596B566",
+            "pair_id": "PAIR99C8BF17E263"
+          },
+          {
+            "cost": 9045,
+            "event_id": "EVT25C1EA53542D",
+            "pair_id": "PAIR67D0947D81A8"
+          },
+          {
+            "cost": 19257,
+            "event_id": "EVT227F34321954",
+            "pair_id": "PAIR27BE324C8723"
+          },
+          {
+            "cost": 15264,
+            "event_id": "EVTDC91790CEA6F",
+            "pair_id": "PAIR77DABE18992C"
+          },
+          {
+            "cost": 17695,
+            "event_id": "EVTB49F61E64C0A",
+            "pair_id": "PAIR7C864947C14C"
+          },
+          {
+            "cost": 12644,
+            "event_id": "EVT6AB121CD5244",
+            "pair_id": "PAIR3AE8D921674D"
+          },
+          {
+            "cost": 10975,
+            "event_id": "EVT14D43FC4FA89",
+            "pair_id": "PAIRB74D93D4E50B"
+          },
+          {
+            "cost": 10206,
+            "event_id": "EVTBCD9D5B79A1E",
+            "pair_id": "PAIR6548CEC03C90"
+          },
+          {
+            "cost": 9281,
+            "event_id": "EVTF06ED37B952B",
+            "pair_id": "PAIR13F096216E19"
+          },
+          {
+            "cost": 9069,
+            "event_id": "EVT5EEA4CAEA8B2",
+            "pair_id": "PAIR5A0EDE324999"
+          },
+          {
+            "cost": 9404,
+            "event_id": "EVTEC894896C235",
+            "pair_id": "PAIRE407E5080FA0"
+          },
+          {
+            "cost": 11007,
+            "event_id": "EVTF98B4A15018F",
+            "pair_id": "PAIRC95CAD9FECA3"
+          },
+          {
+            "cost": 10231,
+            "event_id": "EVTD9072C882253",
+            "pair_id": "PAIR8846AA4B78DB"
+          },
+          {
+            "cost": 20841,
+            "event_id": "EVTC1620954555E",
+            "pair_id": "PAIRFD7037E0AC00"
+          },
+          {
+            "cost": 20071,
+            "event_id": "EVTD39AE716469C",
+            "pair_id": "PAIR4B94B6A864F8"
+          },
+          {
+            "cost": 9099,
+            "event_id": "EVT8C3DCE225D04",
+            "pair_id": "PAIR7B7F7B5E4A88"
+          },
+          {
+            "cost": 18471,
+            "event_id": "EVTAA233E6685C3",
+            "pair_id": "PAIR97556F853E6F"
+          },
+          {
+            "cost": 13676,
+            "event_id": "EVTFE20AC9D0C97",
+            "pair_id": "PAIRD559A0EE5DDA"
+          },
+          {
+            "cost": 9083,
+            "event_id": "EVTB44C8888D91B",
+            "pair_id": "PAIRE4737AC3D1B9"
+          },
+          {
+            "cost": 9404,
+            "event_id": "EVTE6B68613436C",
+            "pair_id": "PAIR5A8DEDDD0407"
+          },
+          {
+            "cost": 15291,
+            "event_id": "EVT01DFD5A037B0",
+            "pair_id": "PAIR80C94CC03508"
+          },
+          {
+            "cost": 10218,
+            "event_id": "EVT23CF7B297728",
+            "pair_id": "PAIRDD142F0251A9"
+          },
+          {
+            "cost": 17617,
+            "event_id": "EVT06CFC5CC2BEC",
+            "pair_id": "PAIRD3D12E63BC16"
+          },
+          {
+            "cost": 9428,
+            "event_id": "EVTB14CADD34A00",
+            "pair_id": "PAIR3CA191E0B9F5"
+          },
+          {
+            "cost": 9051,
+            "event_id": "EVTA9198F6D86C5",
+            "pair_id": "PAIR7C19D3206FA6"
+          },
+          {
+            "cost": 12568,
+            "event_id": "EVT3053E7153901",
+            "pair_id": "PAIRAC41881AFE10"
+          },
+          {
+            "cost": 16089,
+            "event_id": "EVTAEC30E8F1CD4",
+            "pair_id": "PAIR042CA9F321D1"
+          },
+          {
+            "cost": 16042,
+            "event_id": "EVTE84E9A43B729",
+            "pair_id": "PAIR646D485E7708"
+          },
+          {
+            "cost": 13623,
+            "event_id": "EVTBAE2C3B41149",
+            "pair_id": "PAIRFD274A712883"
+          },
+          {
+            "cost": 15262,
+            "event_id": "EVT078DDD0891D2",
+            "pair_id": "PAIR23F73D8F9945"
+          },
+          {
+            "cost": 11812,
+            "event_id": "EVTD8C40A65495D",
+            "pair_id": "PAIR930E9AE83823"
+          },
+          {
+            "cost": 14419,
+            "event_id": "EVT711C9B3B6546",
+            "pair_id": "PAIR5362A2B11C95"
+          },
+          {
+            "cost": 9255,
+            "event_id": "EVT3E040D2C16A2",
+            "pair_id": "PAIRC4F72D46B91C"
+          },
+          {
+            "cost": 15317,
+            "event_id": "EVT7571B64F3CD7",
+            "pair_id": "PAIR42D6D5724E73"
+          },
+          {
+            "cost": 11770,
+            "event_id": "EVT365514063251",
+            "pair_id": "PAIRE37BEB0126B2"
+          },
+          {
+            "cost": 11802,
+            "event_id": "EVTE5BB5EC13AF1",
+            "pair_id": "PAIREC9F63346BB2"
+          },
+          {
+            "cost": 11839,
+            "event_id": "EVT5632272D2084",
+            "pair_id": "PAIRE6D06C0ADA18"
+          },
+          {
+            "cost": 11806,
+            "event_id": "EVT815A1463B987",
+            "pair_id": "PAIR0E5BD50498AC"
+          },
+          {
+            "cost": 16086,
+            "event_id": "EVT20B934407AB0",
+            "pair_id": "PAIR76531D6E0819"
+          },
+          {
+            "cost": 10219,
+            "event_id": "EVT52D99B8F1B97",
+            "pair_id": "PAIR273150D6D3D2"
+          },
+          {
+            "cost": 11839,
+            "event_id": "EVT082081249A15",
+            "pair_id": "PAIR86CCF9845312"
+          },
+          {
+            "cost": 11799,
+            "event_id": "EVT1C247136CEA8",
+            "pair_id": "PAIR4FAEE07F15DF"
+          },
+          {
+            "cost": 17671,
+            "event_id": "EVTD9998FCEF7E9",
+            "pair_id": "PAIR6CD934022308"
+          },
+          {
+            "cost": 20849,
+            "event_id": "EVTBBC115CC2710",
+            "pair_id": "PAIRE086CED5DA4A"
+          },
+          {
+            "cost": 9406,
+            "event_id": "EVTCDE19CC65CCF",
+            "pair_id": "PAIR667FA48C1F17"
+          },
+          {
+            "cost": 9051,
+            "event_id": "EVTC6AA8E6993C0",
+            "pair_id": "PAIR805DF24AE366"
+          },
+          {
+            "cost": 16887,
+            "event_id": "EVT7F16327D3BF6",
+            "pair_id": "PAIR45EA61FBD98B"
+          },
+          {
+            "cost": 9030,
+            "event_id": "EVT0459166549F0",
+            "pair_id": "PAIRB0F80B2282AD"
+          },
+          {
+            "cost": 15217,
+            "event_id": "EVTF6FF0381737C",
+            "pair_id": "PAIRCC86D064459E"
+          },
+          {
+            "cost": 9314,
+            "event_id": "EVT9A8D78882EF7",
+            "pair_id": "PAIR0BCF284E51F9"
+          },
+          {
+            "cost": 12594,
+            "event_id": "EVTAE6270BA51F5",
+            "pair_id": "PAIR932A42618E54"
+          },
+          {
+            "cost": 21627,
+            "event_id": "EVTC20FA431AF85",
+            "pair_id": "PAIR3451579FBA51"
+          },
+          {
+            "cost": 13667,
+            "event_id": "EVTB0B1956DCF41",
+            "pair_id": "PAIR98D8787CDC38"
+          },
+          {
+            "cost": 13706,
+            "event_id": "EVTA413D2D34158",
+            "pair_id": "PAIR8CE21D41546A"
+          },
+          {
+            "cost": 13678,
+            "event_id": "EVTEC4D9EA60A86",
+            "pair_id": "PAIR1F91D33C2AF7"
+          },
+          {
+            "cost": 19244,
+            "event_id": "EVT1B8E23F35127",
+            "pair_id": "PAIR3CAB82BEB5AE"
+          },
+          {
+            "cost": 20840,
+            "event_id": "EVTC618D3647D8B",
+            "pair_id": "PAIR9AB8FABBBD98"
+          },
+          {
+            "cost": 13627,
+            "event_id": "EVT373B13DDFAFA",
+            "pair_id": "PAIR5E71C1143165"
+          },
+          {
+            "cost": 14510,
+            "event_id": "EVT8FABD42C72F7",
+            "pair_id": "PAIR44D5E448BBAF"
+          },
+          {
+            "cost": 9047,
+            "event_id": "EVTDD3F5727E479",
+            "pair_id": "PAIRB60719CCC8BE"
+          },
+          {
+            "cost": 10984,
+            "event_id": "EVTC7A9923576ED",
+            "pair_id": "PAIR1BD9E73A50AB"
+          },
+          {
+            "cost": 9075,
+            "event_id": "EVTDEFF6618EFD5",
+            "pair_id": "PAIR97B673E19FB4"
+          },
+          {
+            "cost": 14447,
+            "event_id": "EVT295FD68A4519",
+            "pair_id": "PAIR64F3EE54AB67"
+          },
+          {
+            "cost": 9252,
+            "event_id": "EVTBFF91D233C67",
+            "pair_id": "PAIR3554A2A0574E"
+          },
+          {
+            "cost": 9458,
+            "event_id": "EVTB7FFC21058FF",
+            "pair_id": "PAIR4E1A48565502"
+          },
+          {
+            "cost": 14516,
+            "event_id": "EVT9CB6F9B2F654",
+            "pair_id": "PAIR94EE1375EB01"
+          },
+          {
+            "cost": 14489,
+            "event_id": "EVT464E33E2CA0E",
+            "pair_id": "PAIR7DC732DBD54E"
+          },
+          {
+            "cost": 12607,
+            "event_id": "EVTC12D5641BC88",
+            "pair_id": "PAIRDE258A35B376"
+          },
+          {
+            "cost": 9303,
+            "event_id": "EVT9B96295DC80E",
+            "pair_id": "PAIR8C597214E52C"
+          },
+          {
+            "cost": 20018,
+            "event_id": "EVTCB314437708C",
+            "pair_id": "PAIRA45C82852EF0"
+          },
+          {
+            "cost": 11036,
+            "event_id": "EVTE66851079CD1",
+            "pair_id": "PAIRD8E74E51A376"
+          },
+          {
+            "cost": 16125,
+            "event_id": "EVT11671DCCCA7F",
+            "pair_id": "PAIRE10933EE5BE6"
+          },
+          {
+            "cost": 9099,
+            "event_id": "EVT667DEEB49B64",
+            "pair_id": "PAIRC2A293C668B0"
+          },
+          {
+            "cost": 10196,
+            "event_id": "EVT492DF9E42BA8",
+            "pair_id": "PAIREA5F1AAB16FA"
+          },
+          {
+            "cost": 9270,
+            "event_id": "EVT7CF47FC0604F",
+            "pair_id": "PAIR05DC1E771472"
+          },
+          {
+            "cost": 9063,
+            "event_id": "EVT89F5BC34271B",
+            "pair_id": "PAIR115DC77BE550"
+          },
+          {
+            "cost": 13659,
+            "event_id": "EVT0E5646D2E070",
+            "pair_id": "PAIR74CA32B08E08"
+          },
+          {
+            "cost": 19271,
+            "event_id": "EVT8CFEEB133542",
+            "pair_id": "PAIRC6F321381D8C"
+          },
+          {
+            "cost": 9080,
+            "event_id": "EVT627A6205D641",
+            "pair_id": "PAIR7E0CC4439F21"
+          },
+          {
+            "cost": 12629,
+            "event_id": "EVT9F8E03789BC3",
+            "pair_id": "PAIRAAEF31ED7CC6"
+          },
+          {
+            "cost": 16845,
+            "event_id": "EVTE7F1DFF641A6",
+            "pair_id": "PAIR896B7C73B3B8"
+          },
+          {
+            "cost": 9099,
+            "event_id": "EVT1CC937CC2488",
+            "pair_id": "PAIR0B4778601BDE"
+          },
+          {
+            "cost": 14444,
+            "event_id": "EVTC2687FB622CC",
+            "pair_id": "PAIRD8EB78DFE089"
+          },
+          {
+            "cost": 10214,
+            "event_id": "EVT04559CAEA0B7",
+            "pair_id": "PAIR7E73343B44B6"
+          },
+          {
+            "cost": 9027,
+            "event_id": "EVT266767730B4C",
+            "pair_id": "PAIR83318C85D8CE"
+          },
+          {
+            "cost": 16883,
+            "event_id": "EVT341048481467",
+            "pair_id": "PAIR0BD150B486F1"
+          },
+          {
+            "cost": 14513,
+            "event_id": "EVTAC43C57C122A",
+            "pair_id": "PAIR3DDFDF208806"
+          },
+          {
+            "cost": 18445,
+            "event_id": "EVT3E0763782FD4",
+            "pair_id": "PAIR742E6AC3DCD0"
+          },
+          {
+            "cost": 9066,
+            "event_id": "EVTA2E8C53BB0BB",
+            "pair_id": "PAIR4EB076677F05"
+          },
+          {
+            "cost": 14480,
+            "event_id": "EVT15C182F8F9B3",
+            "pair_id": "PAIR0DE1F682C7E4"
+          },
+          {
+            "cost": 16016,
+            "event_id": "EVTF2751D0C86CA",
+            "pair_id": "PAIR91BF78790B8F"
+          },
+          {
+            "cost": 17652,
+            "event_id": "EVTF942C8DB4719",
+            "pair_id": "PAIR76EC15ECDC13"
+          },
+          {
+            "cost": 9066,
+            "event_id": "EVTCDBC596E57A4",
+            "pair_id": "PAIRA4ECFD9FEB73"
+          },
+          {
+            "cost": 18421,
+            "event_id": "EVT978941D4617F",
+            "pair_id": "PAIRC775CB33D51D"
+          },
+          {
+            "cost": 10190,
+            "event_id": "EVT25ED88C9E660",
+            "pair_id": "PAIR1C71565B76CA"
+          },
+          {
+            "cost": 16086,
+            "event_id": "EVT7DEA3E208D08",
+            "pair_id": "PAIR9319868C9950"
+          },
+          {
+            "cost": 14464,
+            "event_id": "EVTE331C672241A",
+            "pair_id": "PAIR56631589452E"
+          },
+          {
+            "cost": 18455,
+            "event_id": "EVT529AA09D8F14",
+            "pair_id": "PAIRF049E3BF49CE"
+          },
+          {
+            "cost": 16849,
+            "event_id": "EVT0137A0DAC646",
+            "pair_id": "PAIRE042D8B758C0"
+          },
+          {
+            "cost": 9026,
+            "event_id": "EVT5DA10673567A",
+            "pair_id": "PAIR60BA88884BE7"
+          },
+          {
+            "cost": 19276,
+            "event_id": "EVT8E8C419133AE",
+            "pair_id": "PAIR5A25B3D38901"
+          },
+          {
+            "cost": 9241,
+            "event_id": "EVT706EB33BF7A4",
+            "pair_id": "PAIREA8294A80CB4"
+          },
+          {
+            "cost": 9411,
+            "event_id": "EVTCC0F062DCC07",
+            "pair_id": "PAIRB07E1B003F53"
+          },
+          {
+            "cost": 11001,
+            "event_id": "EVT0DF1FFD2A7C0",
+            "pair_id": "PAIRE91998BD0F8A"
+          },
+          {
+            "cost": 13702,
+            "event_id": "EVT17366A6BFE01",
+            "pair_id": "PAIRCC6F6D0B362F"
+          },
+          {
+            "cost": 9215,
+            "event_id": "EVT91F03FBA534B",
+            "pair_id": "PAIRBB16DB493A6E"
+          },
+          {
+            "cost": 12556,
+            "event_id": "EVT4507BF3D6E46",
+            "pair_id": "PAIRC747690AD735"
+          },
+          {
+            "cost": 15308,
+            "event_id": "EVT2A7364144587",
+            "pair_id": "PAIR8AFC08EF1D99"
+          },
+          {
+            "cost": 9060,
+            "event_id": "EVT8186B906D0D6",
+            "pair_id": "PAIRA7763DABD64B"
+          },
+          {
+            "cost": 14486,
+            "event_id": "EVTED55936C7B4B",
+            "pair_id": "PAIRD57382280D02"
+          },
+          {
+            "cost": 9056,
+            "event_id": "EVT97EF4135C9C8",
+            "pair_id": "PAIR8121FF4B20F2"
+          },
+          {
+            "cost": 10993,
+            "event_id": "EVT8CF13A1B1F5E",
+            "pair_id": "PAIR71FFF0F5502F"
+          },
+          {
+            "cost": 9066,
+            "event_id": "EVT239DE26FD67C",
+            "pair_id": "PAIR7851F75B5942"
+          },
+          {
+            "cost": 17699,
+            "event_id": "EVTF68A1466E7E4",
+            "pair_id": "PAIR909702A0C07F"
+          },
+          {
+            "cost": 17679,
+            "event_id": "EVT9FCB669DF165",
+            "pair_id": "PAIR25A12BF177B3"
+          },
+          {
+            "cost": 16862,
+            "event_id": "EVT9E6A716F422A",
+            "pair_id": "PAIR2C4E4793B468"
+          },
+          {
+            "cost": 19221,
+            "event_id": "EVTE5DBB41982DB",
+            "pair_id": "PAIR269211BB45C9"
+          },
+          {
+            "cost": 9278,
+            "event_id": "EVTF4040B1CAA22",
+            "pair_id": "PAIR9EC3036A1A9A"
+          },
+          {
+            "cost": 10219,
+            "event_id": "EVT6B879AE21482",
+            "pair_id": "PAIR0492150FC814"
+          },
+          {
+            "cost": 12588,
+            "event_id": "EVT10C5F65D0E4A",
+            "pair_id": "PAIR2D00BCE8D9FF"
+          },
+          {
+            "cost": 9042,
+            "event_id": "EVTD5D330D6E092",
+            "pair_id": "PAIR292837E7F5E1"
+          },
+          {
+            "cost": 16079,
+            "event_id": "EVT2C6CF29A50A0",
+            "pair_id": "PAIR656661CF03AC"
+          },
+          {
+            "cost": 9068,
+            "event_id": "EVT148394D75FD4",
+            "pair_id": "PAIRFCA4CEB71706"
+          },
+          {
+            "cost": 11039,
+            "event_id": "EVTC79FDE0D0C4F",
+            "pair_id": "PAIR1D12E38E52D6"
+          },
+          {
+            "cost": 13739,
+            "event_id": "EVTA10CDEDF8B55",
+            "pair_id": "PAIR638367B825C2"
+          },
+          {
+            "cost": 11800,
+            "event_id": "EVT2967AFA06C1F",
+            "pair_id": "PAIREF63F0627153"
+          },
+          {
+            "cost": 19415,
+            "event_id": "EVTB4DB69791BA2",
+            "pair_id": "PAIRF125F917E671"
+          },
+          {
+            "cost": 9054,
+            "event_id": "EVTE821EA9A238A",
+            "pair_id": "PAIRAB355C6F52D2"
+          },
+          {
+            "cost": 11797,
+            "event_id": "EVTCD6AB20290B9",
+            "pair_id": "PAIRC0A05CCC347C"
+          },
+          {
+            "cost": 11756,
+            "event_id": "EVT7936E9C18799",
+            "pair_id": "PAIR57FE7066D5E7"
+          },
+          {
+            "cost": 18494,
+            "event_id": "EVTEA10919DDB2D",
+            "pair_id": "PAIR5AC740F549DB"
+          },
+          {
+            "cost": 16906,
+            "event_id": "EVT3000E57FD182",
+            "pair_id": "PAIR9248FB245192"
+          },
+          {
+            "cost": 16840,
+            "event_id": "EVT15B065CC66AD",
+            "pair_id": "PAIR37136EFC1304"
+          },
+          {
+            "cost": 12579,
+            "event_id": "EVT70AFBD0D5477",
+            "pair_id": "PAIREB64E45D8BFB"
+          },
+          {
+            "cost": 9128,
+            "event_id": "EVT42128848315B",
+            "pair_id": "PAIR9260B3C21D8B"
+          },
+          {
+            "cost": 15286,
+            "event_id": "EVT4C9DB334A476",
+            "pair_id": "PAIRF5347BA04166"
+          },
+          {
+            "cost": 11010,
+            "event_id": "EVTD5DC18106EDF",
+            "pair_id": "PAIR5D5B182E55CE"
+          },
+          {
+            "cost": 15298,
+            "event_id": "EVT4435607ABD70",
+            "pair_id": "PAIRF8C9023B5857"
+          },
+          {
+            "cost": 20039,
+            "event_id": "EVT4982465477BA",
+            "pair_id": "PAIR1E01BF99C5EA"
+          },
+          {
+            "cost": 9043,
+            "event_id": "EVT4433F86A2427",
+            "pair_id": "PAIRE902D43E3D6D"
+          },
+          {
+            "cost": 9226,
+            "event_id": "EVTCDC37C4EC2CC",
+            "pair_id": "PAIR13F8FD36D4C9"
+          },
+          {
+            "cost": 9329,
+            "event_id": "EVTD55208DDC6D4",
+            "pair_id": "PAIR53F54E691889"
+          },
+          {
+            "cost": 12654,
+            "event_id": "EVTF5F35165E1C9",
+            "pair_id": "PAIR0B7F3B9CCC8E"
+          }
+        ]
+      },
+      "participant_order": [
+        "PER780C290F3943",
+        "PERF39D73D8143D",
+        "PER4F1EE6252F13",
+        "PER55C27BDC95BC",
+        "PERDCFAEA6DF0E7",
+        "PERDEAA3727173C",
+        "PERA50599CA4C76",
+        "PER1EF0D7B4CD9B",
+        "PERF7D171D6319B",
+        "PEREC7E93C18C0B",
+        "PER8D9D057F1A96",
+        "PERE03D589F3593",
+        "PER92C36D7DD495",
+        "PERE62DA8B28E97",
+        "PER28FEB515B635",
+        "PERBFB1AB9FC694",
+        "PERADF01E9B8BF3",
+        "PERBBF23C18BA87",
+        "PER15AE23CBE8B9",
+        "PER28AAE2EFC7FA",
+        "PERD819415E443B",
+        "PER261B4A9167AE",
+        "PERB93BC9B83B33",
+        "PERC63586E27B6C",
+        "PERBF5DF0FF032A",
+        "PERC474FAC88CB7"
+      ]
+    }
+  },
+  "rung_index": 2,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 2
+}

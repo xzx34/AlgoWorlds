@@ -1,0 +1,6050 @@
+{
+  "arm_index": 0,
+  "case_id": "case_16_series_bundle",
+  "member_key": "case_16_series_bundle/rung-1/world-1/arm-0",
+  "payload": {
+    "cost_budget": 1240,
+    "cost_vector": {
+      "evaluate_portfolio": 1000,
+      "read_catalog_window": 8,
+      "read_series": 3,
+      "read_series_page": 12,
+      "read_title": 3,
+      "read_title_index": 4
+    },
+    "group_count": 44,
+    "max_series_span": 6,
+    "series_count": 205,
+    "series_handles_text": "SER-8D47935CA367, SER-A78D0FF597A5, SER-E39720FCBD4B, SER-E582D7BDB6E7, SER-AA57062669AE, SER-98C2A408E359, SER-0B9BBAACB181, SER-59E0C841FA44, SER-74F160EAEC7C, SER-861EB42C4BFC, SER-96FB8266E4D2, SER-4A298020C5CA, SER-D4AD6BCF7DA4, SER-3BB5ACA3C15F, SER-BE319551F483, SER-DEC03EA62830, SER-0B4FB76DA6C1, SER-E805ACC10C60, SER-7689B236FF78, SER-5C388800E349, SER-73EB4128F824, SER-F1445A3DE4D6, SER-00C983EC6E1E, SER-7EF43C352AFD, SER-C4C4A3BCDDED, SER-F3931508F53B, SER-BB546AAF903A, SER-33CF30985B0D, SER-155E9AB6174B, SER-48A63237199B, SER-1C56F5801878, SER-4DAB23187F5F, SER-F7290BFC42A4, SER-18B8CA40E596, SER-145C277BF584, SER-18C18D134EBF, SER-34D1EAEFC5C8, SER-69ABBAC55116, SER-62BFF880CAAA, SER-955BF3E1AF77, SER-AF259495CD2E, SER-29E6B37175E9, SER-C2D73C0F3843, SER-BEC60C51CB3F, SER-CC8A60F819A1, SER-CEA366259A14, SER-A15FF51D83ED, SER-AFF01A9060C2, SER-88AC8E304A4A, SER-4A5CC9D40D7E, SER-438E4C41E563, SER-A426AA896E4D, SER-C472DC8D272C, SER-A3FBA4D7FCF1, SER-190E6C54D307, SER-FF317A9F35F1, SER-69CC6831D733, SER-EE22B95C6713, SER-7448936CBA9E, SER-241DC419C608, SER-A4EF92229565, SER-399A790CC1DD, SER-5EC4C4CDA9C2, SER-4837CB2AEE5C, SER-173B5BDD65CF, SER-540C5F99165B, SER-11425DEE0BC7, SER-7EC42A0AC596, SER-91C13A252C1F, SER-638A7FDDA2D9, SER-211FD45FC8B0, SER-5E6BE3FFBF5B, SER-06F500403B86, SER-2BC1B9365936, SER-F52340161287, SER-22A2F552EFEB, SER-732530B90D21, SER-C6502A1209F4, SER-C6434E405A3F, SER-D41B03431668, SER-06EE5F5D18C0, SER-B28547EF3B72, SER-8F749B82A212, SER-3A16E9471B75, SER-A8C5559E5A68, SER-93599F7BC3A7, SER-9972A0108BD9, SER-DF722D364F83, SER-8D5CC1DB70F4, SER-3F17B8B20897, SER-96BD507364EA, SER-8D3653A957C2, SER-A1641398E46C, SER-7FC647B8277F, SER-6D9875215697, SER-A9E79FF3BBC6, SER-34E7BAF8136C, SER-42FEF61890CC, SER-1BCD7D552BCF, SER-CCEAAB1F66A6, SER-0A2408F1C531, SER-EF8837F09C01, SER-1FBF2B2224CC, SER-758F398471B9, SER-9F9CB3CB3101, SER-8919860F6E22, SER-0B297DBB356E, SER-231180C81A7D, SER-E44BD1A352C8, SER-DBDCA3E246AE, SER-DAE76A4AC744, SER-4D447F6E7DDC, SER-114FD48B4B3E, SER-001B3789EB77, SER-412C4ED2D368, SER-8036F9400498, SER-5CC5144DB3AD, SER-90F3F10C9B24, SER-20CC2DF21BA0, SER-A739FDCC3223, SER-88C5AAF49CCA, SER-C7AF81FFE4CC, SER-5A164BD320F7, SER-E5AD6AEE25B7, SER-AB796EF64848, SER-A1F7A44B4BA0, SER-A901D8847F61, SER-DF3CEF07D5EB, SER-9406BB982AB7, SER-13AAD25B79A4, SER-4FEBA95B6D12, SER-3AEC5655A078, SER-4A3905FDD6A3, SER-DC7B2ECC3CE6, SER-6484B0E70C87, SER-861246ACFE42, SER-8BC976674DDD, SER-CBC9774916CF, SER-677A7E543AFD, SER-3395A1C45BFF, SER-02C5B619A031, SER-CD79999DF88E, SER-C953219B0CF1, SER-734B5CD0E75D, SER-CF5D47B27E9C, SER-8591A7033220, SER-2F3FB3CAA79D, SER-3650C1AA2533, SER-0142D8AD46E3, SER-6B2F44FBA7C3, SER-5904136858A2, SER-2A871B96ACF5, SER-33155B4AAB45, SER-50F6319EEC51, SER-7C230AC23DF2, SER-8BF2CC1A0179, SER-81F261B1ADDA, SER-628EF6149CBF, SER-60BB88A04C6C, SER-2896D2767906, SER-EBE0E5C3E70D, SER-12F5507D3F84, SER-C9016425B02C, SER-FD57EF2EAA1C, SER-2D1B153C065F, SER-4B1AC803D098, SER-03EF680060B2, SER-8E6C98CFD781, SER-2EC6936C3FA1, SER-A4235CFF1685, SER-A63D9F71366B, SER-D1446279091F, SER-5009AEB2BBD7, SER-75E5DFF252B2, SER-90F9304751DD, SER-057978E34D2E, SER-6516A2C6AD42, SER-21916B21CE77, SER-38D2E5564D6B, SER-1ABA96367337, SER-BD225F398E04, SER-CCA06B06DF7D, SER-5B91CB2E2500, SER-185E163980B9, SER-30F79355DE38, SER-2B7B0F22808A, SER-FB8E7502CA74, SER-31E7C5E88DC4, SER-1A8E90057A0D, SER-CA057956EE08, SER-A62E725D43AC, SER-1C089E244520, SER-CC80E90415C9, SER-551E1891F65D, SER-F19B2612D3E7, SER-8A515D6FAE0B, SER-EB85365C6C6F, SER-EFD4021F1FAE, SER-96F60C68E2E6, SER-DA9249BC8F9E, SER-3AEBA61242F6, SER-DA6B035C88F9, SER-DD4A95AF14D9, SER-6ACC87ED6EEB, SER-D18BB5085F24",
+    "source_documents": {
+      "declared_max_series_span": 6,
+      "series_order": [
+        "SER-8D47935CA367",
+        "SER-A78D0FF597A5",
+        "SER-E39720FCBD4B",
+        "SER-E582D7BDB6E7",
+        "SER-AA57062669AE",
+        "SER-98C2A408E359",
+        "SER-0B9BBAACB181",
+        "SER-59E0C841FA44",
+        "SER-74F160EAEC7C",
+        "SER-861EB42C4BFC",
+        "SER-96FB8266E4D2",
+        "SER-4A298020C5CA",
+        "SER-D4AD6BCF7DA4",
+        "SER-3BB5ACA3C15F",
+        "SER-BE319551F483",
+        "SER-DEC03EA62830",
+        "SER-0B4FB76DA6C1",
+        "SER-E805ACC10C60",
+        "SER-7689B236FF78",
+        "SER-5C388800E349",
+        "SER-73EB4128F824",
+        "SER-F1445A3DE4D6",
+        "SER-00C983EC6E1E",
+        "SER-7EF43C352AFD",
+        "SER-C4C4A3BCDDED",
+        "SER-F3931508F53B",
+        "SER-BB546AAF903A",
+        "SER-33CF30985B0D",
+        "SER-155E9AB6174B",
+        "SER-48A63237199B",
+        "SER-1C56F5801878",
+        "SER-4DAB23187F5F",
+        "SER-F7290BFC42A4",
+        "SER-18B8CA40E596",
+        "SER-145C277BF584",
+        "SER-18C18D134EBF",
+        "SER-34D1EAEFC5C8",
+        "SER-69ABBAC55116",
+        "SER-62BFF880CAAA",
+        "SER-955BF3E1AF77",
+        "SER-AF259495CD2E",
+        "SER-29E6B37175E9",
+        "SER-C2D73C0F3843",
+        "SER-BEC60C51CB3F",
+        "SER-CC8A60F819A1",
+        "SER-CEA366259A14",
+        "SER-A15FF51D83ED",
+        "SER-AFF01A9060C2",
+        "SER-88AC8E304A4A",
+        "SER-4A5CC9D40D7E",
+        "SER-438E4C41E563",
+        "SER-A426AA896E4D",
+        "SER-C472DC8D272C",
+        "SER-A3FBA4D7FCF1",
+        "SER-190E6C54D307",
+        "SER-FF317A9F35F1",
+        "SER-69CC6831D733",
+        "SER-EE22B95C6713",
+        "SER-7448936CBA9E",
+        "SER-241DC419C608",
+        "SER-A4EF92229565",
+        "SER-399A790CC1DD",
+        "SER-5EC4C4CDA9C2",
+        "SER-4837CB2AEE5C",
+        "SER-173B5BDD65CF",
+        "SER-540C5F99165B",
+        "SER-11425DEE0BC7",
+        "SER-7EC42A0AC596",
+        "SER-91C13A252C1F",
+        "SER-638A7FDDA2D9",
+        "SER-211FD45FC8B0",
+        "SER-5E6BE3FFBF5B",
+        "SER-06F500403B86",
+        "SER-2BC1B9365936",
+        "SER-F52340161287",
+        "SER-22A2F552EFEB",
+        "SER-732530B90D21",
+        "SER-C6502A1209F4",
+        "SER-C6434E405A3F",
+        "SER-D41B03431668",
+        "SER-06EE5F5D18C0",
+        "SER-B28547EF3B72",
+        "SER-8F749B82A212",
+        "SER-3A16E9471B75",
+        "SER-A8C5559E5A68",
+        "SER-93599F7BC3A7",
+        "SER-9972A0108BD9",
+        "SER-DF722D364F83",
+        "SER-8D5CC1DB70F4",
+        "SER-3F17B8B20897",
+        "SER-96BD507364EA",
+        "SER-8D3653A957C2",
+        "SER-A1641398E46C",
+        "SER-7FC647B8277F",
+        "SER-6D9875215697",
+        "SER-A9E79FF3BBC6",
+        "SER-34E7BAF8136C",
+        "SER-42FEF61890CC",
+        "SER-1BCD7D552BCF",
+        "SER-CCEAAB1F66A6",
+        "SER-0A2408F1C531",
+        "SER-EF8837F09C01",
+        "SER-1FBF2B2224CC",
+        "SER-758F398471B9",
+        "SER-9F9CB3CB3101",
+        "SER-8919860F6E22",
+        "SER-0B297DBB356E",
+        "SER-231180C81A7D",
+        "SER-E44BD1A352C8",
+        "SER-DBDCA3E246AE",
+        "SER-DAE76A4AC744",
+        "SER-4D447F6E7DDC",
+        "SER-114FD48B4B3E",
+        "SER-001B3789EB77",
+        "SER-412C4ED2D368",
+        "SER-8036F9400498",
+        "SER-5CC5144DB3AD",
+        "SER-90F3F10C9B24",
+        "SER-20CC2DF21BA0",
+        "SER-A739FDCC3223",
+        "SER-88C5AAF49CCA",
+        "SER-C7AF81FFE4CC",
+        "SER-5A164BD320F7",
+        "SER-E5AD6AEE25B7",
+        "SER-AB796EF64848",
+        "SER-A1F7A44B4BA0",
+        "SER-A901D8847F61",
+        "SER-DF3CEF07D5EB",
+        "SER-9406BB982AB7",
+        "SER-13AAD25B79A4",
+        "SER-4FEBA95B6D12",
+        "SER-3AEC5655A078",
+        "SER-4A3905FDD6A3",
+        "SER-DC7B2ECC3CE6",
+        "SER-6484B0E70C87",
+        "SER-861246ACFE42",
+        "SER-8BC976674DDD",
+        "SER-CBC9774916CF",
+        "SER-677A7E543AFD",
+        "SER-3395A1C45BFF",
+        "SER-02C5B619A031",
+        "SER-CD79999DF88E",
+        "SER-C953219B0CF1",
+        "SER-734B5CD0E75D",
+        "SER-CF5D47B27E9C",
+        "SER-8591A7033220",
+        "SER-2F3FB3CAA79D",
+        "SER-3650C1AA2533",
+        "SER-0142D8AD46E3",
+        "SER-6B2F44FBA7C3",
+        "SER-5904136858A2",
+        "SER-2A871B96ACF5",
+        "SER-33155B4AAB45",
+        "SER-50F6319EEC51",
+        "SER-7C230AC23DF2",
+        "SER-8BF2CC1A0179",
+        "SER-81F261B1ADDA",
+        "SER-628EF6149CBF",
+        "SER-60BB88A04C6C",
+        "SER-2896D2767906",
+        "SER-EBE0E5C3E70D",
+        "SER-12F5507D3F84",
+        "SER-C9016425B02C",
+        "SER-FD57EF2EAA1C",
+        "SER-2D1B153C065F",
+        "SER-4B1AC803D098",
+        "SER-03EF680060B2",
+        "SER-8E6C98CFD781",
+        "SER-2EC6936C3FA1",
+        "SER-A4235CFF1685",
+        "SER-A63D9F71366B",
+        "SER-D1446279091F",
+        "SER-5009AEB2BBD7",
+        "SER-75E5DFF252B2",
+        "SER-90F9304751DD",
+        "SER-057978E34D2E",
+        "SER-6516A2C6AD42",
+        "SER-21916B21CE77",
+        "SER-38D2E5564D6B",
+        "SER-1ABA96367337",
+        "SER-BD225F398E04",
+        "SER-CCA06B06DF7D",
+        "SER-5B91CB2E2500",
+        "SER-185E163980B9",
+        "SER-30F79355DE38",
+        "SER-2B7B0F22808A",
+        "SER-FB8E7502CA74",
+        "SER-31E7C5E88DC4",
+        "SER-1A8E90057A0D",
+        "SER-CA057956EE08",
+        "SER-A62E725D43AC",
+        "SER-1C089E244520",
+        "SER-CC80E90415C9",
+        "SER-551E1891F65D",
+        "SER-F19B2612D3E7",
+        "SER-8A515D6FAE0B",
+        "SER-EB85365C6C6F",
+        "SER-EFD4021F1FAE",
+        "SER-96F60C68E2E6",
+        "SER-DA9249BC8F9E",
+        "SER-3AEBA61242F6",
+        "SER-DA6B035C88F9",
+        "SER-DD4A95AF14D9",
+        "SER-6ACC87ED6EEB",
+        "SER-D18BB5085F24"
+      ],
+      "series_source": {
+        "encoding": "direct",
+        "series": [
+          {
+            "adjustments": [
+              -829,
+              -395,
+              261,
+              -253,
+              1269,
+              -61,
+              1043,
+              -1035
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ]
+            ],
+            "series_id": "SER-3AEBA61242F6"
+          },
+          {
+            "adjustments": [
+              667,
+              -931,
+              -179,
+              11,
+              1389,
+              1547,
+              -837,
+              -1667
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ]
+            ],
+            "series_id": "SER-6516A2C6AD42"
+          },
+          {
+            "adjustments": [
+              1163,
+              349,
+              557,
+              -1909,
+              381,
+              -1477,
+              299,
+              637
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ]
+            ],
+            "series_id": "SER-677A7E543AFD"
+          },
+          {
+            "adjustments": [
+              1851,
+              189,
+              2045,
+              -149,
+              -883,
+              -821,
+              -789,
+              -1443
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ]
+            ],
+            "series_id": "SER-114FD48B4B3E"
+          },
+          {
+            "adjustments": [
+              659,
+              -459,
+              1877,
+              -477,
+              -1275,
+              -861,
+              -1325,
+              1861
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ]
+            ],
+            "series_id": "SER-7448936CBA9E"
+          },
+          {
+            "adjustments": [
+              269,
+              763,
+              -133,
+              -899
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ]
+            ],
+            "series_id": "SER-DA9249BC8F9E"
+          },
+          {
+            "adjustments": [
+              311,
+              169,
+              -2055,
+              -169,
+              713,
+              439,
+              1191,
+              -599
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ]
+            ],
+            "series_id": "SER-C7AF81FFE4CC"
+          },
+          {
+            "adjustments": [
+              -1271,
+              1323,
+              -1829,
+              489,
+              491,
+              -1271,
+              745,
+              1323
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ]
+            ],
+            "series_id": "SER-7FC647B8277F"
+          },
+          {
+            "adjustments": [
+              -1281,
+              -1151,
+              1345,
+              863,
+              1297,
+              479,
+              95,
+              -1647
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ]
+            ],
+            "series_id": "SER-001B3789EB77"
+          },
+          {
+            "adjustments": [
+              121,
+              795,
+              491,
+              -647,
+              -469,
+              153,
+              825,
+              -1269
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ]
+            ],
+            "series_id": "SER-90F9304751DD"
+          },
+          {
+            "adjustments": [
+              1801,
+              123,
+              1659,
+              -2023,
+              -261,
+              -503,
+              -1831,
+              1035
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ]
+            ],
+            "series_id": "SER-638A7FDDA2D9"
+          },
+          {
+            "adjustments": [
+              1993,
+              -949,
+              1307,
+              -327,
+              699,
+              -951,
+              -583,
+              -1189
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C1E1D74A0D08",
+                "LOT-B-6A717988DF11"
+              ],
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ]
+            ],
+            "series_id": "SER-E39720FCBD4B"
+          },
+          {
+            "adjustments": [
+              1473,
+              -621,
+              2467,
+              -1471,
+              563,
+              -671,
+              -1391,
+              -349
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ],
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ]
+            ],
+            "series_id": "SER-861EB42C4BFC"
+          },
+          {
+            "adjustments": [
+              1405,
+              1247,
+              239,
+              -1955,
+              -225,
+              -1571,
+              557,
+              303
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ],
+              [
+                "LOT-A-84AA141E8EA2",
+                "LOT-B-E9F05B54CFF8"
+              ]
+            ],
+            "series_id": "SER-6ACC87ED6EEB"
+          },
+          {
+            "adjustments": [
+              1323,
+              -1635,
+              189,
+              -853,
+              1389,
+              -133,
+              -21,
+              -259
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ]
+            ],
+            "series_id": "SER-B28547EF3B72"
+          },
+          {
+            "adjustments": [
+              -405,
+              -403,
+              605,
+              827,
+              -1251,
+              -69,
+              1803,
+              -1107
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ]
+            ],
+            "series_id": "SER-91C13A252C1F"
+          },
+          {
+            "adjustments": [
+              -63,
+              55,
+              87,
+              -79
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ]
+            ],
+            "series_id": "SER-AF259495CD2E"
+          },
+          {
+            "adjustments": [
+              969,
+              -277,
+              475,
+              -1207,
+              187,
+              -967,
+              -295,
+              1115
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ]
+            ],
+            "series_id": "SER-F52340161287"
+          },
+          {
+            "adjustments": [
+              -495,
+              -205,
+              -413,
+              -943,
+              -1037,
+              1761,
+              289,
+              1043
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ]
+            ],
+            "series_id": "SER-8F749B82A212"
+          },
+          {
+            "adjustments": [
+              -801,
+              721,
+              1553,
+              735,
+              -1823,
+              559,
+              -881,
+              -63
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ]
+            ],
+            "series_id": "SER-CC80E90415C9"
+          },
+          {
+            "adjustments": [
+              -1445,
+              813,
+              493,
+              27,
+              893,
+              -2389,
+              1003,
+              605
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ]
+            ],
+            "series_id": "SER-628EF6149CBF"
+          },
+          {
+            "adjustments": [
+              -13,
+              -79,
+              -87,
+              179
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ]
+            ],
+            "series_id": "SER-A1F7A44B4BA0"
+          },
+          {
+            "adjustments": [
+              -577,
+              -1599,
+              65,
+              319,
+              433,
+              -625,
+              1327,
+              657
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ]
+            ],
+            "series_id": "SER-3650C1AA2533"
+          },
+          {
+            "adjustments": [
+              -1743,
+              1523,
+              -509,
+              1537,
+              1539,
+              -1167,
+              -2303,
+              1123
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ]
+            ],
+            "series_id": "SER-30F79355DE38"
+          },
+          {
+            "adjustments": [
+              869,
+              615,
+              -297,
+              -1211,
+              711,
+              -219,
+              693,
+              -1161
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ]
+            ],
+            "series_id": "SER-90F3F10C9B24"
+          },
+          {
+            "adjustments": [
+              -979,
+              1471,
+              543,
+              445,
+              -417,
+              -1507,
+              1805,
+              -1361
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ]
+            ],
+            "series_id": "SER-5A164BD320F7"
+          },
+          {
+            "adjustments": [
+              327,
+              277,
+              149,
+              -753
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ]
+            ],
+            "series_id": "SER-EBE0E5C3E70D"
+          },
+          {
+            "adjustments": [
+              -205,
+              -411,
+              1205,
+              643,
+              -1851,
+              1491,
+              579,
+              -1451
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ]
+            ],
+            "series_id": "SER-A3FBA4D7FCF1"
+          },
+          {
+            "adjustments": [
+              -1411,
+              -1041,
+              655,
+              1549,
+              -817,
+              829,
+              141,
+              95
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ]
+            ],
+            "series_id": "SER-190E6C54D307"
+          },
+          {
+            "adjustments": [
+              1411,
+              1045,
+              -1739,
+              -173,
+              -523,
+              -365,
+              1827,
+              -1483
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ]
+            ],
+            "series_id": "SER-5C388800E349"
+          },
+          {
+            "adjustments": [
+              953,
+              -745,
+              -849,
+              641
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ]
+            ],
+            "series_id": "SER-DEC03EA62830"
+          },
+          {
+            "adjustments": [
+              -733,
+              -219,
+              -603,
+              899,
+              -939,
+              1059,
+              595,
+              -59
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ]
+            ],
+            "series_id": "SER-75E5DFF252B2"
+          },
+          {
+            "adjustments": [
+              375,
+              697,
+              -1175,
+              471,
+              937,
+              807,
+              -2073,
+              -39
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ]
+            ],
+            "series_id": "SER-81F261B1ADDA"
+          },
+          {
+            "adjustments": [
+              1463,
+              -87,
+              -87,
+              -681,
+              249,
+              839,
+              -473,
+              -1223
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ]
+            ],
+            "series_id": "SER-EB85365C6C6F"
+          },
+          {
+            "adjustments": [
+              -585,
+              953,
+              729,
+              -649,
+              -407,
+              1159,
+              375,
+              -1575
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-84AA141E8EA2",
+                "LOT-B-E9F05B54CFF8"
+              ]
+            ],
+            "series_id": "SER-96F60C68E2E6"
+          },
+          {
+            "adjustments": [
+              2507,
+              -851,
+              1549,
+              -1413,
+              1277,
+              -1365,
+              -853,
+              -851
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ]
+            ],
+            "series_id": "SER-399A790CC1DD"
+          },
+          {
+            "adjustments": [
+              1735,
+              505,
+              -1111,
+              1879,
+              1545,
+              -1881,
+              -713,
+              -1959
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ]
+            ],
+            "series_id": "SER-FB8E7502CA74"
+          },
+          {
+            "adjustments": [
+              -225,
+              -623,
+              -591,
+              1391,
+              177,
+              351,
+              -1089,
+              609
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ]
+            ],
+            "series_id": "SER-4A5CC9D40D7E"
+          },
+          {
+            "adjustments": [
+              -367,
+              -365,
+              -877,
+              1969,
+              -1069,
+              -1599,
+              2065,
+              243
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ]
+            ],
+            "series_id": "SER-758F398471B9"
+          },
+          {
+            "adjustments": [
+              1035,
+              -627,
+              669,
+              -1509,
+              765,
+              1387,
+              -533,
+              -1187
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ]
+            ],
+            "series_id": "SER-412C4ED2D368"
+          },
+          {
+            "adjustments": [
+              -811,
+              619,
+              843,
+              -651
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ]
+            ],
+            "series_id": "SER-8036F9400498"
+          },
+          {
+            "adjustments": [
+              -893,
+              665,
+              209,
+              19
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ]
+            ],
+            "series_id": "SER-CEA366259A14"
+          },
+          {
+            "adjustments": [
+              137,
+              875,
+              1067,
+              1497,
+              171,
+              -1399,
+              105,
+              -2453
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ]
+            ],
+            "series_id": "SER-3AEC5655A078"
+          },
+          {
+            "adjustments": [
+              957,
+              -193,
+              -337,
+              -883,
+              -145,
+              -659,
+              -163,
+              1423
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ]
+            ],
+            "series_id": "SER-20CC2DF21BA0"
+          },
+          {
+            "adjustments": [
+              1529,
+              -1669,
+              1099,
+              793,
+              -117,
+              521,
+              -1015,
+              -1141
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ]
+            ],
+            "series_id": "SER-E805ACC10C60"
+          },
+          {
+            "adjustments": [
+              -781,
+              53,
+              805,
+              3,
+              -1323,
+              -381,
+              -397,
+              2021
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ]
+            ],
+            "series_id": "SER-11425DEE0BC7"
+          },
+          {
+            "adjustments": [
+              -1553,
+              801,
+              529,
+              -305,
+              -1663,
+              367,
+              1151,
+              673
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ]
+            ],
+            "series_id": "SER-8D5CC1DB70F4"
+          },
+          {
+            "adjustments": [
+              -881,
+              -63,
+              1521,
+              2079,
+              -911,
+              -1505,
+              -833,
+              593
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ]
+            ],
+            "series_id": "SER-A739FDCC3223"
+          },
+          {
+            "adjustments": [
+              35,
+              -511,
+              201,
+              275
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ]
+            ],
+            "series_id": "SER-540C5F99165B"
+          },
+          {
+            "adjustments": [
+              619,
+              1581,
+              -499,
+              251,
+              637,
+              -965,
+              -725,
+              -899
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ]
+            ],
+            "series_id": "SER-E5AD6AEE25B7"
+          },
+          {
+            "adjustments": [
+              3,
+              209,
+              -855,
+              643
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ]
+            ],
+            "series_id": "SER-A9E79FF3BBC6"
+          },
+          {
+            "adjustments": [
+              -43,
+              -649,
+              -425,
+              -251,
+              1271,
+              437,
+              -523,
+              183
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ],
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ]
+            ],
+            "series_id": "SER-59E0C841FA44"
+          },
+          {
+            "adjustments": [
+              2039,
+              937,
+              297,
+              -1801,
+              -679,
+              775,
+              -89,
+              -1479
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ]
+            ],
+            "series_id": "SER-06F500403B86"
+          },
+          {
+            "adjustments": [
+              113,
+              767,
+              -169,
+              -711
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ],
+              [
+                "LOT-A-84AA141E8EA2",
+                "LOT-B-E9F05B54CFF8"
+              ]
+            ],
+            "series_id": "SER-D18BB5085F24"
+          },
+          {
+            "adjustments": [
+              1753,
+              -117,
+              -949,
+              -487,
+              267,
+              2105,
+              -1143,
+              -1429
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ]
+            ],
+            "series_id": "SER-31E7C5E88DC4"
+          },
+          {
+            "adjustments": [
+              -665,
+              893,
+              -723,
+              495
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ]
+            ],
+            "series_id": "SER-2B7B0F22808A"
+          },
+          {
+            "adjustments": [
+              -411,
+              -105,
+              279,
+              -795,
+              -121,
+              1413,
+              -75,
+              -185
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ]
+            ],
+            "series_id": "SER-42FEF61890CC"
+          },
+          {
+            "adjustments": [
+              5,
+              -309,
+              723,
+              -419
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ]
+            ],
+            "series_id": "SER-8591A7033220"
+          },
+          {
+            "adjustments": [
+              -829,
+              581,
+              -523,
+              131,
+              453,
+              -621,
+              211,
+              597
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ]
+            ],
+            "series_id": "SER-4D447F6E7DDC"
+          },
+          {
+            "adjustments": [
+              -2341,
+              -915,
+              1053,
+              955,
+              -211,
+              987,
+              -773,
+              1245
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ]
+            ],
+            "series_id": "SER-A8C5559E5A68"
+          },
+          {
+            "adjustments": [
+              -1045,
+              925,
+              -403,
+              -901,
+              541,
+              1771,
+              -181,
+              -707
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ]
+            ],
+            "series_id": "SER-74F160EAEC7C"
+          },
+          {
+            "adjustments": [
+              -1961,
+              -1015,
+              1369,
+              -521,
+              1513,
+              599,
+              1303,
+              -1287
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ]
+            ],
+            "series_id": "SER-5009AEB2BBD7"
+          },
+          {
+            "adjustments": [
+              1307,
+              -1699,
+              -1555,
+              379,
+              557,
+              811,
+              -1397,
+              1597
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ]
+            ],
+            "series_id": "SER-3A16E9471B75"
+          },
+          {
+            "adjustments": [
+              267,
+              833,
+              -639,
+              -461
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ]
+            ],
+            "series_id": "SER-8919860F6E22"
+          },
+          {
+            "adjustments": [
+              -1935,
+              -701,
+              115,
+              -623,
+              1619,
+              -479,
+              913,
+              1091
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C1E1D74A0D08",
+                "LOT-B-6A717988DF11"
+              ],
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ]
+            ],
+            "series_id": "SER-E582D7BDB6E7"
+          },
+          {
+            "adjustments": [
+              1493,
+              -1161,
+              503,
+              1445,
+              -89,
+              645,
+              -2091,
+              -745
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ]
+            ],
+            "series_id": "SER-C4C4A3BCDDED"
+          },
+          {
+            "adjustments": [
+              1643,
+              -83,
+              1053,
+              -1029,
+              -1347,
+              -1413,
+              1291,
+              -115
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ]
+            ],
+            "series_id": "SER-C953219B0CF1"
+          },
+          {
+            "adjustments": [
+              107,
+              541,
+              -1251,
+              1339,
+              141,
+              955,
+              -1653,
+              -179
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ]
+            ],
+            "series_id": "SER-EF8837F09C01"
+          },
+          {
+            "adjustments": [
+              1103,
+              49,
+              1457,
+              -1233,
+              -591,
+              911,
+              -593,
+              -1103
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ]
+            ],
+            "series_id": "SER-12F5507D3F84"
+          },
+          {
+            "adjustments": [
+              199,
+              -183,
+              345,
+              423,
+              553,
+              -25,
+              -1321,
+              9
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ]
+            ],
+            "series_id": "SER-C472DC8D272C"
+          },
+          {
+            "adjustments": [
+              -1229,
+              901,
+              -411,
+              867,
+              1749,
+              51,
+              -2109,
+              181
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ]
+            ],
+            "series_id": "SER-29E6B37175E9"
+          },
+          {
+            "adjustments": [
+              -2159,
+              1523,
+              -285,
+              81,
+              755,
+              -1231,
+              -543,
+              1859
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ]
+            ],
+            "series_id": "SER-00C983EC6E1E"
+          },
+          {
+            "adjustments": [
+              785,
+              -1021,
+              -797,
+              961,
+              1347,
+              -239,
+              -511,
+              -525
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ]
+            ],
+            "series_id": "SER-50F6319EEC51"
+          },
+          {
+            "adjustments": [
+              23,
+              -739,
+              -51,
+              767
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ]
+            ],
+            "series_id": "SER-18C18D134EBF"
+          },
+          {
+            "adjustments": [
+              1769,
+              -485,
+              1019,
+              473,
+              107,
+              -1319,
+              -1239,
+              -325
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ]
+            ],
+            "series_id": "SER-155E9AB6174B"
+          },
+          {
+            "adjustments": [
+              -99,
+              783,
+              -961,
+              -2243,
+              207,
+              989,
+              493,
+              831
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ]
+            ],
+            "series_id": "SER-CCEAAB1F66A6"
+          },
+          {
+            "adjustments": [
+              855,
+              761,
+              -2679,
+              1127,
+              1049,
+              -393,
+              807,
+              -1527
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C1E1D74A0D08",
+                "LOT-B-6A717988DF11"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ]
+            ],
+            "series_id": "SER-AA57062669AE"
+          },
+          {
+            "adjustments": [
+              1297,
+              -573,
+              1011,
+              -639,
+              67,
+              1985,
+              -1567,
+              -1581
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ]
+            ],
+            "series_id": "SER-6D9875215697"
+          },
+          {
+            "adjustments": [
+              129,
+              -177,
+              -73,
+              121
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ]
+            ],
+            "series_id": "SER-A62E725D43AC"
+          },
+          {
+            "adjustments": [
+              511,
+              -507,
+              589,
+              -593
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ]
+            ],
+            "series_id": "SER-211FD45FC8B0"
+          },
+          {
+            "adjustments": [
+              -1015,
+              -629,
+              -2053,
+              649,
+              1643,
+              809,
+              1225,
+              -629
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ]
+            ],
+            "series_id": "SER-AFF01A9060C2"
+          },
+          {
+            "adjustments": [
+              449,
+              223,
+              -593,
+              -79
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ]
+            ],
+            "series_id": "SER-F3931508F53B"
+          },
+          {
+            "adjustments": [
+              -233,
+              -3,
+              301,
+              -65
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ]
+            ],
+            "series_id": "SER-5904136858A2"
+          },
+          {
+            "adjustments": [
+              477,
+              591,
+              1039,
+              -1203,
+              687,
+              -1155,
+              -1091,
+              655
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ]
+            ],
+            "series_id": "SER-BE319551F483"
+          },
+          {
+            "adjustments": [
+              -37,
+              701,
+              -1555,
+              -117,
+              1517,
+              491,
+              -1461,
+              461
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ]
+            ],
+            "series_id": "SER-7EF43C352AFD"
+          },
+          {
+            "adjustments": [
+              -1505,
+              -799,
+              769,
+              735,
+              -1567,
+              1487,
+              1023,
+              -143
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C1E1D74A0D08",
+                "LOT-B-6A717988DF11"
+              ],
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ],
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ]
+            ],
+            "series_id": "SER-A78D0FF597A5"
+          },
+          {
+            "adjustments": [
+              1617,
+              1411,
+              -221,
+              -799,
+              -749,
+              1377,
+              -879,
+              -1757
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ]
+            ],
+            "series_id": "SER-4DAB23187F5F"
+          },
+          {
+            "adjustments": [
+              453,
+              -1833,
+              103,
+              981,
+              1703,
+              213,
+              533,
+              -2153
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ]
+            ],
+            "series_id": "SER-A15FF51D83ED"
+          },
+          {
+            "adjustments": [
+              29,
+              227,
+              -325,
+              69
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ]
+            ],
+            "series_id": "SER-96BD507364EA"
+          },
+          {
+            "adjustments": [
+              317,
+              -1009,
+              415,
+              -1187,
+              543,
+              845,
+              -131,
+              207
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ]
+            ],
+            "series_id": "SER-4837CB2AEE5C"
+          },
+          {
+            "adjustments": [
+              1145,
+              -1637,
+              491,
+              -503,
+              715,
+              1353,
+              -1863,
+              299
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ]
+            ],
+            "series_id": "SER-145C277BF584"
+          },
+          {
+            "adjustments": [
+              1611,
+              -419,
+              1501,
+              -1221,
+              -755,
+              -501,
+              -1061,
+              845
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ]
+            ],
+            "series_id": "SER-DBDCA3E246AE"
+          },
+          {
+            "adjustments": [
+              -1239,
+              235,
+              2539,
+              409,
+              -277,
+              9,
+              -599,
+              -1077
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ]
+            ],
+            "series_id": "SER-21916B21CE77"
+          },
+          {
+            "adjustments": [
+              -775,
+              1515,
+              747,
+              -679,
+              1387,
+              -583,
+              377,
+              -1989
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ]
+            ],
+            "series_id": "SER-8D3653A957C2"
+          },
+          {
+            "adjustments": [
+              947,
+              1221,
+              -2459,
+              -2461,
+              757,
+              1043,
+              467,
+              485
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ]
+            ],
+            "series_id": "SER-6484B0E70C87"
+          },
+          {
+            "adjustments": [
+              1721,
+              -133,
+              -1045,
+              9,
+              811,
+              -359,
+              -503,
+              -501
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ],
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ]
+            ],
+            "series_id": "SER-0B9BBAACB181"
+          },
+          {
+            "adjustments": [
+              -1173,
+              -1475,
+              -99,
+              779,
+              1021,
+              -1189,
+              187,
+              1949
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ]
+            ],
+            "series_id": "SER-231180C81A7D"
+          },
+          {
+            "adjustments": [
+              913,
+              -1453,
+              1571,
+              1057,
+              867,
+              -1343,
+              -639,
+              -973
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ]
+            ],
+            "series_id": "SER-1BCD7D552BCF"
+          },
+          {
+            "adjustments": [
+              741,
+              -45,
+              -69,
+              -627
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ]
+            ],
+            "series_id": "SER-88C5AAF49CCA"
+          },
+          {
+            "adjustments": [
+              -719,
+              -237,
+              -1165,
+              545,
+              -205,
+              1569,
+              -31,
+              243
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ]
+            ],
+            "series_id": "SER-48A63237199B"
+          },
+          {
+            "adjustments": [
+              -1865,
+              -343,
+              -887,
+              919,
+              -423,
+              551,
+              1095,
+              953
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ]
+            ],
+            "series_id": "SER-A4235CFF1685"
+          },
+          {
+            "adjustments": [
+              -1595,
+              -1929,
+              1687,
+              1861,
+              823,
+              -955,
+              -1179,
+              1287
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ]
+            ],
+            "series_id": "SER-551E1891F65D"
+          },
+          {
+            "adjustments": [
+              893,
+              75,
+              -1021,
+              53
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ]
+            ],
+            "series_id": "SER-0A2408F1C531"
+          },
+          {
+            "adjustments": [
+              1525,
+              567,
+              903,
+              -2299,
+              -1001,
+              1557,
+              -2459,
+              1207
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ]
+            ],
+            "series_id": "SER-0B297DBB356E"
+          },
+          {
+            "adjustments": [
+              -1971,
+              -593,
+              527,
+              -947,
+              1759,
+              -419,
+              1453,
+              191
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ]
+            ],
+            "series_id": "SER-732530B90D21"
+          },
+          {
+            "adjustments": [
+              1387,
+              -1107,
+              -531,
+              1067,
+              1533,
+              379,
+              -1269,
+              -1459
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ]
+            ],
+            "series_id": "SER-18B8CA40E596"
+          },
+          {
+            "adjustments": [
+              -35,
+              -1121,
+              1087,
+              957,
+              1839,
+              -1347,
+              -915,
+              -465
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ]
+            ],
+            "series_id": "SER-EE22B95C6713"
+          },
+          {
+            "adjustments": [
+              327,
+              -91,
+              93,
+              -329
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ]
+            ],
+            "series_id": "SER-1C56F5801878"
+          },
+          {
+            "adjustments": [
+              -255,
+              1619,
+              1283,
+              -959,
+              435,
+              -895,
+              353,
+              -1581
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ]
+            ],
+            "series_id": "SER-C6434E405A3F"
+          },
+          {
+            "adjustments": [
+              -1113,
+              89,
+              1417,
+              -713,
+              2153,
+              -393,
+              -201,
+              -1239
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ]
+            ],
+            "series_id": "SER-33CF30985B0D"
+          },
+          {
+            "adjustments": [
+              425,
+              1179,
+              1147,
+              -1063,
+              -2517,
+              -279,
+              249,
+              859
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ]
+            ],
+            "series_id": "SER-CD79999DF88E"
+          },
+          {
+            "adjustments": [
+              371,
+              501,
+              -1147,
+              355,
+              885,
+              483,
+              643,
+              -2091
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ]
+            ],
+            "series_id": "SER-5E6BE3FFBF5B"
+          },
+          {
+            "adjustments": [
+              -1483,
+              2231,
+              -1529,
+              -1419,
+              1255,
+              -523,
+              1605,
+              -137
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ]
+            ],
+            "series_id": "SER-5EC4C4CDA9C2"
+          },
+          {
+            "adjustments": [
+              -119,
+              -997,
+              251,
+              1145,
+              -2021,
+              1449,
+              -1191,
+              1483
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ]
+            ],
+            "series_id": "SER-CC8A60F819A1"
+          },
+          {
+            "adjustments": [
+              1861,
+              -825,
+              743,
+              -571,
+              -1017,
+              565,
+              325,
+              -1081
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ]
+            ],
+            "series_id": "SER-88AC8E304A4A"
+          },
+          {
+            "adjustments": [
+              -493,
+              673,
+              -87,
+              -93
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C1E1D74A0D08",
+                "LOT-B-6A717988DF11"
+              ],
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ]
+            ],
+            "series_id": "SER-8D47935CA367"
+          },
+          {
+            "adjustments": [
+              -835,
+              -1553,
+              1871,
+              -1347,
+              927,
+              653,
+              -35,
+              319
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ]
+            ],
+            "series_id": "SER-F7290BFC42A4"
+          },
+          {
+            "adjustments": [
+              543,
+              -43,
+              357,
+              -857
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ]
+            ],
+            "series_id": "SER-96FB8266E4D2"
+          },
+          {
+            "adjustments": [
+              265,
+              -1909,
+              1691,
+              -2007,
+              827,
+              505,
+              -55,
+              683
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ]
+            ],
+            "series_id": "SER-6B2F44FBA7C3"
+          },
+          {
+            "adjustments": [
+              959,
+              165,
+              -1019,
+              -105
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ]
+            ],
+            "series_id": "SER-22A2F552EFEB"
+          },
+          {
+            "adjustments": [
+              -813,
+              -875,
+              -1179,
+              739,
+              2021,
+              851,
+              307,
+              -1051
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ]
+            ],
+            "series_id": "SER-2BC1B9365936"
+          },
+          {
+            "adjustments": [
+              471,
+              109,
+              53,
+              -633
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ]
+            ],
+            "series_id": "SER-02C5B619A031"
+          },
+          {
+            "adjustments": [
+              -495,
+              719,
+              815,
+              -1039
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ]
+            ],
+            "series_id": "SER-861246ACFE42"
+          },
+          {
+            "adjustments": [
+              1557,
+              231,
+              599,
+              -523,
+              -1209,
+              -1195,
+              -1275,
+              1815
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ]
+            ],
+            "series_id": "SER-CF5D47B27E9C"
+          },
+          {
+            "adjustments": [
+              -81,
+              909,
+              -131,
+              -697
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ]
+            ],
+            "series_id": "SER-8BF2CC1A0179"
+          },
+          {
+            "adjustments": [
+              -135,
+              183,
+              -313,
+              265
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ]
+            ],
+            "series_id": "SER-DAE76A4AC744"
+          },
+          {
+            "adjustments": [
+              -239,
+              -1213,
+              243,
+              145,
+              323,
+              -671,
+              897,
+              515
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ]
+            ],
+            "series_id": "SER-4A3905FDD6A3"
+          },
+          {
+            "adjustments": [
+              1123,
+              1301,
+              261,
+              -2317,
+              -1819,
+              1715,
+              -653,
+              389
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ]
+            ],
+            "series_id": "SER-8E6C98CFD781"
+          },
+          {
+            "adjustments": [
+              2005,
+              -601,
+              -1369,
+              1205,
+              -729,
+              213,
+              -267,
+              -457
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ]
+            ],
+            "series_id": "SER-03EF680060B2"
+          },
+          {
+            "adjustments": [
+              469,
+              -505,
+              -745,
+              1717,
+              503,
+              -715,
+              1333,
+              -2057
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ]
+            ],
+            "series_id": "SER-7C230AC23DF2"
+          },
+          {
+            "adjustments": [
+              147,
+              41,
+              225,
+              -413
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ]
+            ],
+            "series_id": "SER-A63D9F71366B"
+          },
+          {
+            "adjustments": [
+              -1357,
+              -971,
+              165,
+              -413,
+              1333,
+              -61,
+              899,
+              405
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ]
+            ],
+            "series_id": "SER-8BC976674DDD"
+          },
+          {
+            "adjustments": [
+              -107,
+              -665,
+              -217,
+              965,
+              855,
+              -187,
+              -539,
+              -105
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ]
+            ],
+            "series_id": "SER-FD57EF2EAA1C"
+          },
+          {
+            "adjustments": [
+              1703,
+              -1719,
+              521,
+              -201,
+              -375,
+              -617,
+              807,
+              -119
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ]
+            ],
+            "series_id": "SER-0142D8AD46E3"
+          },
+          {
+            "adjustments": [
+              865,
+              -1933,
+              -493,
+              1841,
+              -317,
+              -1039,
+              -191,
+              1267
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ]
+            ],
+            "series_id": "SER-E44BD1A352C8"
+          },
+          {
+            "adjustments": [
+              -315,
+              -1657,
+              -521,
+              53,
+              999,
+              1077,
+              -171,
+              535
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ]
+            ],
+            "series_id": "SER-60BB88A04C6C"
+          },
+          {
+            "adjustments": [
+              -197,
+              525,
+              749,
+              251,
+              1053,
+              -661,
+              283,
+              -2003
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ]
+            ],
+            "series_id": "SER-A1641398E46C"
+          },
+          {
+            "adjustments": [
+              -857,
+              181,
+              -187,
+              863
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ]
+            ],
+            "series_id": "SER-8A515D6FAE0B"
+          },
+          {
+            "adjustments": [
+              1455,
+              1,
+              1249,
+              1679,
+              -479,
+              -1281,
+              -801,
+              -1823
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ]
+            ],
+            "series_id": "SER-D41B03431668"
+          },
+          {
+            "adjustments": [
+              805,
+              1351,
+              -681,
+              -987,
+              -745,
+              -1707,
+              1637,
+              327
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ]
+            ],
+            "series_id": "SER-C6502A1209F4"
+          },
+          {
+            "adjustments": [
+              -1019,
+              -121,
+              1143,
+              21,
+              2007,
+              -1403,
+              -1499,
+              871
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ]
+            ],
+            "series_id": "SER-9F9CB3CB3101"
+          },
+          {
+            "adjustments": [
+              387,
+              1621,
+              -219,
+              1683,
+              -1995,
+              -1613,
+              -669,
+              805
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ]
+            ],
+            "series_id": "SER-A901D8847F61"
+          },
+          {
+            "adjustments": [
+              -127,
+              -1389,
+              675,
+              1953,
+              -1197,
+              -1167,
+              1745,
+              -493
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ],
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ]
+            ],
+            "series_id": "SER-1FBF2B2224CC"
+          },
+          {
+            "adjustments": [
+              -1975,
+              -245,
+              347,
+              -343,
+              -485,
+              633,
+              665,
+              1403
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ]
+            ],
+            "series_id": "SER-1A8E90057A0D"
+          },
+          {
+            "adjustments": [
+              -475,
+              -393,
+              -665,
+              1701,
+              1559,
+              1013,
+              -1339,
+              -1401
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ]
+            ],
+            "series_id": "SER-CA057956EE08"
+          },
+          {
+            "adjustments": [
+              -361,
+              853,
+              -811,
+              319
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ]
+            ],
+            "series_id": "SER-057978E34D2E"
+          },
+          {
+            "adjustments": [
+              523,
+              157,
+              -403,
+              -1477,
+              -227,
+              1691,
+              507,
+              -771
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ]
+            ],
+            "series_id": "SER-69ABBAC55116"
+          },
+          {
+            "adjustments": [
+              1547,
+              -1203,
+              -995,
+              299,
+              1101,
+              1787,
+              -1349,
+              -1187
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ]
+            ],
+            "series_id": "SER-BEC60C51CB3F"
+          },
+          {
+            "adjustments": [
+              477,
+              -1185,
+              351,
+              477,
+              1967,
+              -1139,
+              221,
+              -1169
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ]
+            ],
+            "series_id": "SER-AB796EF64848"
+          },
+          {
+            "adjustments": [
+              -927,
+              515,
+              1171,
+              449,
+              243,
+              -943,
+              -575,
+              67
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ]
+            ],
+            "series_id": "SER-0B4FB76DA6C1"
+          },
+          {
+            "adjustments": [
+              -589,
+              1109,
+              1525,
+              -1341,
+              1621,
+              803,
+              -1293,
+              -1835
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ]
+            ],
+            "series_id": "SER-34D1EAEFC5C8"
+          },
+          {
+            "adjustments": [
+              1223,
+              -887,
+              -215,
+              -1529,
+              -1031,
+              743,
+              1655,
+              41
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ]
+            ],
+            "series_id": "SER-A426AA896E4D"
+          },
+          {
+            "adjustments": [
+              827,
+              109,
+              381,
+              411,
+              -1555,
+              1435,
+              -981,
+              -627
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ]
+            ],
+            "series_id": "SER-9406BB982AB7"
+          },
+          {
+            "adjustments": [
+              611,
+              1589,
+              133,
+              -221,
+              -411,
+              -1181,
+              -877,
+              357
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ]
+            ],
+            "series_id": "SER-38D2E5564D6B"
+          },
+          {
+            "adjustments": [
+              -1619,
+              -225,
+              415,
+              -707,
+              1919,
+              61,
+              -1107,
+              1263
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ]
+            ],
+            "series_id": "SER-D4AD6BCF7DA4"
+          },
+          {
+            "adjustments": [
+              31,
+              1825,
+              1361,
+              -1201,
+              -1119,
+              -705,
+              1103,
+              -1295
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ]
+            ],
+            "series_id": "SER-4A298020C5CA"
+          },
+          {
+            "adjustments": [
+              737,
+              -865,
+              -625,
+              753
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ]
+            ],
+            "series_id": "SER-06EE5F5D18C0"
+          },
+          {
+            "adjustments": [
+              -203,
+              -437,
+              339,
+              301
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ]
+            ],
+            "series_id": "SER-A4EF92229565"
+          },
+          {
+            "adjustments": [
+              139,
+              -479,
+              753,
+              -413
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ]
+            ],
+            "series_id": "SER-4FEBA95B6D12"
+          },
+          {
+            "adjustments": [
+              -1785,
+              -1015,
+              729,
+              1815,
+              489,
+              1735,
+              -361,
+              -1607
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ]
+            ],
+            "series_id": "SER-F1445A3DE4D6"
+          },
+          {
+            "adjustments": [
+              -1681,
+              -527,
+              -255,
+              463,
+              2273,
+              -1201,
+              -657,
+              1585
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ],
+              [
+                "LOT-A-84AA141E8EA2",
+                "LOT-B-E9F05B54CFF8"
+              ]
+            ],
+            "series_id": "SER-DA6B035C88F9"
+          },
+          {
+            "adjustments": [
+              -939,
+              151,
+              471,
+              -523,
+              807,
+              -875,
+              -459,
+              1367
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ]
+            ],
+            "series_id": "SER-DF3CEF07D5EB"
+          },
+          {
+            "adjustments": [
+              -201,
+              -331,
+              1173,
+              -641
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ]
+            ],
+            "series_id": "SER-FF317A9F35F1"
+          },
+          {
+            "adjustments": [
+              -1615,
+              611,
+              1315,
+              801,
+              -1165,
+              -783,
+              -159,
+              995
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ]
+            ],
+            "series_id": "SER-2A871B96ACF5"
+          },
+          {
+            "adjustments": [
+              -313,
+              501,
+              -403,
+              215
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ]
+            ],
+            "series_id": "SER-4B1AC803D098"
+          },
+          {
+            "adjustments": [
+              -211,
+              -93,
+              507,
+              -203
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ]
+            ],
+            "series_id": "SER-438E4C41E563"
+          },
+          {
+            "adjustments": [
+              -1689,
+              1545,
+              -615,
+              359,
+              921,
+              1367,
+              -841,
+              -1047
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ]
+            ],
+            "series_id": "SER-DC7B2ECC3CE6"
+          },
+          {
+            "adjustments": [
+              265,
+              671,
+              -793,
+              -143
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ]
+            ],
+            "series_id": "SER-93599F7BC3A7"
+          },
+          {
+            "adjustments": [
+              -205,
+              1397,
+              37,
+              723,
+              -1787,
+              147,
+              1299,
+              -1611
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-4E8472367E2C",
+                "LOT-B-7CBEE75AA386"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ]
+            ],
+            "series_id": "SER-734B5CD0E75D"
+          },
+          {
+            "adjustments": [
+              139,
+              -23,
+              609,
+              -725
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ]
+            ],
+            "series_id": "SER-DD4A95AF14D9"
+          },
+          {
+            "adjustments": [
+              -1085,
+              597,
+              357,
+              -941,
+              1317,
+              1059,
+              -1597,
+              293
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ]
+            ],
+            "series_id": "SER-CCA06B06DF7D"
+          },
+          {
+            "adjustments": [
+              1221,
+              67,
+              -549,
+              -739
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-1F54274D5A0E",
+                "LOT-B-087302A1951F"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ]
+            ],
+            "series_id": "SER-73EB4128F824"
+          },
+          {
+            "adjustments": [
+              -1167,
+              -1453,
+              -1197,
+              785,
+              -333,
+              1681,
+              2017,
+              -333
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-4615A8BD28A6",
+                "LOT-B-619EB3DA381E"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ]
+            ],
+            "series_id": "SER-C2D73C0F3843"
+          },
+          {
+            "adjustments": [
+              1521,
+              -157,
+              -509,
+              -511,
+              355,
+              721,
+              -287,
+              -1133
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-8CF76490A342",
+                "LOT-B-0B72B67D99FB"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ]
+            ],
+            "series_id": "SER-241DC419C608"
+          },
+          {
+            "adjustments": [
+              203,
+              -195,
+              717,
+              891,
+              125,
+              -1829,
+              -869,
+              957
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ]
+            ],
+            "series_id": "SER-BB546AAF903A"
+          },
+          {
+            "adjustments": [
+              1281,
+              -797,
+              -93,
+              -1343,
+              -109,
+              1041,
+              161,
+              -141
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-614C06E84E8B",
+                "LOT-B-E106FB0FFFDF"
+              ],
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ]
+            ],
+            "series_id": "SER-62BFF880CAAA"
+          },
+          {
+            "adjustments": [
+              123,
+              765,
+              -563,
+              -357,
+              -595,
+              1147,
+              555,
+              -1075
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-3BD8CDC998B2",
+                "LOT-B-FA318E980AD3"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ]
+            ],
+            "series_id": "SER-7689B236FF78"
+          },
+          {
+            "adjustments": [
+              517,
+              -501,
+              907,
+              -923
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E4CA472C2B89",
+                "LOT-B-1133F2BC6D57"
+              ],
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ]
+            ],
+            "series_id": "SER-98C2A408E359"
+          },
+          {
+            "adjustments": [
+              -2039,
+              1307,
+              251,
+              1705,
+              331,
+              -1159,
+              -1751,
+              1355
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ]
+            ],
+            "series_id": "SER-2EC6936C3FA1"
+          },
+          {
+            "adjustments": [
+              2011,
+              -1491,
+              -67,
+              747,
+              93,
+              -101,
+              283,
+              -1475
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ]
+            ],
+            "series_id": "SER-3395A1C45BFF"
+          },
+          {
+            "adjustments": [
+              -443,
+              1383,
+              1847,
+              -1195,
+              -1145,
+              101,
+              181,
+              -729
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ]
+            ],
+            "series_id": "SER-5B91CB2E2500"
+          },
+          {
+            "adjustments": [
+              -1243,
+              -1401,
+              487,
+              -1067,
+              -1369,
+              1621,
+              1557,
+              1415
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ],
+              [
+                "LOT-A-ED8D5EE011DA",
+                "LOT-B-F86907EB8D71"
+              ]
+            ],
+            "series_id": "SER-34E7BAF8136C"
+          },
+          {
+            "adjustments": [
+              809,
+              1131,
+              59,
+              761,
+              -709,
+              -535,
+              -1399,
+              -117
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ]
+            ],
+            "series_id": "SER-2D1B153C065F"
+          },
+          {
+            "adjustments": [
+              73,
+              -449,
+              -665,
+              1041
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-E11E2DE6C37A",
+                "LOT-B-F2A923DE34DC"
+              ]
+            ],
+            "series_id": "SER-BD225F398E04"
+          },
+          {
+            "adjustments": [
+              1221,
+              -329,
+              327,
+              -107,
+              -1625,
+              1829,
+              229,
+              -1545
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ],
+              [
+                "LOT-A-C876BE5F73A6",
+                "LOT-B-54426F29C8A8"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ]
+            ],
+            "series_id": "SER-13AAD25B79A4"
+          },
+          {
+            "adjustments": [
+              -603,
+              -377,
+              87,
+              1061,
+              1959,
+              -1147,
+              -811,
+              -169
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-AEBB87BAAE93",
+                "LOT-B-53A136535596"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ]
+            ],
+            "series_id": "SER-9972A0108BD9"
+          },
+          {
+            "adjustments": [
+              1311,
+              513,
+              -687,
+              303,
+              -1535,
+              -1569,
+              223,
+              1441
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ]
+            ],
+            "series_id": "SER-C9016425B02C"
+          },
+          {
+            "adjustments": [
+              -1491,
+              -929,
+              -1297,
+              541,
+              1279,
+              -115,
+              1773,
+              239
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-9C3444988407",
+                "LOT-B-5B14E4FD3CFB"
+              ],
+              [
+                "LOT-A-8F0AD674BE73",
+                "LOT-B-8EFB674D8CD4"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ]
+            ],
+            "series_id": "SER-955BF3E1AF77"
+          },
+          {
+            "adjustments": [
+              1673,
+              1339,
+              -597,
+              809,
+              -597,
+              -423,
+              -1879,
+              -325
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ]
+            ],
+            "series_id": "SER-2F3FB3CAA79D"
+          },
+          {
+            "adjustments": [
+              -1065,
+              1625,
+              -295,
+              407,
+              -823,
+              135,
+              -41,
+              57
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ],
+              [
+                "LOT-A-39A9FA49CC4A",
+                "LOT-B-247FEFE00811"
+              ]
+            ],
+            "series_id": "SER-EFD4021F1FAE"
+          },
+          {
+            "adjustments": [
+              -541,
+              -1067,
+              1301,
+              -1437,
+              1429,
+              1859,
+              -269,
+              -1275
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-6D8528491B8F",
+                "LOT-B-A63F3CFB8785"
+              ],
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ]
+            ],
+            "series_id": "SER-69CC6831D733"
+          },
+          {
+            "adjustments": [
+              379,
+              -1651,
+              1741,
+              -1637,
+              -211,
+              203,
+              -949,
+              2125
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-4D1C09147C8F",
+                "LOT-B-F8221EEAA043"
+              ]
+            ],
+            "series_id": "SER-3F17B8B20897"
+          },
+          {
+            "adjustments": [
+              -947,
+              -369,
+              -593,
+              1197,
+              -1393,
+              493,
+              1853,
+              -241
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-B9359415CAFD",
+                "LOT-B-7F2207C6ACDC"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ]
+            ],
+            "series_id": "SER-2896D2767906"
+          },
+          {
+            "adjustments": [
+              1579,
+              -1571,
+              -803,
+              267,
+              -291,
+              -1109,
+              235,
+              1693
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C367023E7424",
+                "LOT-B-14482A5EC47A"
+              ],
+              [
+                "LOT-A-FAA61786CDC3",
+                "LOT-B-896D30943F78"
+              ],
+              [
+                "LOT-A-A168A2DDD100",
+                "LOT-B-17A27EED62AF"
+              ]
+            ],
+            "series_id": "SER-3BB5ACA3C15F"
+          },
+          {
+            "adjustments": [
+              -2099,
+              1039,
+              767,
+              1309,
+              -1377,
+              1677,
+              -851,
+              -465
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-CAB9BCD216E2",
+                "LOT-B-ADC963819F9F"
+              ],
+              [
+                "LOT-A-EC01DF18F218",
+                "LOT-B-18698B151B57"
+              ],
+              [
+                "LOT-A-F24128DB8614",
+                "LOT-B-DC739B8684A1"
+              ]
+            ],
+            "series_id": "SER-5CC5144DB3AD"
+          },
+          {
+            "adjustments": [
+              -889,
+              -391,
+              -1159,
+              -761,
+              1545,
+              -713,
+              391,
+              1977
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-C5F4C5A4F815",
+                "LOT-B-61AF0DFB4B2B"
+              ],
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ]
+            ],
+            "series_id": "SER-D1446279091F"
+          },
+          {
+            "adjustments": [
+              -407,
+              -1605,
+              1643,
+              329,
+              1163,
+              -471,
+              -391,
+              -261
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ],
+              [
+                "LOT-A-AB58D94DC342",
+                "LOT-B-D0D5375295F0"
+              ],
+              [
+                "LOT-A-F49AF71FAA55",
+                "LOT-B-2EB26DBC2022"
+              ]
+            ],
+            "series_id": "SER-33155B4AAB45"
+          },
+          {
+            "adjustments": [
+              -1375,
+              35,
+              -781,
+              1073,
+              -557,
+              2289,
+              -943,
+              259
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2CF104B514A7",
+                "LOT-B-445EF7EDB614"
+              ],
+              [
+                "LOT-A-B0B4729BA812",
+                "LOT-B-4338F33E6591"
+              ],
+              [
+                "LOT-A-E79D81E76701",
+                "LOT-B-2D4B899331C5"
+              ]
+            ],
+            "series_id": "SER-CBC9774916CF"
+          },
+          {
+            "adjustments": [
+              -1023,
+              -1853,
+              -1293,
+              625,
+              -669,
+              2129,
+              2081,
+              3
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-5C1CA4A52259",
+                "LOT-B-38EEC2BFA6C0"
+              ],
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ]
+            ],
+            "series_id": "SER-1ABA96367337"
+          },
+          {
+            "adjustments": [
+              -2189,
+              1765,
+              1797,
+              -1165,
+              -11,
+              -2029,
+              1395,
+              437
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-2858053A913D",
+                "LOT-B-B9FE2ADDD192"
+              ],
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ]
+            ],
+            "series_id": "SER-173B5BDD65CF"
+          },
+          {
+            "adjustments": [
+              1497,
+              139,
+              -2309,
+              -999,
+              -165,
+              761,
+              -631,
+              1707
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-F3A889B7D14D",
+                "LOT-B-C5ED9DC34F6E"
+              ],
+              [
+                "LOT-A-84AA141E8EA2",
+                "LOT-B-E9F05B54CFF8"
+              ]
+            ],
+            "series_id": "SER-F19B2612D3E7"
+          },
+          {
+            "adjustments": [
+              675,
+              1973,
+              -11,
+              163,
+              -411,
+              -221,
+              -1389,
+              -779
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-FD06B28D7697",
+                "LOT-B-A68099627A2A"
+              ],
+              [
+                "LOT-A-582C4A3D61A3",
+                "LOT-B-1C7F0D9D3378"
+              ],
+              [
+                "LOT-A-5689E0FD1F24",
+                "LOT-B-ACC7D0F1A52C"
+              ]
+            ],
+            "series_id": "SER-DF722D364F83"
+          },
+          {
+            "adjustments": [
+              565,
+              -585,
+              1687,
+              -1643,
+              -681,
+              533,
+              -1163,
+              1287
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-641CBB2F5FBF",
+                "LOT-B-83FD557867A4"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ]
+            ],
+            "series_id": "SER-1C089E244520"
+          },
+          {
+            "adjustments": [
+              183,
+              -951,
+              905,
+              -873,
+              -1255,
+              1703,
+              -969,
+              1257
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-8741657E4534",
+                "LOT-B-AA3A7CE0E304"
+              ],
+              [
+                "LOT-A-583B976AF5EB",
+                "LOT-B-3DC179D01C2A"
+              ],
+              [
+                "LOT-A-EBD3330EE26D",
+                "LOT-B-1440CCF4343C"
+              ]
+            ],
+            "series_id": "SER-7EC42A0AC596"
+          },
+          {
+            "adjustments": [
+              -967,
+              1051,
+              1323,
+              761,
+              -1461,
+              1353,
+              -535,
+              -1525
+            ],
+            "lot_pairs": [
+              [
+                "LOT-A-03003333A7B9",
+                "LOT-B-EF23FD8F4FBA"
+              ],
+              [
+                "LOT-A-7FB9AE9AD925",
+                "LOT-B-4291542EEBFF"
+              ],
+              [
+                "LOT-A-A1D7600513BB",
+                "LOT-B-DEEC60C25EA5"
+              ]
+            ],
+            "series_id": "SER-185E163980B9"
+          }
+        ]
+      },
+      "title_order": [
+        "TTL-A0AC96D07B72",
+        "TTL-71A6CD6CC550",
+        "TTL-C04FE9CC9E73",
+        "TTL-469A6E5A40F5",
+        "TTL-852709DB5A58",
+        "TTL-213ED4240440",
+        "TTL-53D273914AFB",
+        "TTL-169422D4FA4E",
+        "TTL-F279722D59CA",
+        "TTL-504CCF0D110E",
+        "TTL-0EF0B55CF680",
+        "TTL-16C8264EA298",
+        "TTL-032FA798E0BD",
+        "TTL-EB498A08397A",
+        "TTL-CF3028CB157C",
+        "TTL-DBAC57849A61",
+        "TTL-71A41177C9A0",
+        "TTL-17472DDAFDD3",
+        "TTL-04FCB2E36C6F",
+        "TTL-38D0D35B8CC7",
+        "TTL-89F2ED84FF33",
+        "TTL-96FD877C5323",
+        "TTL-8DFC4B24CB2D",
+        "TTL-E7FDC8136EEB",
+        "TTL-220F2FC576CC",
+        "TTL-FB6129C5754A",
+        "TTL-C46741E7713D",
+        "TTL-6675A1D20C16",
+        "TTL-E76495E33738",
+        "TTL-B0306626BE9F",
+        "TTL-23AB485BAF36",
+        "TTL-C81B4F216A98",
+        "TTL-601A4AC3C428",
+        "TTL-8A5311F6E6BF",
+        "TTL-36DE3F9D1271",
+        "TTL-B8FABEDCDC79",
+        "TTL-9366ABAB9C7C",
+        "TTL-2FA7D2746FEF",
+        "TTL-073048F76761",
+        "TTL-FC93FF9010AA",
+        "TTL-80AD805729B5",
+        "TTL-BE4F6648BA91",
+        "TTL-B77730E12885",
+        "TTL-66844AB8ABBD"
+      ],
+      "titles": [
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-B9359415CAFD"
+            },
+            {
+              "base_value": 127,
+              "lot_id": "LOT-B-7F2207C6ACDC"
+            }
+          ],
+          "title_id": "TTL-C81B4F216A98"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-A68099627A2A"
+            },
+            {
+              "base_value": 123,
+              "lot_id": "LOT-A-FD06B28D7697"
+            }
+          ],
+          "title_id": "TTL-17472DDAFDD3"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 118,
+              "lot_id": "LOT-B-896D30943F78"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-FAA61786CDC3"
+            }
+          ],
+          "title_id": "TTL-213ED4240440"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 121,
+              "lot_id": "LOT-A-4D1C09147C8F"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-F8221EEAA043"
+            }
+          ],
+          "title_id": "TTL-8DFC4B24CB2D"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-C367023E7424"
+            },
+            {
+              "base_value": 115,
+              "lot_id": "LOT-B-14482A5EC47A"
+            }
+          ],
+          "title_id": "TTL-C04FE9CC9E73"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-087302A1951F"
+            },
+            {
+              "base_value": 117,
+              "lot_id": "LOT-A-1F54274D5A0E"
+            }
+          ],
+          "title_id": "TTL-852709DB5A58"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-FA318E980AD3"
+            },
+            {
+              "base_value": 137,
+              "lot_id": "LOT-A-3BD8CDC998B2"
+            }
+          ],
+          "title_id": "TTL-469A6E5A40F5"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 120,
+              "lot_id": "LOT-B-1133F2BC6D57"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-E4CA472C2B89"
+            }
+          ],
+          "title_id": "TTL-71A6CD6CC550"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-F2A923DE34DC"
+            },
+            {
+              "base_value": 116,
+              "lot_id": "LOT-A-E11E2DE6C37A"
+            }
+          ],
+          "title_id": "TTL-2FA7D2746FEF"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 136,
+              "lot_id": "LOT-B-4338F33E6591"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-B0B4729BA812"
+            }
+          ],
+          "title_id": "TTL-B0306626BE9F"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-0B72B67D99FB"
+            },
+            {
+              "base_value": 112,
+              "lot_id": "LOT-A-8CF76490A342"
+            }
+          ],
+          "title_id": "TTL-DBAC57849A61"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-7FB9AE9AD925"
+            },
+            {
+              "base_value": 132,
+              "lot_id": "LOT-B-4291542EEBFF"
+            }
+          ],
+          "title_id": "TTL-FC93FF9010AA"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 118,
+              "lot_id": "LOT-A-A168A2DDD100"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-17A27EED62AF"
+            }
+          ],
+          "title_id": "TTL-53D273914AFB"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 127,
+              "lot_id": "LOT-A-583B976AF5EB"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-3DC179D01C2A"
+            }
+          ],
+          "title_id": "TTL-CF3028CB157C"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 120,
+              "lot_id": "LOT-A-AB58D94DC342"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-D0D5375295F0"
+            }
+          ],
+          "title_id": "TTL-601A4AC3C428"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 114,
+              "lot_id": "LOT-A-E79D81E76701"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-2D4B899331C5"
+            }
+          ],
+          "title_id": "TTL-23AB485BAF36"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 113,
+              "lot_id": "LOT-A-A1D7600513BB"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-DEEC60C25EA5"
+            }
+          ],
+          "title_id": "TTL-80AD805729B5"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-03003333A7B9"
+            },
+            {
+              "base_value": 115,
+              "lot_id": "LOT-B-EF23FD8F4FBA"
+            }
+          ],
+          "title_id": "TTL-9366ABAB9C7C"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 118,
+              "lot_id": "LOT-A-39A9FA49CC4A"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-247FEFE00811"
+            }
+          ],
+          "title_id": "TTL-B77730E12885"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 122,
+              "lot_id": "LOT-B-38EEC2BFA6C0"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-5C1CA4A52259"
+            }
+          ],
+          "title_id": "TTL-B8FABEDCDC79"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 126,
+              "lot_id": "LOT-B-54426F29C8A8"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-C876BE5F73A6"
+            }
+          ],
+          "title_id": "TTL-C46741E7713D"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-2858053A913D"
+            },
+            {
+              "base_value": 134,
+              "lot_id": "LOT-B-B9FE2ADDD192"
+            }
+          ],
+          "title_id": "TTL-032FA798E0BD"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 128,
+              "lot_id": "LOT-A-8F0AD674BE73"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-8EFB674D8CD4"
+            }
+          ],
+          "title_id": "TTL-F279722D59CA"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 119,
+              "lot_id": "LOT-B-18698B151B57"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-EC01DF18F218"
+            }
+          ],
+          "title_id": "TTL-220F2FC576CC"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-A63F3CFB8785"
+            },
+            {
+              "base_value": 126,
+              "lot_id": "LOT-A-6D8528491B8F"
+            }
+          ],
+          "title_id": "TTL-16C8264EA298"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-ADC963819F9F"
+            },
+            {
+              "base_value": 111,
+              "lot_id": "LOT-A-CAB9BCD216E2"
+            }
+          ],
+          "title_id": "TTL-E7FDC8136EEB"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 111,
+              "lot_id": "LOT-B-6A717988DF11"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-C1E1D74A0D08"
+            }
+          ],
+          "title_id": "TTL-A0AC96D07B72"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-445EF7EDB614"
+            },
+            {
+              "base_value": 119,
+              "lot_id": "LOT-A-2CF104B514A7"
+            }
+          ],
+          "title_id": "TTL-6675A1D20C16"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 135,
+              "lot_id": "LOT-B-2EB26DBC2022"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-F49AF71FAA55"
+            }
+          ],
+          "title_id": "TTL-8A5311F6E6BF"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-EBD3330EE26D"
+            },
+            {
+              "base_value": 127,
+              "lot_id": "LOT-B-1440CCF4343C"
+            }
+          ],
+          "title_id": "TTL-71A41177C9A0"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-4E8472367E2C"
+            },
+            {
+              "base_value": 117,
+              "lot_id": "LOT-B-7CBEE75AA386"
+            }
+          ],
+          "title_id": "TTL-E76495E33738"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-8741657E4534"
+            },
+            {
+              "base_value": 137,
+              "lot_id": "LOT-B-AA3A7CE0E304"
+            }
+          ],
+          "title_id": "TTL-EB498A08397A"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-1C7F0D9D3378"
+            },
+            {
+              "base_value": 121,
+              "lot_id": "LOT-A-582C4A3D61A3"
+            }
+          ],
+          "title_id": "TTL-38D0D35B8CC7"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-AEBB87BAAE93"
+            },
+            {
+              "base_value": 112,
+              "lot_id": "LOT-B-53A136535596"
+            }
+          ],
+          "title_id": "TTL-04FCB2E36C6F"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-619EB3DA381E"
+            },
+            {
+              "base_value": 112,
+              "lot_id": "LOT-A-4615A8BD28A6"
+            }
+          ],
+          "title_id": "TTL-0EF0B55CF680"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-614C06E84E8B"
+            },
+            {
+              "base_value": 126,
+              "lot_id": "LOT-B-E106FB0FFFDF"
+            }
+          ],
+          "title_id": "TTL-504CCF0D110E"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-ACC7D0F1A52C"
+            },
+            {
+              "base_value": 134,
+              "lot_id": "LOT-A-5689E0FD1F24"
+            }
+          ],
+          "title_id": "TTL-89F2ED84FF33"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-C5F4C5A4F815"
+            },
+            {
+              "base_value": 116,
+              "lot_id": "LOT-B-61AF0DFB4B2B"
+            }
+          ],
+          "title_id": "TTL-36DE3F9D1271"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-B-5B14E4FD3CFB"
+            },
+            {
+              "base_value": 116,
+              "lot_id": "LOT-A-9C3444988407"
+            }
+          ],
+          "title_id": "TTL-169422D4FA4E"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-84AA141E8EA2"
+            },
+            {
+              "base_value": 135,
+              "lot_id": "LOT-B-E9F05B54CFF8"
+            }
+          ],
+          "title_id": "TTL-66844AB8ABBD"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-F3A889B7D14D"
+            },
+            {
+              "base_value": 128,
+              "lot_id": "LOT-B-C5ED9DC34F6E"
+            }
+          ],
+          "title_id": "TTL-BE4F6648BA91"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-641CBB2F5FBF"
+            },
+            {
+              "base_value": 118,
+              "lot_id": "LOT-B-83FD557867A4"
+            }
+          ],
+          "title_id": "TTL-073048F76761"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 125,
+              "lot_id": "LOT-B-DC739B8684A1"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-F24128DB8614"
+            }
+          ],
+          "title_id": "TTL-FB6129C5754A"
+        },
+        {
+          "lots": [
+            {
+              "base_value": 115,
+              "lot_id": "LOT-B-F86907EB8D71"
+            },
+            {
+              "base_value": 100,
+              "lot_id": "LOT-A-ED8D5EE011DA"
+            }
+          ],
+          "title_id": "TTL-96FD877C5323"
+        }
+      ]
+    },
+    "title_handles_text": "TTL-A0AC96D07B72, TTL-71A6CD6CC550, TTL-C04FE9CC9E73, TTL-469A6E5A40F5, TTL-852709DB5A58, TTL-213ED4240440, TTL-53D273914AFB, TTL-169422D4FA4E, TTL-F279722D59CA, TTL-504CCF0D110E, TTL-0EF0B55CF680, TTL-16C8264EA298, TTL-032FA798E0BD, TTL-EB498A08397A, TTL-CF3028CB157C, TTL-DBAC57849A61, TTL-71A41177C9A0, TTL-17472DDAFDD3, TTL-04FCB2E36C6F, TTL-38D0D35B8CC7, TTL-89F2ED84FF33, TTL-96FD877C5323, TTL-8DFC4B24CB2D, TTL-E7FDC8136EEB, TTL-220F2FC576CC, TTL-FB6129C5754A, TTL-C46741E7713D, TTL-6675A1D20C16, TTL-E76495E33738, TTL-B0306626BE9F, TTL-23AB485BAF36, TTL-C81B4F216A98, TTL-601A4AC3C428, TTL-8A5311F6E6BF, TTL-36DE3F9D1271, TTL-B8FABEDCDC79, TTL-9366ABAB9C7C, TTL-2FA7D2746FEF, TTL-073048F76761, TTL-FC93FF9010AA, TTL-80AD805729B5, TTL-BE4F6648BA91, TTL-B77730E12885, TTL-66844AB8ABBD"
+  },
+  "rung_index": 1,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 1
+}

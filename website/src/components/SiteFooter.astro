@@ -1,0 +1,33 @@
+---
+import type { SiteCopy } from "../content/copy";
+import { siteConfig } from "../data/site";
+
+interface Props {
+  copy: SiteCopy["footer"];
+}
+
+const { copy } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const resources = [
+  siteConfig.resources.paper,
+  siteConfig.resources.repository,
+];
+---
+
+<footer class="site-footer">
+  <div class="page-shell footer-content">
+    <div class="footer-brand">
+      <p><img src={`${base}${siteConfig.brandMark}`} alt="" width="19" height="19" aria-hidden="true" /><strong>{siteConfig.organizationName}</strong></p>
+      <span>{copy.summary}</span>
+    </div>
+    <div class="footer-project">
+      <strong>AlgoWorlds</strong>
+      <span>{copy.detail}</span>
+      <nav class="footer-links" aria-label="Footer project resources">
+        {resources.map((resource) => <a href={resource.href} target="_blank" rel="noopener noreferrer">{resource.label}</a>)}
+      </nav>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,3008 @@
+{
+  "arm_index": 1,
+  "case_id": "case_07_station_siting",
+  "member_key": "case_07_station_siting/rung-1/world-2/arm-1",
+  "payload": {
+    "cost_budget": 731,
+    "cost_vector": {
+      "evaluate_layout": 5,
+      "read_demand": 3,
+      "read_zone": 6,
+      "read_zone_window": 7
+    },
+    "objective_baseline_raw_value": 2427,
+    "public": {
+      "cost_budget": 731,
+      "demand_count": 158,
+      "demand_handles": [
+        "DEM-3CA44F9CC16CD1",
+        "DEM-C6A40912B26195",
+        "DEM-0527FBBF6D3C62",
+        "DEM-4D31EFFB38A556",
+        "DEM-6D932A1797AB46",
+        "DEM-4AE0F0CB387282",
+        "DEM-E5F588BBF48F62",
+        "DEM-55D09D1E10A8FB",
+        "DEM-EA5128F1644C23",
+        "DEM-C7A2298AE93970",
+        "DEM-82D42BB6FBF092",
+        "DEM-AE74318380D2A8",
+        "DEM-CA68EAE6663C8B",
+        "DEM-F4FA17C2B19E37",
+        "DEM-490A5F52786129",
+        "DEM-91DD099AD00B25",
+        "DEM-B28D894C8BDAAD",
+        "DEM-9356209D74B053",
+        "DEM-47A0689362564C",
+        "DEM-A9174531C2EF84",
+        "DEM-C33AAFED7AF30E",
+        "DEM-6CDF97C0A7648A",
+        "DEM-3855AC054CA706",
+        "DEM-01FC39C5823585",
+        "DEM-D3652E3AB0C4BD",
+        "DEM-6AC7C6B26B6387",
+        "DEM-6A46A702CF2E91",
+        "DEM-340BE4691A3080",
+        "DEM-C9D7876795494E",
+        "DEM-79058E3F87FDC4",
+        "DEM-9AB6AB30F783AF",
+        "DEM-AD7F2F8E47A966",
+        "DEM-A7F4DEDEE41EF5",
+        "DEM-2D5E40A09A3F58",
+        "DEM-C8426DC0E51B63",
+        "DEM-8C504A9B710270",
+        "DEM-274ABFC93EA60E",
+        "DEM-FC1AE50BE350A4",
+        "DEM-8D064688E80475",
+        "DEM-285FCBAABAF160",
+        "DEM-E37449B5E40E13",
+        "DEM-92B173F748D143",
+        "DEM-89412CCAD3B641",
+        "DEM-4F6D0CF81241D8",
+        "DEM-00CDC38CB832B7",
+        "DEM-D854430C10AADE",
+        "DEM-91799477C63617",
+        "DEM-DA68151276B90E",
+        "DEM-7B962BC5EE5976",
+        "DEM-B77F8F2C0142B8",
+        "DEM-9DF51C53DC700D",
+        "DEM-63CA984DF69023",
+        "DEM-09D0547A29FEA4",
+        "DEM-A608E0C618F5F6",
+        "DEM-25DFEC94DB4EBF",
+        "DEM-0E026D8B9E16FD",
+        "DEM-AE7C09911EBB66",
+        "DEM-EC33CAED8DABCD",
+        "DEM-A85B0E425074F9",
+        "DEM-97A83276BED124",
+        "DEM-B9F18D400EB834",
+        "DEM-AC45EC40695D3E",
+        "DEM-FD698C68860771",
+        "DEM-D1C16C2E6DFD83",
+        "DEM-8A8D072FDCC423",
+        "DEM-EC4F2B71ED79C5",
+        "DEM-68BA01A70BF33C",
+        "DEM-A92F9FF1EC1A19",
+        "DEM-4134B2C9A598FF",
+        "DEM-C258E471B0B251",
+        "DEM-BFAE0F2633EB7E",
+        "DEM-9CC6BE39A790B1",
+        "DEM-2F209822A71039",
+        "DEM-BCD179440730E0",
+        "DEM-7E32876CD54084",
+        "DEM-04694B1D014090",
+        "DEM-EFDBB3952C5E28",
+        "DEM-39DFB63233441C",
+        "DEM-9332FCD496C540",
+        "DEM-480D6DA57A9490",
+        "DEM-E4760D97140F28",
+        "DEM-A5C0691A50EF18",
+        "DEM-843A0AEFAE20CB",
+        "DEM-C8D8593FEF4842",
+        "DEM-7E94C3A441B194",
+        "DEM-3A2808D1858633",
+        "DEM-E3E7933020078E",
+        "DEM-FD5B2F5228BA43",
+        "DEM-725B67347ECD0D",
+        "DEM-D907F07842A0AC",
+        "DEM-9FD8C27139CDF8",
+        "DEM-477493E5026021",
+        "DEM-D0211B3DEB5495",
+        "DEM-471B9233A189A2",
+        "DEM-00647E3B2B085C",
+        "DEM-B71125414423C4",
+        "DEM-2B9011AA38DCD8",
+        "DEM-37DF1978F77582",
+        "DEM-6C7DC0F3F63E84",
+        "DEM-7A507D26A2925C",
+        "DEM-099ACB34FA82AB",
+        "DEM-5356A2C5ABA159",
+        "DEM-636E1C024AFFF1",
+        "DEM-025C0526D1D097",
+        "DEM-7F8105F7117661",
+        "DEM-74CBD5C3D1D0B9",
+        "DEM-E5430B99FF55EE",
+        "DEM-AE3E1E3D07DC20",
+        "DEM-B5F9FA40CF55DD",
+        "DEM-C628DE73A2782C",
+        "DEM-B3EB4C6064D3CA",
+        "DEM-15F8557F9D974F",
+        "DEM-658FEF9C4AF82A",
+        "DEM-63730AB35C301F",
+        "DEM-D1D1F22E268835",
+        "DEM-489F9635AD0710",
+        "DEM-9B7420CDA608DA",
+        "DEM-EF39AD19910AC9",
+        "DEM-264CF87E3106E1",
+        "DEM-6CCA2DE0623EF7",
+        "DEM-27E8F64BEE266A",
+        "DEM-F56E660B13DFF8",
+        "DEM-AD4F9D0507D0D7",
+        "DEM-9B59AD38CF34AC",
+        "DEM-E29A4BC3201A8E",
+        "DEM-1A199A49E32773",
+        "DEM-275E6B2783816D",
+        "DEM-5C7F9455EB494D",
+        "DEM-7FBC8391AD68E9",
+        "DEM-E85BE60C8649AE",
+        "DEM-BD3D931E4CDED1",
+        "DEM-D5D99B0BEBFD6E",
+        "DEM-110BC941BC613F",
+        "DEM-AE4A0ADA5BA9D4",
+        "DEM-71175478238880",
+        "DEM-BFF02E58A9841B",
+        "DEM-C2B58A78B1C851",
+        "DEM-065E871C0794F6",
+        "DEM-97B636A614244A",
+        "DEM-CDC80A0125E94D",
+        "DEM-DE86969163FECA",
+        "DEM-22A1C33ABAB104",
+        "DEM-CDDDD91D2C40FA",
+        "DEM-F5B79D46601611",
+        "DEM-B3AD3AEDE7EF68",
+        "DEM-6D7FC7C6711F33",
+        "DEM-5D9B6DA865C964",
+        "DEM-D22B1C516303A5",
+        "DEM-5B0B07E254418A",
+        "DEM-F82ABAC071C974",
+        "DEM-51AB695E5375B8",
+        "DEM-91933016D0D52A",
+        "DEM-78382DC29AC6D6",
+        "DEM-AC77A19CFAF527",
+        "DEM-0BDEA8E7DA6589",
+        "DEM-F4FA7CAA1216D9",
+        "DEM-3F37A6056CD0A4",
+        "DEM-0F6EB628021AE0"
+      ],
+      "facility_limit": 42,
+      "interaction_bandwidth": 4,
+      "max_extended_sites": 36,
+      "tool_costs": {
+        "evaluate_layout": 5,
+        "read_demand": 3,
+        "read_zone": 6,
+        "read_zone_window": 7
+      },
+      "zone_handles": [
+        "ZON-9152E8E04ED1B3",
+        "ZON-87B77BA1DDCFE2",
+        "ZON-D7CB99355A1ACF",
+        "ZON-0829694296E225",
+        "ZON-A85FA7366A5D0C",
+        "ZON-6F5FF96B001767",
+        "ZON-E94D4C80A7AE53",
+        "ZON-2DD37903494980",
+        "ZON-207E4FE922A639",
+        "ZON-B7BF80DAEE0B00",
+        "ZON-2FE2F12B59AB82",
+        "ZON-14D0B3B424A778",
+        "ZON-034C7A0038E9CD",
+        "ZON-C28360065DC4B0",
+        "ZON-104A69865E503B",
+        "ZON-6A142A9060076F",
+        "ZON-259DAB9BCA5259",
+        "ZON-A7575C992661BF",
+        "ZON-8217C71364CE27",
+        "ZON-AF81508019827A",
+        "ZON-1DFA3F9CFAB95C",
+        "ZON-11D22F9010A90B",
+        "ZON-AD30B6A1428EF8",
+        "ZON-7A4355F1E7D85B",
+        "ZON-D921A63073875D",
+        "ZON-C03847EE0CE9E1",
+        "ZON-6A1B05A2DC4844",
+        "ZON-931281C184E0F0",
+        "ZON-7E4BFDF9B42DFD",
+        "ZON-D0AAAE8D3096A9",
+        "ZON-97CD072D7A21A5",
+        "ZON-DC84470FDE9ABC",
+        "ZON-D5BA408FBA7C26",
+        "ZON-81C5DE5A126316",
+        "ZON-830EE8179893B1",
+        "ZON-DE62A9A13EEB34",
+        "ZON-E0CDE150871B03",
+        "ZON-50AFBC81AE55C1",
+        "ZON-EE6790D6CEE70A",
+        "ZON-90BCCF4DB93BA6",
+        "ZON-2C1C7DE8B11FFA",
+        "ZON-71D759BF7E1969"
+      ]
+    },
+    "source_documents": {
+      "coverage_catalog": {
+        "connector_site_rows": [
+          {
+            "connector_id": "CON-C29523872A414C",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-A82E820B06D2F3",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-42E97198DF6332",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-7E39F040B92DB0",
+            "site_id": "STE-1C59E8078A00A9"
+          },
+          {
+            "connector_id": "CON-B2DCEDDDA54E2A",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-37A097A9F53016",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-97E9C328B18CD8",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-AEC165FFB19D53",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-F18E49ED8349F2",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-752C0742D56CB0",
+            "site_id": "STE-A3E3DBF885A840"
+          },
+          {
+            "connector_id": "CON-6E82ED0AA7C1A1",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-6E82ED0AA7C1A1",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-BBE8CB17C7C4F7",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-F94285C56F0DEF",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-F1DA7B0ED35D99",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-313E88CBBC88E1",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-48FD6230983ED1",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-19DCB7B2743371",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-A3DC1DFD05C870",
+            "site_id": "STE-1C59E8078A00A9"
+          },
+          {
+            "connector_id": "CON-C29523872A414C",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-158DE0E8D0AF24",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-89211C3C1A70E8",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-E8DD4A5370BF69",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-4814079FBA1BC6",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-E2BB3AB26A745A",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-4632DBAD226103",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-AEF2C5CBF74047",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-5E26EB42124D6C",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-F1553B243CCC0C",
+            "site_id": "STE-3738C44348C53C"
+          },
+          {
+            "connector_id": "CON-2E196B4ACAB52F",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-9FF01EEF6ED141",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-A6660B9C409AF4",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-3026D461F62918",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-19DCB7B2743371",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-795F1924D9DF89",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-6B2CC3C196E38E",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-00ED04E9F7EC5C",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-67CD7786B0BE46",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-FF1E6174B4B8E1",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-2E196B4ACAB52F",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-3A950B57F6CFF3",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-22ECDD48C8C095",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-C9CB1AD6211F87",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-7EFC4D6E76A8A1",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-A613248BEC422B",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-E2DF645A9F1150",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-32AD9A471169B0",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-AC10494A7DFEE9",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-187F1F67CBA3B6",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-7633E6BF8A235B",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-372749C75EFE5E",
+            "site_id": "STE-3200BDAEAC40B8"
+          },
+          {
+            "connector_id": "CON-482972B2C06065",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-2E86B232191F8D",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-9E7D26F8433113",
+            "site_id": "STE-3200BDAEAC40B8"
+          },
+          {
+            "connector_id": "CON-FF1E6174B4B8E1",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-42E97198DF6332",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-85E1AA9FD85AA9",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-00FAC23703D3FB",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-2767554049FBE7",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-31BF343337CFF7",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-27891E017AB574",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-5EAF3218AA7E6E",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-482972B2C06065",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-3A950B57F6CFF3",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-EB80E78907F93B",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-58AA0065A73651",
+            "site_id": "STE-3738C44348C53C"
+          },
+          {
+            "connector_id": "CON-15C44F196B1AA2",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-8390F42C502052",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-055851D524C807",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-3091F237BDBF1D",
+            "site_id": "STE-8EF8DCABB51690"
+          },
+          {
+            "connector_id": "CON-96C7090E4BD28E",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-6814BE4979CF70",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-903269C2008530",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-2A99776D679DC1",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-865C03DB2042F1",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-313E88CBBC88E1",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-8D89137AFA1C6F",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-C7AFF6A5865F59",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-32AD9A471169B0",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-506F2B0D9B19FA",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-EF2ED1FC7499A0",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-158DE0E8D0AF24",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-416F29C81CE84D",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-0C4FE5E943AE07",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-8390F42C502052",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-A31070B4879565",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-05909CC162F371",
+            "site_id": "STE-1C59E8078A00A9"
+          },
+          {
+            "connector_id": "CON-0C4FE5E943AE07",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-E903F652688F4F",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-19B4F1496A05B2",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-33E1E3E4F0B612",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-A3A599E72CBF5F",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-941507ED2DC2D2",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-18EC580E0C1C0B",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-795F1924D9DF89",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-FDA655F374A7AF",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-D7D008C0DD5A81",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-A82E820B06D2F3",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-F1553B243CCC0C",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-2A64F12E25B050",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-F82319E2D4F064",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-66B458D0ED6DE1",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-558C35B452AB6D",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-A6660B9C409AF4",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-8AE40F33A303BA",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-1379F41994E879",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-FDA655F374A7AF",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-C7741DCA3B7E43",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-04B5B761E20621",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-AFE751219558EC",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-31BF343337CFF7",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-BB484672DA961D",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-187F1F67CBA3B6",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-DD905E4BBD4EA0",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-E3267CF0F25FB5",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-E903F652688F4F",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-4608152A4D6394",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-C7AFF6A5865F59",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-8D89137AFA1C6F",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-0F92A3E4C5FFFF",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-41ED023B46DC13",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-E2BB3AB26A745A",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-467C510A7B8C8E",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-4C8101C046FD9C",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-A613248BEC422B",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-00FAC23703D3FB",
+            "site_id": "STE-1C59E8078A00A9"
+          },
+          {
+            "connector_id": "CON-7D940FFBD16E59",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-5935A4593E287F",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-CC84CB0576B784",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-8919C6D9CD5980",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-B43D0A7FB59E5B",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-7EFC4D6E76A8A1",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-F18E49ED8349F2",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-3D3019CE26E8CA",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-41ED023B46DC13",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-4632DBAD226103",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-7C74BAE4593915",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-6814BE4979CF70",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-E3267CF0F25FB5",
+            "site_id": "STE-2FAAD6E959694B"
+          },
+          {
+            "connector_id": "CON-89211C3C1A70E8",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-687D830DDA4437",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-FB63C3281D80A3",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-E4600DA3F74077",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-DD905E4BBD4EA0",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-372749C75EFE5E",
+            "site_id": "STE-A3E3DBF885A840"
+          },
+          {
+            "connector_id": "CON-E208EB29E5B176",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-838D0482367557",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-48A44D48459F1C",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-7D940FFBD16E59",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-491136600AAC3B",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-9655B380D1F1EE",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-F82319E2D4F064",
+            "site_id": "STE-8EF8DCABB51690"
+          },
+          {
+            "connector_id": "CON-AEC165FFB19D53",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-5603055F2A1F84",
+            "site_id": "STE-1C59E8078A00A9"
+          },
+          {
+            "connector_id": "CON-BB484672DA961D",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-7633E6BF8A235B",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-D7D008C0DD5A81",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-48A44D48459F1C",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-9FF01EEF6ED141",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-9F3D05508F6F3C",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-19B4F1496A05B2",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-B1740AC1A9943F",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-2A99776D679DC1",
+            "site_id": "STE-3200BDAEAC40B8"
+          },
+          {
+            "connector_id": "CON-7C74BAE4593915",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-E2DF645A9F1150",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-85E1AA9FD85AA9",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-BC959B97688780",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-9F3D05508F6F3C",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-98B64B332141CE",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-E4600DA3F74077",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-8919C6D9CD5980",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-D76FB83C542F08",
+            "site_id": "STE-3200BDAEAC40B8"
+          },
+          {
+            "connector_id": "CON-C1215EDAEF42B3",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-D76FB83C542F08",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-C63C55E668F405",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-71DF0FCB558CFA",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-0EFA1BED3C32FF",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-A3DC1DFD05C870",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-2E68C5EC0DC96C",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-62605A688E71F1",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-78F5437F029655",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-06388230726A49",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-EB80E78907F93B",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-878ED4EDF7003E",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-57CBEF1B86FD42",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-5EAF3218AA7E6E",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-04B5B761E20621",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-58D66AF6261595",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-60A4DC6DFBFC90",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-22ECDD48C8C095",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-F19AFDD9ADAC40",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-70D8156CDE2DB2",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-BC5EB1036BE123",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-B43D0A7FB59E5B",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-37A097A9F53016",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-865C03DB2042F1",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-09616AE519FAFF",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-3F1AE8ADE83290",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-5935A4593E287F",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-9655B380D1F1EE",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-46B7FBF3E8E394",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-B2DCEDDDA54E2A",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-4C8101C046FD9C",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-62605A688E71F1",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-0B973C692A435F",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-2E86B232191F8D",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-15C44F196B1AA2",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-4DCE1E1A785BF9",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-BC5EB1036BE123",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-AFE751219558EC",
+            "site_id": "STE-0BF996FBDE75D1"
+          },
+          {
+            "connector_id": "CON-1379F41994E879",
+            "site_id": "STE-8858D66CAD19B7"
+          },
+          {
+            "connector_id": "CON-903269C2008530",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-2E68C5EC0DC96C",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-6ABA51545A59CF",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-C63C55E668F405",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-C968D3E043FBC0",
+            "site_id": "STE-8EF8DCABB51690"
+          },
+          {
+            "connector_id": "CON-8AE40F33A303BA",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-A31070B4879565",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-7E39F040B92DB0",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-70A71D008116B2",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-33E1E3E4F0B612",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-67CD7786B0BE46",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-5603055F2A1F84",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-DCDE8D6120B652",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-DB4EC694B9633C",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-E8DD4A5370BF69",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-E208EB29E5B176",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-941507ED2DC2D2",
+            "site_id": "STE-0FE720A7BF2914"
+          },
+          {
+            "connector_id": "CON-48FD6230983ED1",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-B5493344CB6A6E",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-BBE8CB17C7C4F7",
+            "site_id": "STE-3381098A12A12D"
+          },
+          {
+            "connector_id": "CON-09908DC8AE5EF7",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-97E9C328B18CD8",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-71DF0FCB558CFA",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-E5672D2D9BCF74",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-6ABA51545A59CF",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-57CBEF1B86FD42",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-AEF2C5CBF74047",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-C7741DCA3B7E43",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-0F92A3E4C5FFFF",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-40920C1AAC0DCF",
+            "site_id": "STE-C4968F524C1631"
+          },
+          {
+            "connector_id": "CON-70D8156CDE2DB2",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-E5672D2D9BCF74",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-E592F7D13117FE",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-878ED4EDF7003E",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-055851D524C807",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-78F5437F029655",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-506F2B0D9B19FA",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-40920C1AAC0DCF",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-687D830DDA4437",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-F5703FBA8EB60E",
+            "site_id": "STE-3200BDAEAC40B8"
+          },
+          {
+            "connector_id": "CON-3026D461F62918",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-05909CC162F371",
+            "site_id": "STE-8EF8DCABB51690"
+          },
+          {
+            "connector_id": "CON-D1717BD4902B92",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-98B64B332141CE",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-558C35B452AB6D",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-3D3019CE26E8CA",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-002735AAE974AC",
+            "site_id": "STE-5639D035FF7880"
+          },
+          {
+            "connector_id": "CON-EF2ED1FC7499A0",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-E592F7D13117FE",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-416F29C81CE84D",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-A7BDD78DA0070B",
+            "site_id": "STE-3738C44348C53C"
+          },
+          {
+            "connector_id": "CON-BC959B97688780",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-D1717BD4902B92",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-491136600AAC3B",
+            "site_id": "STE-678CBD61FCC925"
+          },
+          {
+            "connector_id": "CON-C968D3E043FBC0",
+            "site_id": "STE-99BF3C4D7C6201"
+          },
+          {
+            "connector_id": "CON-DB4EC694B9633C",
+            "site_id": "STE-442CF71165CB2F"
+          },
+          {
+            "connector_id": "CON-A3A599E72CBF5F",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-2767554049FBE7",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-E1A0C0E744A1EF",
+            "site_id": "STE-1C59E8078A00A9"
+          },
+          {
+            "connector_id": "CON-3F1AE8ADE83290",
+            "site_id": "STE-678E88D5811EC7"
+          },
+          {
+            "connector_id": "CON-6B2CC3C196E38E",
+            "site_id": "STE-175CCA283F82C6"
+          },
+          {
+            "connector_id": "CON-00ED04E9F7EC5C",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-2A64F12E25B050",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-F5703FBA8EB60E",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-70A71D008116B2",
+            "site_id": "STE-A3E3DBF885A840"
+          },
+          {
+            "connector_id": "CON-60A4DC6DFBFC90",
+            "site_id": "STE-B88836EA6E7125"
+          },
+          {
+            "connector_id": "CON-B1740AC1A9943F",
+            "site_id": "STE-257B5FA8F022B8"
+          },
+          {
+            "connector_id": "CON-09908DC8AE5EF7",
+            "site_id": "STE-A3E3DBF885A840"
+          },
+          {
+            "connector_id": "CON-7C804912FDEF4A",
+            "site_id": "STE-2F512A3F9DBE96"
+          },
+          {
+            "connector_id": "CON-0B973C692A435F",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-18EC580E0C1C0B",
+            "site_id": "STE-13C7738BF0B24C"
+          },
+          {
+            "connector_id": "CON-F19AFDD9ADAC40",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-B5493344CB6A6E",
+            "site_id": "STE-E94910904A9727"
+          },
+          {
+            "connector_id": "CON-3091F237BDBF1D",
+            "site_id": "STE-8858D66CAD19B7"
+          },
+          {
+            "connector_id": "CON-FB63C3281D80A3",
+            "site_id": "STE-0134260E69C026"
+          },
+          {
+            "connector_id": "CON-002735AAE974AC",
+            "site_id": "STE-1773193118CC8A"
+          },
+          {
+            "connector_id": "CON-E1A0C0E744A1EF",
+            "site_id": "STE-8858D66CAD19B7"
+          },
+          {
+            "connector_id": "CON-AC10494A7DFEE9",
+            "site_id": "STE-8A6F72011CBB71"
+          },
+          {
+            "connector_id": "CON-A7BDD78DA0070B",
+            "site_id": "STE-3200BDAEAC40B8"
+          },
+          {
+            "connector_id": "CON-7C804912FDEF4A",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-4608152A4D6394",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-5E26EB42124D6C",
+            "site_id": "STE-3770BE91DADAC4"
+          },
+          {
+            "connector_id": "CON-752C0742D56CB0",
+            "site_id": "STE-3738C44348C53C"
+          },
+          {
+            "connector_id": "CON-5065E47ADCA351",
+            "site_id": "STE-A4B471E66BB839"
+          },
+          {
+            "connector_id": "CON-58AA0065A73651",
+            "site_id": "STE-0D6837C4287B7A"
+          },
+          {
+            "connector_id": "CON-9E7D26F8433113",
+            "site_id": "STE-8BFADAEB812008"
+          },
+          {
+            "connector_id": "CON-46B7FBF3E8E394",
+            "site_id": "STE-46EFEAABBCDFEA"
+          },
+          {
+            "connector_id": "CON-C9CB1AD6211F87",
+            "site_id": "STE-E08F442E1AEEA1"
+          },
+          {
+            "connector_id": "CON-DCDE8D6120B652",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-4814079FBA1BC6",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-58D66AF6261595",
+            "site_id": "STE-8B331FA9CF575C"
+          },
+          {
+            "connector_id": "CON-C1215EDAEF42B3",
+            "site_id": "STE-A264030AAFBC29"
+          },
+          {
+            "connector_id": "CON-F94285C56F0DEF",
+            "site_id": "STE-A278A275303C03"
+          },
+          {
+            "connector_id": "CON-467C510A7B8C8E",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-09616AE519FAFF",
+            "site_id": "STE-4360EBEA024323"
+          },
+          {
+            "connector_id": "CON-5065E47ADCA351",
+            "site_id": "STE-C82AC72C2E8AFD"
+          },
+          {
+            "connector_id": "CON-06388230726A49",
+            "site_id": "STE-8858D66CAD19B7"
+          },
+          {
+            "connector_id": "CON-66B458D0ED6DE1",
+            "site_id": "STE-8858D66CAD19B7"
+          },
+          {
+            "connector_id": "CON-F1DA7B0ED35D99",
+            "site_id": "STE-F1D9C1B4FDE4BB"
+          },
+          {
+            "connector_id": "CON-0EFA1BED3C32FF",
+            "site_id": "STE-D2F238F1107260"
+          },
+          {
+            "connector_id": "CON-4DCE1E1A785BF9",
+            "site_id": "STE-87AFB453D2444F"
+          },
+          {
+            "connector_id": "CON-27891E017AB574",
+            "site_id": "STE-08E454A2F947A7"
+          },
+          {
+            "connector_id": "CON-96C7090E4BD28E",
+            "site_id": "STE-B9DB9DF75CECC5"
+          },
+          {
+            "connector_id": "CON-CC84CB0576B784",
+            "site_id": "STE-2DB57FA5B0F14F"
+          },
+          {
+            "connector_id": "CON-838D0482367557",
+            "site_id": "STE-3738C44348C53C"
+          }
+        ],
+        "demands": [
+          {
+            "connector_id": "CON-57CBEF1B86FD42",
+            "demand_id": "DEM-264CF87E3106E1",
+            "reward": 133
+          },
+          {
+            "connector_id": "CON-98B64B332141CE",
+            "demand_id": "DEM-AD7F2F8E47A966",
+            "reward": 112
+          },
+          {
+            "connector_id": "CON-687D830DDA4437",
+            "demand_id": "DEM-E29A4BC3201A8E",
+            "reward": 107
+          },
+          {
+            "connector_id": "CON-FB63C3281D80A3",
+            "demand_id": "DEM-5B0B07E254418A",
+            "reward": 128
+          },
+          {
+            "connector_id": "CON-22ECDD48C8C095",
+            "demand_id": "DEM-A9174531C2EF84",
+            "reward": 146
+          },
+          {
+            "connector_id": "CON-FDA655F374A7AF",
+            "demand_id": "DEM-AE4A0ADA5BA9D4",
+            "reward": 127
+          },
+          {
+            "connector_id": "CON-0F92A3E4C5FFFF",
+            "demand_id": "DEM-C8D8593FEF4842",
+            "reward": 135
+          },
+          {
+            "connector_id": "CON-313E88CBBC88E1",
+            "demand_id": "DEM-D1C16C2E6DFD83",
+            "reward": 104
+          },
+          {
+            "connector_id": "CON-9FF01EEF6ED141",
+            "demand_id": "DEM-27E8F64BEE266A",
+            "reward": 134
+          },
+          {
+            "connector_id": "CON-7C74BAE4593915",
+            "demand_id": "DEM-2B9011AA38DCD8",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-46B7FBF3E8E394",
+            "demand_id": "DEM-7FBC8391AD68E9",
+            "reward": 118
+          },
+          {
+            "connector_id": "CON-DD905E4BBD4EA0",
+            "demand_id": "DEM-F56E660B13DFF8",
+            "reward": 116
+          },
+          {
+            "connector_id": "CON-33E1E3E4F0B612",
+            "demand_id": "DEM-D907F07842A0AC",
+            "reward": 143
+          },
+          {
+            "connector_id": "CON-AEF2C5CBF74047",
+            "demand_id": "DEM-BFF02E58A9841B",
+            "reward": 104
+          },
+          {
+            "connector_id": "CON-31BF343337CFF7",
+            "demand_id": "DEM-9B59AD38CF34AC",
+            "reward": 139
+          },
+          {
+            "connector_id": "CON-2E68C5EC0DC96C",
+            "demand_id": "DEM-01FC39C5823585",
+            "reward": 124
+          },
+          {
+            "connector_id": "CON-8919C6D9CD5980",
+            "demand_id": "DEM-9DF51C53DC700D",
+            "reward": 102
+          },
+          {
+            "connector_id": "CON-E3267CF0F25FB5",
+            "demand_id": "DEM-2F209822A71039",
+            "reward": 113
+          },
+          {
+            "connector_id": "CON-27891E017AB574",
+            "demand_id": "DEM-B9F18D400EB834",
+            "reward": 114
+          },
+          {
+            "connector_id": "CON-48A44D48459F1C",
+            "demand_id": "DEM-C33AAFED7AF30E",
+            "reward": 116
+          },
+          {
+            "connector_id": "CON-AFE751219558EC",
+            "demand_id": "DEM-A85B0E425074F9",
+            "reward": 102
+          },
+          {
+            "connector_id": "CON-09616AE519FAFF",
+            "demand_id": "DEM-3A2808D1858633",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-2A99776D679DC1",
+            "demand_id": "DEM-AE74318380D2A8",
+            "reward": 126
+          },
+          {
+            "connector_id": "CON-F82319E2D4F064",
+            "demand_id": "DEM-0BDEA8E7DA6589",
+            "reward": 146
+          },
+          {
+            "connector_id": "CON-BC5EB1036BE123",
+            "demand_id": "DEM-D3652E3AB0C4BD",
+            "reward": 141
+          },
+          {
+            "connector_id": "CON-40920C1AAC0DCF",
+            "demand_id": "DEM-B71125414423C4",
+            "reward": 128
+          },
+          {
+            "connector_id": "CON-9F3D05508F6F3C",
+            "demand_id": "DEM-22A1C33ABAB104",
+            "reward": 130
+          },
+          {
+            "connector_id": "CON-D7D008C0DD5A81",
+            "demand_id": "DEM-480D6DA57A9490",
+            "reward": 148
+          },
+          {
+            "connector_id": "CON-865C03DB2042F1",
+            "demand_id": "DEM-274ABFC93EA60E",
+            "reward": 113
+          },
+          {
+            "connector_id": "CON-A7BDD78DA0070B",
+            "demand_id": "DEM-6D932A1797AB46",
+            "reward": 114
+          },
+          {
+            "connector_id": "CON-941507ED2DC2D2",
+            "demand_id": "DEM-6CDF97C0A7648A",
+            "reward": 142
+          },
+          {
+            "connector_id": "CON-9655B380D1F1EE",
+            "demand_id": "DEM-FD698C68860771",
+            "reward": 113
+          },
+          {
+            "connector_id": "CON-E8DD4A5370BF69",
+            "demand_id": "DEM-9AB6AB30F783AF",
+            "reward": 146
+          },
+          {
+            "connector_id": "CON-C63C55E668F405",
+            "demand_id": "DEM-C628DE73A2782C",
+            "reward": 105
+          },
+          {
+            "connector_id": "CON-A613248BEC422B",
+            "demand_id": "DEM-F4FA17C2B19E37",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-04B5B761E20621",
+            "demand_id": "DEM-B5F9FA40CF55DD",
+            "reward": 147
+          },
+          {
+            "connector_id": "CON-E903F652688F4F",
+            "demand_id": "DEM-68BA01A70BF33C",
+            "reward": 121
+          },
+          {
+            "connector_id": "CON-0B973C692A435F",
+            "demand_id": "DEM-636E1C024AFFF1",
+            "reward": 121
+          },
+          {
+            "connector_id": "CON-0EFA1BED3C32FF",
+            "demand_id": "DEM-79058E3F87FDC4",
+            "reward": 141
+          },
+          {
+            "connector_id": "CON-416F29C81CE84D",
+            "demand_id": "DEM-7F8105F7117661",
+            "reward": 108
+          },
+          {
+            "connector_id": "CON-F1553B243CCC0C",
+            "demand_id": "DEM-4AE0F0CB387282",
+            "reward": 119
+          },
+          {
+            "connector_id": "CON-F94285C56F0DEF",
+            "demand_id": "DEM-EFDBB3952C5E28",
+            "reward": 116
+          },
+          {
+            "connector_id": "CON-70A71D008116B2",
+            "demand_id": "DEM-0527FBBF6D3C62",
+            "reward": 115
+          },
+          {
+            "connector_id": "CON-DCDE8D6120B652",
+            "demand_id": "DEM-BCD179440730E0",
+            "reward": 106
+          },
+          {
+            "connector_id": "CON-491136600AAC3B",
+            "demand_id": "DEM-E3E7933020078E",
+            "reward": 107
+          },
+          {
+            "connector_id": "CON-DB4EC694B9633C",
+            "demand_id": "DEM-D5D99B0BEBFD6E",
+            "reward": 121
+          },
+          {
+            "connector_id": "CON-506F2B0D9B19FA",
+            "demand_id": "DEM-47A0689362564C",
+            "reward": 138
+          },
+          {
+            "connector_id": "CON-66B458D0ED6DE1",
+            "demand_id": "DEM-AC77A19CFAF527",
+            "reward": 122
+          },
+          {
+            "connector_id": "CON-5935A4593E287F",
+            "demand_id": "DEM-91DD099AD00B25",
+            "reward": 102
+          },
+          {
+            "connector_id": "CON-EB80E78907F93B",
+            "demand_id": "DEM-B77F8F2C0142B8",
+            "reward": 146
+          },
+          {
+            "connector_id": "CON-372749C75EFE5E",
+            "demand_id": "DEM-C6A40912B26195",
+            "reward": 115
+          },
+          {
+            "connector_id": "CON-4632DBAD226103",
+            "demand_id": "DEM-CA68EAE6663C8B",
+            "reward": 123
+          },
+          {
+            "connector_id": "CON-B43D0A7FB59E5B",
+            "demand_id": "DEM-C258E471B0B251",
+            "reward": 107
+          },
+          {
+            "connector_id": "CON-EF2ED1FC7499A0",
+            "demand_id": "DEM-6AC7C6B26B6387",
+            "reward": 124
+          },
+          {
+            "connector_id": "CON-C29523872A414C",
+            "demand_id": "DEM-9FD8C27139CDF8",
+            "reward": 105
+          },
+          {
+            "connector_id": "CON-2E196B4ACAB52F",
+            "demand_id": "DEM-CDC80A0125E94D",
+            "reward": 116
+          },
+          {
+            "connector_id": "CON-878ED4EDF7003E",
+            "demand_id": "DEM-8A8D072FDCC423",
+            "reward": 123
+          },
+          {
+            "connector_id": "CON-70D8156CDE2DB2",
+            "demand_id": "DEM-6A46A702CF2E91",
+            "reward": 129
+          },
+          {
+            "connector_id": "CON-4608152A4D6394",
+            "demand_id": "DEM-275E6B2783816D",
+            "reward": 139
+          },
+          {
+            "connector_id": "CON-D1717BD4902B92",
+            "demand_id": "DEM-DE86969163FECA",
+            "reward": 142
+          },
+          {
+            "connector_id": "CON-187F1F67CBA3B6",
+            "demand_id": "DEM-71175478238880",
+            "reward": 104
+          },
+          {
+            "connector_id": "CON-838D0482367557",
+            "demand_id": "DEM-55D09D1E10A8FB",
+            "reward": 105
+          },
+          {
+            "connector_id": "CON-05909CC162F371",
+            "demand_id": "DEM-3F37A6056CD0A4",
+            "reward": 137
+          },
+          {
+            "connector_id": "CON-85E1AA9FD85AA9",
+            "demand_id": "DEM-7B962BC5EE5976",
+            "reward": 133
+          },
+          {
+            "connector_id": "CON-97E9C328B18CD8",
+            "demand_id": "DEM-8D064688E80475",
+            "reward": 110
+          },
+          {
+            "connector_id": "CON-89211C3C1A70E8",
+            "demand_id": "DEM-BD3D931E4CDED1",
+            "reward": 117
+          },
+          {
+            "connector_id": "CON-3A950B57F6CFF3",
+            "demand_id": "DEM-E37449B5E40E13",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-4C8101C046FD9C",
+            "demand_id": "DEM-63730AB35C301F",
+            "reward": 141
+          },
+          {
+            "connector_id": "CON-41ED023B46DC13",
+            "demand_id": "DEM-EC33CAED8DABCD",
+            "reward": 100
+          },
+          {
+            "connector_id": "CON-4814079FBA1BC6",
+            "demand_id": "DEM-C9D7876795494E",
+            "reward": 104
+          },
+          {
+            "connector_id": "CON-F19AFDD9ADAC40",
+            "demand_id": "DEM-6D7FC7C6711F33",
+            "reward": 134
+          },
+          {
+            "connector_id": "CON-1379F41994E879",
+            "demand_id": "DEM-D22B1C516303A5",
+            "reward": 114
+          },
+          {
+            "connector_id": "CON-0C4FE5E943AE07",
+            "demand_id": "DEM-97B636A614244A",
+            "reward": 102
+          },
+          {
+            "connector_id": "CON-2767554049FBE7",
+            "demand_id": "DEM-099ACB34FA82AB",
+            "reward": 103
+          },
+          {
+            "connector_id": "CON-8AE40F33A303BA",
+            "demand_id": "DEM-EC4F2B71ED79C5",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-96C7090E4BD28E",
+            "demand_id": "DEM-490A5F52786129",
+            "reward": 109
+          },
+          {
+            "connector_id": "CON-5065E47ADCA351",
+            "demand_id": "DEM-5C7F9455EB494D",
+            "reward": 112
+          },
+          {
+            "connector_id": "CON-8390F42C502052",
+            "demand_id": "DEM-2D5E40A09A3F58",
+            "reward": 136
+          },
+          {
+            "connector_id": "CON-A3A599E72CBF5F",
+            "demand_id": "DEM-37DF1978F77582",
+            "reward": 128
+          },
+          {
+            "connector_id": "CON-6814BE4979CF70",
+            "demand_id": "DEM-E5430B99FF55EE",
+            "reward": 100
+          },
+          {
+            "connector_id": "CON-055851D524C807",
+            "demand_id": "DEM-39DFB63233441C",
+            "reward": 134
+          },
+          {
+            "connector_id": "CON-E1A0C0E744A1EF",
+            "demand_id": "DEM-F4FA7CAA1216D9",
+            "reward": 106
+          },
+          {
+            "connector_id": "CON-E208EB29E5B176",
+            "demand_id": "DEM-1A199A49E32773",
+            "reward": 118
+          },
+          {
+            "connector_id": "CON-6ABA51545A59CF",
+            "demand_id": "DEM-74CBD5C3D1D0B9",
+            "reward": 123
+          },
+          {
+            "connector_id": "CON-F18E49ED8349F2",
+            "demand_id": "DEM-B28D894C8BDAAD",
+            "reward": 104
+          },
+          {
+            "connector_id": "CON-AEC165FFB19D53",
+            "demand_id": "DEM-7E32876CD54084",
+            "reward": 135
+          },
+          {
+            "connector_id": "CON-2E86B232191F8D",
+            "demand_id": "DEM-471B9233A189A2",
+            "reward": 107
+          },
+          {
+            "connector_id": "CON-3D3019CE26E8CA",
+            "demand_id": "DEM-63CA984DF69023",
+            "reward": 138
+          },
+          {
+            "connector_id": "CON-3F1AE8ADE83290",
+            "demand_id": "DEM-110BC941BC613F",
+            "reward": 116
+          },
+          {
+            "connector_id": "CON-3026D461F62918",
+            "demand_id": "DEM-DA68151276B90E",
+            "reward": 114
+          },
+          {
+            "connector_id": "CON-15C44F196B1AA2",
+            "demand_id": "DEM-5356A2C5ABA159",
+            "reward": 126
+          },
+          {
+            "connector_id": "CON-E592F7D13117FE",
+            "demand_id": "DEM-8C504A9B710270",
+            "reward": 100
+          },
+          {
+            "connector_id": "CON-7E39F040B92DB0",
+            "demand_id": "DEM-F82ABAC071C974",
+            "reward": 112
+          },
+          {
+            "connector_id": "CON-4DCE1E1A785BF9",
+            "demand_id": "DEM-97A83276BED124",
+            "reward": 103
+          },
+          {
+            "connector_id": "CON-00ED04E9F7EC5C",
+            "demand_id": "DEM-9CC6BE39A790B1",
+            "reward": 129
+          },
+          {
+            "connector_id": "CON-37A097A9F53016",
+            "demand_id": "DEM-E85BE60C8649AE",
+            "reward": 126
+          },
+          {
+            "connector_id": "CON-7633E6BF8A235B",
+            "demand_id": "DEM-6CCA2DE0623EF7",
+            "reward": 121
+          },
+          {
+            "connector_id": "CON-42E97198DF6332",
+            "demand_id": "DEM-FC1AE50BE350A4",
+            "reward": 119
+          },
+          {
+            "connector_id": "CON-B5493344CB6A6E",
+            "demand_id": "DEM-91799477C63617",
+            "reward": 141
+          },
+          {
+            "connector_id": "CON-BBE8CB17C7C4F7",
+            "demand_id": "DEM-89412CCAD3B641",
+            "reward": 124
+          },
+          {
+            "connector_id": "CON-F1DA7B0ED35D99",
+            "demand_id": "DEM-A7F4DEDEE41EF5",
+            "reward": 119
+          },
+          {
+            "connector_id": "CON-9E7D26F8433113",
+            "demand_id": "DEM-EA5128F1644C23",
+            "reward": 135
+          },
+          {
+            "connector_id": "CON-19DCB7B2743371",
+            "demand_id": "DEM-4134B2C9A598FF",
+            "reward": 110
+          },
+          {
+            "connector_id": "CON-467C510A7B8C8E",
+            "demand_id": "DEM-A608E0C618F5F6",
+            "reward": 144
+          },
+          {
+            "connector_id": "CON-BC959B97688780",
+            "demand_id": "DEM-BFAE0F2633EB7E",
+            "reward": 126
+          },
+          {
+            "connector_id": "CON-FF1E6174B4B8E1",
+            "demand_id": "DEM-D0211B3DEB5495",
+            "reward": 133
+          },
+          {
+            "connector_id": "CON-E2BB3AB26A745A",
+            "demand_id": "DEM-843A0AEFAE20CB",
+            "reward": 128
+          },
+          {
+            "connector_id": "CON-A82E820B06D2F3",
+            "demand_id": "DEM-00647E3B2B085C",
+            "reward": 145
+          },
+          {
+            "connector_id": "CON-B2DCEDDDA54E2A",
+            "demand_id": "DEM-065E871C0794F6",
+            "reward": 108
+          },
+          {
+            "connector_id": "CON-C7AFF6A5865F59",
+            "demand_id": "DEM-9B7420CDA608DA",
+            "reward": 119
+          },
+          {
+            "connector_id": "CON-7D940FFBD16E59",
+            "demand_id": "DEM-B3AD3AEDE7EF68",
+            "reward": 120
+          },
+          {
+            "connector_id": "CON-C968D3E043FBC0",
+            "demand_id": "DEM-91933016D0D52A",
+            "reward": 114
+          },
+          {
+            "connector_id": "CON-5603055F2A1F84",
+            "demand_id": "DEM-5D9B6DA865C964",
+            "reward": 109
+          },
+          {
+            "connector_id": "CON-7EFC4D6E76A8A1",
+            "demand_id": "DEM-92B173F748D143",
+            "reward": 144
+          },
+          {
+            "connector_id": "CON-06388230726A49",
+            "demand_id": "DEM-51AB695E5375B8",
+            "reward": 143
+          },
+          {
+            "connector_id": "CON-903269C2008530",
+            "demand_id": "DEM-B3EB4C6064D3CA",
+            "reward": 120
+          },
+          {
+            "connector_id": "CON-C1215EDAEF42B3",
+            "demand_id": "DEM-C2B58A78B1C851",
+            "reward": 115
+          },
+          {
+            "connector_id": "CON-2A64F12E25B050",
+            "demand_id": "DEM-25DFEC94DB4EBF",
+            "reward": 145
+          },
+          {
+            "connector_id": "CON-A6660B9C409AF4",
+            "demand_id": "DEM-340BE4691A3080",
+            "reward": 123
+          },
+          {
+            "connector_id": "CON-CC84CB0576B784",
+            "demand_id": "DEM-A92F9FF1EC1A19",
+            "reward": 106
+          },
+          {
+            "connector_id": "CON-158DE0E8D0AF24",
+            "demand_id": "DEM-CDDDD91D2C40FA",
+            "reward": 129
+          },
+          {
+            "connector_id": "CON-19B4F1496A05B2",
+            "demand_id": "DEM-3855AC054CA706",
+            "reward": 127
+          },
+          {
+            "connector_id": "CON-00FAC23703D3FB",
+            "demand_id": "DEM-F5B79D46601611",
+            "reward": 144
+          },
+          {
+            "connector_id": "CON-62605A688E71F1",
+            "demand_id": "DEM-0E026D8B9E16FD",
+            "reward": 136
+          },
+          {
+            "connector_id": "CON-795F1924D9DF89",
+            "demand_id": "DEM-489F9635AD0710",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-A3DC1DFD05C870",
+            "demand_id": "DEM-78382DC29AC6D6",
+            "reward": 149
+          },
+          {
+            "connector_id": "CON-32AD9A471169B0",
+            "demand_id": "DEM-725B67347ECD0D",
+            "reward": 102
+          },
+          {
+            "connector_id": "CON-67CD7786B0BE46",
+            "demand_id": "DEM-D854430C10AADE",
+            "reward": 139
+          },
+          {
+            "connector_id": "CON-6E82ED0AA7C1A1",
+            "demand_id": "DEM-E4760D97140F28",
+            "reward": 148
+          },
+          {
+            "connector_id": "CON-09908DC8AE5EF7",
+            "demand_id": "DEM-4D31EFFB38A556",
+            "reward": 139
+          },
+          {
+            "connector_id": "CON-AC10494A7DFEE9",
+            "demand_id": "DEM-9332FCD496C540",
+            "reward": 115
+          },
+          {
+            "connector_id": "CON-60A4DC6DFBFC90",
+            "demand_id": "DEM-4F6D0CF81241D8",
+            "reward": 124
+          },
+          {
+            "connector_id": "CON-C9CB1AD6211F87",
+            "demand_id": "DEM-00CDC38CB832B7",
+            "reward": 122
+          },
+          {
+            "connector_id": "CON-3091F237BDBF1D",
+            "demand_id": "DEM-0F6EB628021AE0",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-C7741DCA3B7E43",
+            "demand_id": "DEM-EF39AD19910AC9",
+            "reward": 133
+          },
+          {
+            "connector_id": "CON-002735AAE974AC",
+            "demand_id": "DEM-658FEF9C4AF82A",
+            "reward": 149
+          },
+          {
+            "connector_id": "CON-5EAF3218AA7E6E",
+            "demand_id": "DEM-09D0547A29FEA4",
+            "reward": 148
+          },
+          {
+            "connector_id": "CON-752C0742D56CB0",
+            "demand_id": "DEM-3CA44F9CC16CD1",
+            "reward": 118
+          },
+          {
+            "connector_id": "CON-F5703FBA8EB60E",
+            "demand_id": "DEM-C7A2298AE93970",
+            "reward": 131
+          },
+          {
+            "connector_id": "CON-78F5437F029655",
+            "demand_id": "DEM-15F8557F9D974F",
+            "reward": 145
+          },
+          {
+            "connector_id": "CON-D76FB83C542F08",
+            "demand_id": "DEM-82D42BB6FBF092",
+            "reward": 108
+          },
+          {
+            "connector_id": "CON-58D66AF6261595",
+            "demand_id": "DEM-AE7C09911EBB66",
+            "reward": 147
+          },
+          {
+            "connector_id": "CON-BB484672DA961D",
+            "demand_id": "DEM-A5C0691A50EF18",
+            "reward": 118
+          },
+          {
+            "connector_id": "CON-71DF0FCB558CFA",
+            "demand_id": "DEM-7A507D26A2925C",
+            "reward": 121
+          },
+          {
+            "connector_id": "CON-7C804912FDEF4A",
+            "demand_id": "DEM-FD5B2F5228BA43",
+            "reward": 117
+          },
+          {
+            "connector_id": "CON-558C35B452AB6D",
+            "demand_id": "DEM-04694B1D014090",
+            "reward": 140
+          },
+          {
+            "connector_id": "CON-48FD6230983ED1",
+            "demand_id": "DEM-C8426DC0E51B63",
+            "reward": 112
+          },
+          {
+            "connector_id": "CON-E5672D2D9BCF74",
+            "demand_id": "DEM-9356209D74B053",
+            "reward": 100
+          },
+          {
+            "connector_id": "CON-8D89137AFA1C6F",
+            "demand_id": "DEM-025C0526D1D097",
+            "reward": 115
+          },
+          {
+            "connector_id": "CON-58AA0065A73651",
+            "demand_id": "DEM-E5F588BBF48F62",
+            "reward": 106
+          },
+          {
+            "connector_id": "CON-E2DF645A9F1150",
+            "demand_id": "DEM-D1D1F22E268835",
+            "reward": 100
+          },
+          {
+            "connector_id": "CON-482972B2C06065",
+            "demand_id": "DEM-7E94C3A441B194",
+            "reward": 149
+          },
+          {
+            "connector_id": "CON-5E26EB42124D6C",
+            "demand_id": "DEM-477493E5026021",
+            "reward": 145
+          },
+          {
+            "connector_id": "CON-B1740AC1A9943F",
+            "demand_id": "DEM-AD4F9D0507D0D7",
+            "reward": 107
+          },
+          {
+            "connector_id": "CON-A31070B4879565",
+            "demand_id": "DEM-AE3E1E3D07DC20",
+            "reward": 131
+          },
+          {
+            "connector_id": "CON-6B2CC3C196E38E",
+            "demand_id": "DEM-6C7DC0F3F63E84",
+            "reward": 124
+          },
+          {
+            "connector_id": "CON-18EC580E0C1C0B",
+            "demand_id": "DEM-285FCBAABAF160",
+            "reward": 125
+          },
+          {
+            "connector_id": "CON-E4600DA3F74077",
+            "demand_id": "DEM-AC45EC40695D3E",
+            "reward": 103
+          }
+        ],
+        "encoding": "mediated"
+      },
+      "demand_order": [
+        "DEM-3CA44F9CC16CD1",
+        "DEM-C6A40912B26195",
+        "DEM-0527FBBF6D3C62",
+        "DEM-4D31EFFB38A556",
+        "DEM-6D932A1797AB46",
+        "DEM-4AE0F0CB387282",
+        "DEM-E5F588BBF48F62",
+        "DEM-55D09D1E10A8FB",
+        "DEM-EA5128F1644C23",
+        "DEM-C7A2298AE93970",
+        "DEM-82D42BB6FBF092",
+        "DEM-AE74318380D2A8",
+        "DEM-CA68EAE6663C8B",
+        "DEM-F4FA17C2B19E37",
+        "DEM-490A5F52786129",
+        "DEM-91DD099AD00B25",
+        "DEM-B28D894C8BDAAD",
+        "DEM-9356209D74B053",
+        "DEM-47A0689362564C",
+        "DEM-A9174531C2EF84",
+        "DEM-C33AAFED7AF30E",
+        "DEM-6CDF97C0A7648A",
+        "DEM-3855AC054CA706",
+        "DEM-01FC39C5823585",
+        "DEM-D3652E3AB0C4BD",
+        "DEM-6AC7C6B26B6387",
+        "DEM-6A46A702CF2E91",
+        "DEM-340BE4691A3080",
+        "DEM-C9D7876795494E",
+        "DEM-79058E3F87FDC4",
+        "DEM-9AB6AB30F783AF",
+        "DEM-AD7F2F8E47A966",
+        "DEM-A7F4DEDEE41EF5",
+        "DEM-2D5E40A09A3F58",
+        "DEM-C8426DC0E51B63",
+        "DEM-8C504A9B710270",
+        "DEM-274ABFC93EA60E",
+        "DEM-FC1AE50BE350A4",
+        "DEM-8D064688E80475",
+        "DEM-285FCBAABAF160",
+        "DEM-E37449B5E40E13",
+        "DEM-92B173F748D143",
+        "DEM-89412CCAD3B641",
+        "DEM-4F6D0CF81241D8",
+        "DEM-00CDC38CB832B7",
+        "DEM-D854430C10AADE",
+        "DEM-91799477C63617",
+        "DEM-DA68151276B90E",
+        "DEM-7B962BC5EE5976",
+        "DEM-B77F8F2C0142B8",
+        "DEM-9DF51C53DC700D",
+        "DEM-63CA984DF69023",
+        "DEM-09D0547A29FEA4",
+        "DEM-A608E0C618F5F6",
+        "DEM-25DFEC94DB4EBF",
+        "DEM-0E026D8B9E16FD",
+        "DEM-AE7C09911EBB66",
+        "DEM-EC33CAED8DABCD",
+        "DEM-A85B0E425074F9",
+        "DEM-97A83276BED124",
+        "DEM-B9F18D400EB834",
+        "DEM-AC45EC40695D3E",
+        "DEM-FD698C68860771",
+        "DEM-D1C16C2E6DFD83",
+        "DEM-8A8D072FDCC423",
+        "DEM-EC4F2B71ED79C5",
+        "DEM-68BA01A70BF33C",
+        "DEM-A92F9FF1EC1A19",
+        "DEM-4134B2C9A598FF",
+        "DEM-C258E471B0B251",
+        "DEM-BFAE0F2633EB7E",
+        "DEM-9CC6BE39A790B1",
+        "DEM-2F209822A71039",
+        "DEM-BCD179440730E0",
+        "DEM-7E32876CD54084",
+        "DEM-04694B1D014090",
+        "DEM-EFDBB3952C5E28",
+        "DEM-39DFB63233441C",
+        "DEM-9332FCD496C540",
+        "DEM-480D6DA57A9490",
+        "DEM-E4760D97140F28",
+        "DEM-A5C0691A50EF18",
+        "DEM-843A0AEFAE20CB",
+        "DEM-C8D8593FEF4842",
+        "DEM-7E94C3A441B194",
+        "DEM-3A2808D1858633",
+        "DEM-E3E7933020078E",
+        "DEM-FD5B2F5228BA43",
+        "DEM-725B67347ECD0D",
+        "DEM-D907F07842A0AC",
+        "DEM-9FD8C27139CDF8",
+        "DEM-477493E5026021",
+        "DEM-D0211B3DEB5495",
+        "DEM-471B9233A189A2",
+        "DEM-00647E3B2B085C",
+        "DEM-B71125414423C4",
+        "DEM-2B9011AA38DCD8",
+        "DEM-37DF1978F77582",
+        "DEM-6C7DC0F3F63E84",
+        "DEM-7A507D26A2925C",
+        "DEM-099ACB34FA82AB",
+        "DEM-5356A2C5ABA159",
+        "DEM-636E1C024AFFF1",
+        "DEM-025C0526D1D097",
+        "DEM-7F8105F7117661",
+        "DEM-74CBD5C3D1D0B9",
+        "DEM-E5430B99FF55EE",
+        "DEM-AE3E1E3D07DC20",
+        "DEM-B5F9FA40CF55DD",
+        "DEM-C628DE73A2782C",
+        "DEM-B3EB4C6064D3CA",
+        "DEM-15F8557F9D974F",
+        "DEM-658FEF9C4AF82A",
+        "DEM-63730AB35C301F",
+        "DEM-D1D1F22E268835",
+        "DEM-489F9635AD0710",
+        "DEM-9B7420CDA608DA",
+        "DEM-EF39AD19910AC9",
+        "DEM-264CF87E3106E1",
+        "DEM-6CCA2DE0623EF7",
+        "DEM-27E8F64BEE266A",
+        "DEM-F56E660B13DFF8",
+        "DEM-AD4F9D0507D0D7",
+        "DEM-9B59AD38CF34AC",
+        "DEM-E29A4BC3201A8E",
+        "DEM-1A199A49E32773",
+        "DEM-275E6B2783816D",
+        "DEM-5C7F9455EB494D",
+        "DEM-7FBC8391AD68E9",
+        "DEM-E85BE60C8649AE",
+        "DEM-BD3D931E4CDED1",
+        "DEM-D5D99B0BEBFD6E",
+        "DEM-110BC941BC613F",
+        "DEM-AE4A0ADA5BA9D4",
+        "DEM-71175478238880",
+        "DEM-BFF02E58A9841B",
+        "DEM-C2B58A78B1C851",
+        "DEM-065E871C0794F6",
+        "DEM-97B636A614244A",
+        "DEM-CDC80A0125E94D",
+        "DEM-DE86969163FECA",
+        "DEM-22A1C33ABAB104",
+        "DEM-CDDDD91D2C40FA",
+        "DEM-F5B79D46601611",
+        "DEM-B3AD3AEDE7EF68",
+        "DEM-6D7FC7C6711F33",
+        "DEM-5D9B6DA865C964",
+        "DEM-D22B1C516303A5",
+        "DEM-5B0B07E254418A",
+        "DEM-F82ABAC071C974",
+        "DEM-51AB695E5375B8",
+        "DEM-91933016D0D52A",
+        "DEM-78382DC29AC6D6",
+        "DEM-AC77A19CFAF527",
+        "DEM-0BDEA8E7DA6589",
+        "DEM-F4FA7CAA1216D9",
+        "DEM-3F37A6056CD0A4",
+        "DEM-0F6EB628021AE0"
+      ],
+      "site_rows": [
+        {
+          "operating_cost": 4531,
+          "option": 0,
+          "site_id": "STE-CFE68565C895E3",
+          "zone_id": "ZON-207E4FE922A639"
+        },
+        {
+          "operating_cost": 5018,
+          "option": 0,
+          "site_id": "STE-1773193118CC8A",
+          "zone_id": "ZON-7E4BFDF9B42DFD"
+        },
+        {
+          "operating_cost": 4238,
+          "option": 0,
+          "site_id": "STE-F358D3A652100F",
+          "zone_id": "ZON-14D0B3B424A778"
+        },
+        {
+          "operating_cost": 2287,
+          "option": 0,
+          "site_id": "STE-A4F771D91816F7",
+          "zone_id": "ZON-A85FA7366A5D0C"
+        },
+        {
+          "operating_cost": 3067,
+          "option": 0,
+          "site_id": "STE-7428247D489C3F",
+          "zone_id": "ZON-90BCCF4DB93BA6"
+        },
+        {
+          "operating_cost": 18,
+          "option": 1,
+          "site_id": "STE-A278A275303C03",
+          "zone_id": "ZON-1DFA3F9CFAB95C"
+        },
+        {
+          "operating_cost": 4628,
+          "option": 0,
+          "site_id": "STE-0EBFF1CC0BCAB6",
+          "zone_id": "ZON-AF81508019827A"
+        },
+        {
+          "operating_cost": 20,
+          "option": 1,
+          "site_id": "STE-1C59E8078A00A9",
+          "zone_id": "ZON-90BCCF4DB93BA6"
+        },
+        {
+          "operating_cost": 5214,
+          "option": 0,
+          "site_id": "STE-7704AC89072754",
+          "zone_id": "ZON-8217C71364CE27"
+        },
+        {
+          "operating_cost": 9,
+          "option": 1,
+          "site_id": "STE-8B331FA9CF575C",
+          "zone_id": "ZON-104A69865E503B"
+        },
+        {
+          "operating_cost": 2092,
+          "option": 0,
+          "site_id": "STE-E252183E9446DF",
+          "zone_id": "ZON-0829694296E225"
+        },
+        {
+          "operating_cost": 9,
+          "option": 1,
+          "site_id": "STE-C82AC72C2E8AFD",
+          "zone_id": "ZON-DC84470FDE9ABC"
+        },
+        {
+          "operating_cost": 4043,
+          "option": 0,
+          "site_id": "STE-7DE0E916ABCD7E",
+          "zone_id": "ZON-E94D4C80A7AE53"
+        },
+        {
+          "operating_cost": 1799,
+          "option": 0,
+          "site_id": "STE-6D54CA95D11AB2",
+          "zone_id": "ZON-50AFBC81AE55C1"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-A4B471E66BB839",
+          "zone_id": "ZON-DE62A9A13EEB34"
+        },
+        {
+          "operating_cost": 2482,
+          "option": 0,
+          "site_id": "STE-9B529A71E59498",
+          "zone_id": "ZON-87B77BA1DDCFE2"
+        },
+        {
+          "operating_cost": 4921,
+          "option": 0,
+          "site_id": "STE-6F6FF4964EFB41",
+          "zone_id": "ZON-81C5DE5A126316"
+        },
+        {
+          "operating_cost": 18,
+          "option": 1,
+          "site_id": "STE-2FAAD6E959694B",
+          "zone_id": "ZON-AF81508019827A"
+        },
+        {
+          "operating_cost": 5,
+          "option": 1,
+          "site_id": "STE-13C7738BF0B24C",
+          "zone_id": "ZON-B7BF80DAEE0B00"
+        },
+        {
+          "operating_cost": 15,
+          "option": 1,
+          "site_id": "STE-4C68C1B6102DFB",
+          "zone_id": "ZON-D921A63073875D"
+        },
+        {
+          "operating_cost": 2970,
+          "option": 0,
+          "site_id": "STE-B0A28D8388BE29",
+          "zone_id": "ZON-034C7A0038E9CD"
+        },
+        {
+          "operating_cost": 1311,
+          "option": 0,
+          "site_id": "STE-59DEE73F0B870E",
+          "zone_id": "ZON-2DD37903494980"
+        },
+        {
+          "operating_cost": 1896,
+          "option": 0,
+          "site_id": "STE-2F512A3F9DBE96",
+          "zone_id": "ZON-C03847EE0CE9E1"
+        },
+        {
+          "operating_cost": 10,
+          "option": 1,
+          "site_id": "STE-46EFEAABBCDFEA",
+          "zone_id": "ZON-D5BA408FBA7C26"
+        },
+        {
+          "operating_cost": 2,
+          "option": 1,
+          "site_id": "STE-3738C44348C53C",
+          "zone_id": "ZON-87B77BA1DDCFE2"
+        },
+        {
+          "operating_cost": 14,
+          "option": 1,
+          "site_id": "STE-3381098A12A12D",
+          "zone_id": "ZON-C28360065DC4B0"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-0134260E69C026",
+          "zone_id": "ZON-EE6790D6CEE70A"
+        },
+        {
+          "operating_cost": 15,
+          "option": 1,
+          "site_id": "STE-0D6837C4287B7A",
+          "zone_id": "ZON-A85FA7366A5D0C"
+        },
+        {
+          "operating_cost": 16,
+          "option": 1,
+          "site_id": "STE-E94910904A9727",
+          "zone_id": "ZON-14D0B3B424A778"
+        },
+        {
+          "operating_cost": 10,
+          "option": 1,
+          "site_id": "STE-2DB57FA5B0F14F",
+          "zone_id": "ZON-259DAB9BCA5259"
+        },
+        {
+          "operating_cost": 2189,
+          "option": 0,
+          "site_id": "STE-C45629CF8D30E6",
+          "zone_id": "ZON-830EE8179893B1"
+        },
+        {
+          "operating_cost": 2384,
+          "option": 0,
+          "site_id": "STE-95D71F8D57E173",
+          "zone_id": "ZON-DE62A9A13EEB34"
+        },
+        {
+          "operating_cost": 7,
+          "option": 1,
+          "site_id": "STE-A3E3DBF885A840",
+          "zone_id": "ZON-9152E8E04ED1B3"
+        },
+        {
+          "operating_cost": 3848,
+          "option": 0,
+          "site_id": "STE-A704964B050942",
+          "zone_id": "ZON-6A142A9060076F"
+        },
+        {
+          "operating_cost": 1604,
+          "option": 0,
+          "site_id": "STE-BB7126F75F6D37",
+          "zone_id": "ZON-9152E8E04ED1B3"
+        },
+        {
+          "operating_cost": 19,
+          "option": 1,
+          "site_id": "STE-8EF8DCABB51690",
+          "zone_id": "ZON-71D759BF7E1969"
+        },
+        {
+          "operating_cost": 5,
+          "option": 1,
+          "site_id": "STE-A264030AAFBC29",
+          "zone_id": "ZON-830EE8179893B1"
+        },
+        {
+          "operating_cost": 1,
+          "option": 1,
+          "site_id": "STE-642E144845E4A1",
+          "zone_id": "ZON-931281C184E0F0"
+        },
+        {
+          "operating_cost": 16,
+          "option": 1,
+          "site_id": "STE-B88836EA6E7125",
+          "zone_id": "ZON-2FE2F12B59AB82"
+        },
+        {
+          "operating_cost": 20,
+          "option": 1,
+          "site_id": "STE-E08F442E1AEEA1",
+          "zone_id": "ZON-034C7A0038E9CD"
+        },
+        {
+          "operating_cost": 1409,
+          "option": 0,
+          "site_id": "STE-1820B69C4B4970",
+          "zone_id": "ZON-D7CB99355A1ACF"
+        },
+        {
+          "operating_cost": 15,
+          "option": 1,
+          "site_id": "STE-8858D66CAD19B7",
+          "zone_id": "ZON-2C1C7DE8B11FFA"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-0BF996FBDE75D1",
+          "zone_id": "ZON-A7575C992661BF"
+        },
+        {
+          "operating_cost": 5116,
+          "option": 0,
+          "site_id": "STE-6FDD1CC1812E10",
+          "zone_id": "ZON-6F5FF96B001767"
+        },
+        {
+          "operating_cost": 2579,
+          "option": 0,
+          "site_id": "STE-F605DF0CAFCE79",
+          "zone_id": "ZON-2FE2F12B59AB82"
+        },
+        {
+          "operating_cost": 11,
+          "option": 1,
+          "site_id": "STE-4360EBEA024323",
+          "zone_id": "ZON-11D22F9010A90B"
+        },
+        {
+          "operating_cost": 4335,
+          "option": 0,
+          "site_id": "STE-3014580585DCAF",
+          "zone_id": "ZON-1DFA3F9CFAB95C"
+        },
+        {
+          "operating_cost": 14,
+          "option": 1,
+          "site_id": "STE-8BFADAEB812008",
+          "zone_id": "ZON-0829694296E225"
+        },
+        {
+          "operating_cost": 3262,
+          "option": 0,
+          "site_id": "STE-77238F472ABF1C",
+          "zone_id": "ZON-11D22F9010A90B"
+        },
+        {
+          "operating_cost": 19,
+          "option": 1,
+          "site_id": "STE-3200BDAEAC40B8",
+          "zone_id": "ZON-D7CB99355A1ACF"
+        },
+        {
+          "operating_cost": 3,
+          "option": 1,
+          "site_id": "STE-99BF3C4D7C6201",
+          "zone_id": "ZON-50AFBC81AE55C1"
+        },
+        {
+          "operating_cost": 4433,
+          "option": 0,
+          "site_id": "STE-5DFD14B4CDB6C2",
+          "zone_id": "ZON-AD30B6A1428EF8"
+        },
+        {
+          "operating_cost": 14,
+          "option": 1,
+          "site_id": "STE-8A6F72011CBB71",
+          "zone_id": "ZON-AD30B6A1428EF8"
+        },
+        {
+          "operating_cost": 2677,
+          "option": 0,
+          "site_id": "STE-388252AD5CFFCC",
+          "zone_id": "ZON-D5BA408FBA7C26"
+        },
+        {
+          "operating_cost": 3750,
+          "option": 0,
+          "site_id": "STE-FABF0835D0F35D",
+          "zone_id": "ZON-D0AAAE8D3096A9"
+        },
+        {
+          "operating_cost": 15,
+          "option": 1,
+          "site_id": "STE-87AFB453D2444F",
+          "zone_id": "ZON-8217C71364CE27"
+        },
+        {
+          "operating_cost": 3555,
+          "option": 0,
+          "site_id": "STE-789CC7D325C6EC",
+          "zone_id": "ZON-259DAB9BCA5259"
+        },
+        {
+          "operating_cost": 9,
+          "option": 1,
+          "site_id": "STE-08E454A2F947A7",
+          "zone_id": "ZON-6A142A9060076F"
+        },
+        {
+          "operating_cost": 2774,
+          "option": 0,
+          "site_id": "STE-3878A5D9DF19D9",
+          "zone_id": "ZON-C28360065DC4B0"
+        },
+        {
+          "operating_cost": 13,
+          "option": 1,
+          "site_id": "STE-9E51BFC9CF943B",
+          "zone_id": "ZON-6A1B05A2DC4844"
+        },
+        {
+          "operating_cost": 1701,
+          "option": 0,
+          "site_id": "STE-678CBD61FCC925",
+          "zone_id": "ZON-D921A63073875D"
+        },
+        {
+          "operating_cost": 19,
+          "option": 1,
+          "site_id": "STE-36C6983D56D671",
+          "zone_id": "ZON-7E4BFDF9B42DFD"
+        },
+        {
+          "operating_cost": 18,
+          "option": 1,
+          "site_id": "STE-5639D035FF7880",
+          "zone_id": "ZON-D0AAAE8D3096A9"
+        },
+        {
+          "operating_cost": 8,
+          "option": 1,
+          "site_id": "STE-F1D9C1B4FDE4BB",
+          "zone_id": "ZON-207E4FE922A639"
+        },
+        {
+          "operating_cost": 3653,
+          "option": 0,
+          "site_id": "STE-00D80D65D5A50A",
+          "zone_id": "ZON-71D759BF7E1969"
+        },
+        {
+          "operating_cost": 4726,
+          "option": 0,
+          "site_id": "STE-7EB69A28631220",
+          "zone_id": "ZON-A7575C992661BF"
+        },
+        {
+          "operating_cost": 19,
+          "option": 1,
+          "site_id": "STE-D2F238F1107260",
+          "zone_id": "ZON-2DD37903494980"
+        },
+        {
+          "operating_cost": 3360,
+          "option": 0,
+          "site_id": "STE-C4968F524C1631",
+          "zone_id": "ZON-7A4355F1E7D85B"
+        },
+        {
+          "operating_cost": 2,
+          "option": 1,
+          "site_id": "STE-1211F7AE8932F4",
+          "zone_id": "ZON-C03847EE0CE9E1"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-B9DB9DF75CECC5",
+          "zone_id": "ZON-E94D4C80A7AE53"
+        },
+        {
+          "operating_cost": 4823,
+          "option": 0,
+          "site_id": "STE-C025A1112CB631",
+          "zone_id": "ZON-B7BF80DAEE0B00"
+        },
+        {
+          "operating_cost": 1214,
+          "option": 0,
+          "site_id": "STE-44E0C6F5F03D3A",
+          "zone_id": "ZON-EE6790D6CEE70A"
+        },
+        {
+          "operating_cost": 1994,
+          "option": 0,
+          "site_id": "STE-00C3174E2D932C",
+          "zone_id": "ZON-E0CDE150871B03"
+        },
+        {
+          "operating_cost": 7,
+          "option": 1,
+          "site_id": "STE-442CF71165CB2F",
+          "zone_id": "ZON-E0CDE150871B03"
+        },
+        {
+          "operating_cost": 3945,
+          "option": 0,
+          "site_id": "STE-8398CAF9F904DE",
+          "zone_id": "ZON-2C1C7DE8B11FFA"
+        },
+        {
+          "operating_cost": 17,
+          "option": 1,
+          "site_id": "STE-A5224476D3D384",
+          "zone_id": "ZON-7A4355F1E7D85B"
+        },
+        {
+          "operating_cost": 1506,
+          "option": 0,
+          "site_id": "STE-071270F53799EA",
+          "zone_id": "ZON-104A69865E503B"
+        },
+        {
+          "operating_cost": 3457,
+          "option": 0,
+          "site_id": "STE-175CCA283F82C6",
+          "zone_id": "ZON-931281C184E0F0"
+        },
+        {
+          "operating_cost": 3165,
+          "option": 0,
+          "site_id": "STE-5E45FDEF4CDE95",
+          "zone_id": "ZON-97CD072D7A21A5"
+        },
+        {
+          "operating_cost": 9,
+          "option": 1,
+          "site_id": "STE-257B5FA8F022B8",
+          "zone_id": "ZON-97CD072D7A21A5"
+        },
+        {
+          "operating_cost": 4140,
+          "option": 0,
+          "site_id": "STE-F3A2FAC1CE1DC8",
+          "zone_id": "ZON-DC84470FDE9ABC"
+        },
+        {
+          "operating_cost": 20,
+          "option": 1,
+          "site_id": "STE-678E88D5811EC7",
+          "zone_id": "ZON-81C5DE5A126316"
+        },
+        {
+          "operating_cost": 2872,
+          "option": 0,
+          "site_id": "STE-3770BE91DADAC4",
+          "zone_id": "ZON-6A1B05A2DC4844"
+        },
+        {
+          "operating_cost": 12,
+          "option": 1,
+          "site_id": "STE-0FE720A7BF2914",
+          "zone_id": "ZON-6F5FF96B001767"
+        }
+      ],
+      "zone_order": [
+        "ZON-9152E8E04ED1B3",
+        "ZON-87B77BA1DDCFE2",
+        "ZON-D7CB99355A1ACF",
+        "ZON-0829694296E225",
+        "ZON-A85FA7366A5D0C",
+        "ZON-6F5FF96B001767",
+        "ZON-E94D4C80A7AE53",
+        "ZON-2DD37903494980",
+        "ZON-207E4FE922A639",
+        "ZON-B7BF80DAEE0B00",
+        "ZON-2FE2F12B59AB82",
+        "ZON-14D0B3B424A778",
+        "ZON-034C7A0038E9CD",
+        "ZON-C28360065DC4B0",
+        "ZON-104A69865E503B",
+        "ZON-6A142A9060076F",
+        "ZON-259DAB9BCA5259",
+        "ZON-A7575C992661BF",
+        "ZON-8217C71364CE27",
+        "ZON-AF81508019827A",
+        "ZON-1DFA3F9CFAB95C",
+        "ZON-11D22F9010A90B",
+        "ZON-AD30B6A1428EF8",
+        "ZON-7A4355F1E7D85B",
+        "ZON-D921A63073875D",
+        "ZON-C03847EE0CE9E1",
+        "ZON-6A1B05A2DC4844",
+        "ZON-931281C184E0F0",
+        "ZON-7E4BFDF9B42DFD",
+        "ZON-D0AAAE8D3096A9",
+        "ZON-97CD072D7A21A5",
+        "ZON-DC84470FDE9ABC",
+        "ZON-D5BA408FBA7C26",
+        "ZON-81C5DE5A126316",
+        "ZON-830EE8179893B1",
+        "ZON-DE62A9A13EEB34",
+        "ZON-E0CDE150871B03",
+        "ZON-50AFBC81AE55C1",
+        "ZON-EE6790D6CEE70A",
+        "ZON-90BCCF4DB93BA6",
+        "ZON-2C1C7DE8B11FFA",
+        "ZON-71D759BF7E1969"
+      ]
+    }
+  },
+  "rung_index": 1,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 2
+}

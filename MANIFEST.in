@@ -1,0 +1,14 @@
+include LICENSE
+include DATA_LICENSE
+include NOTICE
+include CONTRIBUTING.md
+include SECURITY.md
+include release-policy.toml
+include docs/OPEN_SOURCE_QUICKSTART.md
+include scripts/check_public_terminology.py
+include scripts/check_release_boundary.py
+include examples/anthropic-messages.json
+include examples/openai-compatible.json
+include examples/openai-responses.json
+recursive-include benchmark *.json *.md *.txt
+recursive-include tests *.py

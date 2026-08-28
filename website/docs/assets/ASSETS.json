@@ -1,0 +1,52 @@
+{
+  "schema_version": "algoworlds_asset_inventory/2",
+  "release_approved": true,
+  "release_blockers": [],
+  "release_approval": {
+    "approved_by": "AlgoWorlds project lead",
+    "approved_on": "2026-08-28",
+    "scope": "Redistribution of the listed assets as part of the official AlgoWorlds project page and source release."
+  },
+  "assets": [
+    {
+      "path": "public/brands/weixin-mark.svg",
+      "sha256": "0c611dcf4ba304c0f794695588d7f8af4c01622ce3a730eaabd2a239f72c2e11",
+      "kind": "organization_trademark",
+      "source": "Weixin brand mark",
+      "license": "Excluded from the repository Apache-2.0 and CC BY 4.0 licenses; approved trademark use for this release.",
+      "modifications": "Sized as a standalone SVG and given a Weixin title.",
+      "redistribution_status": "approved",
+      "release_blocker": false
+    },
+    {
+      "path": "public/figures/algoworlds-figure-1.png",
+      "sha256": "2509ed1e2815a5c39224d8487f34d7e420b1424037ebef6664625bb77f9321d8",
+      "kind": "paper_figure",
+      "source": "Pinned AlgoWorlds paper PDF build (SHA-256 1fff1553f1ee144c2adea438f9bcfcb77d87302c9d1fd41bae7f0d27618d105c), page 2",
+      "license": "Excluded from the repository Apache-2.0 and CC BY 4.0 licenses; redistribution approved for this release.",
+      "modifications": "Cropped to the scientific artwork and rasterized at 6x scale.",
+      "redistribution_status": "approved",
+      "release_blocker": false
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "1cf4315c1cd34315f6ae86a7575c213657852fad9da94ad1e458f1ff99a527a1",
+      "kind": "project_artwork",
+      "source": "Created for the AlgoWorlds project page.",
+      "license": "Apache-2.0",
+      "modifications": "None.",
+      "redistribution_status": "approved",
+      "release_blocker": false
+    },
+    {
+      "path": "public/og-card.png",
+      "sha256": "b8e91797106be205e05afddc9cc95362b726937205de3550e8c40402708d303d",
+      "kind": "project_artwork",
+      "source": "Created for the AlgoWorlds project page.",
+      "license": "Apache-2.0 for the project artwork; the embedded Weixin mark remains excluded from the repository licenses.",
+      "modifications": "Rendered as a 1200 by 630 pixel social card.",
+      "redistribution_status": "approved",
+      "release_blocker": false
+    }
+  ]
+}

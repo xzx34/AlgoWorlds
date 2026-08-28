@@ -1,0 +1,13 @@
+Select one lot for each of the <group_count> titles. The catalog contains
+<series_count> overlapping series, each spanning at most <max_series_span> consecutive titles.
+
+Title handles, in catalog-window order:
+
+<title_handles_text>
+
+Series handles in canonical page order:
+
+<series_handles_text>
+
+Use the costed sources strategically. Then call `submit_portfolio` exactly once
+with the complete lot list that maximizes settled value.

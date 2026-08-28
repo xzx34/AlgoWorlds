@@ -1,0 +1,728 @@
+{
+  "arm_index": 1,
+  "case_id": "case_19_fleet_dispatch",
+  "member_key": "case_19_fleet_dispatch/rung-2/world-2/arm-1",
+  "payload": {
+    "cost_budget": 142,
+    "cost_vector": {
+      "evaluate_assignment": 5,
+      "read_dispatch_window": 7,
+      "read_fleet_policy": 2,
+      "read_job": 4,
+      "read_route_row": 7,
+      "read_vehicle_contract": 4
+    },
+    "public": {
+      "cost_budget": 142,
+      "job_handles": [
+        "JOB-09EEC980142331",
+        "JOB-CC0F2337220827",
+        "JOB-80B5B5100BB80F",
+        "JOB-14AEF508DBAC00",
+        "JOB-A721367144E781",
+        "JOB-859588455E37D3",
+        "JOB-428D1278E6ED2F",
+        "JOB-F38B0D91F6DD3C",
+        "JOB-B1C8253C8E702A",
+        "JOB-673A9A99359618",
+        "JOB-7FD5D8DFAE1973",
+        "JOB-BB6339C742DDBB",
+        "JOB-0D494AE4CB7607",
+        "JOB-0D6465771AE49E",
+        "JOB-51AF7B0E10E1E2",
+        "JOB-AD575BF84D0B97",
+        "JOB-21E41D83B66855",
+        "JOB-7E97632875FB5E",
+        "JOB-E971B9B4A2B9F7",
+        "JOB-B46D5AB290EC87"
+      ],
+      "tool_costs": {
+        "evaluate_assignment": 5,
+        "read_dispatch_window": 7,
+        "read_fleet_policy": 2,
+        "read_job": 4,
+        "read_route_row": 7,
+        "read_vehicle_contract": 4
+      },
+      "vehicle_handles": [
+        "VEH-62330D3989FBC1",
+        "VEH-C02DB68C44EE34",
+        "VEH-370493DA41AACB",
+        "VEH-79D0703E443217",
+        "VEH-D710F240B943B2"
+      ]
+    },
+    "source_documents": {
+      "contract_rows": [
+        {
+          "capacity": 9,
+          "fixed_contract_cost": 2002716064453125,
+          "vehicle_id": "VEH-370493DA41AACB"
+        },
+        {
+          "capacity": 9,
+          "fixed_contract_cost": 57220458984375000,
+          "vehicle_id": "VEH-79D0703E443217"
+        },
+        {
+          "capacity": 9,
+          "fixed_contract_cost": 1907348632812500,
+          "vehicle_id": "VEH-62330D3989FBC1"
+        },
+        {
+          "capacity": 9,
+          "fixed_contract_cost": 2098083496093750,
+          "vehicle_id": "VEH-D710F240B943B2"
+        },
+        {
+          "capacity": 9,
+          "fixed_contract_cost": 2193450927734375,
+          "vehicle_id": "VEH-C02DB68C44EE34"
+        }
+      ],
+      "declared_max_job_load": 5,
+      "eligibility_catalog": {
+        "encoding": "mediated",
+        "shift_job_rows": [
+          {
+            "job_id": "JOB-A721367144E781",
+            "route_cost": 1144409179690000,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-673A9A99359618",
+            "route_cost": 476837160156250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-80B5B5100BB80F",
+            "route_cost": 190734863281275,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-7E97632875FB5E",
+            "route_cost": 477600097656250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-7FD5D8DFAE1973",
+            "route_cost": 667572050781250,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-80B5B5100BB80F",
+            "route_cost": 286102294921950,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-B46D5AB290EC87",
+            "route_cost": 133514404296875,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-A721367144E781",
+            "route_cost": 476837158204375,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-21E41D83B66855",
+            "route_cost": 191040039062500,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-A721367144E781",
+            "route_cost": 476837158203125,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-7FD5D8DFAE1973",
+            "route_cost": 1811981240234375,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-B1C8253C8E702A",
+            "route_cost": 858306885546875,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-7FD5D8DFAE1973",
+            "route_cost": 286102304687500,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-E971B9B4A2B9F7",
+            "route_cost": 392913818359375,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-BB6339C742DDBB",
+            "route_cost": 476837304687500,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-7E97632875FB5E",
+            "route_cost": 1147460937500000,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-AD575BF84D0B97",
+            "route_cost": 667572021484375,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-21E41D83B66855",
+            "route_cost": 191192626953125,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-14AEF508DBAC00",
+            "route_cost": 858306884766000,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-80B5B5100BB80F",
+            "route_cost": 95367431640625,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-B46D5AB290EC87",
+            "route_cost": 495910644531250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-428D1278E6ED2F",
+            "route_cost": 190734863312500,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-673A9A99359618",
+            "route_cost": 1239776619140625,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-CC0F2337220827",
+            "route_cost": 286102294921875,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-CC0F2337220827",
+            "route_cost": 1716613769531270,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-F38B0D91F6DD3C",
+            "route_cost": 95367431640625,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-14AEF508DBAC00",
+            "route_cost": 381469726562625,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-A721367144E781",
+            "route_cost": 667572021485000,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-CC0F2337220827",
+            "route_cost": 95367431640635,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-51AF7B0E10E1E2",
+            "route_cost": 190740966796875,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-09EEC980142331",
+            "route_cost": 286102294921875,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-09EEC980142331",
+            "route_cost": 1811981201171879,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-428D1278E6ED2F",
+            "route_cost": 762939453125000,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-CC0F2337220827",
+            "route_cost": 190734863281265,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-673A9A99359618",
+            "route_cost": 95367437500000,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-0D6465771AE49E",
+            "route_cost": 286102294921875,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-A721367144E781",
+            "route_cost": 95367431642500,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-51AF7B0E10E1E2",
+            "route_cost": 286114501953125,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-51AF7B0E10E1E2",
+            "route_cost": 95367431640625,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-859588455E37D3",
+            "route_cost": 95367431650000,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-859588455E37D3",
+            "route_cost": 667572021484375,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-F38B0D91F6DD3C",
+            "route_cost": 1239776611640625,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-7FD5D8DFAE1973",
+            "route_cost": 95367431640625,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-0D6465771AE49E",
+            "route_cost": 476838378906250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-AD575BF84D0B97",
+            "route_cost": 763000488281250,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-80B5B5100BB80F",
+            "route_cost": 190734863281300,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-F38B0D91F6DD3C",
+            "route_cost": 858306884921875,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-0D6465771AE49E",
+            "route_cost": 95369873046875,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-51AF7B0E10E1E2",
+            "route_cost": 190753173828125,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-428D1278E6ED2F",
+            "route_cost": 1430511474671875,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-B1C8253C8E702A",
+            "route_cost": 381469726562500,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-428D1278E6ED2F",
+            "route_cost": 95367431687500,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-BB6339C742DDBB",
+            "route_cost": 476837255859375,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-14AEF508DBAC00",
+            "route_cost": 1621246337891125,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-859588455E37D3",
+            "route_cost": 286102294925000,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-BB6339C742DDBB",
+            "route_cost": 95367431640625,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-0D494AE4CB7607",
+            "route_cost": 95368164062500,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-21E41D83B66855",
+            "route_cost": 667572021484375,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-7FD5D8DFAE1973",
+            "route_cost": 381469746093750,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-BB6339C742DDBB",
+            "route_cost": 1239776806640625,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-673A9A99359618",
+            "route_cost": 667572025390625,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-80B5B5100BB80F",
+            "route_cost": 1335144042968850,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-E971B9B4A2B9F7",
+            "route_cost": 99182128906250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-0D494AE4CB7607",
+            "route_cost": 762939453125000,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-0D494AE4CB7607",
+            "route_cost": 381470214843750,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-21E41D83B66855",
+            "route_cost": 1621856689453125,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-F38B0D91F6DD3C",
+            "route_cost": 190734863515625,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-AD575BF84D0B97",
+            "route_cost": 95397949218750,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-B46D5AB290EC87",
+            "route_cost": 724792480468750,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-0D6465771AE49E",
+            "route_cost": 190738525390625,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-14AEF508DBAC00",
+            "route_cost": 95367431640875,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-BB6339C742DDBB",
+            "route_cost": 476837207031250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-B1C8253C8E702A",
+            "route_cost": 95367432031250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-7E97632875FB5E",
+            "route_cost": 190734863281250,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-E971B9B4A2B9F7",
+            "route_cost": 198364257812500,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-AD575BF84D0B97",
+            "route_cost": 286193847656250,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-B1C8253C8E702A",
+            "route_cost": 476837159375000,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-AD575BF84D0B97",
+            "route_cost": 1526000976562500,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-09EEC980142331",
+            "route_cost": 95367431640626,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-21E41D83B66855",
+            "route_cost": 95520019531250,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-859588455E37D3",
+            "route_cost": 572204589850000,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-0D6465771AE49E",
+            "route_cost": 1430516357421875,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-428D1278E6ED2F",
+            "route_cost": 762939453140625,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-7E97632875FB5E",
+            "route_cost": 383758544921875,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-673A9A99359618",
+            "route_cost": 190734863281250,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-CC0F2337220827",
+            "route_cost": 762939453125005,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-7E97632875FB5E",
+            "route_cost": 96893310546875,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-09EEC980142331",
+            "route_cost": 190734863281253,
+            "shift_id": "SFT-61B72BE8BAB44D"
+          },
+          {
+            "job_id": "JOB-14AEF508DBAC00",
+            "route_cost": 762939453125000,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-F38B0D91F6DD3C",
+            "route_cost": 762939453203125,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-859588455E37D3",
+            "route_cost": 1525878906262500,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-E971B9B4A2B9F7",
+            "route_cost": 667572021484375,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-E971B9B4A2B9F7",
+            "route_cost": 1731872558593750,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-B1C8253C8E702A",
+            "route_cost": 1049041749609375,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-09EEC980142331",
+            "route_cost": 476837158203127,
+            "shift_id": "SFT-3E3E3CB164D808"
+          },
+          {
+            "job_id": "JOB-B46D5AB290EC87",
+            "route_cost": 858306884765625,
+            "shift_id": "SFT-8A7977F580ED39"
+          },
+          {
+            "job_id": "JOB-0D494AE4CB7607",
+            "route_cost": 1049042724609375,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-51AF7B0E10E1E2",
+            "route_cost": 1430535888671875,
+            "shift_id": "SFT-A7E37B606EE059"
+          },
+          {
+            "job_id": "JOB-0D494AE4CB7607",
+            "route_cost": 762939697265625,
+            "shift_id": "SFT-3BCC68B3235A34"
+          },
+          {
+            "job_id": "JOB-B46D5AB290EC87",
+            "route_cost": 1316070556640625,
+            "shift_id": "SFT-A7E37B606EE059"
+          }
+        ],
+        "vehicle_shift_rows": [
+          {
+            "shift_id": "SFT-8A7977F580ED39",
+            "vehicle_id": "VEH-62330D3989FBC1"
+          },
+          {
+            "shift_id": "SFT-61B72BE8BAB44D",
+            "vehicle_id": "VEH-79D0703E443217"
+          },
+          {
+            "shift_id": "SFT-3E3E3CB164D808",
+            "vehicle_id": "VEH-370493DA41AACB"
+          },
+          {
+            "shift_id": "SFT-3BCC68B3235A34",
+            "vehicle_id": "VEH-C02DB68C44EE34"
+          },
+          {
+            "shift_id": "SFT-A7E37B606EE059",
+            "vehicle_id": "VEH-D710F240B943B2"
+          }
+        ]
+      },
+      "job_order": [
+        "JOB-09EEC980142331",
+        "JOB-CC0F2337220827",
+        "JOB-80B5B5100BB80F",
+        "JOB-14AEF508DBAC00",
+        "JOB-A721367144E781",
+        "JOB-859588455E37D3",
+        "JOB-428D1278E6ED2F",
+        "JOB-F38B0D91F6DD3C",
+        "JOB-B1C8253C8E702A",
+        "JOB-673A9A99359618",
+        "JOB-7FD5D8DFAE1973",
+        "JOB-BB6339C742DDBB",
+        "JOB-0D494AE4CB7607",
+        "JOB-0D6465771AE49E",
+        "JOB-51AF7B0E10E1E2",
+        "JOB-AD575BF84D0B97",
+        "JOB-21E41D83B66855",
+        "JOB-7E97632875FB5E",
+        "JOB-E971B9B4A2B9F7",
+        "JOB-B46D5AB290EC87"
+      ],
+      "job_rows": [
+        {
+          "job_id": "JOB-0D494AE4CB7607",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-673A9A99359618",
+          "load": 5
+        },
+        {
+          "job_id": "JOB-B46D5AB290EC87",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-80B5B5100BB80F",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-7E97632875FB5E",
+          "load": 5
+        },
+        {
+          "job_id": "JOB-BB6339C742DDBB",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-AD575BF84D0B97",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-51AF7B0E10E1E2",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-0D6465771AE49E",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-A721367144E781",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-09EEC980142331",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-F38B0D91F6DD3C",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-21E41D83B66855",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-7FD5D8DFAE1973",
+          "load": 5
+        },
+        {
+          "job_id": "JOB-E971B9B4A2B9F7",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-B1C8253C8E702A",
+          "load": 5
+        },
+        {
+          "job_id": "JOB-CC0F2337220827",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-859588455E37D3",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-428D1278E6ED2F",
+          "load": 1
+        },
+        {
+          "job_id": "JOB-14AEF508DBAC00",
+          "load": 1
+        }
+      ],
+      "objective_unit": 95367431640625,
+      "vehicle_order": [
+        "VEH-62330D3989FBC1",
+        "VEH-C02DB68C44EE34",
+        "VEH-370493DA41AACB",
+        "VEH-79D0703E443217",
+        "VEH-D710F240B943B2"
+      ]
+    }
+  },
+  "rung_index": 2,
+  "schema_version": "algoworlds_frozen_instance/1",
+  "world_index": 2
+}

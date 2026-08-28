@@ -1,0 +1,11 @@
+Select one play for each of the <stage_count> precedence stages. Each stage has
+<plays_per_stage> alternatives. Authorization between consecutive stages is
+sparse and each authorized pair carries its own handoff cost, so optimize the
+whole joined sequence rather than any source or stage independently.
+
+The public stage handles, in order, are:
+
+<stage_handles_text>
+
+Acquire the cost and authorization evidence strategically. Then call
+`submit_package` exactly once with the complete play list.

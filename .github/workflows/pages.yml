@@ -1,0 +1,78 @@
+name: Deploy project page
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "website/**"
+      - ".github/workflows/pages.yml"
+  pull_request:
+    paths:
+      - "website/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: website
+    env:
+      PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io
+      PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Require approved website assets
+        run: |
+          node -e '
+            const fs = require("node:fs");
+            const inventory = JSON.parse(fs.readFileSync("docs/assets/ASSETS.json", "utf8"));
+            const blockers = Array.isArray(inventory.release_blockers)
+              ? inventory.release_blockers
+              : ["release_blockers must be an array"];
+            const blockedAssets = Array.isArray(inventory.assets)
+              ? inventory.assets.filter((asset) =>
+                  asset.release_blocker === true ||
+                  asset.redistribution_status !== "approved")
+              : [{ path: "assets inventory is missing" }];
+            if (inventory.release_approved !== true || blockers.length || blockedAssets.length) {
+              const paths = blockedAssets.map((asset) => asset.path).join(", ");
+              throw new Error(`Website assets are not approved. ${blockers.join("; ")} ${paths}`);
+            }
+          '
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: website/.nvmrc
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:all
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: website/dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
