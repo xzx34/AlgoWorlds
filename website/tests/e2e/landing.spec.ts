@@ -83,7 +83,7 @@ test("the hero and footer expose arXiv and one combined GitHub resource", async 
   await expect(resources).toHaveCount(2);
   await expect(page.getByRole("link", { name: "Paper (arXiv)" }).first()).toHaveAttribute(
     "href",
-    "https://arxiv.org/search/?query=AlgoWorlds&searchtype=title",
+    "https://arxiv.org/abs/2608.29397",
   );
   await expect(page.getByRole("link", { name: "Code & Dataset" }).first()).toHaveAttribute(
     "href",

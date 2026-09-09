@@ -6,7 +6,7 @@ through tools and turn it into globally optimal decisions.
 **Weixin AI**
 
 [Project page](https://xzx34.github.io/AlgoWorlds/) ·
-[Paper (arXiv)](https://arxiv.org/search/?query=AlgoWorlds&searchtype=title) ·
+[Paper (arXiv)](https://arxiv.org/abs/2608.29397) ·
 [Code and dataset](https://github.com/xzx34/AlgoWorlds)
 
 ## Curated release

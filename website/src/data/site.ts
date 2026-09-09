@@ -15,7 +15,7 @@ export const siteConfig = {
   resources: {
     paper: {
       label: "Paper (arXiv)",
-      href: "https://arxiv.org/search/?query=AlgoWorlds&searchtype=title",
+      href: "https://arxiv.org/abs/2608.29397",
     },
     repository: {
       label: "Code & Dataset",

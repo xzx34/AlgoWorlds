@@ -263,7 +263,7 @@ test("the project exposes arXiv and one combined GitHub resource", async () => {
   const layout = await read("src/layouts/BaseLayout.astro");
   const icon = await read("src/components/Icon.astro");
 
-  assert.match(site, /arxiv\.org\/search\/\?query=AlgoWorlds&searchtype=title/);
+  assert.match(site, /href: "https:\/\/arxiv\.org\/abs\/2608\.29397"/);
   assert.match(site, /label: "Code & Dataset"/);
   assert.match(site, /github\.com\/xzx34\/AlgoWorlds/);
   assert.match(masthead, /siteConfig\.resources\.repository/);
