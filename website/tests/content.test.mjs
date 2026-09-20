@@ -158,6 +158,15 @@ test("the site uses only Weixin AI identity and no individual author names", asy
   assert.doesNotMatch(combined, new RegExp(["University of Southern", " California"].join("")));
 });
 
+test("the Dataset metadata declares the benchmark data license", async () => {
+  const layout = await read("src/layouts/BaseLayout.astro");
+
+  assert.match(
+    layout,
+    /license:\s*"https:\/\/creativecommons\.org\/licenses\/by\/4\.0\/"/,
+  );
+});
+
 test("release-reviewed website assets stay out of the static output", async () => {
   const inventory = JSON.parse(await read("docs/assets/ASSETS.json"));
   /** @type {Array<{ path: string; sha256: string; kind: string; redistribution_status: string; release_blocker: boolean }>} */
