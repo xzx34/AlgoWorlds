@@ -23,6 +23,7 @@ const actions: Array<{ label: string; icon: IconName; href: string }> = [
     <img src={`${base}${siteConfig.brandMark}`} alt="" width="28" height="28" aria-hidden="true" />
     <span>{siteConfig.organizationName}</span>
   </p>
+  <p class="masthead-summary">{copy.masthead.summary}</p>
   <nav class="project-actions" aria-label={copy.masthead.actionsLabel}>
     {actions.map((action) => (
       <a class="project-link" href={action.href} target="_blank" rel="noopener noreferrer">

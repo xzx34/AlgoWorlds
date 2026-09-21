@@ -9,7 +9,7 @@ export interface TaskDefinition {
 }
 
 export const siteConfig = {
-  title: "AlgoWorlds | Weixin AI",
+  title: "AlgoWorlds: Benchmarking Agent Tool Use for Global Optimization | Weixin AI",
   organizationName: "Weixin AI",
   brandMark: "brands/weixin-mark.svg",
   resources: {

@@ -254,7 +254,7 @@ test("semantic labels and definition lists preserve the established visual order
   assert.match(figure, /<section class="paper-figure-viewport" tabindex="0" aria-label=/);
   assert.match(figure, /<figcaption>[\s\S]*paper-figure-hint[\s\S]*<\/figcaption>/);
   assert.match(footer, /aria-label="Footer project resources"/);
-  assert.match(site, /title: "AlgoWorlds \| Weixin AI"/);
+  assert.match(site, /title: "AlgoWorlds: Benchmarking Agent Tool Use for Global Optimization \| Weixin AI"/);
 });
 
 test("the leaderboard identifies providers without third-party image assets", async () => {

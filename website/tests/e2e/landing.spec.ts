@@ -4,7 +4,12 @@ import { expect, test } from "@playwright/test";
 test("the page presents AlgoWorlds as a standalone project", async ({ page }) => {
   await page.goto("./");
 
-  await expect(page).toHaveTitle("AlgoWorlds | Weixin AI");
+  await expect(page).toHaveTitle("AlgoWorlds: Benchmarking Agent Tool Use for Global Optimization | Weixin AI");
+  const searchDescription =
+    "AlgoWorlds benchmarks whether tool-using LLM agents turn gathered information into globally optimal, not merely feasible, decisions across ten task families.";
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", searchDescription);
+  await expect(page.locator('meta[property="og:description"]')).toHaveAttribute("content", searchDescription);
+  await expect(page.locator('meta[name="twitter:description"]')).toHaveAttribute("content", searchDescription);
   await expect(page.locator("html")).toHaveAttribute("lang", "en");
   await expect(page.locator(".site-brand")).toContainText("Weixin AI");
   await expect(page.locator(".team-name")).toContainText("Weixin AI");
@@ -12,6 +17,9 @@ test("the page presents AlgoWorlds as a standalone project", async ({ page }) =>
   await expect(page.locator('.team-name img[src$="weixin-mark.svg"]')).toBeVisible();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(
     "AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds",
+  );
+  await expect(page.locator(".masthead-summary")).toContainText(
+    "globally optimal, not merely feasible, decisions",
   );
   await expect(page.getByRole("heading", { name: "Abstract" })).toBeVisible();
   await expect(page.locator("#abstract p")).toHaveCount(1);

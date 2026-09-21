@@ -10,6 +10,7 @@ export interface SiteCopy {
   };
   masthead: {
     title: string;
+    summary: string;
     actionsLabel: string;
   };
   abstract: {
@@ -79,7 +80,7 @@ export interface SiteCopy {
 
 export const copy: SiteCopy = {
   metaDescription:
-    "AlgoWorlds evaluates whether LLM agents can turn information acquired through tools into globally optimal decisions.",
+    "AlgoWorlds benchmarks whether tool-using LLM agents turn gathered information into globally optimal, not merely feasible, decisions across ten task families.",
   skip: "Skip to content",
   nav: {
     abstract: "Abstract",
@@ -90,6 +91,8 @@ export const copy: SiteCopy = {
   },
   masthead: {
     title: "AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds",
+    summary:
+      "Completing a tool-use workflow is not the same as making the best decision. AlgoWorlds evaluates whether LLM agents can turn information gathered through tools into globally optimal, not merely feasible, decisions.",
     actionsLabel: "Project resources",
   },
   abstract: {

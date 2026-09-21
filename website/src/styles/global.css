@@ -242,6 +242,14 @@
     height: 25px;
   }
 
+  .masthead-summary {
+    max-width: 850px;
+    margin: 22px auto 0;
+    color: var(--ink-soft);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
   .project-actions {
     display: flex;
     flex-wrap: wrap;
@@ -997,6 +1005,11 @@
     .team-name {
       margin-top: 22px;
       font-size: 18px;
+    }
+
+    .masthead-summary {
+      margin-top: 18px;
+      font-size: 15px;
     }
 
     .project-actions {
